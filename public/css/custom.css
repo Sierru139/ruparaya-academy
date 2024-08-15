@@ -319,6 +319,34 @@ body {
   width: 100%;
 }
 
+.img-cover {
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.centered-xy {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.centered-y {
+  display: flex;
+  justify-content: center;
+}
+
+.centered-y {
+  display: flex;
+  align-items: center;
+}
+
+.card-4 {
+  flex: 0 0 25%;
+  height: 380px;
+}
+
 .hw-full {
   height: 100%;
   width: 100%;
