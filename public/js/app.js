@@ -13,3 +13,29 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+
+const navbar = document.querySelector(".navbar");
+
+document.addEventListener("DOMContentLoaded", function() {
+    const respoNav = document.getElementById('resNav');
+    const respoMenu = document.getElementById('resMenu');
+    const respoNavClose = document.getElementById('resNavClose');
+
+    respoNav.addEventListener('click', function() {
+        if (respoMenu.classList.contains('hidden')) {
+            respoMenu.classList.remove('hidden');
+            respoMenu.classList.add('block');
+        } else {
+            respoMenu.classList.add('hidden');
+            respoMenu.classList.remove('block');
+        }
+    });
+
+    respoNavClose.addEventListener('click', function() {
+        respoMenu.classList.add('nav-close');
+        setTimeout(() => {
+            respoMenu.classList.add('hidden');
+            respoMenu.classList.remove('block', 'nav-close');
+        }, 650);
+    });
+});

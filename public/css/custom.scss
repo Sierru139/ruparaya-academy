@@ -172,3 +172,52 @@ body {
 .arrow-rotated {
   rotate: -45deg;
 }
+
+/* NAVBAR */
+.goDown {
+  animation: navDown .5s ease;
+}
+@keyframes navDown {
+  0% {
+      transform: translateY(-100%);
+      opacity: 0;
+  }
+
+  100% {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+
+.resGoDown {
+  animation: navRespoDown .3s linear;
+}
+
+@keyframes navRespoDown {
+  0% {
+      transform: translateX(100%);
+      opacity: 0;
+  }
+
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}
+
+
+.nav-close {
+  animation: nav-close .7s ease;
+}
+
+@keyframes nav-close {
+  0% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+  100% {
+      transform: translateX(100%);
+      opacity: 0;
+  }
+}
