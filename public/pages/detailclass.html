@@ -9,6 +9,17 @@
     <link rel="stylesheet" href="../css/custom.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Document</title>
+    <style>
+        .btn {
+            transition: .5s;
+        }
+
+        .btn:hover {
+            box-shadow: inset 0 -60px white;
+            color: #5386C0;
+            transform: translateY(-2px);
+        }
+    </style>
 </head>
 <body class="bg-[#E9ECEF]">
     <nav data-aos="fade-down" data-aos-duration="1000" class="fixed w-full top-0 z-[999] flex justify-between items-center py-4 px-12 bg-blue-rpr-prm-a2">
@@ -16,7 +27,7 @@
             <img class="w-32" src="../assets/logo/rralogo-outline.png" alt="">
         </div>
         <div class="md:flex gap-10 hidden text-white text-[15px]">
-            <a data-aos="fade-down" data-aos-duration="1000" href="/public/index.html">Beranda</a>
+            <a data-aos="fade-down" data-aos-duration="1000" href="/public/index.html" class="hover:text-[]">Beranda</a>
             <a data-aos="fade-down" data-aos-duration="1100" href="/public/pages/listing.html">Program/Kelas</a>
             <a data-aos="fade-down" data-aos-duration="1200" href="/public/pages/about.html">Tentang Kami</a>
             <a data-aos="fade-down" data-aos-duration="1300" href="/public/pages/testimonial.html">Testimonial</a>
@@ -34,9 +45,9 @@
         </div>
     </header>
 
-    <section class="">
-        <div class="flex px-12 py-5">
-            <div class="flex flex-col rounded-none max-w-[907px] mr-10">
+    <section class="container-cs">
+        <div class="flex py-5">
+            <div class="flex flex-col rounded-none mr-5">
                 <article class="flex flex-col items-start px-5 py-6 w-full bg-white rounded-3xl max-md:px-5 max-md:max-w-full">
                 <header class="flex flex-wrap items-center gap-5 justify-between self-stretch font-semibold max-md:max-w-full">
                     <h1 class="text-3xl text-[#273F5A] max-md:max-w-full">Kelas Fullstack Development</h1>
@@ -58,12 +69,12 @@
                 </article>
             </div>
 
-            <div class="flex flex-col w-full rounded-none max-w-[480px]">
-                <div class="flex flex-col justify-center items-center px-4 w-full rounded-3xl shadow-lg aspect-square bg-[linear-gradient(257deg,#273F5A_-50.35%,#5386C0_142.97%)]">
-                    <img loading="lazy" src="/public/assets/details/flyer offline.jpg" alt="Course preview image" class="object-contain w-full rounded-xl aspect-square">
+            <div class="flex flex-col rounded-none w-[100%]">
+                <div class="flex flex-col justify-center items-center px-4 rounded-3xl shadow-lg aspect-square bg-[linear-gradient(257deg,#273F5A_-50.35%,#5386C0_142.97%)]">
+                    <img loading="lazy" src="/public/assets/details/flyer offline.jpg" alt="Course preview image" class="object-contain rounded-xl">
                 </div>
-                <img loading="lazy" src="/public/assets/details/jadwal.jpg" alt="Course details image" class="object-contain mt-2.5 w-full rounded-3xl aspect-square shadow-[0px_4px_20px_rgba(0,0,0,0.25)]">
-                <article class="flex flex-col justify-around items-center pt-5 mt-2.5 w-full text-base bg-white rounded-3xl shadow-[0px_4px_20px_rgba(0,0,0,0.25)] text-neutral-500">
+                <img loading="lazy" src="/public/assets/details/jadwal.jpg" alt="Course details image" class="object-contain mt-2.5  rounded-3xl shadow-[0px_4px_20px_rgba(0,0,0,0.25)]">
+                <article class="flex flex-col items-center pt-5 mt-2.5 text-base bg-white rounded-3xl shadow-[0px_4px_20px_rgba(0,0,0,0.25)] text-neutral-500">
                     <div class="flex gap-5 justify-between w-full leading-loose max-w-[361px]">
                         <p>Mulai Tanggal</p>
                         <p>14 September 2024</p>
@@ -91,7 +102,7 @@
                         </p>
                     </div>
                     <div class="relative overflow-hidden flex flex-col justify-center rounded-b-3xl self-stretch px-10 py-6 mt-5 w-full text-xl font-semibold text-white rounded-none bg-[#5386C0]">
-                        <button class="px-16 py-3.5 rounded-xl z-10 border border-white border-solid">Daftar Sekarang</button>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScjeqPgSSOUUw6M8SmVACmREDgPg8t99sXK_G1xJaEpfoh08Q/viewform" target="_blank" class="btn px-16 py-3.5 rounded-xl z-10 border border-white border-solid text-center">Daftar Sekarang</a>
                         <div class="w-32 h-32 absolute -bottom-[75%] -left-[2%] bg-white opacity-10 rounded-full flex items-center justify-center">                        
                         </div>
                         <div class="w-28 h-28 absolute -bottom-[10%] -left-[10%] bg-white opacity-10 rounded-full flex items-center justify-center">                        
@@ -102,7 +113,92 @@
         </div>
     </section>
 
-    <section class="h-screen"></section>
+    <section class="mt-10">
+        <div class=""> 
+            <h3 class="text-center text-[32px] font-bold text-[#273F5A]">Keunggulan Kelas <span class="text-[#5386C0]">Rupa Raya Academy</span></h3>
+            <p class="text-center mt-4 text-[#666666] text-[15px]">Raih Hasil Terbaik dengan Bergabung di Kelas Kami</p>
+        </div>
+        <div class="flex gap-48 justify-center">
+            <div class="my-20">
+                <div class="flex mb-10 shadow-xl">
+                    <div class="relative flex py-7 px-7 bg-white w-[450px] rounded-[12px] overflow-hidden">
+                        <div class="-right-16 -top-16 w-32 h-32 absolute z-20 bg-[#5386C0] opacity-10 rounded-full flex items-center justify-center"></div>
+                        <div class="relative">
+                            <div class="bg-[#F5AD97] w-[72px] h-[72px] rounded-full"></div>
+                            <img src="/public/assets/details/ticket.png" class="absolute top-4 right-4" alt="">
+                        </div>
+                        <div class="ml-5">
+                            <h3 class="text-[#273F5A] text-[24px] font-bold">Voucher discount</h3>
+                            <p class="text-[15px] text-[#666666] mt-2">Nikmati diskon spesial untuk kelas tambahan, perluas keterampilan dengan biaya terjangkau</p>
+                        </div>
+                        <div class="-bottom-16 -left-16 w-32 h-32 absolute z-20 bg-[#5386C0] opacity-10 rounded-full flex items-center justify-center"></div>
+                    </div>
+                </div>
+
+                <div class="relative flex py-7 px-7 w-[450px] rounded-[12px] overflow-hidden">
+                    <div class="relative">
+                        <div class="bg-[#EBD889] w-[72px] h-[72px] rounded-full"></div>
+                        <img src="/public/assets/details/award.png" class="absolute top-4 right-4" alt="">
+                    </div>
+                    <div class="ml-5">
+                        <h3 class="text-[#273F5A] text-[24px] font-bold">Sertifikat Kelas</h3>
+                        <p class="text-[15px] text-[#666666] mt-2">Dapatkan sertifikat resmi yang diakui untuk meningkatkan kredibilitas dan portofolio profesional Anda</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="my-20">
+                <div class="flex mb-10">
+                    <div class="relative flex py-7 px-6 w-[450px] rounded-[12px] overflow-hidden">
+                        <div class="relative">
+                            <div class="bg-[#9EB9D7] w-[72px] h-[72px] rounded-full"></div>
+                            <img src="/public/assets/details/users.png" class="absolute top-4 right-4" alt="">
+                        </div>
+                        <div class="ml-5">
+                            <h3 class="text-[#273F5A] text-[24px] font-bold">Tergabung dengan kami</h3>
+                            <p class="text-[15px] text-[#666666] mt-2">Bergabunglah dengan komunitas kami dan berkembang bersama para profesional di bidangnya</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="relative flex py-7 px-7 w-[450px] rounded-[12px] overflow-hidden">
+                    <div class="relative">
+                        <div class="bg-[#92D5F4] w-[72px] h-[72px] rounded-full"></div>
+                        <img src="/public/assets/details/monitor.png" class="absolute top-4 right-4" alt="">
+                    </div>
+                    <div class="ml-5">
+                        <h3 class="text-[#273F5A] text-[24px] font-bold">Kesempatan Magang</h3>
+                        <p class="text-[15px] text-[#666666] mt-2">Peluang magang yang membuka pintu bagi pengalaman praktis dan jaringan industri yang berharga</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section class="flex">
+        <div class="flex relative justify-end align-middle px-20 py-11 w-full  overflow-hidden min-h-[453px] max-md:px-5 max-md:max-w-full">
+            <img src="/public/assets/details/bg-instructor.jpg" class="object-cover absolute inset-0 size-full" alt="">
+            <div data-aos="fade-left" data-aos-duration="1100" class="my-auto">
+                <h2 class="relative text-xl font-medium text-white">Pengajar</h2>
+                <h1 class="relative mt-2.5 text-3xl font-bold text-white">Aliem Arif Perkasa</h1>
+                <p class="relative mt-2.5 mr-72 text-xl font-medium text-white max-md:mr-2.5">Manager Fullstack Web Development</p>
+                <p class="relative font-light mt-8 text-[16px] text-white w-[700px] max-md:max-w-full">Aliem Arif Perkasa adalah seorang Fullstack Web Developer berpengalaman. Dalam kelas ini, Aliem akan membimbing kamu menguasai front-end dan back-end development dengan pendekatan yang praktis dan mudah dipahami.</p>
+                <div class="relative mt-12 max-md:mt-10">
+                    <div class="flex">
+                        <a href="https://www.instagram.com/programer_malas?igsh=MW41dmM5cHhoNml4Yw%3D%3D">
+                            <img src="/public/assets/details/instagram 1.png" class="mr-2" alt="">
+                            <a href="https://www.instagram.com/programer_malas?igsh=MW41dmM5cHhoNml4Yw%3D%3D" class="text-white font-light" target="_blank">@programer_malas</a>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="h-screen">
+
+      </section>
     
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
