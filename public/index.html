@@ -6,23 +6,32 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/output.css">
     <link rel="stylesheet" href="./css/custom.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Ruparaya Academy</title>
     
 
     <style>
+        * {
+            scroll-behavior: smooth;
+        }
+
+        .bg-blue-rpr-thr-a2 { 
+            background: linear-gradient(198deg, rgba(39,63,90,1) 1%, rgba(50,80,115,1) 36%, rgba(75,121,174,1) 85%, rgba(83,134,192,1) 100%);
+            }
     </style>
 
 </head>
-<body>
-    <nav class="fixed w-full top-0 z-[999] flex justify-between items-center py-4 px-12 bg-blue-rpr-prm-a2">
+<body class="bg-[#E9ECEF]">
+
+    <nav data-aos="fade-down" data-aos-duration="1000" class="fixed w-full top-0 z-[999] flex justify-between items-center py-4 px-12 bg-blue-rpr-prm-a2">
         <div>
             <img class="w-32" src="./assets/logo/rralogo-outline.png" alt="">
         </div>
         <div class="md:flex gap-10 hidden text-white text-[15px]">
-            <a href="#">Beranda</a>
-            <a href="#">Program/Kelas</a>
-            <a href="pages/about.html">Tentang Kami</a>
-            <a href="#">Testimonial</a>
+            <a data-aos="fade-down" data-aos-duration="1000" href="#" class="text-[#EDC423] border-b-2 pb-1 border-[#EDC423] px-3">Beranda</a>
+            <a data-aos="fade-down" data-aos-duration="1100" href="/public/pages/Listing.html">Program/Kelas</a>
+            <a data-aos="fade-down" data-aos-duration="1200" href="pages/about.html">Tentang Kami</a>
+            <a data-aos="fade-down" data-aos-duration="1300" href="/public/pages/testimonial.html">Testimonial</a>
         </div>
     </nav>
 
@@ -33,13 +42,13 @@
             <div class="absolute top-0 bg-[#00000042] z-10 hw-full"></div>
             <div class="max-w-[575px] absolute z-20 text-white text-center">
                 <img src="./assets/logo/rralogo.png" alt="" class="mx-auto mb-3 w-72">
-                <h3 class="md:text-base text-xs">Menyediakan Berbagai Kelas/Kursus Khususnya di Bidang <b>Pemodelan dan Arsitekstur 3D</b> dengan Materi Terbaru, Praktis.</h3>
+                <h3 data-aos="fade-up" data-aos-duration="1100" class="md:text-base text-xs">Menyediakan Berbagai Kelas/Kursus Khususnya di Bidang <b>Pemodelan dan Arsitekstur 3D</b> dengan Materi Terbaru, Praktis.</h3>
             </div>
         </div>
     </header>
     <section>
         <div class="color-blue-rpr-800 py-12 overflow-hidden">
-            <h1 class="text-center text-3xl font-bold py-8"><span class="color-blue-rpr-scn">Akses Kelas</span> Rupa Raya Academy</h1>
+            <h1 data-aos="fade-up" data-aos-duration="1000" class="text-center text-3xl font-bold py-8"><span class="color-blue-rpr-scn">Akses Kelas</span> Rupa Raya Academy</h1>
             <div class="container-cs px-24 relative">
                 <div class="centered-y mb-12">
                     <img class=" top-24 -left-12 absolute -z-10" src="./assets/pg1/tright-bg.png" alt="">
@@ -48,8 +57,8 @@
                         <img class="img-cover shadow-2xl rounded-2xl" src="https://images.pexels.com/photos/3153201/pexels-photo-3153201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
                     </div>
                     <div class="flex-[65%] pl-8 text-left">
-                        <h2 class="title-sect2 mb-4 mr-[50%]">Berkesempatan untuk Projek Freelance</h2>
-                        <p class="leading-8">Raih Sertifikat Keahlian yang Diakui dengan Mengikuti Kelas Berkualitas Tinggi di Rupa Raya Academy. Sertifikat Ini Tidak Hanya Akan Meningkatkan Kredibilitas Anda, tetapi Juga Memberikan Anda Keunggulan Kompetitif di Pasar Kerja yang Semakin Ketat.</p>
+                        <h2 data-aos="fade-up" data-aos-duration="1100" class="title-sect2 mb-4 mr-[50%]">Berkesempatan untuk Projek Freelance</h2>
+                        <p data-aos="fade-up" data-aos-duration="1200" class="leading-8">Raih Sertifikat Keahlian yang Diakui dengan Mengikuti Kelas Berkualitas Tinggi di Rupa Raya Academy. Sertifikat Ini Tidak Hanya Akan Meningkatkan Kredibilitas Anda, tetapi Juga Memberikan Anda Keunggulan Kompetitif di Pasar Kerja yang Semakin Ketat.</p>
                     </div>
                 </div>
                 <div class="flex-row-reverse centered-x">
@@ -57,48 +66,52 @@
                         <img class="img-cover shadow-2xl rounded-2xl" src="https://images.pexels.com/photos/3205570/pexels-photo-3205570.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="">
                     </div>
                     <div class="flex-[65%] pr-8 text-right">
-                        <h2 class="title-sect2 mb-4 ml-[50%]">Kesempatan ikut Program magang</h2>
-                        <p class="leading-8 ml-[15%]">Ikuti Kelas di Rupa Raya Academy dan Dapatkan Kesempatan Ikut Program Magang yang Dirancang untuk Memberikan Anda Pengalaman Praktis dan Persiapan Optimal untuk Karir Masa Depan.</p>
+                        <h2 data-aos="fade-up" data-aos-duration="1300" class="title-sect2 mb-4 ml-[50%]">Kesempatan ikut Program magang</h2>
+                        <p data-aos="fade-up" data-aos-duration="1400" class="leading-8 ml-[15%]">Ikuti Kelas di Rupa Raya Academy dan Dapatkan Kesempatan Ikut Program Magang yang Dirancang untuk Memberikan Anda Pengalaman Praktis dan Persiapan Optimal untuk Karir Masa Depan.</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="">
-        <div class="h-fit relative overflow-hidden centered-xy">
-            <img class="img-cover object-top -z-10" src="./assets/pg2/bg-2.png" alt="">
+    <section class="" >
+        <div class="h-screen relative overflow-hidden centered-xy bg-fixed bg-cover" style="background-image: url(/public/assets/pg1/PXL_20240330_033311754.jpg);">
             <div class="absolute top-0 bg-blue-rpr-prm-a2 z-10 hw-full"></div>
             <div class="absolute top-0 bg-[#00000042] z-10 hw-full"></div>
             <div class="max-w-[575px] absolute z-20 text-white text-center">
-                <h3 class="md:text-3xl text-xl font-extralight mb-8">Seputar Rupa Raya Academy</h3>
+                <h3 data-aos="fade-up" data-aos-duration="1000" class="md:text-[32px] text-xl font-extralight mb-8">Seputar Rupa Raya Academy</h3>
                 <img class="mx-auto cursor-pointer" src="./assets/icon/start-btn.svg" alt="">
             </div>
         </div>
     </section>
 
-    <section class="relative overflow-hidden bg-[#eaecef] ">
-        <div class="h-[250%] aspect-square absolute z-10 -right-[50%] bottom-[10%] rounded-full bg-[#d7dbe1]"></div>
-        <div class="container-cs py-8 overflow-hidden">
+    <section id="class" class="relative overflow-hidden">
+        <div data-aos="fade-down-left" data-aos-duration="1600" class="h-[250%] aspect-square absolute z-10 -right-[50%] bottom-[10%] rounded-full bg-[#d7dbe1]"></div>
+        <div class="my-8">
             <div class="text-center mb-10 z-20 relative">
-                <h1 class="text-3xl font-bold mb-4 ">Program <span class="color-blue-rpr-scn">Kursus/Kelas</span></h1>
-                <p class="font-light ">Pilih Kelas Yang Anda Butuhkan Untuk Belajar</p>
+                <h1 data-aos="fade-up" data-aos-duration="1100" class="text-3xl font-bold mb-4 ">Program <span class="color-blue-rpr-scn">Kursus/Kelas</span></h1>
+                <p data-aos="fade-up" data-aos-duration="1200" class="font-light ">Pilih Kelas Yang Anda Butuhkan Untuk Belajar</p>
             </div>
-            <div class="centered-x gap-x-5">
-                <div class="card-4 flex flex-col z-20 bg-white rounded-2xl overflow-hidden">
+            <div class="centered-x gap-x-10">
+                <div data-aos="fade-up" data-aos-duration="1100" class="flex z-20 overflow-hidden flex-col bg-white rounded-2xl shadow-2xl max-w-[315px]">
                     <div class="flex-1 relative overflow-hidden">
                         <img class="images object-cover object-center w-full h-full" src="./assets/img/cards/fullstack.jpg" alt="">
                     </div>
                     <div class="flex flex-col flex-1 p-3 relative">
-                        <div class="mb-1"><span class="text-xs pr-4 py-2"><i class="pr-2 far fa-user "></i>00:00 WIB</span><span class="text-xs pr-4 py-2"><i class="pr-2 far fa-calendar"></i>Jul-Agus 2024</span></div>
-                        <a href="#" class="text-[18px] font-bold underline mb-1">Blender - Basic Modelling</a>
+                        <div class="flex justify-between text-xs text-slate-500">
+                            <time datetime="2022-07-01">1 - 28 July 2022</time>
+                            <span>Kelas Offline</span>
+                        </div>
+                        <a href="pages/detailclass.html" class="text-[18px] text-[#273F5A] font-extrabold my-1">Fullstack Web Development</a>
                         <div class="line-clamp-4 text-gray-500 text-xs mb-8 grow">
-                            Memperkenalkan penggunaan Blender untuk membuat gambar 3D, melakukan proses modelling, dan rendering.
+                            <p class="text-[13px] leading-[160%]">
+                                Kamu akan mempelajari keterampilan inti untuk membangun aplikasi web dari nol—mulai dari front-end hingga back-end.
+                            </p>
                         </div>
                         <div class="flex justify-between items-center">
                             <a class="border-t pr-3" href="#">
-                                <span class="block color-blue-rpr-600 text-lg font-semibold">Rp. 899.000</span>
-                                <span class="block text-red-400 text-xs"><s>Rp. 1.800.000</s></span>
+                                <span class="block text-[#5386C0] text-lg font-semibold">Rp. 699.000</span>
+                                <span class="block text-red-400 text-xs"><s>Rp. 1.398.000</s></span>
                             </a>
                             <a target="_blank" class="relative text-white z-10"  href="https://wa.link/q0wht0">Daftar</a>
                         </div>
@@ -108,20 +121,26 @@
                         </div>
                     </div>
                 </div>
-                <div class="card-4 flex flex-col grow-0 z-20 bg-white rounded-2xl overflow-hidden">
+
+                <div data-aos="fade-up" data-aos-duration="1500" class="flex z-20 overflow-hidden flex-col bg-white rounded-2xl shadow-2xl max-w-[315px]">
                     <div class="flex-1 relative overflow-hidden">
-                        <img class="images object-cover object-center w-full h-full" src="./assets/img/cards/fullstack.jpg" alt="">
+                        <img class="images object-cover object-center w-full h-full" src="./assets/img/cards/architect-architecture-design-infrastructure-construction-concept.jpg" alt="">
                     </div>
                     <div class="flex flex-col flex-1 p-3 relative">
-                        <div class="mb-1"><span class="text-xs pr-4 py-2"><i class="pr-2 far fa-user "></i>00:00 WIB</span><span class="text-xs pr-4 py-2"><i class="pr-2 far fa-calendar"></i>Jul-Agus 2024</span></div>
-                        <a href="#" class="text-[18px] font-bold underline mb-1">Blender - Basic Modelling</a>
+                        <div class="flex justify-between text-xs text-slate-500">
+                            <time datetime="2022-07-01">1 - 28 July 2022</time>
+                            <span>Kelas Offline</span>
+                        </div>
+                        <a href="#" class="text-[18px] text-[#273F5A] font-extrabold my-1">SketcUp 3D Modelling</a>
                         <div class="line-clamp-4 text-gray-500 text-xs mb-8 grow">
-                            Pembuatan gambar 3D arsitektur, mulai dari pemodelan hingga rendering kualitas tinggi menggunakan Blender, D5 Render, dan Photoshop.
+                            <p class="text-[13px] leading-[160%]">
+                                Kelas ini akan membekali kamu dengan keterampilan untuk membuat model 3D yang detail dan akurat, mulai dari desain interior, arsitektur, hingga produk industri.
+                            </p>
                         </div>
                         <div class="flex justify-between items-center">
                             <a class="border-t pr-3" href="#">
-                                <span class="block color-blue-rpr-600 text-lg font-semibold">Rp. 899.000</span>
-                                <span class="block text-red-400 text-xs"><s>Rp. 1.800.000</s></span>
+                                <span class="block text-[#5386C0] text-lg font-semibold">Rp. 499.000</span>
+                                <span class="block text-red-400 text-xs"><s>Rp. 998.000</s></span>
                             </a>
                             <a target="_blank" class="relative text-white z-10"  href="https://wa.link/q0wht0">Daftar</a>
                         </div>
@@ -131,20 +150,26 @@
                         </div>
                     </div>
                 </div>
-                <div class="card-4 flex flex-col grow-0 z-20 bg-white rounded-2xl overflow-hidden">
+
+                <div data-aos="fade-up" data-aos-duration="1900" class="flex z-20 overflow-hidden flex-col bg-white rounded-2xl shadow-2xl max-w-[315px]">
                     <div class="flex-1 relative overflow-hidden">
-                        <img class="images object-cover object-center w-full h-full" src="./assets/img/cards/fullstack.jpg" alt="">
+                        <img class="images object-cover object-center w-full h-full" src="./assets/img/cards/close-up-hands-pointing-map.jpg" alt="">
                     </div>
                     <div class="flex flex-col flex-1 p-3 relative">
-                        <div class="mb-1"><span class="text-xs pr-4 py-2"><i class="pr-2 far fa-user "></i>00:00 WIB</span><span class="text-xs pr-4 py-2"><i class="pr-2 far fa-calendar"></i>Jul-Agus 2024</span></div>
-                        <a href="#" class="text-[18px] font-bold underline mb-1">Blender - Basic Modelling</a>
+                        <div class="flex justify-between text-xs text-slate-500">
+                            <time datetime="2022-07-01">1 - 28 July 2022</time>
+                            <span>Kelas Offline</span>
+                        </div>
+                        <a href="#" class="text-[18px] text-[#273F5A] font-extrabold my-1">ArcGIS for Mapping and Geospatial Analyst Advanced</a>
                         <div class="line-clamp-4 text-gray-500 text-xs mb-8 grow">
-                            Memperkenalkan penggunaan Blender untuk membuat gambar 3D, melakukan proses modelling, dan rendering.
+                            <p class="text-[13px] leading-[160%]">
+                                Peserta akan belajar bagaimana menggunakan ArcGIS untuk membuat peta, mengelola dan menganalisis data spasial
+                            </p>
                         </div>
                         <div class="flex justify-between items-center">
                             <a class="border-t pr-3" href="#">
-                                <span class="block color-blue-rpr-600 text-lg font-semibold">Rp. 899.000</span>
-                                <span class="block text-red-400 text-xs"><s>Rp. 1.800.000</s></span>
+                                <span class="block text-[#5386C0] text-lg font-semibold">Rp. 649.000</span>
+                                <span class="block text-red-400 text-xs"><s>Rp. 1.298.000</s></span>
                             </a>
                             <a target="_blank" class="relative text-white z-10"  href="https://wa.link/q0wht0">Daftar</a>
                         </div>
@@ -154,34 +179,180 @@
                         </div>
                     </div>
                 </div>
-                <div class="card-4 flex flex-col grow-0 z-20 bg-white rounded-2xl overflow-hidden">
-                    <div class="flex-1 relative overflow-hidden">
-                        <img class="images object-cover object-center w-full h-full" src="./assets/img/cards/fullstack.jpg" alt="">
+
+            </div>
+        </div>
+    </section>
+    
+    <section class="">
+        <div class="h-fit relative overflow-hidden centered-xy">
+            <img class="img-cover object-top -z-10" src="assets/pg1/bg-testi.png" alt="">
+            <div class="max-w-[885px] absolute z-20 text-white text-center">
+                <div class="flex flex-col items-center text-base text-white max-md:max-w-full">
+                    <h2 data-aos="fade-up" data-aos-duration="1000" class="text-[32px] font-extrabold">Kata Mereka</h2>
+                    <p data-aos="fade-up" data-aos-duration="1200" class="mt-2 text-[15px]">Kata Mereka Selama Mengikuti Program Kami</p>
+                    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/58fffa9413259b7c9f975eb590c5ac5db4031f86d2e462656759faeb2ff980fe?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" class="object-contain mt-12 rounded-full aspect-square w-[81px] max-md:mt-10" alt="Profile picture of Arif Sunandar" />
+                    <blockquote class="self-stretch mt-2 font-light text-center max-md:max-w-full">
+                      "Rupa Raya Academy memberikan pelatihan yang luar biasa. Instruktur berpengalaman dan materi praktis membantu saya menghasilkan karya 3D yang lebih profesional. Terima kasih, Rupa Raya Academy"
+                    </blockquote>
+                    <p class="mt-6 font-semibold text-center">Arif Sunandar.</p>
+                    <p class="mt-2text-center">
+                      <span class="font-medium">3D Artist Modeling di</span>
+                      <span class="font-semibold">PT Rupa Raya Indonesia</span>
+                    </p>
+                  </div>
+            </div>
+        </div>
+      </section>
+
+      <section class="flex max-md:flex-col">
+        <div class="flex flex-col w-[66%] max-md:ml-0 max-md:w-full">
+            <div class="flex z-10 flex-col w-full max-md:max-w-full">
+                <div class="max-md:max-w-full">
+                    <div class="flex max-md:flex-col">
+                        <div class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+                            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/1f4b84d68c06f0072a78bb26b5c8fed2e3204e97aea5b4c2a86504737ab88c9d?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" class="object-contain grow w-full aspect-square max-md:max-w-full" alt="Gallery image 1" />
+                        </div>
+                        <div class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+                            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/1f4b84d68c06f0072a78bb26b5c8fed2e3204e97aea5b4c2a86504737ab88c9d?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" class="object-contain w-full aspect-square max-md:max-w-full" alt="Gallery image 2" />
+                        </div>
                     </div>
-                    <div class="flex flex-col flex-1 p-3 relative">
-                        <div class="mb-1"><span class="text-xs pr-4 py-2"><i class="pr-2 far fa-user "></i>00:00 WIB</span><span class="text-xs pr-4 py-2"><i class="pr-2 far fa-calendar"></i>Jul-Agus 2024</span></div>
-                        <a href="#" class="text-[18px] font-bold underline mb-1">Blender - Basic Modelling</a>
-                        <div class="line-clamp-4 text-gray-500 text-xs mb-8 grow">
-                            Memperkenalkan penggunaan Blender untuk membuat gambar 3D, melakukan proses modelling, dan rendering.
+                </div>
+                <div class="max-md:max-w-full">
+                    <div class="flex max-md:flex-col">
+                        <div class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+                            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/1f4b84d68c06f0072a78bb26b5c8fed2e3204e97aea5b4c2a86504737ab88c9d?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" class="object-contain grow w-full aspect-square max-md:max-w-full" alt="Gallery image 3" />
                         </div>
-                        <div class="flex justify-between items-center">
-                            <a class="border-t pr-3" href="#">
-                                <span class="block color-blue-rpr-600 text-lg font-semibold">Rp. 899.000</span>
-                                <span class="block text-red-400 text-xs"><s>Rp. 1.800.000</s></span>
-                            </a>
-                            <a target="_blank" class="relative text-white z-10"  href="https://wa.link/q0wht0">Daftar</a>
-                        </div>
-                        <div class="w-40 h-40 absolute -bottom-[35%] -right-[25%] bg-blue-rpr-800 rounded-full flex items-center justify-center">
-                            <div class="w-1/2 h-1/2 absolute top-2 bg-[#ffffff09] rounded-full"></div>
-                            <div class="w-1/2 h-1/2 absolute left-2 bg-[#ffffff09] rounded-full"></div>
+                        <div class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
+                            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/1f4b84d68c06f0072a78bb26b5c8fed2e3204e97aea5b4c2a86504737ab88c9d?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" class="object-contain w-full aspect-square max-md:max-w-full" alt="Gallery image 4" />
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="flex flex-col w-[33.6%] max-md:ml-0 max-md:w-full">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/4bb3681620e2e870e485caa17faed27e9a5fd4bb43db797c4beca6321d380f83?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" class="object-contain grow w-full aspect-[0.51] max-md:max-w-full" alt="Gallery image 5" />
+        </div>
     </section>
+
+    <section class="relative"> <img src="/public/assets/pg1/bg-shapes-two.png" class="absolute w-[1540px] -z-20 mx-auto top-10 right-0 left-0" alt="">
+
+    <section class="mt-10">
+        <div class="text-center z-20 relative">
+            <h1 data-aos="fade-up" data-aos-duration="1100" class="text-3xl font-bold mb-4 ">Pertanyaan Seputar <span class="color-blue-rpr-scn">Rupa Raya Academy</span></h1>
+        </div>
+
+        <div class="px-64 flex flex-wrap gap-5 justify-between w-full text-base max-md:mr-2.5 max-md:max-w-full">
+            <div class="flex flex-wrap gap-10 items-start max-md:max-w-full">
+            <div class="flex flex-col grow shrink-0 self-end mt-5 basis-0 w-fit max-md:max-w-full">
+                <div class="flex flex-col py-5 pr-7 bg-white rounded-2xl bg-blend-normal max-md:pr-5 max-md:max-w-full">
+                <h2 class="self-start ml-6 font-medium tracking-normal leading-loose text-neutral-900 max-md:ml-2.5">
+                    Apa itu Rupa Raya Academy?
+                </h2>
+                <p class="pl-6 mt-5 tracking-tight text-[15px] leading-6 bg-blend-normal text-neutral-500 max-md:pl-5 max-md:max-w-full">
+                    Rupa Raya Academy adalah sebuah lembaga pendidikan yang menyediakan berbagai kelas dan kursus di bidang Pemodelan dan Arsitektur 3D. Kami fokus pada materi terbaru yang praktis dan aplikatif. didukung oleh instruktur berpengalaman yang ahli di bidangnya. membantu peserta mengembangkan keterampilan yang relevan dengan industri saat ini.
+                </p>
+                </div>
+                <div class="mt-3 bg-white rounded-2xl">
+                <div class="flex flex-wrap gap-5 justify-between px-6 py-5 text-base font-medium text-black bg-blend-normal max-md:px-5 max-md:max-w-full cursor-pointer">
+                    Kelas apa saja yang ditawarkan oleh Rupa Raya Academy?
+                    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/7ac638ef4a709926603ac192bb4f74557e0a140436048d2abda4ec297f1e8e6d?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" class="object-contain shrink-0 self-start w-5 bg-blend-normal aspect-square" alt="" aria-hidden="true" />
+                </div>
+                </div>
+                <div class="mt-3 bg-white rounded-2xl">
+                <div class="flex flex-wrap gap-5 justify-between px-6 py-5 text-base font-medium text-black bg-blend-normal max-md:px-5 max-md:max-w-full cursor-pointer">
+                    Fasilitas apa saja yang tersedia di Rupa Raya Academy?
+                    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/7ac638ef4a709926603ac192bb4f74557e0a140436048d2abda4ec297f1e8e6d?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" class="object-contain shrink-0 self-start w-5 bg-blend-normal aspect-square" alt="" aria-hidden="true" />
+                </div>
+                </div>
+                <div class="mt-3 bg-white rounded-2xl">
+                <div class="flex flex-wrap gap-5 justify-between px-6 py-5 font-medium tracking-normal leading-loose bg-blend-normal text-neutral-900 max-md:px-5 max-md:max-w-full cursor-pointer">
+                    Apakah Rupa Raya Academy menyediakan beasiswa?
+                    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/7ac638ef4a709926603ac192bb4f74557e0a140436048d2abda4ec297f1e8e6d?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" class="object-contain shrink-0 my-auto w-5 bg-blend-normal aspect-square" alt="" aria-hidden="true" />
+                </div>
+                </div>
+                <div class="mt-3 bg-white rounded-2xl">
+                <div class="flex flex-wrap gap-5 justify-between px-6 py-5 font-medium tracking-normal leading-loose bg-blend-normal text-neutral-900 max-md:px-5 max-md:max-w-full cursor-pointer">
+                    Bagaimana cara menghubungi jika saya memiliki pertanyaan lebih lanjut?
+                    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/7ac638ef4a709926603ac192bb4f74557e0a140436048d2abda4ec297f1e8e6d?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" class="object-contain shrink-0 my-auto w-5 bg-blend-normal aspect-square" alt="" aria-hidden="true" />
+                </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </section>
+
+    </section>
+
+    <section data-aos="fade-up" data-aos-duration="900" class="mt-20">
+        <div class="h-fit relative overflow-hidden centered-xy">
+            <img class="object-top -z-10" src="/public/assets/about/section/cta.png" alt="">
+            <div class="flex gap-28 items-center absolute z-20 text-white ">
+                <div class="max-w-[600px]">
+                    <h3 class="text-[40px] font-bold">Mulai Bangun Skill Anda di Rupa Raya Academy</h3>
+                </div>
+                <div class="bg-white py-2 px-6 rounded-[50px]">
+                    <a href="#class" class="text-[#5386C0] text-[20px] font-semibold">Daftar Sekarang</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="mt-20 pt-12 pb-3 bg-blue-rpr-thr-a2">
+        <div class="px-16 flex justify-between">
+            <div class="">
+                <div class="flex gap-5">
+                    <div>
+                        <img src="/public/assets/logo/rralogo-outline.png" class="w-[190px]" alt="">
+                    </div>
+
+                    <div>
+                        <div class="flex mb-3">
+                            <img src="/public/assets/about/section/phone-solid 1.png" class="mr-2" alt="">
+                            <p class="text-white font-light">+62 852-4267-3019</p>
+                        </div>
+                        <div class="flex">
+                            <img src="/public/assets/about/section/envelope-solid 1.png" class="mr-2" alt="">
+                            <p class="text-white font-light">ruparaya.academy@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="mt-5">
+                    <p class="text-white text-[14px] font-light">Copyright © 2024 Rupa Raya Indonesia. All Rights Reserved</p>
+                </div>
+            </div>
+
+            <div>
+                <div class="flex gap-5 justify-center">
+                    <div>
+                        <a href="#"><img src="/public/assets/about/section/instagram 1.png" class="bg-white p-3 rounded-full" alt=""></a>
+                    </div>
+                    <div>
+                        <a href="#"><img src="/public/assets/about/section/tiktok 1.png" class="bg-white p-3 rounded-full" alt=""></a>
+                    </div>
+                    <div>
+                        <a href="#"><img src="/public/assets/about/section/youtube 1.png" class="bg-white p-3 rounded-full" alt=""></a>
+                    </div>
+                </div>
+
+                <div class="flex gap-5 mt-7">
+                    <div>
+                        <a href="#" class="text-white underline underline-offset-2 font-light text-[14px]">Syarat & Ketentuan</a>
+                    </div>
+                    <div>
+                        <a href="#" class="text-white underline underline-offset-2 font-light text-[14px]">Kebijakan Privasi</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
 
 
 <script src="./js/app.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

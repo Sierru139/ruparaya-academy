@@ -6,18 +6,24 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="../css/output.css">
     <link rel="stylesheet" href="../css/custom.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Ruparaya Academy</title>
 </head>
+<style>
+    .bg-blue-rpr-thr-a2 { 
+        background: linear-gradient(198deg, rgba(39,63,90,1) 1%, rgba(50,80,115,1) 36%, rgba(75,121,174,1) 85%, rgba(83,134,192,1) 100%);
+        }
+</style>
 <body class="bg-[#E9ECEF]">
-    <nav class="fixed w-full top-0 z-[999] flex justify-between items-center py-4 px-12 bg-blue-rpr-prm-a2">
+    <nav data-aos="fade-down" data-aos-duration="1000" class="fixed w-full top-0 z-[999] flex justify-between items-center py-4 px-12 bg-blue-rpr-prm-a2">
         <div>
             <img class="w-32" src="../assets/logo/rralogo-outline.png" alt="">
         </div>
         <div class="md:flex gap-10 hidden text-white text-[15px]">
-            <a href="#">Beranda</a>
-            <a href="#">Program/Kelas</a>
-            <a href="#" class="text-[#EDC423] border-b-2 pb-1 border-[#EDC423] px-3">Tentang Kami</a>
-            <a href="#">Testimonial</a>
+            <a data-aos="fade-down" data-aos-duration="1000" href="/public/index.html">Beranda</a>
+            <a data-aos="fade-down" data-aos-duration="1100" href="/public/pages/Listing.html">Program/Kelas</a>
+            <a data-aos="fade-down" data-aos-duration="1200" href="#" class="text-[#EDC423] border-b-2 pb-1 border-[#EDC423] px-3">Tentang Kami</a>
+            <a data-aos="fade-down" data-aos-duration="1300" href="/public/pages/testimonial.html">Testimonial</a>
         </div>
     </nav>
 
@@ -28,8 +34,8 @@
             <div class="absolute top-0 bg-[#00000042] z-10 hw-full"></div>
             <div class="max-w-[575px] absolute z-20 text-white text-center">
                 <img src="../assets/logo/rralogo.png" alt="" class="mx-auto mb-3 w-72">
-                <h3 class="md:text-[20px] mb-4">Tentang Rupa Raya Academy</h3>
-                <h3><a href="#">Beranda > </a><a href="#" class="text-[#EDC423]">Tentang Kami</a></h3>
+                <h3 data-aos="fade-up" data-aos-duration="1100" class="md:text-[20px] mb-4">Tentang Rupa Raya Academy</h3>
+                <h3 data-aos="fade-up" data-aos-duration="1500"><a href="#">Beranda > </a><a href="#" class="text-[#EDC423]">Tentang Kami</a></h3>
             </div>
         </div>
     </header>
@@ -52,11 +58,11 @@
             <div class="h-fit relative overflow-hidden centered-xy">
                 <img class="img-cover object-top -z-10" src="../assets/about/section/bg.png" alt="">
                 <div class="absolute z-20 flex justify-around w-full px-44">
-                    <div class="text-white text-center max-w-[350px]">
+                    <div data-aos="fade-up" data-aos-duration="1000" class="text-white text-center max-w-[350px]">
                         <h3 class="text-[32px] font-bold mb-5">Visi</h3>
                         <p class="text-[15px] font-light">Menjadi pusat pembelajaran utama untuk pemodelan dan arsitektur 3D yang diakui secara global.</p>
                     </div>
-                    <div class="text-white text-center max-w-[440px]">
+                    <div data-aos="fade-up" data-aos-duration="1500" class="text-white text-center max-w-[440px]">
                         <h3 class="text-[32px] font-bold mb-5">Misi</h3>
                         <p class="text-[15px] font-light">Menyediakan pendidikan berkualitas tinggi yang praktis dan inovatif, sehingga memungkinkan para peserta untuk mengembangkan keterampilan yang dibutuhkan untuk sukses di dunia profesional.</p>
                     </div>
@@ -114,8 +120,76 @@
                 </div>
             </div>
         </section>
+
+        <section data-aos="fade-up" data-aos-duration="900" class="mt-20">
+            <div class="h-fit relative overflow-hidden centered-xy">
+                <img class="object-top -z-10" src="../assets/about/section/cta.png" alt="">
+                <div class="flex gap-28 items-center absolute z-20 text-white ">
+                    <div class="max-w-[600px]">
+                        <h3 class="text-[40px] font-bold">Mulai Bangun Skill Anda di Rupa Raya Academy</h3>
+                    </div>
+                    <div class="bg-white py-2 px-6 rounded-[50px]">
+                        <a href="#" class="text-[#5386C0] text-[20px] font-semibold">Daftar Sekarang</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="mt-20 pt-12 pb-3 bg-blue-rpr-thr-a2">
+            <div class="px-16 flex justify-between">
+                <div class="">
+                    <div class="flex gap-5">
+                        <div>
+                            <img src="/public/assets/logo/rralogo-outline.png" class="w-[190px]" alt="">
+                        </div>
+
+                        <div>
+                            <div class="flex mb-3">
+                                <img src="/public/assets/about/section/phone-solid 1.png" class="mr-2" alt="">
+                                <p class="text-white font-light">+62 852-4267-3019</p>
+                            </div>
+                            <div class="flex">
+                                <img src="/public/assets/about/section/envelope-solid 1.png" class="mr-2" alt="">
+                                <p class="text-white font-light">ruparaya.academy@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-5">
+                        <p class="text-white text-[14px] font-light">Copyright © 2024 Rupa Raya Indonesia. All Rights Reserved</p>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="flex gap-5 justify-center">
+                        <div>
+                            <a href="#"><img src="/public/assets/about/section/instagram 1.png" class="bg-white p-3 rounded-full" alt=""></a>
+                        </div>
+                        <div>
+                            <a href="#"><img src="/public/assets/about/section/tiktok 1.png" class="bg-white p-3 rounded-full" alt=""></a>
+                        </div>
+                        <div>
+                            <a href="#"><img src="/public/assets/about/section/youtube 1.png" class="bg-white p-3 rounded-full" alt=""></a>
+                        </div>
+                    </div>
+
+                    <div class="flex gap-5 mt-7">
+                        <div>
+                            <a href="#" class="text-white underline underline-offset-2 font-light text-[14px]">Syarat & Ketentuan</a>
+                        </div>
+                        <div>
+                            <a href="#" class="text-white underline underline-offset-2 font-light text-[14px]">Kebijakan Privasi</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
     
     </section>
 <script src="./js/app.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>
