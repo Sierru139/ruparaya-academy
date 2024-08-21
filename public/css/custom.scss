@@ -141,7 +141,7 @@ body {
 
 .container-cs {
   max-width: 1180px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .title-sect2 {
@@ -152,4 +152,23 @@ body {
 .shadow-sect1 {
   box-shadow: -20px -20px 51px -7px rgba(0,0,0,0.3);
   -webkit-box-shadow: -20px -20px 51px -7px rgba(0,0,0,0.3);
+}
+
+/* QNA SECTION pg 1 */
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: .6s ease-in-out;
+}
+.show {
+  max-height: 200px;
+}
+
+.arrow-rotate {
+  rotate: 0deg;
+  transition: .4s ease-in-out;
+}
+
+.arrow-rotated {
+  rotate: -45deg;
 }
