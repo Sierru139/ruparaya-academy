@@ -29,12 +29,12 @@
     </nav>
 
     <header class="">
-        <div class="h-fit relative overflow-hidden centered-xy">
+        <div class="lg:h-fit h-[50vh] relative overflow-hidden centered-xy">
             <img class="img-cover object-top -z-10" src="../assets/about/section/pict.jpg" alt="">
             <div class="absolute top-0 bg-blue-rpr-prm-a2 z-10 hw-full"></div>
             <div class="absolute top-0 bg-[#00000042] z-10 hw-full"></div>
             <div class="max-w-[575px] absolute z-20 text-white text-center">
-                <img src="../assets/logo/rralogo.png" alt="" class="mx-auto mb-3 w-72">
+                <img class="mx-auto mb-3 md:w-[25vw] w-[50vw]" src="../assets/logo/rralogo.png" alt="" >
                 <h3 data-aos="fade-up" data-aos-duration="1100" class="md:text-[20px] mb-4">Tentang Rupa Raya Academy</h3>
                 <h3 data-aos="fade-up" data-aos-duration="1500"><a href="#">Beranda > </a><a href="#" class="text-[#EDC423]">Tentang Kami</a></h3>
             </div>
@@ -44,11 +44,11 @@
     <section class="relative"> <img src="/public/assets/about/section/ruparayaacademy logo 2 1.png" class="absolute w-[1092px] -z-20 mx-auto -top-11 right-0 left-0" alt="">
 
         <section class="mt-20">
-            <div class="container-cs centered-x">
+            <div class="container-cs centered-x md:flex-row flex-col">
                 <div class="flex-[45%]">
-                    <h3 class="text-[32px] font-bold text-[#273F5A] leading-10">Pelatihan Keterampilan <span class="text-[#5386C0]">Kreatif</span> untuk <span class="text-[#5386C0]">Era Modern</span></h3>
+                    <h3 class="text-[32px] font-bold md:text-left text-center text-[#273F5A] leading-10">Pelatihan Keterampilan <span class="text-[#5386C0]">Kreatif</span> untuk <span class="text-[#5386C0]">Era Modern</span></h3>
                 </div>
-                <div class="text-[15px] flex-[65%] text-[#757575]">
+                <div class="text-[15px] px-4 flex-[65%] text-[#757575]">
                     <p class="mb-5">Lembaga pendidikan yang mengkhususkan diri dalam Modeling dan 3D Architecture. Kami menyediakan kelas-kelas berkualitas dengan metode pembelajaran praktis dan bimbingan langsung dari para ahli di bidangnya.</p>
                     <p>Dengan fasilitas yang lengkap dan kurikulum terkini, kami berkomitmen untuk membantu siswa meraih keterampilan profesional dan mengembangkan karir di industri kreatif. Bergabunglah dengan kami untuk mencapai potensi penuh Anda.</p>
                 </div>
@@ -56,9 +56,9 @@
         </section>
 
         <section class="mt-10">
-            <div class="h-fit relative overflow-hidden centered-xy">
+            <div class="xl:h-fit h-[80vh] relative overflow-hidden centered-xy bg-center bg-cover">
                 <img class="img-cover object-top -z-10" src="../assets/about/section/bg.png" alt="">
-                <div class="absolute z-20 flex justify-around w-full px-44">
+                <div class="z-20 flex absolute md:justify-around items-center md:flex-row flex-col w-full md:px-44 px-10">
                     <div data-aos="fade-up" data-aos-duration="1000" class="text-white text-center max-w-[350px]">
                         <h3 class="text-[32px] font-bold mb-5">Visi</h3>
                         <p class="text-[15px] font-light">Menjadi pusat pembelajaran utama untuk pemodelan dan arsitektur 3D yang diakui secara global.</p>
@@ -78,44 +78,56 @@
             <div class="container-cs relative">
                 <h3 class="text-center text-[32px] font-bold text-[#5386C0]"><span class="text-[#273F5A]">Mengapa</span> Rupa Raya Academy?</h3>
                 <div class="relative z-20 centered-xy">
-                    <div class="flex justify-end items-center w-full mt-16">
-                        <img class="absolute -left-20 w-[37%] " src="../assets/about/section/Group 237653.png" alt="">
-                        <div class="flex justify-center flex-wrap lg:flex-col-reverse  w-[75%] h-[420px] -mr-20 gap-y-3 gap-x-4">
-                            <div class="flex flex-col justify-center flex-[100%] w-1/2 space-y-4">
-                                <div class="flex bg-white rounded-2xl shadow-xl">
-                                    <img class="img-cover flex-[20%]" src="../assets/about/section/Picture One.png" alt="">
-                                    <div class="p-3 grow">
-                                        <h4 class="font-semibold ">Fasilitas Personal Komputer untuk Setiap Peserta</h4>
-                                        <p class="text-sm opacity-80">Setiap peserta kursus akan mendapatkan satu personal komputer selama kelas berlangsung.</p>
+                    <div class="flex lg:justify-end justify-center items-center w-full lg:flex-row flex-col md:mt-16 mt-8">
+                        <img class="lg:absolute -left-20 md:w-[37%] w-[60%] mb-6" src="../assets/about/section/Group 237653.png" alt="">
+                        <div class="flex md:flex-row flex-col lg:w-[65%] md:w-[75%] w-[90%] items-center justify-center">
+                            <div class="h-full lg:w-[50%]">
+                                <div class="flex max-h-32 min-h-16 mt-2 mr-2 overflow-hidden items-center bg-white rounded-xl">
+                                    <div class="flex-[25%] h-[140px] rounded-r-[50%] overflow-hidden">
+                                        <img class="img-cover object-center" src="../assets/about/section/card-1.jpg" alt="">
+                                    </div>
+                                    <div class="p-3 flex-[75%]">
+                                        <h4 class="font-semibold sm:text-sm text-xs">Fasilitas Personal Komputer untuk Setiap Peserta</h4>
+                                        <p class="sm:text-xs text-[8px]">Setiap peserta kursus akan mendapatkan satu personal komputer selama kelas berlangsung.</p>
                                     </div>
                                 </div>
-                                <div class="flex bg-white rounded-2xl shadow-xl">
-                                    <img class="img-cover flex-[20%]" src="../assets/about/section/Picture One.png" alt="">
-                                    <div class="p-3 grow"> 
-                                        <h4 class="font-semibold ">Fasilitas Personal Komputer untuk Setiap Peserta</h4>
-                                        <p class="text-sm opacity-80">Setiap peserta kursus akan mendapatkan satu personal komputer selama kelas berlangsung.</p>
+                                <div class="flex max-h-32 min-h-16 mt-2 mr-2 overflow-hidden items-center bg-white rounded-xl">
+                                    <div class="flex-[25%] h-[140px] rounded-r-[50%] overflow-hidden">
+                                        <img class="img-cover object-center" src="../assets/about/section/card-2.jpg" alt="">
+                                    </div>
+                                    <div class="p-3 flex-[75%]">
+                                        <h4 class="font-semibold sm:text-sm text-xs">Ruang kelas dirancang agar nyaman dan kondusif</h4>
+                                        <p class="sm:text-xs text-[8px]">Dilengkapi dengan pencahayaan yang baik, pendingin udara, dan tata ruang yang ergonomis.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="flex w-1/2 bg-white rounded-2xl shadow-xl">
-                                <img class="img-cover flex-[20%]" src="../assets/about/section/Picture One.png" alt="">
-                                <div class="p-3 grow">
-                                    <h4 class="font-semibold ">Fasilitas Personal Komputer untuk Setiap Peserta</h4>
-                                    <p class="text-sm opacity-80">Setiap peserta kursus akan mendapatkan satu personal komputer selama kelas berlangsung.</p>
+                            <div class="h-full lg:w-[50%]">
+                                <div class="flex max-h-32 min-h-16 mt-2 mr-2 overflow-hidden items-center bg-white rounded-xl">
+                                    <div class="flex-[25%] h-[140px] rounded-r-[50%] overflow-hidden">
+                                        <img class="img-cover object-center" src="../assets/about/section/card-3.jpeg" alt="">
+                                    </div>
+                                    <div class="p-3 flex-[75%]">
+                                        <h4 class="font-semibold sm:text-sm text-xs">Berkesempatan Magang dan mendapatkan Project Real</h4>
+                                        <p class="sm:text-xs text-[8px]">Kami menyediakan dukungan karir seperti program magang di perusahaan dan bersentuhan langsung dengan project</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="flex w-1/2 bg-white rounded-2xl shadow-xl">
-                                <img class="img-cover flex-[20%]" src="../assets/about/section/Picture One.png" alt="">
-                                <div class="p-3 grow">
-                                    <h4 class="font-semibold ">Fasilitas Personal Komputer untuk Setiap Peserta</h4>
-                                    <p class="text-sm opacity-80">Setiap peserta kursus akan mendapatkan satu personal komputer selama kelas berlangsung.</p>
+                                <div class="flex max-h-32 min-h-16 mt-2 mr-2 overflow-hidden items-center bg-white rounded-xl">
+                                    <div class="flex-[25%] h-[140px] rounded-r-[50%] overflow-hidden">
+                                        <img class="img-cover object-center" src="../assets/about/section/card-4.jpg" alt="">
+                                    </div>
+                                    <div class="p-3 flex-[75%]">
+                                        <h4 class="font-semibold sm:text-sm text-xs">Bebas Konsultasi Tentang Kelas yang Diambil</h4>
+                                        <p class="sm:text-xs text-[8px]">Peserta dapat berkonsultasi mengenai materi yang diajarkan, proyek yang dikerjakan, dan tantangan yang dihadapi</p>
+                                    </div>
                                 </div>
-                            </div>
-                            <div class="flex w-1/2 bg-white rounded-2xl shadow-xl">
-                                <img class="img-cover flex-[20%]" src="../assets/about/section/Picture One.png" alt="">
-                                <div class="p-3 grow">
-                                    <h4 class="font-semibold ">Fasilitas Personal Komputer untuk Setiap Peserta</h4>
-                                    <p class="text-sm opacity-80">Setiap peserta kursus akan mendapatkan satu personal komputer selama kelas berlangsung.</p>
+                                <div class="flex max-h-32 min-h-16 mt-2 mr-2 overflow-hidden items-center bg-white rounded-xl">
+                                    <div class="flex-[25%] h-[140px] rounded-r-[50%] overflow-hidden">
+                                        <img class="img-cover object-center" src="../assets/about/section/card-5.jpg" alt="">
+                                    </div>
+                                    <div class="p-3 flex-[75%]">
+                                        <h4 class="font-semibold sm:text-sm text-xs">Dukungan Karir dan Jaringan Industri</h4>
+                                        <p class="sm:text-xs text-[8px]">Berkesempatan untuk bisa merekrut peserta kursus menjadi karyawan kontrak atau tetap di perusahaan PT Rupa Raya  Indonesia.</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -141,10 +153,10 @@
     <!-- FOOTER START ============== -->
     <!-- FOOTER START ============== -->
     <!-- FOOTER START ============== -->
-        <footer class="mt-20 pt-12 pb-3 bg-blue-rpr-thr-a2">
-            <div class="px-16 flex justify-between">
+        <footer class="pt-12 pb-3 bg-blue-rpr-thr-a2">
+            <div class="lg:px-16 px-6 flex md:flex-row flex-col justify-between">
                 <div class="">
-                    <div class="flex gap-5">
+                    <div class="flex lg:flex-row flex-col gap-5">
                         <div>
                             <img src="/public/assets/logo/rralogo-outline.png" class="w-[190px]" alt="">
                         </div>
@@ -166,20 +178,20 @@
                     </div>
                 </div>
 
-                <div>
+                <div class="md:mt-0 mt-6">
                     <div class="flex gap-5 justify-center">
                         <div>
-                            <a href="#"><img src="/public/assets/about/section/instagram 1.png" class="bg-white p-3 rounded-full" alt=""></a>
+                            <a href="#"><img src="/public/assets/about/section/instagram 1.png" class="bg-white w-8 h-8 p-2 rounded-full" alt=""></a>
                         </div>
                         <div>
-                            <a href="#"><img src="/public/assets/about/section/tiktok 1.png" class="bg-white p-3 rounded-full" alt=""></a>
+                            <a href="#"><img src="/public/assets/about/section/tiktok 1.png" class="bg-white w-8 h-8 p-2 rounded-full" alt=""></a>
                         </div>
                         <div>
-                            <a href="#"><img src="/public/assets/about/section/youtube 1.png" class="bg-white p-3 rounded-full" alt=""></a>
+                            <a href="#"><img src="/public/assets/about/section/youtube 1.png" class="bg-white w-8 h-8 p-2 rounded-full" alt=""></a>
                         </div>
                     </div>
 
-                    <div class="flex gap-5 mt-7">
+                    <div class="flex gap-5 lg:mt-7 mt-3">
                         <div>
                             <a href="#" class="text-white underline underline-offset-2 font-light text-[14px]">Syarat & Ketentuan</a>
                         </div>
