@@ -140,8 +140,13 @@ body {
 }
 
 .container-cs {
+  max-width: 1180px;
+  margin: auto;
+}
+
+.container-cs-w {
   max-width: 1440px;
-  margin: 0 auto;
+  margin: auto;
 }
 
 .title-sect2 {
@@ -153,3 +158,48 @@ body {
   box-shadow: -20px -20px 51px -7px rgba(0,0,0,0.3);
   -webkit-box-shadow: -20px -20px 51px -7px rgba(0,0,0,0.3);
 }
+
+/* QNA SECTION pg 1 */
+.answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: .6s ease-in-out;
+}
+.show {
+  max-height: 200px;
+}
+
+.arrow-rotate {
+  rotate: 0deg;
+  transition: .4s ease-in-out;
+}
+
+.arrow-rotated {
+  rotate: -45deg;
+}
+
+.text-stroke {
+  text-shadow: white 7px 0px 0px, white 6.92869px 0.996602px 0px, white 6.71622px 1.9729px 0px, white 6.36692px 2.909px 0px, white 5.8879px 3.78584px 0px, white 5.28893px 4.58555px 0px, white 4.5822px 5.29183px 0px, white 3.78212px 5.8903px 0px, white 2.90498px 6.36876px 0px, white 1.96865px 6.71747px 0px, white 0.992221px 6.92932px 0px, white -0.00442571px 7px 0px, white -1.00098px 6.92806px 0px, white -1.97715px 6.71498px 0px, white -2.91303px 6.36508px 0px, white -3.78956px 5.88551px 0px, white -4.58889px 5.28603px 0px, white -5.29472px 4.57885px 0px, white -5.89269px 3.77839px 0px, white -6.3706px 2.90095px 0px, white -6.71871px 1.96441px 0px, white -6.92995px 0.98784px 0px, white -6.99999px -0.00885142px 0px, white -6.92743px -1.00536px 0px, white -6.71372px -1.98139px 0px, white -6.36324px -2.91705px 0px, white -5.88311px -3.79328px 0px, white -5.28313px -4.59223px 0px, white -4.57551px -5.29762px 0px, white -3.77467px -5.89507px 0px, white -2.89692px -6.37243px 0px, white -1.96016px -6.71995px 0px, white -0.983458px -6.93057px 0px, white 0.0132771px -6.99999px 0px, white 1.00974px -6.92679px 0px, white 1.98564px -6.71247px 0px, white 2.92107px -6.36139px 0px, white 3.797px -5.88071px 0px, white 4.59557px -5.28022px 0px, white 5.30051px -4.57215px 0px, white 5.89746px -3.77094px 0px, white 6.37426px -2.89289px 0px, white 6.72119px -1.95591px 0px, white 6.93119px -0.979076px 0px;
+}
+
+/* Hover Main */
+.btn-one {
+  transition: .5s;
+}
+
+.btn-one:hover {
+  box-shadow: inset 220px 0 white;
+  color: #273F5A;
+}
+
+.btn-second {
+  transition: .5s;
+}
+
+.btn-second:hover {
+  box-shadow: inset 0 -50px white;
+  color: #5386C0;
+}
+
+/* Hover Main */
+
