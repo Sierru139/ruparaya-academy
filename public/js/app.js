@@ -1,5 +1,18 @@
 AOS.init();
 
+window.onscroll = function() {myFunction()};
+        
+var navbar = document.getElementById("nav");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+    if (window.scrollY >= sticky) {
+    navbar.classList.add("sticky")
+    } else {
+    navbar.classList.remove("sticky");
+    }
+}
+
 document.addEventListener('DOMContentLoaded', function() {
     const questions = document.querySelectorAll('.ask');
     questions.forEach(question => {
@@ -15,8 +28,6 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
-
-const navbar = document.querySelector(".navbar");
 
 document.addEventListener("DOMContentLoaded", function() {
     const respoNav = document.getElementById('resNav');
