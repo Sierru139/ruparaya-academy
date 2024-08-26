@@ -323,13 +323,6 @@ body {
   width: 100%;
 }
 
-.img-cover {
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 100%;
-  width: 100%;
-}
-
 .centered-xy {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -442,4 +435,97 @@ body {
 }
 
 /* Hover Main */
+/* NAVBAR */
+.goDown {
+  -webkit-animation: navDown .5s ease;
+          animation: navDown .5s ease;
+}
+
+@-webkit-keyframes navDown {
+  0% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes navDown {
+  0% {
+    -webkit-transform: translateY(-100%);
+            transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.resGoDown {
+  -webkit-animation: navRespoDown .3s linear;
+          animation: navRespoDown .3s linear;
+}
+
+@-webkit-keyframes navRespoDown {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes navRespoDown {
+  0% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.nav-close {
+  -webkit-animation: nav-close .7s ease;
+          animation: nav-close .7s ease;
+}
+
+@-webkit-keyframes nav-close {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    opacity: 0;
+  }
+}
+
+@keyframes nav-close {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+  100% {
+    -webkit-transform: translateX(100%);
+            transform: translateX(100%);
+    opacity: 0;
+  }
+}
 /*# sourceMappingURL=custom.css.map */
