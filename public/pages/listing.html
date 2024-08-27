@@ -15,7 +15,7 @@
     <!-- NAVIGATION BAR START =============== -->
     <!-- NAVIGATION BAR START =============== -->
     <!-- NAVIGATION BAR START =============== -->
-    <nav id="nav" class="w-full shadow-xl top-0 z-[999] flex justify-between items-center py-4 px-12 bg-white overflow-hidden">
+    <nav id="nav" class="w-full shadow-xl top-0 z-[999] flex justify-between items-center py-4 px-6 bg-white overflow-hidden">
         <div>
             <img class="w-32" src="../assets/logo/rralogo-outline.png" alt="">
         </div>
@@ -25,20 +25,20 @@
             <a href="./about.html">Tentang Kami</a>
             <a href="./testimonial.html">Testimonial</a>
         </div>
-        <div class="sm:hidden block">
-            <div id="resNav" class="rounded-md px-2 text-white">
+        <div class="md:hidden block">
+            <div id="resNav" class="rounded-md px-2 text-black">
                 <i class="resBtn fas fa-bars"></i>
             </div>
-            <div id="resMenu" class="fixed top-0 bottom-0 right-0 py-6 px-12 text-white hidden resGoDown z-50">
+            <div id="resMenu" class="fixed top-0 bottom-0 right-0 py-6 px-12 bg-blue-rpr-thr-a2 text-white hidden resGoDown z-50">
                 <div id="resNavClose" class="inline absolute rounded-md right-5 text-white">
                     <i class="fas fa-x"></i>
                 </div>
                 <div class="block"></div>
                 <div class="mb-8">
-                    <a class="mr-6 block border-b py-3"  href="#Home">Home</a>
-                    <a class="mr-6 block border-b py-3"  href="#Paket">Paket</a>
-                    <a class="mr-6 block border-b py-3"  href="#Testimonial">Testimonial</a>
-                    <a class="mr-6 block border-b py-3"  href="#Kontak">Kontak</a>
+                    <a class="mr-6 block border-b py-3"  href="../index.html">Beranda</a>
+                    <a class="mr-6 block border-b py-3"  href="./listing.html">Program/Kelas</a>
+                    <a class="mr-6 block border-b py-3"  href="./about.html">Tentang Kami</a>
+                    <a class="mr-6 block border-b py-3"  href="./testimonial.html">Testimonial</a>
                 </div>
             </div>
         </div>
@@ -48,10 +48,10 @@
     <!-- NAVIGATION BAR END =============== -->
 
     <header class="">
-        <div class="h-fit relative overflow-hidden centered-xy">
+        <div class="lg:h-fit h-[50vh] relative overflow-hidden centered-xy">
             <img class="img-cover object-top -z-10" src="../assets/program/bg-class.png" alt="">
             <div class="max-w-[575px] absolute z-20 text-white text-center">
-                <h3 data-aos="fade-up" data-aos-duration="1100" class="md:text-[32px] font-semibold mb-4">Program/Kelas</h3>
+                <h3 class="md:text-4xl text-[32px] font-semibold mb-4" data-aos="fade-up" data-aos-duration="1100">Program/Kelas</h3>
                 <h3 data-aos="fade-up" data-aos-duration="1500"><a href="#">Beranda > </a><a href="#" class="text-[#EDC423]">Program/Kelas</a></h3>
             </div>
         </div>
@@ -60,14 +60,14 @@
     <!-- SECTION 4 CARD CLASS START ======= -->
     <!-- SECTION 4 CARD CLASS START ======= -->
     <!-- SECTION 4 CARD CLASS START ======= -->
-    <section id="class" class="relative overflow-hidden">
-        <div class="my-8">
+    <section id="class" class="relative">
+        <div class="my-8 px-8">
             <div class="text-center mb-10 z-20 relative">
                 <h1 data-aos="fade-up" data-aos-duration="1100" class="text-3xl font-bold mb-4 ">Program <span class="color-blue-rpr-scn">Kursus/Kelas</span></h1>
                 <p data-aos="fade-up" data-aos-duration="1200" class="font-light ">Pilih Kelas Yang Anda Butuhkan Untuk Belajar</p>
             </div>
-            <div class="centered-x gap-x-10">
-                <div class="flex z-20 overflow-hidden flex-col bg-white rounded-2xl shadow-2xl max-w-[315px] hover:-translate-y-2 duration-300">
+            <div class="centered-x gap-6 flex-wrap">
+                <div class="flex z-20 overflow-hidden flex-col bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px] hover:-translate-y-2 duration-300">
                     <div class="flex-1 relative overflow-hidden">
                         <img class="images object-cover object-center w-full h-full" src="../assets/img/cards/fullstack.jpg" alt="">
                     </div>
@@ -89,14 +89,14 @@
                             </a>
                             <a target="_blank" class="relative text-white z-10"  href="https://wa.link/q0wht0">Daftar</a>
                         </div>
-                        <div class="w-40 h-40 absolute -bottom-[35%] -right-[25%] bg-blue-rpr-800 rounded-full flex items-center justify-center">
+                        <div class="w-44 h-44 absolute -bottom-[35%] -right-[25%] bg-blue-rpr-800 rounded-full flex items-center justify-center">
                             <div class="w-1/2 h-1/2 absolute top-2 bg-[#ffffff09] rounded-full"></div>
                             <div class="w-1/2 h-1/2 absolute left-2 bg-[#ffffff09] rounded-full"></div>
                         </div>
                     </div>
                 </div>
 
-                <div class="flex z-20 overflow-hidden flex-col bg-white rounded-2xl shadow-2xl max-w-[315px] hover:-translate-y-2 duration-300">
+                <div class="flex z-20 overflow-hidden flex-col bg-white rounded-2xl shadow-2xl min-w-[310px] max-w-[340px] hover:-translate-y-2 duration-300">
                     <div class="flex-1 relative overflow-hidden">
                         <img class="images object-cover object-center w-full h-full" src="../assets/img/cards/architect-architecture-design-infrastructure-construction-concept.jpg" alt="">
                     </div>
@@ -118,14 +118,14 @@
                             </a>
                             <a target="_blank" class="relative text-white z-10"  href="https://wa.link/q0wht0">Daftar</a>
                         </div>
-                        <div class="w-40 h-40 absolute -bottom-[35%] -right-[25%] bg-blue-rpr-800 rounded-full flex items-center justify-center">
+                        <div class="w-44 h-44 absolute -bottom-[35%] -right-[25%] bg-blue-rpr-800 rounded-full flex items-center justify-center">
                             <div class="w-1/2 h-1/2 absolute top-2 bg-[#ffffff09] rounded-full"></div>
                             <div class="w-1/2 h-1/2 absolute left-2 bg-[#ffffff09] rounded-full"></div>
                         </div>
                     </div>
                 </div>
 
-                <div class="flex z-20 overflow-hidden flex-col bg-white rounded-2xl shadow-2xl max-w-[315px] hover:-translate-y-2 duration-300">
+                <div class="flex z-20 overflow-hidden flex-col bg-white rounded-2xl shadow-2xl min-w-[310px] max-w-[340px] hover:-translate-y-2 duration-300">
                     <div class="flex-1 relative overflow-hidden">
                         <img class="images object-cover object-center w-full h-full" src="../assets/img/cards/close-up-hands-pointing-map.jpg" alt="">
                     </div>
@@ -147,7 +147,7 @@
                             </a>
                             <a target="_blank" class="relative text-white z-10"  href="https://wa.link/q0wht0">Daftar</a>
                         </div>
-                        <div class="w-40 h-40 absolute -bottom-[35%] -right-[25%] bg-blue-rpr-800 rounded-full flex items-center justify-center">
+                        <div class="w-44 h-44 absolute -bottom-[35%] -right-[25%] bg-blue-rpr-800 rounded-full flex items-center justify-center">
                             <div class="w-1/2 h-1/2 absolute top-2 bg-[#ffffff09] rounded-full"></div>
                             <div class="w-1/2 h-1/2 absolute left-2 bg-[#ffffff09] rounded-full"></div>
                         </div>
@@ -179,21 +179,21 @@
     <!-- FOOTER START ============== -->
     <!-- FOOTER START ============== -->
     <!-- FOOTER START ============== -->
-    <footer class="mt-20 pt-12 pb-3 bg-blue-rpr-thr-a2">
-        <div class="px-16 flex justify-between">
+    <footer class="pt-12 pb-3 bg-blue-rpr-thr-a2">
+        <div class="lg:px-16 px-6 flex md:flex-row flex-col justify-between">
             <div class="">
-                <div class="flex gap-5">
+                <div class="flex lg:flex-row flex-col gap-5">
                     <div>
-                        <img src="../assets/logo/rralogo-outline.png" class="w-[190px]" alt="">
+                        <img src="/public/assets/logo/rralogo-outline.png" class="w-[190px]" alt="">
                     </div>
 
                     <div>
                         <div class="flex mb-3">
-                            <img src="../assets/about/section/phone-solid 1.png" class="mr-2" alt="">
+                            <img src="/public/assets/about/section/phone-solid 1.png" class="mr-2" alt="">
                             <p class="text-white font-light">+62 852-4267-3019</p>
                         </div>
                         <div class="flex">
-                            <img src="../assets/about/section/envelope-solid 1.png" class="mr-2" alt="">
+                            <img src="/public/assets/about/section/envelope-solid 1.png" class="mr-2" alt="">
                             <p class="text-white font-light">ruparaya.academy@gmail.com</p>
                         </div>
                     </div>
@@ -204,20 +204,20 @@
                 </div>
             </div>
 
-            <div>
+            <div class="md:mt-0 mt-6">
                 <div class="flex gap-5 justify-center">
                     <div>
-                        <a href="#"><img src="../assets/about/section/instagram 1.png" class="bg-white p-3 rounded-full" alt=""></a>
+                        <a href="#"><img src="../assets/about/section/instagram 1.png" class="bg-white w-8 h-8 p-2 rounded-full" alt=""></a>
                     </div>
                     <div>
-                        <a href="#"><img src="../assets/about/section/tiktok 1.png" class="bg-white p-3 rounded-full" alt=""></a>
+                        <a href="#"><img src="../assets/about/section/tiktok 1.png" class="bg-white w-8 h-8 p-2 rounded-full" alt=""></a>
                     </div>
                     <div>
-                        <a href="#"><img src="../assets/about/section/youtube 1.png" class="bg-white p-3 rounded-full" alt=""></a>
+                        <a href="#"><img src="../assets/about/section/youtube 1.png" class="bg-white w-8 h-8 p-2 rounded-full" alt=""></a>
                     </div>
                 </div>
 
-                <div class="flex gap-5 mt-7">
+                <div class="flex gap-5 lg:mt-7 mt-3">
                     <div>
                         <a href="#" class="text-white underline underline-offset-2 font-light text-[14px]">Syarat & Ketentuan</a>
                     </div>
