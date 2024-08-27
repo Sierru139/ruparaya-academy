@@ -11,47 +11,47 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Document</title>
 </head>
-<style>
-    .bg-blue-rpr-thr-a2 { 
-        background: linear-gradient(198deg, rgba(39,63,90,1) 1%, rgba(50,80,115,1) 36%, rgba(75,121,174,1) 85%, rgba(83,134,192,1) 100%);
-        }
-</style>
 <body class="bg-[#E9ECEF]">
-    <nav data-aos="fade-down" data-aos-duration="1000" class="fixed w-full top-0 z-[999] flex justify-between items-center py-4 px-12 bg-blue-rpr-prm-a2">
+    <!-- NAVIGATION BAR START =============== -->
+    <!-- NAVIGATION BAR START =============== -->
+    <!-- NAVIGATION BAR START =============== -->
+    <nav id="nav" class="w-full shadow-xl top-0 z-[999] flex justify-between items-center py-4 px-12 bg-white overflow-hidden">
         <div>
             <img class="w-32" src="../assets/logo/rralogo-outline.png" alt="">
         </div>
-        <div class="md:flex gap-10 hidden text-white text-[15px]">
-            <a data-aos="fade-down" data-aos-duration="1000" href="./index.html">Beranda</a>
-            <a data-aos="fade-down" data-aos-duration="1100" href="./pages/listing.html">Program/Kelas</a>
-            <a data-aos="fade-down" data-aos-duration="1200" href="./pages/about.html">Tentang Kami</a>
-            <a data-aos="fade-down" data-aos-duration="1300" href="./testimonial.html" class="text-[#EDC423] border-b-2 pb-1 border-[#EDC423] px-3">Testimonial</a>
+        <div class="md:flex gap-10 hidden text-[#273F5A] text-[15px] font-semibold">
+            <a href="../index.html">Beranda</a>
+            <a href="./Listing.html">Program/Kelas</a>
+            <a href="./about.html">Tentang Kami</a>
+            <a href="./testimonial.html" class="text-[#273F5A] border-b-2 pb-1 border-[#273F5A] px-3">Testimonial</a>
         </div>
-        <div class="md:hidden block">
+        <div class="sm:hidden block">
             <div id="resNav" class="rounded-md px-2 text-white">
                 <i class="resBtn fas fa-bars"></i>
             </div>
-            <div id="resMenu" class="fixed top-0 bottom-0 right-0 py-6 px-12 bg-blue-rpr-thr-a2 text-white hidden resGoDown z-50">
+            <div id="resMenu" class="fixed top-0 bottom-0 right-0 py-6 px-12 text-white hidden resGoDown z-50">
                 <div id="resNavClose" class="inline absolute rounded-md right-5 text-white">
                     <i class="fas fa-x"></i>
                 </div>
                 <div class="block"></div>
                 <div class="mb-8">
-                    <a class="mr-6 block border-b py-3"  href="./index.html">Beranda</a>
-                    <a class="mr-6 block border-b py-3"  href="./pages/ ">Program/Kelas</a>
-                    <a class="mr-6 block border-b py-3"  href="#Testimonial">Tentang Kami</a>
-                    <a class="mr-6 block border-b py-3"  href="#Kontak">Testimonial</a>
+                    <a class="mr-6 block border-b py-3"  href="#Home">Home</a>
+                    <a class="mr-6 block border-b py-3"  href="#Paket">Paket</a>
+                    <a class="mr-6 block border-b py-3"  href="#Testimonial">Testimonial</a>
+                    <a class="mr-6 block border-b py-3"  href="#Kontak">Kontak</a>
                 </div>
             </div>
         </div>
     </nav>
+    <!-- NAVIGATION BAR END =============== -->
+    <!-- NAVIGATION BAR END =============== -->
+    <!-- NAVIGATION BAR END =============== -->
 
     <header class="">
         <div class="h-fit relative overflow-hidden centered-xy">
-            <img class="img-cover object-top -z-10" src="../assets/testimonial/bg-one.png" alt="">
+            <img class="img-cover object-top -z-10" src="../assets/testimonial/bg-testi.png" alt="">
             <div class="max-w-[575px] absolute z-20 text-white text-center">
-                <img src="../assets/logo/rralogo.png" alt="" class="mx-auto mb-3 w-72">
-                <h3 data-aos="fade-up" data-aos-duration="1100" class="md:text-[20px] mb-4">Testimonial</h3>
+                <h3 data-aos="fade-up" data-aos-duration="1100" class="md:text-[32px] font-semibold mb-4">Testimonial</h3>
                 <h3 data-aos="fade-up" data-aos-duration="1500"><a href="#">Beranda > </a><a href="#" class="text-[#EDC423]">Testimonial</a></h3>
             </div>
         </div>
@@ -172,15 +172,14 @@
     <!-- SECTION 8 QNA START ============= -->
     <!-- SECTION 8 QNA START ============= -->
     <!-- SECTION 8 QNA START ============= -->
-    <section data-aos="fade-up" data-aos-duration="900" class="mt-20">
-        <div class="h-fit relative overflow-hidden centered-xy">
-            <img class="object-top -z-10" src="/public/assets/about/section/cta.png" alt="">
-            <div class="flex gap-28 items-center absolute z-20 text-white ">
-                <div class="max-w-[600px]">
-                    <h3 class="text-[40px] font-bold">Ingin Tahu Lebih? Hubungi Kami Sekarang</h3>
+    <section data-aos="fade-up" data-aos-duration="900" class="px-2 my-20">
+        <div class="relative- h-[275px] max-w-[1100px] mx-auto rounded-[24px] centered-xy bg-cover bg-no-repeat bg-[url('../assets/about/section/cta.png')]">
+            <div class="flex md:gap-28 md:flex-row flex-col items-center md:px-12 px-8 absolute z-20 text-white ">
+                <div class="max-w-[600px] md:text-left text-center">
+                    <h3 class="md:text-[40px] text-3xl font-bold leading-[57px]">Ingin Tahu Lebih? Hubungi Kami Sekarang</h3>
                 </div>
-                <div class="bg-white py-2 px-6 rounded-[50px] hover:-translate-y-1 duration-300">
-                    <a href="https://api.whatsapp.com/send?phone=+6285242673019&text=Halo Kak, Saya Ingin Bertanya Tentang Rupa Raya Academy" target="_blank" class="text-[#5386C0] text-[20px] font-semibold">Hubungi Kami</a>
+                <div class="bg-white md:py-4 py-2 px-6 rounded-full md:mt-0 mt-6">
+                    <a href="#class" class="text-[#5386C0] md:text-xl text-lg font-semibold">Hubungi Kami</a>
                 </div>
             </div>
         </div>
