@@ -1161,10 +1161,6 @@ video {
   width: 79px;
 }
 
-.w-\[80\%\] {
-  width: 80%;
-}
-
 .w-\[81px\] {
   width: 81px;
 }
@@ -1187,26 +1183,6 @@ video {
 
 .w-px {
   width: 1px;
-}
-
-.w-\[50\%\] {
-  width: 50%;
-}
-
-.w-\[60\%\] {
-  width: 60%;
-}
-
-.w-\[40\%\] {
-  width: 40%;
-}
-
-.w-\[70\%\] {
-  width: 70%;
-}
-
-.w-\[30\%\] {
-  width: 30%;
 }
 
 .min-w-\[300px\] {
@@ -1297,14 +1273,6 @@ video {
   max-width: 100%;
 }
 
-.flex-1 {
-  flex: 1 1 0%;
-}
-
-.flex-\[0_0_60\%\] {
-  flex: 0 0 60%;
-}
-
 .flex-\[45\%\] {
   flex: 45%;
 }
@@ -1315,26 +1283,6 @@ video {
 
 .flex-auto {
   flex: 1 1 auto;
-}
-
-.flex-\[0_0_70\%\] {
-  flex: 0 0 70%;
-}
-
-.flex-\[0_0_90\%\] {
-  flex: 0 0 90%;
-}
-
-.flex-\[70\%\] {
-  flex: 70%;
-}
-
-.flex-\[30\$\] {
-  flex: 30$;
-}
-
-.flex-\[30\%\] {
-  flex: 30%;
 }
 
 .shrink {
@@ -2161,6 +2109,11 @@ video {
   box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
 }
 
+.brightness-75 {
+  --tw-brightness: brightness(.75);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 .duration-300 {
   transition-duration: 300ms;
 }
@@ -2405,10 +2358,6 @@ video {
     margin-bottom: 2.5rem;
   }
 
-  .lg\:mr-5 {
-    margin-right: 1.25rem;
-  }
-
   .lg\:mt-0 {
     margin-top: 0px;
   }
@@ -2434,20 +2383,20 @@ video {
     height: fit-content;
   }
 
-  .lg\:w-\[700px\] {
-    width: 700px;
-  }
-
-  .lg\:w-\[72px\] {
-    width: 72px;
-  }
-
   .lg\:w-\[30\%\] {
     width: 30%;
   }
 
   .lg\:w-\[70\%\] {
     width: 70%;
+  }
+
+  .lg\:w-\[700px\] {
+    width: 700px;
+  }
+
+  .lg\:w-\[72px\] {
+    width: 72px;
   }
 
   .lg\:flex-row {
@@ -2471,19 +2420,9 @@ video {
        object-position: center;
   }
 
-  .lg\:px-0 {
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-
   .lg\:px-16 {
     padding-left: 4rem;
     padding-right: 4rem;
-  }
-
-  .lg\:px-6 {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
   }
 
   .lg\:text-center {
@@ -2499,11 +2438,6 @@ video {
     font-size: 16px;
   }
 
-  .lg\:text-xl {
-    font-size: 1.25rem;
-    line-height: 1.75rem;
-  }
-
   .lg\:text-\[40px\] {
     font-size: 40px;
   }
@@ -2511,6 +2445,11 @@ video {
   .lg\:text-base {
     font-size: 1rem;
     line-height: 1.5rem;
+  }
+
+  .lg\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
   }
 }
 
