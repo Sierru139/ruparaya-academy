@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,36 +10,50 @@
     <link rel="stylesheet" href="../css/custom.css">
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <title>Document</title>
+    <title>Rupa Raya Academy</title>
+
 </head>
 <body>
+
+    <a href="https://api.whatsapp.com/send?phone=+6285242673019&amp;text=Halo saya mau bertanya tentang Rupa Raya Academy" class="float" target="_blank">
+        <i class="fa fab fa-whatsapp mt-3.5"></i>
+    </a>
+
     <!-- NAVIGATION BAR START =============== -->
     <!-- NAVIGATION BAR START =============== -->
     <!-- NAVIGATION BAR START =============== -->
-    <nav id="nav" class="w-full shadow-xl top-0 z-[999] flex justify-between items-center py-4 px-12 bg-white overflow-hidden">
-        <div>
-            <img class="w-32" src="../assets/logo/rralogo-outline.png" alt="">
-        </div>
-        <div class="md:flex gap-10 hidden text-[#273F5A] text-[15px] font-semibold">
-            <a href="../index.html">Beranda</a>
-            <a href="./Listing.html" class="text-[#273F5A] border-b-2 pb-1 border-[#273F5A] px-3">Program/Kelas</a>
-            <a href="./about.html">Tentang Kami</a>
-            <a href="./testimonial.html">Testimonial</a>
-        </div>
-        <div class="sm:hidden block">
-            <div id="resNav" class="rounded-md px-2 text-white">
-                <i class="resBtn fas fa-bars"></i>
+    <nav id="nav" class="fixed w-full top-0 z-[999] py-4 px-12 bg-white">
+        <div class="max-w-[1440px] mx-auto flex justify-between items-center">
+            <div>
+                <img class="w-32" src="../assets/logo/rralogo-outline.png" alt="">
             </div>
-            <div id="resMenu" class="fixed top-0 bottom-0 right-0 py-6 px-12 text-white hidden resGoDown z-50">
-                <div id="resNavClose" class="inline absolute rounded-md right-5 text-white">
-                    <i class="fas fa-x"></i>
+            <div class="md:flex gap-10 hidden text-[#273F5A] text-[15px] font-semibold">
+                <a href="../index.html" class="hover:text-[#5386C0] duration-300">Beranda</a>
+                <div class="dropdown">
+                    <a href="#" class="dropbtn pb-4 text-[#5386C0]">Program/Kelas</a>
+                    <div class="dropdown-content">
+                      <a href="../pages/listing-offline.html" class="duration-300">Kelas Offline</a>
+                      <a href="../pages/listing-online.html" class="duration-300">Kelas Online</a>
+                    </div>
                 </div>
-                <div class="block"></div>
-                <div class="mb-8">
-                    <a class="mr-6 block border-b py-3"  href="#Home">Home</a>
-                    <a class="mr-6 block border-b py-3"  href="#Paket">Paket</a>
-                    <a class="mr-6 block border-b py-3"  href="#Testimonial">Testimonial</a>
-                    <a class="mr-6 block border-b py-3"  href="#Kontak">Kontak</a>
+                <a href="about.html" class="hover:text-[#5386C0] duration-300">Tentang Kami</a>
+                <a href="/public/pages/testimonial.html" class="hover:text-[#5386C0] duration-300">Testimonial</a>
+            </div>
+            <div class="md:hidden block">
+                <div id="resNav" class="rounded-md px-2 text-black">
+                    <i class="resBtn fas fa-bars"></i>
+                </div>
+                <div id="resMenu" class="fixed top-0 bottom-0 right-0 py-6 px-12 bg-blue-rpr-thr-a2 text-white hidden resGoDown z-50">
+                    <div id="resNavClose" class="inline absolute rounded-md right-5 text-white">
+                        <i class="fas fa-x"></i>
+                    </div>
+                    <div class="block"></div>
+                    <div class="mb-8">
+                        <a class="mr-6 block border-b py-3"  href="./index.html">Beranda</a>
+                        <a class="mr-6 block border-b py-3"  href="./pages/listing.html">Program/Kelas</a>
+                        <a class="mr-6 block border-b py-3"  href="./pages/about.html">Tentang Kami</a>
+                        <a class="mr-6 block border-b py-3"  href="./pages/testimonial.html">Testimonial</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -60,98 +75,133 @@
     <!-- SECTION 4 CARD CLASS START ======= -->
     <!-- SECTION 4 CARD CLASS START ======= -->
     <!-- SECTION 4 CARD CLASS START ======= -->
-    <section id="class" class="relative overflow-hidden">
-        <div class="my-8">
-            <div class="text-center mb-10 z-20 relative">
-                <h1 data-aos="fade-up" data-aos-duration="1100" class="text-3xl font-bold mb-4 ">Program <span class="color-blue-rpr-scn">Kursus/Kelas</span></h1>
-                <p data-aos="fade-up" data-aos-duration="1200" class="font-light ">Pilih Kelas Yang Anda Butuhkan Untuk Belajar</p>
+    <section class="flex flex-col my-10">
+        <div class="flex items-center justify-between px-16"> 
+            <div>
+                <h2 class="z-10 mt-0 text-3xl font-extrabold text-slate-700">
+                    <span class="text-[#273F5A]">Daftar</span>
+                    <span class="text-[#5386C0]">Kursus/Kelas</span>
+                </h2>
+                <p class="mt-3 text-base text-neutral-500">
+                    Pilih Kursus/Kelas Yang Anda Butuhkan Untuk Belajar
+                </p>
             </div>
-            <div class="centered-x gap-x-10">
-                <div class="flex z-20 overflow-hidden flex-col bg-white rounded-2xl shadow-2xl max-w-[315px] hover:-translate-y-2 duration-300">
-                    <div class="flex-1 relative overflow-hidden">
-                        <img class="images object-cover object-center w-full h-full" src="../assets/img/cards/fullstack.jpg" alt="">
-                    </div>
-                    <div class="flex flex-col flex-1 p-3 relative">
-                        <div class="flex justify-between text-xs text-slate-500">
-                            <time datetime="2022-07-01">1 - 28 July 2022</time>
-                            <span>Kelas Offline</span>
-                        </div>
-                        <a href="/public/pages/detailclass.html" class="text-[18px] text-[#273F5A] font-extrabold my-1">Fullstack Web Development</a>
-                        <div class="line-clamp-4 text-gray-500 text-xs mb-8 grow">
-                            <p class="text-[13px] leading-[160%]">
-                                Kamu akan mempelajari keterampilan inti untuk membangun aplikasi web dari nol—mulai dari front-end hingga back-end.
-                            </p>
-                        </div>
-                        <div class="flex justify-between items-center">
-                            <a class="border-t pr-3" href="#">
-                                <span class="block text-[#5386C0] text-lg font-semibold">Rp. 699.000</span>
-                                <span class="block text-red-400 text-xs"><s>Rp. 1.398.000</s></span>
-                            </a>
-                            <a target="_blank" class="relative text-white z-10"  href="https://wa.link/q0wht0">Daftar</a>
-                        </div>
-                        <div class="w-40 h-40 absolute -bottom-[35%] -right-[25%] bg-blue-rpr-800 rounded-full flex items-center justify-center">
-                            <div class="w-1/2 h-1/2 absolute top-2 bg-[#ffffff09] rounded-full"></div>
-                            <div class="w-1/2 h-1/2 absolute left-2 bg-[#ffffff09] rounded-full"></div>
-                        </div>
-                    </div>
+            <div class="flex gap-5">
+                <div>
+                    <a href="" class="py-2 px-4 bg-[#5386C0] text-white rounded-xl">Kelas Offline</a>
                 </div>
-
-                <div class="flex z-20 overflow-hidden flex-col bg-white rounded-2xl shadow-2xl max-w-[315px] hover:-translate-y-2 duration-300">
-                    <div class="flex-1 relative overflow-hidden">
-                        <img class="images object-cover object-center w-full h-full" src="../assets/img/cards/architect-architecture-design-infrastructure-construction-concept.jpg" alt="">
-                    </div>
-                    <div class="flex flex-col flex-1 p-3 relative">
-                        <div class="flex justify-between text-xs text-slate-500">
-                            <time datetime="2022-07-01">1 - 28 July 2022</time>
-                            <span>Kelas Offline</span>
-                        </div>
-                        <a href="pages/detailclass-sketc.html" class="text-[18px] text-[#273F5A] font-extrabold my-1">SketcUp 3D Modelling</a>
-                        <div class="line-clamp-4 text-gray-500 text-xs mb-8 grow">
-                            <p class="text-[13px] leading-[160%]">
-                                Kelas ini akan membekali kamu dengan keterampilan untuk membuat model 3D yang detail dan akurat, mulai dari desain interior, arsitektur, hingga produk industri.
-                            </p>
-                        </div>
-                        <div class="flex justify-between items-center">
-                            <a class="border-t pr-3" href="#">
-                                <span class="block text-[#5386C0] text-lg font-semibold">Rp. 499.000</span>
-                                <span class="block text-red-400 text-xs"><s>Rp. 998.000</s></span>
-                            </a>
-                            <a target="_blank" class="relative text-white z-10"  href="https://wa.link/q0wht0">Daftar</a>
-                        </div>
-                        <div class="w-40 h-40 absolute -bottom-[35%] -right-[25%] bg-blue-rpr-800 rounded-full flex items-center justify-center">
-                            <div class="w-1/2 h-1/2 absolute top-2 bg-[#ffffff09] rounded-full"></div>
-                            <div class="w-1/2 h-1/2 absolute left-2 bg-[#ffffff09] rounded-full"></div>
-                        </div>
-                    </div>
+                <div>
+                    <a href="" class="py-2 px-4 bg-[#5386C0] text-white rounded-xl">Kelas Online</a>
                 </div>
+            </div>
+        </div>
+        <div class="flex flex-wrap gap-4 items-center justify-center self-stretch mt-10 max-md:mt-10">
+            <div class="flex overflow-hidden flex-col grow-0 bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px]">
+                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/4733ccc4bc17749d7eb497e85d2f4959bedd37ac0fdb3f17610e105e04508d1c?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="Course image"/>
+                <div class="flex gap-5 justify-between self-center mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
+                    <time datetime="2022-07-01">1 - 28 July 2022</time>
+                    <span>Kelas Offline</span>
+                </div>
+                <div class="flex relative flex-col px-5 pt-px pb-3 mt-1.5 w-full aspect-[2.944] max-md:pr-5">
+                    <img class="object-cover absolute inset-0 size-full" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt=""/>
+                    <a href="../pages/detailclass.html" class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">Fullstack Web Developer</a>
+                    <p class="relative mt-3 text-sm leading-5 text-neutral-600">Belajar bangun website lengkap dari front-end hingga back-end, siap kerja profesional.</p>
+                </div>
+                <div class="relative flex gap-5 justify-between px-4 pt-2.5 pb-4 mt-12 rounded-none bg-[#5386C0]">
+                    <div class="flex flex-col font-bold">
+                        <span class="text-xl text-white">Rp. 699.000</span>
+                        <span class="self-start mt-1.5 text-sm text-blue-100 rotate-[-1.7447418509952684e-10rad]"><s>Rp. 1.398.000</s></span>
+                    </div>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScjeqPgSSOUUw6M8SmVACmREDgPg8t99sXK_G1xJaEpfoh08Q/viewform" target="_blank" class="btn-second self-start px-3 py-1 mt-2.5 text-base font-semibold leading-relaxed text-white whitespace-nowrap rounded-md border border-white border-solid">Daftar</a>
+                    <div class="-bottom-80 -left-8 w-96 h-96 absolute z-50 bg-white opacity-10 rounded-full flex items-center justify-center"></div>
+                </div>
+            </div>
 
-                <div class="flex z-20 overflow-hidden flex-col bg-white rounded-2xl shadow-2xl max-w-[315px] hover:-translate-y-2 duration-300">
-                    <div class="flex-1 relative overflow-hidden">
-                        <img class="images object-cover object-center w-full h-full" src="../assets/img/cards/close-up-hands-pointing-map.jpg" alt="">
+            <div class="flex overflow-hidden flex-col grow-0 bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px]">
+                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="../assets/img/cards/architect-architecture-design-infrastructure-construction-concept.jpg"/>
+                <div class="flex gap-5 justify-between self-center mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
+                    <time datetime="2022-07-01">1 - 28 July 2022</time>
+                    <span>Kelas Offline</span>
+                </div>
+                <div class="flex relative flex-col px-5 pt-px pb-3 mt-1.5 w-full aspect-[2.944] max-md:pr-5">
+                    <img class="object-cover absolute inset-0 size-full" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt=""/>
+                    <a href="../pages/detailclass-sketc.html" class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">SketchUp 3D Modelling</a>
+                    <p class="relative mt-3 text-sm leading-5 text-neutral-600">Belajar membuat model 3D dengan mudah dan cepat.</p>
+                </div>
+                <div class="relative flex gap-5 justify-between px-4 pt-2.5 pb-4 mt-12 rounded-none bg-[#5386C0]">
+                    <div class="flex flex-col font-bold">
+                        <span class="text-xl text-white">Rp. 499.000</span>
+                        <span class="self-start mt-1.5 text-sm text-blue-100 rotate-[-1.7447418509952684e-10rad]"><s>Rp. 998.000</s></span>
                     </div>
-                    <div class="flex flex-col flex-1 p-3 relative">
-                        <div class="flex justify-between text-xs text-slate-500">
-                            <time datetime="2022-07-01">1 - 28 July 2022</time>
-                            <span>Kelas Offline</span>
-                        </div>
-                        <a href="#" class="text-[18px] text-[#273F5A] font-extrabold my-1">ArcGIS for Mapping and Geospatial Analyst Advanced</a>
-                        <div class="line-clamp-4 text-gray-500 text-xs mb-8 grow">
-                            <p class="text-[13px] leading-[160%]">
-                                Peserta akan belajar bagaimana menggunakan ArcGIS untuk membuat peta, mengelola dan menganalisis data spasial
-                            </p>
-                        </div>
-                        <div class="flex justify-between items-center">
-                            <a class="border-t pr-3" href="#">
-                                <span class="block text-[#5386C0] text-lg font-semibold">Rp. 649.000</span>
-                                <span class="block text-red-400 text-xs"><s>Rp. 1.298.000</s></span>
-                            </a>
-                            <a target="_blank" class="relative text-white z-10"  href="https://wa.link/q0wht0">Daftar</a>
-                        </div>
-                        <div class="w-40 h-40 absolute -bottom-[35%] -right-[25%] bg-blue-rpr-800 rounded-full flex items-center justify-center">
-                            <div class="w-1/2 h-1/2 absolute top-2 bg-[#ffffff09] rounded-full"></div>
-                            <div class="w-1/2 h-1/2 absolute left-2 bg-[#ffffff09] rounded-full"></div>
-                        </div>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdWtiudjGY7FkzOUxzIHUobPXVb9JUqWUHzN_HMGumr3Ve-qg/viewform" target="_blank" class="btn-second self-start px-3 py-1 mt-2.5 text-base font-semibold leading-relaxed text-white whitespace-nowrap rounded-md border border-white border-solid">Daftar</a>
+                    <div class="-bottom-80 -left-8 w-96 h-96 absolute z-50 bg-white opacity-10 rounded-full flex items-center justify-center"></div>
+                </div>
+            </div>
+
+            <div class="flex overflow-hidden flex-col grow-0 bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px]">
+                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="../assets/img/cards/close-up-hands-pointing-map.jpg" alt="Course image"/>
+                <div class="flex gap-5 justify-between self-center mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
+                    <time datetime="2022-07-01">1 - 28 July 2022</time>
+                    <span>Kelas Offline</span>
+                </div>
+                <div class="flex relative flex-col px-5 pt-px pb-3 mt-1.5 w-full aspect-[2.944] max-md:pr-5">
+                    <img class="object-cover absolute inset-0 size-full" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt=""/>
+                    <a href="../pages/detailclass-arcgis.html" class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">ArcGIS and Geospatial</a>
+                    <p class="relative mt-3 text-sm leading-5 text-neutral-600">Kuasai ArcGIS and Geospatial untuk mengolah data spasial secara profesional.</p>
+                </div>
+                <div class="relative flex gap-5 justify-between px-4 pt-2.5 pb-4 mt-12 rounded-none bg-[#5386C0]">
+                    <div class="flex flex-col font-bold">
+                        <span class="text-xl text-white">Rp. 649.000</span>
+                        <span class="self-start mt-1.5 text-sm text-blue-100 rotate-[-1.7447418509952684e-10rad]"><s>Rp. 1.298.000</s></span>
                     </div>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdDmtSE378_bc4aOa3bpzp0-e0fchvffz0uoqFAA2Y9vVDVPw/viewform" target="_blank" class="btn-second self-start px-3 py-1 mt-2.5 text-base font-semibold leading-relaxed text-white whitespace-nowrap rounded-md border border-white border-solid">Daftar</a>
+                    <div class="-bottom-80 -left-8 w-96 h-96 absolute z-50 bg-white opacity-10 rounded-full flex items-center justify-center"></div>
+                </div>
+            </div>
+
+            <div class="flex overflow-hidden flex-col grow-0 my-auto bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px]">
+                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="../assets/img/cards/nt.png" alt="Course image"/>
+                <div class="flex gap-5 justify-between self-center mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
+                    <time datetime="2022-07-01">1 - 28 July 2022</time>
+                    <span>Kelas Offline</span>
+                </div>
+                <div class="flex relative flex-col px-5 pt-px pb-3 mt-1.5 w-full aspect-[2.944] max-md:pr-5">
+                    <img class="object-cover absolute inset-0 size-full" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt=""/>
+                    <a href="../pages/detailclass-3dproduct.html" class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">3D Modelling Product & Photoshoot</a>
+                    <p class="relative mt-3 text-sm leading-5 text-neutral-600">Belajar cara membuat model 3D detail dan sesi photoshoot yang menarik dan profesional.</p>
+                </div>
+                <div class="relative flex gap-5 justify-between px-4 pt-2.5 pb-4 mt-5 rounded-none bg-[#5386C0]">
+                    <div class="flex flex-col font-bold">
+                        <span class="text-xl text-white">Rp. 499.000</span>
+                        <span class="self-start mt-1.5 text-sm text-blue-100 rotate-[-1.7447418509952684e-10rad]">
+                            <s>Rp. 1.000.000</s>
+                        </span>
+                    </div>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScF7Cyw5eU8TNZtHaftDjNqaKhY7BJMC2OuAlV3_1JSGiUl9A/viewform" target="_blank" class="btn-second self-start px-3 py-1 mt-2.5 text-base font-semibold leading-relaxed text-white whitespace-nowrap rounded-md border border-white border-solid">Daftar</a>
+                    <div class="-bottom-80 -left-8 w-96 h-96 absolute z-50 bg-white opacity-10 rounded-full flex items-center justify-center"></div>
+                </div>
+            </div>
+
+            <div class="flex overflow-hidden flex-col grow-0 mt-5  bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px]">
+                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="../assets/img/cards/nt.png" alt="Course image"/>
+                <div class="flex gap-5 justify-between self-center mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
+                    <time datetime="2022-07-01">1 - 28 July 2022</time>
+                    <span>Kelas Offline</span>
+                </div>
+                <div class="flex relative flex-col px-5 pt-px pb-3 mt-1.5 w-full aspect-[2.944] max-md:pr-5">
+                    <img class="object-cover absolute inset-0 size-full" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt=""/>
+                    <a href="../pages/detailclass-english.html" class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">Speaking Communication English</a>
+                    <p class="relative mt-3 text-sm leading-5 text-neutral-600">Kuasi komunikasi bahasa Inggris sehari-hari dengan percaya diri! Tingkatkan kemampuan speaking-mu</p>
+                </div>
+                <div class="relative flex gap-5 justify-between px-4 pt-2.5 pb-4 mt-5 rounded-none bg-[#5386C0]">
+                    <div class="flex flex-col font-bold">
+                        <span class="text-xl text-white">Rp. 349.000</span>
+                        <span class="self-start mt-1.5 text-sm text-blue-100 rotate-[-1.7447418509952684e-10rad]">
+                            <s>Rp. 700.000</s>
+                        </span>
+                    </div>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScF7Cyw5eU8TNZtHaftDjNqaKhY7BJMC2OuAlV3_1JSGiUl9A/viewform" target="_blank" class="btn-second self-start px-3 py-1 mt-2.5 text-base font-semibold leading-relaxed text-white whitespace-nowrap rounded-md border border-white border-solid">Daftar</a>
+                    <div class="-bottom-80 -left-8 w-96 h-96 absolute z-50 bg-white opacity-10 rounded-full flex items-center justify-center"></div>
                 </div>
             </div>
         </div>
@@ -179,55 +229,70 @@
     <!-- FOOTER START ============== -->
     <!-- FOOTER START ============== -->
     <!-- FOOTER START ============== -->
-    <footer class="mt-20 pt-12 pb-3 bg-blue-rpr-thr-a2">
-        <div class="px-16 flex justify-between">
-            <div class="">
-                <div class="flex gap-5">
-                    <div>
-                        <img src="../assets/logo/rralogo-outline.png" class="w-[190px]" alt="">
-                    </div>
-
-                    <div>
-                        <div class="flex mb-3">
-                            <img src="../assets/about/section/phone-solid 1.png" class="mr-2" alt="">
-                            <p class="text-white font-light">+62 852-4267-3019</p>
-                        </div>
-                        <div class="flex">
-                            <img src="../assets/about/section/envelope-solid 1.png" class="mr-2" alt="">
-                            <p class="text-white font-light">ruparaya.academy@gmail.com</p>
-                        </div>
-                    </div>
+    <footer class="flex flex-col bg-[linear-gradient(257deg,#273F5A_-50.35%,#5386C0_142.97%)] pt-11 w-full">
+        <div class="flex flex-wrap gap-10 mx-auto w-full max-w-[1290px] max-md:max-w-full">
+          <div class="flex-auto max-md:max-w-full">
+            <div class="flex gap-5 max-md:flex-col">
+              <section class="flex flex-col w-[51%] max-md:ml-0 max-md:w-full">
+                <div class="flex flex-col grow text-sm text-white max-md:mt-10">
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/20ddcb69f847d3600f99c8228bcbb1a5f8c7c3a1daca4d12e11799d23940dfd5?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="Rupa Raya Indonesia logo" class="object-contain max-w-full aspect-[3.33] w-[190px]" />
+                  <p class="mt-5 font-light">
+                    Jl. Adyaksa Baru No.2, Masale, Kec.<br />
+                    Panakkukang, Kota Makassar, Sulawesi<br />
+                    Selatan 90231
+                  </p>
                 </div>
-                
-                <div class="mt-5">
-                    <p class="text-white text-[14px] font-light">Copyright © 2024 Rupa Raya Indonesia. All Rights Reserved</p>
+              </section>
+              <nav class="flex flex-col ml-5 w-1/5 max-md:ml-0 max-md:w-full">
+                <div class="flex flex-col items-start text-sm text-white max-md:mt-10">
+                  <h2 class="text-xl font-semibold">Menu</h2>
+                  <ul class="mt-2.5 list-none p-0">
+                    <li><a href="#" class="text-white font-light no-underline">Beranda</a></li>
+                    <li class="mt-1"><a href="#" class="text-white font-light no-underline">Program/Kelas</a></li>
+                    <li class="mt-1"><a href="#" class="text-white font-light no-underline">Tentang Kami</a></li>
+                    <li class="mt-1"><a href="#" class="text-white font-light no-underline">Testimonial</a></li>
+                  </ul>
                 </div>
+              </nav>
+              <nav class="flex flex-col ml-5 w-[29%] max-md:ml-0 max-md:w-full">
+                <div class="flex flex-col items-start text-sm text-white max-md:mt-10">
+                  <h2 class="text-xl font-semibold">Program/Kelas</h2>
+                  <ul class="mt-2.5 list-none p-0">
+                    <li><a href="#" class="text-white font-light no-underline">Kelas Offline</a></li>
+                    <li class="mt-1"><a href="#" class="text-white font-light no-underline">Kelas Online</a></li>
+                  </ul>
+                </div>
+              </nav>
             </div>
-
-            <div>
-                <div class="flex gap-5 justify-center">
-                    <div>
-                        <a href="#"><img src="../assets/about/section/instagram 1.png" class="bg-white p-3 rounded-full" alt=""></a>
-                    </div>
-                    <div>
-                        <a href="#"><img src="../assets/about/section/tiktok 1.png" class="bg-white p-3 rounded-full" alt=""></a>
-                    </div>
-                    <div>
-                        <a href="#"><img src="../assets/about/section/youtube 1.png" class="bg-white p-3 rounded-full" alt=""></a>
-                    </div>
-                </div>
-
-                <div class="flex gap-5 mt-7">
-                    <div>
-                        <a href="#" class="text-white underline underline-offset-2 font-light text-[14px]">Syarat & Ketentuan</a>
-                    </div>
-                    <div>
-                        <a href="#" class="text-white underline underline-offset-2 font-light text-[14px]">Kebijakan Privasi</a>
-                    </div>
-                </div>
+          </div>
+          <div class="flex flex-col my-auto">
+            <div class="flex flex-col items-end pl-14 w-full max-md:pl-5">
+              <div class="flex gap-5">
+                <a href="#" aria-label="Facebook">
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/eea0de67ff265db660885ad6d3abd371357cf57f513dccf68ddbc96fde317182?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="" class="object-contain shrink-0 rounded-full aspect-square w-[35px]" />
+                </a>
+                <a href="#" aria-label="Twitter">
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/c64d2ccd0f03d7da6e9fc2e58102a09ef727773fe900bc12fcdb7d3a23e25c5b?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="" class="object-contain shrink-0 rounded-full aspect-square w-[35px]" />
+                </a>
+                <a href="#" aria-label="Instagram">
+                  <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/d042807ef59e5e09ff5748ddd5e28c69601bd7d0cb7b2f5fb2af68aae79242e7?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="" class="object-contain shrink-0 rounded-full aspect-square w-[35px]" />
+                </a>
+              </div>
+              <div class="flex gap-4 mt-7 text-sm text-white">
+                <a href="tel:+6285242673019" class="text-white no-underline">+62 852-4267-3019</a>
+                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/d60b3bd7b3a685635432f03eb7eea731ed90553d761a49b82fcbb00ee30fdf7c?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="" class="object-contain shrink-0 self-start w-5 aspect-square" />
+              </div>
             </div>
+            <div class="flex gap-4 mt-2.5 text-sm text-white whitespace-nowrap">
+              <a href="mailto:ruparaya.academy@gmail.com" class="text-white no-underline">ruparaya.academy@gmail.com</a>
+              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/fa811b17cb22c5593a5744eb2ff5029f1c67575ca342287b826e30249e682100?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="" class="object-contain shrink-0 self-start w-5 aspect-square" />
+            </div>
+          </div>
         </div>
-    </footer>
+        <div class="px-16 py-2.5 mt-4 w-full text-xs text-center text-white bg-[#5386C0] max-md:px-5 max-md:max-w-full">
+          Copyright © 2024 Rupa Raya Indonesia. All Rights Reserved
+        </div>
+      </footer>
     <!-- FOOTER END ============== -->
     <!-- FOOTER END ============== -->
     <!-- FOOTER END ============== -->
