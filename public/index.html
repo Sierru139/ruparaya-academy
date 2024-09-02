@@ -11,10 +11,39 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <title>Rupa Raya Academy</title>
-
+    <style> 
+    .loading-test{
+        animation: spin 2s infinite none;
+    }
+    
+    @keyframes spin {
+        0% {opacity: 0; scale: 1;}
+        50% {opacity: 1; scale: 1.2;}
+        100% {opacity: 0; scale: 1;}
+    }
+    @keyframes gone {
+        0% {opacity: 0;}
+        100% {opacity: 0;}
+    }
+    /* .moveUpAnim{
+        animation: come 3s none;
+    }
+    @keyframes come {
+        0% {
+            opacity: 0;
+            transform: translateY(50px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    } */
+    </style>
 </head>
 <body class="bg-[#E9ECEF]">
-
+    <div id="loading-anim" class="fixed flex items-center justify-center top-0 left-0 bottom-0 right-0 z-[99999] duration-500 bg-white">
+        <img class="loading-test" width="240px" src="./assets/logo/rralogo-outline.png" alt="">
+    </div>
     <a href="https://api.whatsapp.com/send?phone=+6285242673019&amp;text=Halo saya mau bertanya tentang Rupa Raya Academy" class="float" target="_blank">
         <i class="fa fab fa-whatsapp mt-3.5"></i>
     </a>
@@ -43,7 +72,7 @@
                 <div id="resNav" class="rounded-md px-2 text-black">
                     <i class="resBtn fas fa-bars"></i>
                 </div>
-                <div id="resMenu" class="fixed top-0 bottom-0 right-0 py-6 px-12 bg-blue-rpr-thr-a2 text-white hidden resGoDown z-50">
+                <div id="resMenu" class="fixed top-0 right-0 rounded-bl-[45px] p-10 bg-blue-rpr-thr-a2 text-white hidden resGoDown z-50">
                     <div id="resNavClose" class="inline absolute rounded-md right-5 text-white">
                         <i class="fas fa-x"></i>
                     </div>
@@ -54,6 +83,22 @@
                         <a class="mr-6 block border-b py-3"  href="./pages/about.html">Tentang Kami</a>
                         <a class="mr-6 block border-b py-3"  href="./pages/testimonial.html">Testimonial</a>
                     </div>
+                    <div class="flex flex-col items-start w-full">
+                        <div class="flex gap-5 mb-4">
+                          <a href="#" aria-label="Facebook">
+                            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/eea0de67ff265db660885ad6d3abd371357cf57f513dccf68ddbc96fde317182?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="" class="object-contain shrink-0 rounded-full aspect-square w-[35px]" />
+                          </a>
+                          <a href="#" aria-label="Twitter">
+                            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/c64d2ccd0f03d7da6e9fc2e58102a09ef727773fe900bc12fcdb7d3a23e25c5b?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="" class="object-contain shrink-0 rounded-full aspect-square w-[35px]" />
+                          </a>
+                          <a href="#" aria-label="Instagram">
+                            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/d042807ef59e5e09ff5748ddd5e28c69601bd7d0cb7b2f5fb2af68aae79242e7?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="" class="object-contain shrink-0 rounded-full aspect-square w-[35px]" />
+                          </a>
+                        </div>
+                        <div class="text-sm">
+                            Copyright © 2024 Rupa Raya <br> Indonesia. All Rights Reserved
+                        </div>
+                      </div>
                 </div>
             </div>
         </div>
@@ -69,8 +114,19 @@
         <div class="h-fit relative overflow-hidden centered-xy w-full min-h-[765px] max-md:min-h-[665px] max-md:px-5 max-md:py-24 max-md:max-w-full">
             <img class="object-cover absolute inset-0 size-full" src="./assets/pg1/bg-home-main.png" alt="">
             <div class="max-w-[855px] absolute z-20 text-white text-center">
-                <h3 id="element" data-aos="fade-up" data-aos-duration="1000" class="text-7xl font-extrabold text-center text-white leading-[65px] max-md:max-w-full max-md:text-4xl max-md:leading-10">Mulai Skill & Bakat Dalam Dunia IT</h3>
+                <h3 id="element" data-aos="" data-aos-duration="" class="text-7xl font-extrabold text-center text-white leading-[65px] max-md:max-w-full max-md:text-4xl max-md:leading-10">Mulai Skill & Bakat Dalam Dunia IT</h3>
                 <h3 data-aos="fade-up" data-aos-duration="1100" class="md:text-[20px] mt-5 leading-7 text-center text-white max-md:mt-10 max-md:max-w-full">Wujudkan skillmu dan jadikan karya yang nyata yang bikin kagum dunia. Kami akan berusaha mendukung langkah karirmu</h3>
+                <script>
+                    const loadingScreen = document.getElementById('loading-anim');
+                    const h3element = document.getElementById('element');
+                    setTimeout(() => {
+                        loadingScreen.classList.add('opacity-0');
+                        h3element.classList.add('moveUpAnim');
+                        setTimeout(() => {
+                            loadingScreen.classList.add('hidden');
+                        }, 3000);
+                    }, 2000);
+                </script>
                 <div class="flex flex-col sm:flex-row justify-center gap-10 mt-10">
                     <div data-aos="fade-up" data-aos-duration="1300">
                         <a href="/public/pages/listing.html" class="bg-white py-4 px-9 rounded-md text-[20px] text-[#273F5A]">Cari Kelas</a>
@@ -152,7 +208,7 @@
               </p>
             </div>
           </div>
-      </section>
+    </section>
     <!-- SECTION 2 EXPLANATION END ============== -->
     <!-- SECTION 2 EXPLANATION END ============== -->
     <!-- SECTION 2 EXPLANATION END ============== -->
