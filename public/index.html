@@ -228,29 +228,31 @@
                 </div>
             </div>
         </div>
-        <div id="videoPop" class="video-pop py-8">
+        <div id="videoPop" class="video-pop py-8 hidden duration- justify-center items-center">
             <video id="videoNow" class="w-[50vw]" src="./assets/video/VID_20240710_195555.mp4" controls></video>
-            <span id="closePop" class="close-pop absolute right-5 top-5 cursor-pointer text-white font-bold">X</span>
+            <span id="closePop" class="opac close-pop absolute right-5 top-5 cursor-pointer text-white font-bold">X</span>
         </div>
     </section>
     <script>
         const videoPlay = document.getElementById('playVidPop');
         const videoNow = document.getElementById('videoNow');
+        const videoPop = document.getElementById('videoPop');
         videoPlay.addEventListener('click', function () {
-            const videoPop = document.getElementById('videoPop');
-            
-            videoPop.style.opacity = 1;
+            videoPop.classList.add("opacity-100");
+            videoPop.classList.remove("opacity-0");
             videoNow.play();
             setTimeout(() => {
-                videoPop.style.display = "flex";
+                videoPop.classList.remove("hidden");
             }, 400);
         })
         const closePop = document.getElementById('closePop');
         closePop.addEventListener('click', function () {
-            videoPop.style.display = "none"
+            videoPop.classList.add("opacity-0");
+            videoPop.classList.remove("opacity-100");
             videoNow.pause();
             setTimeout(() => {
-                videoPop.style.opacity = 0;
+                videoPop.classList.add("flex");
+                videoPop.classList.remove("hidden");
             }, 400);
         })
     </script>
