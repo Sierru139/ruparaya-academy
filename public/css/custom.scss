@@ -415,3 +415,37 @@ body {
       opacity: 0;
   }
 }
+
+/* === Pop up Image === */
+.image-pop {
+  display: none;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 99999999;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity .4s ease;
+}
+.video-pop {
+  display: none;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 99999999;
+  justify-content: center;
+  align-items: center;
+  transition: .4s ease;
+}
+/* === Pop up Image === */
