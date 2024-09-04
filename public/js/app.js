@@ -1,5 +1,18 @@
 AOS.init();
 
+document.getElementById("cariKelasBtn").addEventListener("click", function(e) {
+    e.preventDefault();
+  
+    const kelasDropdown = document.querySelector(".dropbtn"); 
+    kelasDropdown.scrollIntoView({ behavior: "smooth" }); 
+    
+    setTimeout(() => {
+      document.getElementById("kelasDropdown").style.display = "block";
+    }, 100); 
+
+  });
+  
+
 window.onscroll = function() {myFunction()};
         
 var navbar = document.getElementById("nav");

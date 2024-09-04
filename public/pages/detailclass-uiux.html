@@ -27,10 +27,16 @@
             <img class="w-32" src="../assets/logo/rralogo-outline.png" alt="">
         </div>
         <div class="md:flex gap-10 hidden text-[#273F5A] text-[15px] font-semibold">
-            <a href="../index.html">Beranda</a>
-            <a href="./Listing.html" class="text-[#273F5A] border-b-2 pb-1 border-[#273F5A] px-3">Program/Kelas</a>
-            <a href="./about.html">Tentang Kami</a>
-            <a href="./testimonial.html">Testimonial</a>
+            <a href="#" class="hover:text-[#5386C0] duration-300">Beranda</a>
+            <div class="dropdown">
+                <a href="#" class="dropbtn pb-4 text-[#5386C0] duration-300">Program/Kelas</a>
+                <div class="dropdown-content">
+                  <a href="../pages/listing-offline.html" class="duration-300">Kelas Offline</a>
+                  <a href="./pages/listing-online.html" class="duration-300">Kelas Online</a>
+                </div>
+              </div>
+            <a href="pages/about.html" class="hover:text-[#5386C0] duration-300">Tentang Kami</a>
+            <a href="/public/pages/testimonial.html" class="hover:text-[#5386C0] duration-300">Testimonial</a>
         </div>
         <div class="sm:hidden block">
             <div id="resNav" class="rounded-md px-2 text-white">
@@ -69,7 +75,7 @@
             <div class="flex flex-col rounded-none lg:w-[70%]">
                 <article class="flex flex-col items-start px-5 py-6 w-full bg-white rounded-3xl max-md:px-5 max-md:max-w-full">
                 <header class="flex flex-wrap items-center gap-5 justify-between self-stretch font-semibold max-md:max-w-full">
-                    <h1 class="text-3xl text-[#273F5A] max-md:max-w-full">UI/UX Design Mobile App</h1>
+                    <h1 class="text-3xl text-[#273F5A] max-md:max-w-full">Kelas UI/UX Design Mobile App</h1>
                     <span class="self-start px-4 py-px mt-2.5 text-base text-white rounded-md bg-[#5386C0]">UI/UX Design</span>
                 </header>
                 <p class="mt-7 text-base text-stone-500 max-md:max-w-full">Dalam kelas ini, peserta akan mendalami proses desain UI/UX khusus untuk aplikasi mobile menggunakan Figma. Peserta akan belajar membuat wireframe, mockup, dan prototipe interaktif secara efektif, mulai dari konsep awal hingga desain akhir.</p>
@@ -115,11 +121,8 @@
                         <p>3 Jam</p>
                     </div>
                     <hr class="shrink-0 mt-1 max-w-full border border-solid border-neutral-300 w-[362px]">
-                    <div class="flex my-5">
-                        <h3 class="relative mt-5 text-[40px] font-extrabold text-[#273F5A]">Gratis</h3>
-                    </div>
                     <div class="relative overflow-hidden flex flex-col justify-center rounded-b-3xl self-stretch px-10 py-6 mt-5 w-full text-xl font-semibold text-white rounded-none bg-[#5386C0]">
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLScjeqPgSSOUUw6M8SmVACmREDgPg8t99sXK_G1xJaEpfoh08Q/viewform" target="_blank" class="btn px-16 py-3.5 rounded-xl z-10 border border-white border-solid text-center">Daftar Sekarang</a>
+                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSeMPhFRoiJwAu1-sWDk6QjSWMK6_UBkVwHxaolK__sbkRn0Ew/viewform" target="_blank" class="btn px-16 py-3.5 rounded-xl z-10 border border-white border-solid text-center">Daftar Sekarang</a>
                         <div class="w-32 h-32 absolute -bottom-[75%] -left-[2%] bg-white opacity-10 rounded-full flex items-center justify-center">                        
                         </div>
                         <div class="w-28 h-28 absolute -bottom-[10%] -left-[10%] bg-white opacity-10 rounded-full flex items-center justify-center">                        
@@ -200,23 +203,23 @@
 
     <section class="flex">
         <div class="flex relative justify-end align-middle px-20 py-11 w-full  overflow-hidden min-h-[453px] max-md:px-5 max-md:max-w-full">
-            <img src="../assets/details/bg-instructor-uiux.jpg" class="object-cover absolute inset-0 size-full" alt="">
+            <img src="../assets/details/bg-instructor-uiux.png" class="object-cover absolute inset-0 size-full" alt="">
             <div data-aos="fade-left" data-aos-duration="1100" class="my-auto">
-                <h2 class="relative text-xl font-medium text-white">Pengajar</h2>
-                <h1 class="relative mt-2.5 text-3xl font-bold text-white">Aliem Arif Perkasa</h1>
-                <p class="relative mt-2.5 mr-72 text-xl font-medium text-white max-md:mr-2.5">Manager Fullstack Web Development</p>
-                <p class="relative font-light mt-8 text-[16px] text-white w-[700px] max-md:max-w-full">Aliem Arif Perkasa adalah seorang Fullstack Web Developer berpengalaman. Dalam kelas ini, Aliem akan membimbing kamu menguasai front-end dan back-end development dengan pendekatan yang praktis dan mudah dipahami.</p>
+                <h2 class="relative lg:text-xl text-lg font-medium text-white">Pengajar</h2>
+                <h1 class="relative mt-2.5 lg:text-3xl text-2xl font-bold text-white">Abd. Rahim Saleh</h1>
+                <p class="relative mt-2.5 mr-72 text-xl font-medium text-white max-md:mr-2.5">UI/UX Designer at Kalla</p>
+                <p class="relative font-light mt-8 lg:text-[16px] text-sm text-white lg:w-[700px] max-md:max-w-full">Abd. Rahim Saleh adalah seorang UI/UX Designer berpengalaman di Kalla. Dalam kelas ini, Abd. Rahim akan membimbing kamu memahami proses desain antarmuka yang intuitif dan pengalaman pengguna yang optimal dengan pendekatan yang praktis dan mudah dipahami.</p>
                 <div class="relative mt-12 max-md:mt-10">
                     <div class="flex">
                         <a href="https://www.instagram.com/programer_malas?igsh=MW41dmM5cHhoNml4Yw%3D%3D">
-                            <img src="../assets/details/instagram 1.png" class="mr-2" alt="">
-                            <a href="https://www.instagram.com/programer_malas?igsh=MW41dmM5cHhoNml4Yw%3D%3D" class="text-white font-light" target="_blank">@programer_malas</a>
+                            <img src="/public/assets/details/instagram 1.png" class="mr-2" alt="">
+                            <a href="https://www.instagram.com/programer_malas?igsh=MW41dmM5cHhoNml4Yw%3D%3D" class="text-white font-light" target="_blank">@abd.rahim.s</a>
                         </a>
                     </div>
                 </div>
             </div>
         </div>
-      </section>
+    </section>
 
     <!-- SECTION 7 QNA START ============= -->
     <!-- SECTION 7 QNA START ============= -->
@@ -227,7 +230,7 @@
         </div>
         <div class="max-w-[1032px] mx-auto relative">
             <div class="text-center">
-                <h1 data-aos="fade-up" data-aos-duration="1100" class="text-3xl font-bold mb-4 ">Pertanyaan Seputar <span class="color-blue-rpr-scn">Kelas Fullstack Web Development</span></h1>
+                <h1 data-aos="fade-up" data-aos-duration="1100" class="text-3xl font-bold mb-4 ">Pertanyaan Seputar <span class="color-blue-rpr-scn">UI/UX Design Mobile App</span></h1>
             </div>
             <div class="relative flex flex-wrap gap-5 justify-between w-full text-base max-md:mr-2.5 max-md:max-w-full">
 
@@ -235,56 +238,55 @@
                     <div class="">
                         <div class="ask w-full bg-gray-50 mb-4 shadow-md rounded-lg hdn">
                             <div class="p-4 cursor-pointer flex justify-between relative rounded-t-lg">
-                                <h4 class="md:text-base text-sm font-medium">Apa itu Fullstack Web Development?</h4>
+                                <h4 class="md:text-base text-sm font-medium">Apakah saya akan mendapatkan sertifikat setelah menyelesaikan kelas?</h4>
                                 <span class="arrow-rotate elementor-toggle-icon elementor-toggle-icon-right float-right text-right text-black md:w-4 w-2 absolute right-4" aria-hidden="true"><span class="elementor-toggle-icon-closed"><img src="../assets/icon/dropdown-plus.svg" alt=""></span></span>
                             </div>
                             <div class="answer w-full bg-gray-50 rounded-b-lg">                                
                                 <p class="md:text-base p-4 text-sm text-[#747474]">
-                                    Rupa Raya Academy adalah sebuah lembaga pendidikan yang menyediakan berbagai kelas dan kursus di bidang Pemodelan dan Arsitektur 3D. Kami fokus pada materi terbaru yang praktis dan aplikatif. didukung oleh instruktur berpengalaman yang ahli di bidangnya. membantu peserta mengembangkan keterampilan yang relevan dengan industri saat ini.
+                                    Ya, setiap peserta yang menyelesaikan kelas dan proyek akhir akan mendapatkan sertifikat keahlian dalam UI/UX Design Mobile App.
                                 </p>
                             </div>
                         </div>
                         <div class="ask w-full bg-gray-50 mb-4 shadow-md rounded-lg hdn">
                             <div class="p-4 cursor-pointer flex justify-between relative rounded-t-lg">
-                                <h4 class="md:text-base text-sm font-medium">Apa saja yang akan saya pelajari di kelas ini?</h4>
+                                <h4 class="md:text-base text-sm font-medium">Bagaimana jika saya tidak punya background IT?</h4>
                                 <span class="arrow-rotate elementor-toggle-icon elementor-toggle-icon-right float-right text-right text-black md:w-4 w-2 absolute right-4" aria-hidden="true"><span class="elementor-toggle-icon-closed"><img src="../assets/icon/dropdown-plus.svg" alt=""></span></span>
                             </div>
                             <div class="answer w-full bg-gray-50 rounded-b-lg">                                
                                 <p class="md:text-base p-4 text-sm text-[#747474]">
-                                    Rupa Raya Academy adalah sebuah lembaga pendidikan yang menyediakan berbagai kelas dan kursus di bidang Pemodelan dan Arsitektur 3D. Kami fokus pada materi terbaru yang praktis dan aplikatif. didukung oleh instruktur berpengalaman yang ahli di bidangnya. membantu peserta mengembangkan keterampilan yang relevan dengan industri saat ini.
+                                    Tidak masalah! Kelas ini dirancang agar mudah dipahami oleh peserta dari berbagai latar belakang, termasuk yang tidak memiliki pengalaman di dunia IT.
                                 </p>
                             </div>
                         </div>
                         <div class="ask w-full bg-gray-50 mb-4 shadow-md rounded-lg hdn">
                             <div class="p-4 cursor-pointer flex justify-between relative rounded-t-lg">
-                                <h4 class="md:text-base text-sm font-medium">Apakah saya perlu memiliki pengalaman sebelumnya?</h4>
+                                <h4 class="md:text-base text-sm font-medium">Apakah kelas ini cocok untuk freelancer?</h4>
                                 <span class="arrow-rotate elementor-toggle-icon elementor-toggle-icon-right float-right text-right text-black md:w-4 w-2 absolute right-4" aria-hidden="true"><span class="elementor-toggle-icon-closed"><img src="../assets/icon/dropdown-plus.svg" alt=""></span></span>
                             </div>
                             <div class="answer w-full bg-gray-50 rounded-b-lg">                                
                                 <p class="md:text-base p-4 text-sm text-[#747474]">
-                                    Rupa Raya Academy adalah sebuah lembaga pendidikan yang menyediakan berbagai kelas dan kursus di bidang Pemodelan dan Arsitektur 3D. Kami fokus pada materi terbaru yang praktis dan aplikatif. didukung oleh instruktur berpengalaman yang ahli di bidangnya. membantu peserta mengembangkan keterampilan yang relevan dengan industri saat ini.
+                                    Tentu! Kelas ini sangat cocok bagi kamu yang ingin bekerja sebagai freelancer atau memulai karir sebagai desainer UI/UX di bidang aplikasi mobile.
                                 </p>
                             </div>
                         </div>
                         <div class="ask w-full bg-gray-50 mb-4 shadow-md rounded-lg hdn">
                             <div class="p-4 cursor-pointer flex justify-between relative rounded-t-lg">
-                                <h4 class="md:text-base text-sm font-medium">Apakah ada dukungan setelah kelas selesai?</h4>
+                                <h4 class="md:text-base text-sm font-medium">Apakah saya perlu membawa laptop sendiri?</h4>
                                 <span class="arrow-rotate elementor-toggle-icon elementor-toggle-icon-right float-right text-right text-black md:w-4 w-2 absolute right-4" aria-hidden="true"><span class="elementor-toggle-icon-closed"><img src="../assets/icon/dropdown-plus.svg" alt=""></span></span>
                             </div>
                             <div class="answer w-full bg-gray-50 rounded-b-lg">                                
                                 <p class="md:text-base p-4 text-sm text-[#747474]">
-                                    Rupa Raya Academy adalah sebuah lembaga pendidikan yang menyediakan berbagai kelas dan kursus di bidang Pemodelan dan Arsitektur 3D. Kami fokus pada materi terbaru yang praktis dan aplikatif. didukung oleh instruktur berpengalaman yang ahli di bidangnya. membantu peserta mengembangkan keterampilan yang relevan dengan industri saat ini.
-                                </p>
+                                    Kamu bisa membawa laptop pribadi jika ingin, namun tidak wajib. Kami sudah menyediakan fasilitas komputer di kelas, jadi kamu tetap bisa mengikuti praktik dan menyelesaikan tugas tanpa harus membawa perangkat sendiri.</p>
                             </div>
                         </div>
                         <div class="ask w-full bg-gray-50 mb-4 shadow-md rounded-lg hdn">
                             <div class="p-4 cursor-pointer flex justify-between relative rounded-t-lg">
-                                <h4 class="md:text-base text-sm font-medium">Apa peralatan atau software yang dibutuhkan?</h4>
+                                <h4 class="md:text-base text-sm font-medium">Bagaimana jika saya melewatkan satu sesi kelas?</h4>
                                 <span class="arrow-rotate elementor-toggle-icon elementor-toggle-icon-right float-right text-right text-black md:w-4 w-2 absolute right-4" aria-hidden="true"><span class="elementor-toggle-icon-closed"><img src="../assets/icon/dropdown-plus.svg" alt=""></span></span>
                             </div>
                             <div class="answer w-full bg-gray-50 rounded-b-lg">                                
                                 <p class="md:text-base p-4 text-sm text-[#747474]">
-                                    Rupa Raya Academy adalah sebuah lembaga pendidikan yang menyediakan berbagai kelas dan kursus di bidang Pemodelan dan Arsitektur 3D. Kami fokus pada materi terbaru yang praktis dan aplikatif. didukung oleh instruktur berpengalaman yang ahli di bidangnya. membantu peserta mengembangkan keterampilan yang relevan dengan industri saat ini.
+                                    Kami menyediakan rekaman setiap sesi untuk peserta yang tidak bisa hadir, sehingga kamu tetap bisa mengejar materi yang terlewat.
                                 </p>
                             </div>
                         </div>

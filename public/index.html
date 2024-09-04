@@ -11,10 +11,39 @@
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <title>Rupa Raya Academy</title>
-
+    <style> 
+    .loading-test{
+        animation: spin 2s infinite none;
+    }
+    
+    @keyframes spin {
+        0% {opacity: 0; scale: 1;}
+        50% {opacity: 1; scale: 1.2;}
+        100% {opacity: 0; scale: 1;}
+    }
+    @keyframes gone {
+        0% {opacity: 0;}
+        100% {opacity: 0;}
+    }
+    /* .moveUpAnim{
+        animation: come 3s none;
+    }
+    @keyframes come {
+        0% {
+            opacity: 0;
+            transform: translateY(50px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    } */
+    </style>
 </head>
 <body class="bg-[#E9ECEF]">
-
+    <div id="loading-anim" class="fixed flex items-center justify-center top-0 left-0 bottom-0 right-0 z-[99999] duration-500 bg-white">
+        <img class="loading-test" width="440px" src="./assets/logo/ruparayaacademy logo outline.png" alt="">
+    </div>
     <a href="https://api.whatsapp.com/send?phone=+6285242673019&amp;text=Halo saya mau bertanya tentang Rupa Raya Academy" class="float" target="_blank">
         <i class="fa fab fa-whatsapp mt-3.5"></i>
     </a>
@@ -22,20 +51,20 @@
     <!-- NAVIGATION BAR START =============== -->
     <!-- NAVIGATION BAR START =============== -->
     <!-- NAVIGATION BAR START =============== -->
-    <nav id="nav" data-aos="fade-down" data-aos-duration="1000" class="fixed w-full top-0 z-[999] py-4 px-5 md:px-12 bg-white shadow-2xl">
+    <nav id="nav" data-aos="fade-down" data-aos-duration="1000" class="fixed w-full top-0 z-[999] py-4 px-5 lg:px-12 bg-white shadow-2xl">
         <div class="max-w-[1440px] mx-auto flex justify-between items-center">
             <div>
                 <img class="w-32" src="./assets/logo/rralogo-outline.png" alt="">
             </div>
             <div class="md:flex gap-10 hidden text-[#273F5A] text-[15px] font-semibold">
-                <a href="#" class="text-[#5386C0] pb-1 px-3">Beranda</a>
+                <a href="#" class="text-[#5386C0]">Beranda</a>
                 <div class="dropdown">
                     <a href="#" class="dropbtn pb-4 hover:text-[#5386C0] duration-300">Program/Kelas</a>
-                    <div class="dropdown-content">
+                    <div id="kelasDropdown" class="dropdown-content">
                       <a href="./pages/listing-offline.html" class="duration-300">Kelas Offline</a>
                       <a href="./pages/listing-online.html" class="duration-300">Kelas Online</a>
                     </div>
-                  </div>
+                  </div>                  
                 <a href="pages/about.html" class="hover:text-[#5386C0] duration-300">Tentang Kami</a>
                 <a href="/public/pages/testimonial.html" class="hover:text-[#5386C0] duration-300">Testimonial</a>
             </div>
@@ -43,7 +72,7 @@
                 <div id="resNav" class="rounded-md px-2 text-black">
                     <i class="resBtn fas fa-bars"></i>
                 </div>
-                <div id="resMenu" class="fixed top-0 bottom-0 right-0 py-6 px-12 bg-blue-rpr-thr-a2 text-white hidden resGoDown z-50">
+                <div id="resMenu" class="fixed top-0 right-0 rounded-bl-[45px] p-10 bg-blue-rpr-thr-a2 text-white hidden resGoDown z-50">
                     <div id="resNavClose" class="inline absolute rounded-md right-5 text-white">
                         <i class="fas fa-x"></i>
                     </div>
@@ -54,6 +83,22 @@
                         <a class="mr-6 block border-b py-3"  href="./pages/about.html">Tentang Kami</a>
                         <a class="mr-6 block border-b py-3"  href="./pages/testimonial.html">Testimonial</a>
                     </div>
+                    <div class="flex flex-col items-start w-full">
+                        <div class="flex gap-5 mb-4">
+                          <a href="#" aria-label="Facebook">
+                            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/eea0de67ff265db660885ad6d3abd371357cf57f513dccf68ddbc96fde317182?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="" class="object-contain shrink-0 rounded-full aspect-square w-[35px]" />
+                          </a>
+                          <a href="#" aria-label="Twitter">
+                            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/c64d2ccd0f03d7da6e9fc2e58102a09ef727773fe900bc12fcdb7d3a23e25c5b?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="" class="object-contain shrink-0 rounded-full aspect-square w-[35px]" />
+                          </a>
+                          <a href="#" aria-label="Instagram">
+                            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/d042807ef59e5e09ff5748ddd5e28c69601bd7d0cb7b2f5fb2af68aae79242e7?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="" class="object-contain shrink-0 rounded-full aspect-square w-[35px]" />
+                          </a>
+                        </div>
+                        <div class="text-sm">
+                            Copyright © 2024 Rupa Raya <br> Indonesia. All Rights Reserved
+                        </div>
+                      </div>
                 </div>
             </div>
         </div>
@@ -69,11 +114,22 @@
         <div class="h-fit relative overflow-hidden centered-xy w-full min-h-[765px] max-md:min-h-[665px] max-md:px-5 max-md:py-24 max-md:max-w-full">
             <img class="object-cover absolute inset-0 size-full" src="./assets/pg1/bg-home-main.png" alt="">
             <div class="max-w-[855px] absolute z-20 text-white text-center">
-                <h3 id="element" data-aos="fade-up" data-aos-duration="1000" class="text-7xl font-extrabold text-center text-white leading-[65px] max-md:max-w-full max-md:text-4xl max-md:leading-10">Mulai Skill & Bakat Dalam Dunia IT</h3>
-                <h3 data-aos="fade-up" data-aos-duration="1100" class="md:text-[20px] mt-5 leading-7 text-center text-white max-md:mt-10 max-md:max-w-full">Wujudkan skillmu dan jadikan karya yang nyata yang bikin kagum dunia. Kami akan berusaha mendukung langkah karirmu</h3>
+                <h3 id="element" data-aos="" data-aos-duration="" class="text-7xl font-extrabold text-center text-white leading-[65px] max-md:max-w-full max-lg:text-4xl max-md:leading-10">Mulai Skill & Bakat Dalam Dunia IT</h3>
+                <h3 data-aos="fade-up" data-aos-duration="1100" class="mt-5 leading-7 text-center text-white max-md:mt-10 max-md:max-w-full max-lg:max-w-[600px] lg:text-[20px]">Wujudkan skillmu dan jadikan karya yang nyata yang bikin kagum dunia. Kami akan berusaha mendukung langkah karirmu</h3>
+                <script>
+                    const loadingScreen = document.getElementById('loading-anim');
+                    const h3element = document.getElementById('element');
+                    setTimeout(() => {
+                        loadingScreen.classList.add('opacity-0');
+                        h3element.classList.add('moveUpAnim');
+                        setTimeout(() => {
+                            loadingScreen.classList.add('hidden');
+                        }, 0);
+                    }, 2000);
+                </script>
                 <div class="flex flex-col sm:flex-row justify-center gap-10 mt-10">
                     <div data-aos="fade-up" data-aos-duration="1300">
-                        <a href="/public/pages/listing.html" class="bg-white py-4 px-9 rounded-md text-[20px] text-[#273F5A]">Cari Kelas</a>
+                        <a href="#" class="bg-white py-4 px-9 rounded-md text-[20px] text-[#273F5A]">Cari Kelas</a>
                     </div>
                     <div data-aos="fade-up" data-aos-duration="1400" >
                         <a href="../public/pages/about.html" class="bg-transparent border border-white text-white py-4 px-9 rounded-md text-[20px] btn-one">Tentang Kami</a>
@@ -101,9 +157,9 @@
             Kami mengutamakan pembelajaran yang interaktif, praktis, dan langsung aplikatif. Dengan materi terstruktur dan instruktur berpengalaman, kamu akan mendapatkan skill yang relevan dan siap pakai dalam dunia industri.
           </p>
         </div>
-        <div class="mt-14 w-full max-md:mt-10 max-md:max-w-full">
-          <div class="flex gap-1 max-lg:flex-col max-md:mx-0">
-            <div class="flex flex-col w-3/12 max-md:ml-0 max-lg:w-full max-lg:mt-3.5">
+        <div class="mt-14 w-full max-md:mt-10 max-md:max-w-full max-lg:mt-5">
+          <div class="flex gap-1 max-lg:flex-wrap max-md:mx-0 max-lg:justify-center max-lg:gap-5">
+            <div class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full max-lg:mt-3.5 max-lg:w-[342px]">
               <div class="flex flex-col grow items-start px-7 py-8 w-full rounded-xl shadow-2xl bg-[#5386C0] max-md:px-5 hover:-translate-y-3 duration-300">
                 <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/4313f0f50bea25d130e5558b9b700284d96fbe5da31b8985442a639655c6702e?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="Voucher Discount icon" class="object-contain aspect-[1.41] w-[79px]" />
                 <h3 class="mt-5 text-xl font-medium text-white">Voucher Discount</h3>
@@ -112,7 +168,7 @@
                 </p>
               </div>
             </div>
-            <div class="flex flex-col ml-5 w-3/12 max-lg:ml-0 max-lg:w-full max-lg:mt-3.5">
+            <div class="flex flex-col ml-5 w-3/12 max-lg:ml-0 max-md:w-full max-lg:mt-3.5 max-lg:w-[342px]">
               <div class="flex flex-col grow px-7 py-8 w-full rounded-xl shadow-2xl bg-[#273F5A] max-md:pl-5 hover:-translate-y-3 duration-300">
                 <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/0bccb8e280b71ed03edcc300080069f66a52396c53d25b81e51d4a36e3b663ea?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="Community icon" class="object-contain aspect-[1.04] w-[58px]" />
                 <h3 class="mt-5 mr-6 text-xl font-medium text-white max-md:mr-2.5">Tergabung Dengan Kami</h3>
@@ -121,7 +177,7 @@
                 </p>
               </div>
             </div>
-            <div class="flex flex-col ml-5 w-3/12 max-lg:ml-0 max-lg:w-full max-lg:mt-3.5">
+            <div class="flex flex-col ml-5 w-3/12 max-lg:ml-0 max-md:w-full max-lg:mt-3.5 max-lg:w-[342px]">
               <div class="flex flex-col grow items-start px-7 py-8 w-full rounded-xl shadow-2xl bg-[#5386C0] max-md:px-5 hover:-translate-y-3 duration-300">
                 <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/47206216c99bc02f9326e65f50f9c21cbe12b080ab4ba017d20b9cb4160e47b5?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="Certificate icon" class="object-contain w-11 aspect-[0.79]" />
                 <h3 class="mt-5 text-xl font-medium text-white">Sertifikat Kelas</h3>
@@ -130,7 +186,7 @@
                 </p>
               </div>
             </div>
-            <div class="flex flex-col ml-5 w-3/12 max-lg:ml-0 max-lg:w-full max-lg:mt-3.5">
+            <div class="flex flex-col ml-5 w-3/12 max-lg:ml-0 max-md:w-full max-lg:mt-3.5 max-lg:w-[342px]">
               <div class="flex flex-col grow items-start py-8 px-7 w-full rounded-xl shadow-2xl bg-[#273F5A] max-md:px-5 hover:-translate-y-3 duration-300">
                 <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/950e6f1329e0d07f22515e2e4a068956f8011b50d382f9c40bf831b5b60cd070?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="Computer icon" class="object-contain aspect-[1.11] w-[62px]" />
                 <h3 class="mt-5 text-xl font-medium text-white">Fasilitas Komputer</h3>
@@ -144,7 +200,7 @@
         <div class="flex relative flex-col justify-center items-center px-20 py-8 mt-5 w-full min-h-[170px] max-md:px-5 max-md:max-w-full">
             <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/201ff017d6de1f6e5e00fd9e9d66fbd07f08753beab5d7f570976858e69718ee?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="" class="object-cover rounded-xl absolute inset-0 size-full"/>
             <div class="flex relative flex-col max-w-full">
-              <h3 class=" text-xl font-medium text-white max-md:max-w-full md:mr-14 md:ml-14 lg:text-center">
+              <h3 class=" text-xl font-medium text-white max-md:max-w-full max-md:ml-0 max-md:text-start max-lg:mx-10 max-lg:text-center">
                 Berkesempatan Magang/Menjadi Staf Tetap di PT. Rupa Raya Indonesia
               </h3>
               <p class="mt-5 text-[15px] w-[850px] font-light tracking-wide md:text-center text-white text-opacity-90 max-lg:max-w-full">
@@ -152,7 +208,7 @@
               </p>
             </div>
           </div>
-      </section>
+    </section>
     <!-- SECTION 2 EXPLANATION END ============== -->
     <!-- SECTION 2 EXPLANATION END ============== -->
     <!-- SECTION 2 EXPLANATION END ============== -->
@@ -279,6 +335,9 @@
             </div>
     
         </div>
+        <div class="mt-10">
+            <a id="cariKelasBtn" href="#" class="text-white py-3 px-5 rounded-md bg-[#5386C0]">Kelas Lainnya</a>
+        </div>
     </section>
     <!-- SECTION 4 CARD CLASS END ======= -->
     <!-- SECTION 4 CARD CLASS END ======= -->
@@ -319,33 +378,29 @@
     <!-- SECTION 6 IMAGES START ========== -->
     <!-- SECTION 6 IMAGES START ========== -->
     <!-- SECTION 6 IMAGES START ========== -->
-    <section class="flex max-md:flex-col">
-        <div class="flex flex-col w-[66%] max-md:ml-0 max-md:w-full">
-            <div class="flex z-10 flex-col w-full max-md:max-w-full">
-                <div class="max-md:max-w-full">
-                    <div class="flex max-md:flex-col">
-                        <div class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
-                            <img  class="object-contain grow w-full aspect-square max-md:max-w-full" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/1f4b84d68c06f0072a78bb26b5c8fed2e3204e97aea5b4c2a86504737ab88c9d?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="Gallery image 1" />
-                        </div>
-                        <div class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
-                            <img  class="object-contain w-full aspect-square max-md:max-w-full" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/1f4b84d68c06f0072a78bb26b5c8fed2e3204e97aea5b4c2a86504737ab88c9d?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="Gallery image 2" />
-                        </div>
-                    </div>
+    <section class="flex flex-col">
+        <div class="flex flex-wrap">
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/05d96855c57cd416055d782a0f97df32353a135a41c9bec94724b706bc100918?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="Gallery image 1" class="object-contain shrink-0 w-[303.8px] max-w-full" />
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/f2f9c549bc0b250ba6caf43bf46f4ecad8bbee47f40a129c83058d2c9689575d?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="Gallery image 2" class="object-contain shrink-0 w-[303.8px] max-w-full" />
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/46ab28109978a733334cd89e3c7ecbac1a94c5af6038aa6169a4632270dabe7c?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="Gallery image 3" class="object-contain shrink-0 w-[303.8px] max-w-full" />
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/434c5481a943649179db1618222d5829cf2e3ffe8965ff9d28dea961410c0665?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="Gallery image 4" class="object-contain shrink-0 w-[303.8px] max-w-full" />
+            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/cf5f2c7d9129cb9cf2c5089e92c10fb6603c04a1ef9c0c2250cfff172d0bd9f1?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="Gallery image 5" class="object-contain shrink-0 w-[303.8px] max-w-full" />
+        </div>
+        <div class="w-full max-md:max-w-full">
+            <div class="flex max-md:flex-col">
+                <div class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
+                    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/58e98f36a2bced9d77fabb0a9f5f85505ee1fea1a286a6a29abf0b8dbf84dbf9?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="Featured image 1" class="object-contain grow w-full aspect-[1.43]" />
                 </div>
-                <div class="max-md:max-w-full">
-                    <div class="flex max-md:flex-col">
-                        <div class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
-                            <img  class="object-contain grow w-full aspect-square max-md:max-w-full" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/1f4b84d68c06f0072a78bb26b5c8fed2e3204e97aea5b4c2a86504737ab88c9d?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="Gallery image 3" />
-                        </div>
-                        <div class="flex flex-col w-6/12 max-md:ml-0 max-md:w-full">
-                            <img  class="object-contain w-full aspect-square max-md:max-w-full" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/1f4b84d68c06f0072a78bb26b5c8fed2e3204e97aea5b4c2a86504737ab88c9d?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="Gallery image 4" />
-                        </div>
-                    </div>
+                <div class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
+                    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/b904df4d4dbabc6d3555f59d5c5876fbf99a309725c411fb52382a37e62b31ce?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="Featured image 2" class="object-contain grow w-full aspect-[1.43]" />
+                </div>
+                <div class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
+                    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/866e3dc35ce4ed34f10ead983a98aecc21aa19c765daec15b0acbc3ae24ee0bf?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="Featured image 3" class="object-contain grow w-full aspect-[1.43]" />
+                </div>
+                <div class="flex flex-col w-3/12 max-md:ml-0 max-md:w-full">
+                    <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/0eb4ae3029783638e29c3403388779f1d90a2c434b6a7b5e0dc8ed6f7d2693f4?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="Featured image 4" class="object-contain grow w-full aspect-[1.43]" />
                 </div>
             </div>
-        </div>
-        <div class="flex flex-col w-[33.6%] max-md:ml-0 max-md:w-full">
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/4bb3681620e2e870e485caa17faed27e9a5fd4bb43db797c4beca6321d380f83?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" class="object-cover grow w-full aspect-[0.51] max-md:max-w-full" alt="Gallery image 5" />
         </div>
     </section>
     <!-- SECTION 6 IMAGES END ============ -->
@@ -444,14 +499,14 @@
     <!-- SECTION 8 QNA START ============= -->
     <!-- SECTION 8 QNA START ============= -->
     <!-- SECTION 8 QNA START ============= -->
-    <section data-aos="fade-up" data-aos-duration="900" class="px-2 mb-20 max-md:mx-5">
+    <section data-aos="fade-up" data-aos-duration="900" class="px-2 mb-20 max-lg:mx-5">
         <div class="relative- h-[275px] max-w-[1100px] mx-auto rounded-[24px] centered-xy bg-cover bg-no-repeat bg-[url('../assets/about/section/cta.png')]">
-            <div class="flex md:gap-28 md:flex-row flex-col items-center md:px-12 px-8 absolute z-20 text-white ">
+            <div class="flex lg:gap-28 lg:flex-row flex-col items-center md:px-12 px-8 absolute z-20 text-white ">
                 <div class="max-w-[600px] md:text-left text-center">
-                    <h3 class="md:text-[40px] text-3xl font-bold leading-[57px] max-md:leading-[45px]">Ingin Tahu Lebih? Hubungi Kami Sekarang</h3>
+                    <h3 class="md:text-[40px] text-3xl font-bold leading-[57px] max-lg:leading-[45px] max-lg:text-center">Ingin Tahu Lebih? Hubungi Kami Sekarang</h3>
                 </div>
-                <div class="bg-white md:py-3 py-2 px-6 rounded-full md:mt-0 mt-6">
-                    <a href="#class" class="text-[#5386C0] md:text-xl text-lg font-semibold">Hubungi Kami</a>
+                <div class="bg-white lg:py-3 py-2 px-6 rounded-full lg:mt-0 mt-6">
+                    <a href="#class" class="text-[#5386C0] lg:text-xl text-lg font-semibold">Hubungi Kami</a>
                 </div>
             </div>
         </div>
@@ -465,7 +520,7 @@
     <!-- FOOTER START ============== -->
     <!-- FOOTER START ============== -->
     <footer class="flex flex-col bg-[linear-gradient(257deg,#273F5A_-50.35%,#5386C0_142.97%)] pt-11 w-full">
-        <div class="flex flex-wrap gap-10 mx-auto w-full max-md:px-5 max-w-[1290px] max-md:max-w-full">
+        <div class="flex flex-wrap gap-10 mx-auto w-full max-lg:px-5 max-w-[1290px] max-md:max-w-full">
           <div class="flex-auto max-md:max-w-full">
             <div class="flex gap-5 max-md:flex-col">
               <div class="flex flex-col w-[51%] max-md:ml-0 max-md:w-full">

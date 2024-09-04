@@ -605,6 +605,20 @@ body {
 }
 
 /* Hover Main */
+.img-hover-zoom--quick-zoom img {
+  -webkit-transition: 1s ease;
+  transition: 1s ease;
+  -webkit-filter: brightness(50%);
+          filter: brightness(50%);
+}
+
+.img-hover-zoom--quick-zoom:hover img {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-filter: brightness(100%);
+          filter: brightness(100%);
+}
+
 .btn {
   -webkit-transition: .5s;
   transition: .5s;

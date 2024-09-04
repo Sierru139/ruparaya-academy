@@ -317,6 +317,16 @@ body {
 
 /* Hover Main */
 
+.img-hover-zoom--quick-zoom img {
+  transition: 1s ease;
+  filter: brightness(50%);
+}
+
+.img-hover-zoom--quick-zoom:hover img {
+  transform: scale(1.2);
+  filter: brightness(100%);
+}
+
 .btn {
   transition: .5s;
 }

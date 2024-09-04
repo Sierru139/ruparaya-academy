@@ -27,10 +27,16 @@
             <img class="w-32" src="../assets/logo/rralogo-outline.png" alt="">
         </div>
         <div class="md:flex gap-10 hidden text-[#273F5A] text-[15px] font-semibold">
-            <a href="../index.html">Beranda</a>
-            <a href="./Listing.html" class="text-[#273F5A] border-b-2 pb-1 border-[#273F5A] px-3">Program/Kelas</a>
-            <a href="./about.html">Tentang Kami</a>
-            <a href="./testimonial.html">Testimonial</a>
+            <a href="#" class="hover:text-[#5386C0] duration-300">Beranda</a>
+            <div class="dropdown">
+                <a href="#" class="dropbtn pb-4 text-[#5386C0] duration-300">Program/Kelas</a>
+                <div class="dropdown-content">
+                  <a href="../pages/listing-offline.html" class="duration-300">Kelas Offline</a>
+                  <a href="./pages/listing-online.html" class="duration-300">Kelas Online</a>
+                </div>
+              </div>
+            <a href="pages/about.html" class="hover:text-[#5386C0] duration-300">Tentang Kami</a>
+            <a href="/public/pages/testimonial.html" class="hover:text-[#5386C0] duration-300">Testimonial</a>
         </div>
         <div class="sm:hidden block">
             <div id="resNav" class="rounded-md px-2 text-white">
