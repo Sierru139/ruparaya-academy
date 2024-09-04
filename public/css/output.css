@@ -892,10 +892,6 @@ video {
   aspect-ratio: 1.41;
 }
 
-.aspect-\[1\.43\] {
-  aspect-ratio: 1.43;
-}
-
 .aspect-\[1\.45\] {
   aspect-ratio: 1.45;
 }
@@ -916,10 +912,6 @@ video {
   aspect-ratio: 1 / 1;
 }
 
-.aspect-\[1\.15\] {
-  aspect-ratio: 1.15;
-}
-
 .size-full {
   width: 100%;
   height: 100%;
@@ -935,6 +927,10 @@ video {
 
 .h-8 {
   height: 2rem;
+}
+
+.h-80 {
+  height: 20rem;
 }
 
 .h-96 {
@@ -988,6 +984,26 @@ video {
 
 .h-screen {
   height: 100vh;
+}
+
+.h-\[20rem\] {
+  height: 20rem;
+}
+
+.h-24 {
+  height: 6rem;
+}
+
+.h-2\/4 {
+  height: 50%;
+}
+
+.h-72 {
+  height: 18rem;
+}
+
+.h-\[33\%\] {
+  height: 33%;
 }
 
 .min-h-\[170px\] {
@@ -1090,10 +1106,6 @@ video {
   width: 29%;
 }
 
-.w-\[303\.8px\] {
-  width: 303.8px;
-}
-
 .w-\[30px\] {
   width: 30px;
 }
@@ -1180,10 +1192,6 @@ video {
 
 .w-px {
   width: 1px;
-}
-
-.w-\[303\.9px\] {
-  width: 303.9px;
 }
 
 .min-w-\[300px\] {
@@ -1274,6 +1282,10 @@ video {
   max-width: 100%;
 }
 
+.flex-\[33\%\] {
+  flex: 33%;
+}
+
 .flex-\[45\%\] {
   flex: 45%;
 }
@@ -1284,6 +1296,14 @@ video {
 
 .flex-auto {
   flex: 1 1 auto;
+}
+
+.flex-\[0_0_33\$\] {
+  flex: 0 0 33$;
+}
+
+.flex-\[0_0_33\%\] {
+  flex: 0 0 33%;
 }
 
 .shrink {
@@ -1464,6 +1484,10 @@ video {
 
 .rounded-xl {
   border-radius: 0.75rem;
+}
+
+.rounded-sm {
+  border-radius: 0.125rem;
 }
 
 .rounded-b-2xl {
@@ -2381,6 +2405,14 @@ video {
     display: none;
   }
 
+  .sm\:h-28 {
+    height: 7rem;
+  }
+
+  .sm\:h-32 {
+    height: 8rem;
+  }
+
   .sm\:flex-row {
     flex-direction: row;
   }
@@ -2401,6 +2433,18 @@ video {
 
   .md\:h-\[70vh\] {
     height: 70vh;
+  }
+
+  .md\:h-48 {
+    height: 12rem;
+  }
+
+  .md\:h-56 {
+    height: 14rem;
+  }
+
+  .md\:h-36 {
+    height: 9rem;
   }
 
   .md\:w-4 {
@@ -2495,6 +2539,18 @@ video {
     height: fit-content;
   }
 
+  .lg\:h-56 {
+    height: 14rem;
+  }
+
+  .lg\:h-6 {
+    height: 1.5rem;
+  }
+
+  .lg\:h-64 {
+    height: 16rem;
+  }
+
   .lg\:w-\[30\%\] {
     width: 30%;
   }
@@ -2583,5 +2639,13 @@ video {
   .xl\:h-fit {
     height: -moz-fit-content;
     height: fit-content;
+  }
+
+  .xl\:h-96 {
+    height: 24rem;
+  }
+
+  .xl\:h-8 {
+    height: 2rem;
   }
 }
