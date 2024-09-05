@@ -1,5 +1,42 @@
 AOS.init();
 
+const buttonsPaket = document.querySelectorAll('.btn-paket');
+
+buttonsPaket.forEach((button, index) => {
+    button.addEventListener("click", function() {
+        
+        if (button.classList.contains('btn-bg-click')) {
+            return;
+        }
+
+        buttonsPaket.forEach(btn => {
+            btn.classList.remove('btn-bg-click');
+        });
+
+        button.classList.add('btn-bg-click');
+    })
+});
+
+    function filterClasses(type) {
+        var classItems = document.querySelectorAll('[id^="class-item"]');
+        
+        classItems.forEach(function(item) {
+            if (item.id.includes(type)) {
+                item.style.display = "flex";
+            } else {
+                item.style.display = "none";
+            }
+        });
+    }
+
+    function showAllClasses() {
+        var classItems = document.querySelectorAll('[id^="class-item"]');
+        
+        classItems.forEach(function(item) {
+            item.style.display = "flex"; 
+        });
+    }
+
 document.getElementById("cariKelasBtn").addEventListener("click", function(e) {
     e.preventDefault();
   

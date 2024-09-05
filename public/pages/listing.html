@@ -22,7 +22,7 @@
     <!-- NAVIGATION BAR START =============== -->
     <!-- NAVIGATION BAR START =============== -->
     <!-- NAVIGATION BAR START =============== -->
-    <nav id="nav" class="fixed w-full top-0 z-[999] py-4 px-12 bg-white">
+    <nav id="nav" class="fixed w-full top-0 z-[999] py-4 px-12 bg-white shadow-2xl">
         <div class="max-w-[1440px] mx-auto flex justify-between items-center">
             <div>
                 <img class="w-32" src="../assets/logo/rralogo-outline.png" alt="">
@@ -87,20 +87,24 @@
                 </p>
             </div>
             <div class="flex gap-5">
-                <div>
-                    <a href="" class="py-2 px-4 bg-[#5386C0] text-white rounded-xl">Kelas Offline</a>
+                <div class="btnn">
+                    <a onclick="showAllClasses()" class="btn-bg btn-paket btn-bg-click py-2 px-4 rounded-md cursor-pointer border border-[#5386C0]">Semua Kelas</a>
                 </div>
                 <div>
-                    <a href="" class="py-2 px-4 bg-[#5386C0] text-white rounded-xl">Kelas Online</a>
+                    <a onclick="filterClasses('offline')" class="btn-bg btn-paket py-2 px-4 text-[#5386C0] rounded-md cursor-pointer border border-[#5386C0] active:bg-[#5386C0]">Kelas Offline</a>
+                </div>
+                <div>
+                    <a onclick="filterClasses('online')" class="btn-bg btn-paket py-2 px-4 text-[#5386C0] rounded-md cursor-pointer border border-[#5386C0]">Kelas Online</a>
                 </div>
             </div>
         </div>
         <div class="flex flex-wrap gap-4 items-center justify-center self-stretch mt-10 max-md:mt-10">
-            <div class="flex overflow-hidden flex-col grow-0 bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px]">
-                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/4733ccc4bc17749d7eb497e85d2f4959bedd37ac0fdb3f17610e105e04508d1c?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="Course image"/>
+
+            <div id="class-item offline" class="flex overflow-hidden flex-col grow-0 bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px]">
+                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="../assets/pg1/banner-one-t.jpg" alt="Course image"/>
                 <div class="flex gap-5 justify-between self-center mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
                     <time datetime="2022-07-01">1 - 28 July 2022</time>
-                    <span>Kelas Offline</span>
+                    <span>Kelas Beginner</span>
                 </div>
                 <div class="flex relative flex-col px-5 pt-px pb-3 mt-1.5 w-full aspect-[2.944] max-md:pr-5">
                     <img class="object-cover absolute inset-0 size-full" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt=""/>
@@ -117,11 +121,32 @@
                 </div>
             </div>
 
-            <div class="flex overflow-hidden flex-col grow-0 bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px]">
-                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="../assets/img/cards/architect-architecture-design-infrastructure-construction-concept.jpg"/>
+            <div id="class-item offline" class="flex overflow-hidden flex-col grow-0 bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px]">
+                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="../assets/details/ui-ux-banner.jpg" alt="Course image"/>
                 <div class="flex gap-5 justify-between self-center mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
                     <time datetime="2022-07-01">1 - 28 July 2022</time>
-                    <span>Kelas Offline</span>
+                    <span>Kelas Beginner</span>
+                </div>
+                <div class="flex relative flex-col px-5 pt-px pb-3 mt-1.5 w-full aspect-[2.944] max-md:pr-5">
+                    <img class="object-cover absolute inset-0 size-full" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt=""/>
+                    <a href="../pages/detailclass-uiux.html" class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">UI/UX Design Mobile App</a>
+                    <p class="relative mt-3 text-sm leading-5 text-neutral-600">Belajar mengenal dasar UI/UX, Hands-on Experience, Networking Opportunites. Cocok untuk pemula.</p>
+                </div>
+                <div class="relative flex gap-5 justify-between px-4 pt-2.5 pb-4 mt-12 rounded-none bg-[#5386C0]">
+                    <div class="flex flex-col font-bold">
+                        <span class="text-xl text-white">Gratis</span>
+                        <span class="self-start mt-1.5 text-sm text-blue-100 rotate-[-1.7447418509952684e-10rad]">Limited Seat</span>
+                    </div>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScjeqPgSSOUUw6M8SmVACmREDgPg8t99sXK_G1xJaEpfoh08Q/viewform" target="_blank" class="btn-second self-start px-3 py-1 mt-2.5 text-base font-semibold leading-relaxed text-white whitespace-nowrap rounded-md border border-white border-solid">Daftar</a>
+                    <div class="-bottom-80 -left-8 w-96 h-96 absolute z-50 bg-white opacity-10 rounded-full flex items-center justify-center"></div>
+                </div>
+            </div>
+
+            <div id="class-item offline" class="flex overflow-hidden flex-col grow-0 bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px]">
+                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="../assets/pg1/banner-one-t.jpg"/>
+                <div class="flex gap-5 justify-between self-center mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
+                    <time datetime="2022-07-01">1 - 28 July 2022</time>
+                    <span>Kelas Beginner</span>
                 </div>
                 <div class="flex relative flex-col px-5 pt-px pb-3 mt-1.5 w-full aspect-[2.944] max-md:pr-5">
                     <img class="object-cover absolute inset-0 size-full" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt=""/>
@@ -138,11 +163,11 @@
                 </div>
             </div>
 
-            <div class="flex overflow-hidden flex-col grow-0 bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px]">
+            <div id="class-item offline" class="flex overflow-hidden flex-col grow-0 bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px]">
                 <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="../assets/img/cards/close-up-hands-pointing-map.jpg" alt="Course image"/>
                 <div class="flex gap-5 justify-between self-center mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
                     <time datetime="2022-07-01">1 - 28 July 2022</time>
-                    <span>Kelas Offline</span>
+                    <span>Kelas Beginner</span>
                 </div>
                 <div class="flex relative flex-col px-5 pt-px pb-3 mt-1.5 w-full aspect-[2.944] max-md:pr-5">
                     <img class="object-cover absolute inset-0 size-full" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt=""/>
@@ -159,11 +184,11 @@
                 </div>
             </div>
 
-            <div class="flex overflow-hidden flex-col grow-0 my-auto bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px]">
+            <div id="class-item offline" class="flex overflow-hidden flex-col grow-0 my-auto bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px]">
                 <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="../assets/img/cards/nt.png" alt="Course image"/>
                 <div class="flex gap-5 justify-between self-center mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
                     <time datetime="2022-07-01">1 - 28 July 2022</time>
-                    <span>Kelas Offline</span>
+                    <span>Kelas Beginner</span>
                 </div>
                 <div class="flex relative flex-col px-5 pt-px pb-3 mt-1.5 w-full aspect-[2.944] max-md:pr-5">
                     <img class="object-cover absolute inset-0 size-full" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt=""/>
@@ -182,11 +207,11 @@
                 </div>
             </div>
 
-            <div class="flex overflow-hidden flex-col grow-0 mt-5  bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px]">
+            <div id="class-item offline" class="flex overflow-hidden flex-col grow-0 bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px]">
                 <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="../assets/img/cards/nt.png" alt="Course image"/>
                 <div class="flex gap-5 justify-between self-center mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
                     <time datetime="2022-07-01">1 - 28 July 2022</time>
-                    <span>Kelas Offline</span>
+                    <span>Kelas Beginner</span>
                 </div>
                 <div class="flex relative flex-col px-5 pt-px pb-3 mt-1.5 w-full aspect-[2.944] max-md:pr-5">
                     <img class="object-cover absolute inset-0 size-full" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt=""/>
@@ -198,6 +223,71 @@
                         <span class="text-xl text-white">Rp. 349.000</span>
                         <span class="self-start mt-1.5 text-sm text-blue-100 rotate-[-1.7447418509952684e-10rad]">
                             <s>Rp. 700.000</s>
+                        </span>
+                    </div>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScF7Cyw5eU8TNZtHaftDjNqaKhY7BJMC2OuAlV3_1JSGiUl9A/viewform" target="_blank" class="btn-second self-start px-3 py-1 mt-2.5 text-base font-semibold leading-relaxed text-white whitespace-nowrap rounded-md border border-white border-solid">Daftar</a>
+                    <div class="-bottom-80 -left-8 w-96 h-96 absolute z-50 bg-white opacity-10 rounded-full flex items-center justify-center"></div>
+                </div>
+            </div>
+
+            <div id="class-item online" class="flex overflow-hidden flex-col grow-0 bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px]">
+                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/4733ccc4bc17749d7eb497e85d2f4959bedd37ac0fdb3f17610e105e04508d1c?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="Course image"/>
+                <div class="flex gap-5 justify-between self-center mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
+                    <time datetime="2022-07-01">1 - 28 July 2022</time>
+                    <span>Kelas Online</span>
+                </div>
+                <div class="flex relative flex-col px-5 pt-px pb-3 mt-1.5 w-full aspect-[2.944] max-md:pr-5">
+                    <img class="object-cover absolute inset-0 size-full" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt=""/>
+                    <a href="../pages/detailclass.html" class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">Fullstack Web Developer</a>
+                    <p class="relative mt-3 text-sm leading-5 text-neutral-600">Belajar bangun website lengkap dari front-end hingga back-end, siap kerja profesional.</p>
+                </div>
+                <div class="relative flex gap-5 justify-between px-4 pt-2.5 pb-4 mt-12 rounded-none bg-[#5386C0]">
+                    <div class="flex flex-col font-bold">
+                        <span class="text-xl text-white">Rp. 449.000</span>
+                        <span class="self-start mt-1.5 text-sm text-blue-100 rotate-[-1.7447418509952684e-10rad]"><s>Rp. 898.000</s></span>
+                    </div>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLScjeqPgSSOUUw6M8SmVACmREDgPg8t99sXK_G1xJaEpfoh08Q/viewform" target="_blank" class="btn-second self-start px-3 py-1 mt-2.5 text-base font-semibold leading-relaxed text-white whitespace-nowrap rounded-md border border-white border-solid">Daftar</a>
+                    <div class="-bottom-80 -left-8 w-96 h-96 absolute z-50 bg-white opacity-10 rounded-full flex items-center justify-center"></div>
+                </div>
+            </div>
+    
+            <div id="class-item online" class="flex overflow-hidden flex-col grow-0 bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px]">
+                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="../assets/img/cards/close-up-hands-pointing-map.jpg" alt="Course image"/>
+                <div class="flex gap-5 justify-between self-center mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
+                    <time datetime="2022-07-01">1 - 28 July 2022</time>
+                    <span>Kelas Online</span>
+                </div>
+                <div class="flex relative flex-col px-5 pt-px pb-3 mt-1.5 w-full aspect-[2.944] max-md:pr-5">
+                    <img class="object-cover absolute inset-0 size-full" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt=""/>
+                    <a href="../pages/detailclass-arcgis.html" class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">ArcGIS and Geospatial</a>
+                    <p class="relative mt-3 text-sm leading-5 text-neutral-600">Kuasai ArcGIS and Geospatial untuk mengolah data spasial secara profesional.</p>
+                </div>
+                <div class="relative flex gap-5 justify-between px-4 pt-2.5 pb-4 mt-12 rounded-none bg-[#5386C0]">
+                    <div class="flex flex-col font-bold">
+                        <span class="text-xl text-white">Rp. 449.000</span>
+                        <span class="self-start mt-1.5 text-sm text-blue-100 rotate-[-1.7447418509952684e-10rad]"><s>Rp. 898.000</s></span>
+                    </div>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSdDmtSE378_bc4aOa3bpzp0-e0fchvffz0uoqFAA2Y9vVDVPw/viewform" target="_blank" class="btn-second self-start px-3 py-1 mt-2.5 text-base font-semibold leading-relaxed text-white whitespace-nowrap rounded-md border border-white border-solid">Daftar</a>
+                    <div class="-bottom-80 -left-8 w-96 h-96 absolute z-50 bg-white opacity-10 rounded-full flex items-center justify-center"></div>
+                </div>
+            </div>
+    
+            <div id="class-item online" class="flex overflow-hidden flex-col grow-0 my-auto bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px]">
+                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="../assets/img/cards/nt.png" alt="Course image"/>
+                <div class="flex gap-5 justify-between self-center mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
+                    <time datetime="2022-07-01">1 - 28 July 2022</time>
+                    <span>Kelas Online</span>
+                </div>
+                <div class="flex relative flex-col px-5 pt-px pb-3 mt-1.5 w-full aspect-[2.944] max-md:pr-5">
+                    <img class="object-cover absolute inset-0 size-full" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt=""/>
+                    <a href="../pages/detailclass-3dproduct.html" class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">3D Modelling Product & Photoshoot</a>
+                    <p class="relative mt-3 text-sm leading-5 text-neutral-600">Belajar cara membuat model 3D detail dan sesi photoshoot yang menarik dan profesional.</p>
+                </div>
+                <div class="relative flex gap-5 justify-between px-4 pt-2.5 pb-4 mt-5 rounded-none bg-[#5386C0]">
+                    <div class="flex flex-col font-bold">
+                        <span class="text-xl text-white">Rp. 249.000</span>
+                        <span class="self-start mt-1.5 text-sm text-blue-100 rotate-[-1.7447418509952684e-10rad]">
+                            <s>Rp. 500.000</s>
                         </span>
                     </div>
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLScF7Cyw5eU8TNZtHaftDjNqaKhY7BJMC2OuAlV3_1JSGiUl9A/viewform" target="_blank" class="btn-second self-start px-3 py-1 mt-2.5 text-base font-semibold leading-relaxed text-white whitespace-nowrap rounded-md border border-white border-solid">Daftar</a>
