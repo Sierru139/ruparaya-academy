@@ -21,52 +21,7 @@
     <!-- NAVIGATION BAR START =============== -->
     <!-- NAVIGATION BAR START =============== -->
     <!-- NAVIGATION BAR START =============== -->
-    <nav id="nav" class="w-full top-0 z-[999] py-4 px-5 lg:px-12 bg-white shadow-2xl">
-        <div class="max-w-[1440px] mx-auto flex justify-between items-center">
-            <div>
-                <img class="w-32" src="../assets/logo/rralogo-outline.png" alt="">
-            </div>
-            <div class="md:flex gap-10 hidden text-[#273F5A] text-[15px] font-semibold">
-                <a href="../index.html" class="hover:text-[#5386C0] duration-300">Beranda</a>
-                <a href="../pages/listing.html" class="dropbtn hover:text-[#5386C0] duration-300">Kursus/Kelas</a>
-                <a href="pages/about.html" class="text-[#5386C0]">Tentang Kami</a>
-                <a href="/public/pages/testimonial.html" class="hover:text-[#5386C0] duration-300">Testimonial</a>
-            </div>
-            <div class="md:hidden block">
-              <div id="resNav" class="rounded-md px-2 text-black">
-                  <i class="resBtn fas fa-bars"></i>
-              </div>
-              <div id="resMenu" class="fixed top-0 right-0 rounded-bl-[45px] p-10 bg-blue-rpr-thr-a2 text-white hidden resGoDown z-50">
-                  <div id="resNavClose" class="inline absolute rounded-md right-5 text-white">
-                      <i class="fas fa-x"></i>
-                  </div>
-                  <div class="block"></div>
-                  <div class="mb-8">
-                      <a class="mr-6 block border-b py-3"  href="../index.html">Beranda</a>
-                      <a class="mr-6 block border-b py-3"  href="../pages/listing.html">Program/Kelas</a>
-                      <a class="mr-6 block border-b py-3"  href="../pages/about.html">Tentang Kami</a>
-                      <a class="mr-6 block border-b py-3"  href="../pages/testimonial.html">Testimonial</a>
-                  </div>
-                  <div class="flex flex-col items-start w-full">
-                      <div class="flex gap-5 mb-4">
-                        <a href="#" aria-label="Facebook">
-                          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/eea0de67ff265db660885ad6d3abd371357cf57f513dccf68ddbc96fde317182?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="" class="object-contain shrink-0 rounded-full aspect-square w-[35px]" />
-                        </a>
-                        <a href="#" aria-label="Twitter">
-                          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/c64d2ccd0f03d7da6e9fc2e58102a09ef727773fe900bc12fcdb7d3a23e25c5b?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="" class="object-contain shrink-0 rounded-full aspect-square w-[35px]" />
-                        </a>
-                        <a href="#" aria-label="Instagram">
-                          <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/d042807ef59e5e09ff5748ddd5e28c69601bd7d0cb7b2f5fb2af68aae79242e7?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="" class="object-contain shrink-0 rounded-full aspect-square w-[35px]" />
-                        </a>
-                      </div>
-                      <div class="text-sm">
-                          Copyright © 2024 Rupa Raya <br> Indonesia. All Rights Reserved
-                      </div>
-                    </div>
-              </div>
-          </div>
-        </div>
-    </nav>
+    <?php include_once __DIR__ . "/pages/sections/navbar.php" ?>
     <!-- NAVIGATION BAR END =============== -->
     <!-- NAVIGATION BAR END =============== -->
     <!-- NAVIGATION BAR END =============== -->
@@ -204,70 +159,7 @@
     <!-- FOOTER START ============== -->
     <!-- FOOTER START ============== -->
     <!-- FOOTER START ============== -->
-    <footer class="flex flex-col bg-[linear-gradient(257deg,#273F5A_-50.35%,#5386C0_142.97%)] pt-11 w-full">
-      <div class="flex flex-wrap gap-10 mx-auto w-full max-lg:px-5 max-w-[1290px] max-md:max-w-full">
-        <div class="flex-auto max-md:max-w-full">
-          <div class="flex gap-5 max-md:flex-col">
-            <div class="flex flex-col w-[51%] max-md:ml-0 max-md:w-full">
-              <div class="flex flex-col grow text-sm text-white max-md:mt-10">
-                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/20ddcb69f847d3600f99c8228bcbb1a5f8c7c3a1daca4d12e11799d23940dfd5?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="Rupa Raya Indonesia logo" class="object-contain max-w-full aspect-[3.33] w-[190px]" />
-                <p class="mt-5 font-light">
-                  Jl. Adyaksa Baru No.2, Masale, Kec.<br />
-                  Panakkukang, Kota Makassar, Sulawesi<br />
-                  Selatan 90231
-                </p>
-              </div>
-            </div>
-            <div class="flex flex-col ml-5 w-1/5 max-md:ml-0 max-md:w-full">
-              <div class="flex flex-col items-start text-sm text-white max-md:mt-10">
-                <h2 class="text-xl font-semibold">Menu</h2>
-                <ul class="mt-2.5 list-none p-0">
-                  <li><a href="#" class="text-white font-light no-underline">Beranda</a></li>
-                  <li class="mt-1"><a href="#" class="text-white font-light no-underline">Program/Kelas</a></li>
-                  <li class="mt-1"><a href="#" class="text-white font-light no-underline">Tentang Kami</a></li>
-                  <li class="mt-1"><a href="#" class="text-white font-light no-underline">Testimonial</a></li>
-                </ul>
-              </div>
-            </div>
-            <div class="flex flex-col ml-5 w-[29%] max-md:ml-0 max-md:w-full">
-              <div class="flex flex-col items-start text-sm text-white max-md:mt-10">
-                <h2 class="text-xl font-semibold">Program/Kelas</h2>
-                <ul class="mt-2.5 list-none p-0">
-                  <li><a href="#" class="text-white font-light no-underline">Kelas Offline</a></li>
-                  <li class="mt-1"><a href="#" class="text-white font-light no-underline">Kelas Online</a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="flex flex-col">
-          <div class="flex flex-col items-start w-full">
-            <div class="flex gap-5">
-              <a href="#" aria-label="Facebook">
-                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/eea0de67ff265db660885ad6d3abd371357cf57f513dccf68ddbc96fde317182?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="" class="object-contain shrink-0 rounded-full aspect-square w-[35px]" />
-              </a>
-              <a href="#" aria-label="Twitter">
-                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/c64d2ccd0f03d7da6e9fc2e58102a09ef727773fe900bc12fcdb7d3a23e25c5b?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="" class="object-contain shrink-0 rounded-full aspect-square w-[35px]" />
-              </a>
-              <a href="#" aria-label="Instagram">
-                <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/d042807ef59e5e09ff5748ddd5e28c69601bd7d0cb7b2f5fb2af68aae79242e7?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="" class="object-contain shrink-0 rounded-full aspect-square w-[35px]" />
-              </a>
-            </div>
-            <div class="flex gap-4 mt-7 text-sm text-white">
-              <a href="tel:+6285242673019" class="text-white no-underline">+62 852-4267-3019</a>
-              <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/d60b3bd7b3a685635432f03eb7eea731ed90553d761a49b82fcbb00ee30fdf7c?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="" class="object-contain shrink-0 self-start w-5 aspect-square" />
-            </div>
-          </div>
-          <div class="flex gap-4 mt-2.5 text-sm text-white whitespace-nowrap">
-            <a href="mailto:ruparaya.academy@gmail.com" class="text-white no-underline">ruparaya.academy@gmail.com</a>
-            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/fa811b17cb22c5593a5744eb2ff5029f1c67575ca342287b826e30249e682100?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="" class="object-contain shrink-0 self-start w-5 aspect-square" />
-          </div>
-        </div>
-      </div>
-      <div class="px-16 py-2.5 mt-4 w-full text-xs text-center text-white bg-[#5386C0] max-md:px-5 max-md:max-w-full">
-        Copyright © 2024 Rupa Raya Indonesia. All Rights Reserved
-      </div>
-    </footer>
+    <?php include_once __DIR__ . "/pages/sections/footer.php" ?>
     <!-- FOOTER END ============== -->
     <!-- FOOTER END ============== -->
     <!-- FOOTER END ============== -->
