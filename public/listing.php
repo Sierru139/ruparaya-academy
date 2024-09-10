@@ -22,7 +22,7 @@
     <!-- NAVIGATION BAR START =============== -->
     <!-- NAVIGATION BAR START =============== -->
     <!-- NAVIGATION BAR START =============== -->
-    <nav id="nav" class="w-full top-0 z-[999] py-4 px-5 lg:px-12 bg-white shadow-2xl">
+    <nav id="nav" class="w-full top-0 z-[999] py-4 px-5 xl:px-12 bg-white shadow-2xl">
         <div class="max-w-[1440px] mx-auto flex justify-between items-center">
             <div>
                 <img class="w-32" src="../assets/logo/rralogo-outline.png" alt="">
@@ -86,7 +86,7 @@
     <!-- SECTION 4 CARD CLASS START ======= -->
     <!-- SECTION 4 CARD CLASS START ======= -->
     <section class="flex flex-col my-10">
-        <div class="flex items-center justify-between mx-16 max-md:mx-6 max-lg:flex-wrap"> 
+        <div class="flex items-center justify-between mx-16 max-md:mx-6 max-lg:mx-10 max-xl:mx-5 max-lg:flex-wrap"> 
             <div>
                 <h2 class="z-10 mt-0 text-3xl font-extrabold text-slate-700">
                     <span class="text-[#273F5A]">Daftar</span>
