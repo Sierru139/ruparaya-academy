@@ -17,30 +17,48 @@
     <!-- NAVIGATION BAR START =============== -->
     <!-- NAVIGATION BAR START =============== -->
     <!-- NAVIGATION BAR START =============== -->
-    <nav id="nav" class="w-full shadow-xl top-0 z-[999] flex justify-between items-center py-4 px-12 bg-white overflow-hidden">
-        <div>
-            <img class="w-32" src="../assets/logo/rralogo-outline.png" alt="">
-        </div>
-        <div class="md:flex gap-10 hidden text-[#273F5A] text-[15px] font-semibold">
-            <a href="/public/index.html">Beranda</a>
-            <a href="/public/pages/Listing.html" class="text-[#273F5A] border-b-2 pb-1 border-[#273F5A] px-3">Program/Kelas</a>
-            <a href="pages/about.html">Tentang Kami</a>
-            <a href="/public/pages/testimonial.html">Testimonial</a>
-        </div>
-        <div class="md:hidden block">
-            <div id="resNav" class="rounded-md px-2 text-black">
-                <i class="resBtn fas fa-bars"></i>
+    <nav id="nav" class="w-full top-0 z-[999] py-4 px-5 lg:px-12 bg-white shadow-2xl">
+        <div class="max-w-[1440px] mx-auto flex justify-between items-center">
+            <div>
+                <img class="w-32" src="../assets/logo/rralogo-outline.png" alt="">
             </div>
-            <div id="resMenu" class="fixed top-0 bottom-0 right-0 py-6 px-12 bg-blue-rpr-thr-a2 text-white hidden resGoDown z-50">
-                <div id="resNavClose" class="inline absolute rounded-md right-5 text-white">
-                    <i class="fas fa-x"></i>
+            <div class="md:flex gap-10 hidden text-[#273F5A] text-[15px] font-semibold">
+                <a href="../index.html" class="hover:text-[#5386C0] duration-300">Beranda</a>
+                <a href="../pages/listing.html" class="text-[#5386C0]">Kursus/Kelas</a>                  
+                <a href="../pages/about.html" class="hover:text-[#5386C0] duration-300">Tentang Kami</a>
+                <a href="../pages/testimonial.html" class="hover:text-[#5386C0] duration-300">Testimonial</a>
+            </div>
+            <div class="md:hidden block">
+                <div id="resNav" class="rounded-md px-2 text-black">
+                    <i class="resBtn fas fa-bars"></i>
                 </div>
-                <div class="block"></div>
-                <div class="mb-8">
-                    <a class="mr-6 block border-b py-3"  href="../index.html">Beranda</a>
-                    <a class="mr-6 block border-b py-3"  href="./listing.html">Program/Kelas</a>
-                    <a class="mr-6 block border-b py-3"  href="./about.html">Tentang Kami</a>
-                    <a class="mr-6 block border-b py-3"  href="./testimonial.html">Testimonial</a>
+                <div id="resMenu" class="fixed top-0 right-0 rounded-bl-[45px] p-10 bg-blue-rpr-thr-a2 text-white hidden resGoDown z-50">
+                    <div id="resNavClose" class="inline absolute rounded-md right-5 text-white">
+                        <i class="fas fa-x"></i>
+                    </div>
+                    <div class="block"></div>
+                    <div class="mb-8">
+                        <a class="mr-6 block border-b py-3"  href="./index.html">Beranda</a>
+                        <a class="mr-6 block border-b py-3"  href="./pages/listing.html">Program/Kelas</a>
+                        <a class="mr-6 block border-b py-3"  href="./pages/about.html">Tentang Kami</a>
+                        <a class="mr-6 block border-b py-3"  href="./pages/testimonial.html">Testimonial</a>
+                    </div>
+                    <div class="flex flex-col items-start w-full">
+                        <div class="flex gap-5 mb-4">
+                          <a href="#" aria-label="Facebook">
+                            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/eea0de67ff265db660885ad6d3abd371357cf57f513dccf68ddbc96fde317182?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="" class="object-contain shrink-0 rounded-full aspect-square w-[35px]" />
+                          </a>
+                          <a href="#" aria-label="Twitter">
+                            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/c64d2ccd0f03d7da6e9fc2e58102a09ef727773fe900bc12fcdb7d3a23e25c5b?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="" class="object-contain shrink-0 rounded-full aspect-square w-[35px]" />
+                          </a>
+                          <a href="#" aria-label="Instagram">
+                            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/d042807ef59e5e09ff5748ddd5e28c69601bd7d0cb7b2f5fb2af68aae79242e7?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="" class="object-contain shrink-0 rounded-full aspect-square w-[35px]" />
+                          </a>
+                        </div>
+                        <div class="text-sm">
+                            Copyright © 2024 Rupa Raya <br> Indonesia. All Rights Reserved
+                        </div>
+                      </div>
                 </div>
             </div>
         </div>
@@ -135,20 +153,22 @@
             <h3 class="text-center text-[32px] font-bold text-[#273F5A]">Keunggulan Kelas <span class="text-[#5386C0]">Rupa Raya Academy</span></h3>
             <p class="text-center mt-4 text-[#666666] text-[15px]">Raih Hasil Terbaik dengan Bergabung di Kelas Kami</p>
         </div>
-        <div class="flex flex-wrap lg:gap-48 justify-center px-4 py-10">
-            <div class="">
-                <div data-aos="flip-left" data-aos-duration="1000" class="relative flex py-7 px-7 bg-white shadow-xl max-w-[450px] rounded-[12px] overflow-hidden">
-                    <div class="-right-16 -top-16 w-32 h-32 absolute z-20 bg-[#5386C0] opacity-10 rounded-full flex items-center justify-center"></div>
-                    <div class="relative">
-                        <div class="bg-[#F5AD97] lg:w-[72px] w-[62px] lg:h-[72px] h-[62px] rounded-full flex items-center justify-center">
-                            <img src="/public/assets/details/ticket.png" class="" alt="">
+        <div class="flex flex-wrap lg:gap-48 justify-center">
+            <div class="my-20">
+                <div class="mb-10">
+                    <div data-aos="flip-left" data-aos-duration="1000" class="relative flex py-7 px-7 bg-white shadow-xl max-w-[450px] rounded-[12px] overflow-hidden">
+                        <div class="-right-16 -top-16 w-32 h-32 absolute z-20 bg-[#5386C0] opacity-10 rounded-full flex items-center justify-center"></div>
+                        <div class="relative">
+                            <div class="bg-[#F5AD97] lg:w-[72px] w-[62px] lg:h-[72px] h-[62px] rounded-full flex items-center justify-center">
+                                <img src="/public/assets/details/ticket.png" class="" alt="">
+                            </div>
                         </div>
+                        <div class="ml-5">
+                            <h3 class="text-[#273F5A] text-[24px] font-bold">Voucher discount</h3>
+                            <p class="text-[15px] text-[#666666] mt-2">Nikmati diskon spesial untuk kelas tambahan, perluas keterampilan dengan biaya terjangkau</p>
+                        </div>
+                        <div class="-bottom-16 -left-16 w-32 h-32 absolute z-20 bg-[#5386C0] opacity-10 rounded-full flex items-center justify-center"></div>
                     </div>
-                    <div class="ml-5">
-                        <h3 class="text-[#273F5A] text-[24px] font-bold">Voucher discount</h3>
-                        <p class="text-[15px] text-[#666666] mt-2">Nikmati diskon spesial untuk kelas tambahan, perluas keterampilan dengan biaya terjangkau</p>
-                    </div>
-                    <div class="-bottom-16 -left-16 w-32 h-32 absolute z-20 bg-[#5386C0] opacity-10 rounded-full flex items-center justify-center"></div>
                 </div>
 
                 <div data-aos="flip-left" data-aos-duration="1000" class="relative flex py-7 px-7 max-w-[450px] rounded-[12px] overflow-hidden">
@@ -164,7 +184,7 @@
                 </div>
             </div>
 
-            <div class="">
+            <div class="my-20">
                 <div class="flex lg:mb-10">
                     <div data-aos="flip-right" data-aos-duration="1000" class="relative flex py-7 px-6 max-w-[450px] rounded-[12px] overflow-hidden">
                         <div class="relative">

@@ -14,22 +14,22 @@
 
 </head>
 <body class="bg-[#E9ECEF]">
+
+  <a href="https://api.whatsapp.com/send?phone=+6285242673019&amp;text=Halo saya mau bertanya tentang Rupa Raya Academy" class="float" target="_blank">
+    <i class="fa fab fa-whatsapp mt-3.5"></i>
+  </a>
+
     <!-- NAVIGATION BAR START =============== -->
     <!-- NAVIGATION BAR START =============== -->
     <!-- NAVIGATION BAR START =============== -->
-    <nav id="nav" class="w-full shadow-xl top-0 z-[999] flex justify-between items-center py-4 px-5 lg:px-12 bg-white">
+    <nav id="nav" class="w-full top-0 z-[999] py-4 px-5 lg:px-12 bg-white shadow-2xl">
+      <div class="max-w-[1440px] mx-auto flex justify-between items-center">
         <div>
             <img class="w-32" src="../assets/logo/rralogo-outline.png" alt="">
         </div>
         <div class="md:flex gap-10 hidden text-[#273F5A] text-[15px] font-semibold">
             <a href="../index.html" class="hover:text-[#5386C0] duration-300">Beranda</a>
-            <div class="dropdown">
-                <a href="#" class="dropbtn pb-4 hover:text-[#5386C0] duration-300">Program/Kelas</a>
-                <div class="dropdown-content">
-                  <a href="../pages/listing-offline.html" class="duration-300">Kelas Offline</a>
-                  <a href="../pages/listing-online.html" class="duration-300">Kelas Online</a>
-                </div>
-            </div>
+            <a href="./listing.html" class="dropbtn hover:text-[#5386C0] duration-300">Kursus/Kelas</a>
             <a href="./about.html" class="hover:text-[#5386C0] duration-300">Tentang Kami</a>
             <a href="./testimonial.html" class="text-[#5386C0]">Testimonial</a>
         </div>
@@ -43,10 +43,10 @@
               </div>
               <div class="block"></div>
               <div class="mb-8">
-                  <a class="mr-6 block border-b py-3"  href="./index.html">Beranda</a>
-                  <a class="mr-6 block border-b py-3"  href="./pages/listing.html">Program/Kelas</a>
-                  <a class="mr-6 block border-b py-3"  href="./pages/about.html">Tentang Kami</a>
-                  <a class="mr-6 block border-b py-3"  href="./pages/testimonial.html">Testimonial</a>
+                  <a class="mr-6 block border-b py-3"  href="../index.html">Beranda</a>
+                  <a class="mr-6 block border-b py-3"  href="../pages/listing.html">Program/Kelas</a>
+                  <a class="mr-6 block border-b py-3"  href="../pages/about.html">Tentang Kami</a>
+                  <a class="mr-6 block border-b py-3"  href="../pages/testimonial.html">Testimonial</a>
               </div>
               <div class="flex flex-col items-start w-full">
                   <div class="flex gap-5 mb-4">
@@ -66,6 +66,7 @@
                 </div>
           </div>
       </div>
+    </div>
     </nav>
     <!-- NAVIGATION BAR END =============== -->
     <!-- NAVIGATION BAR END =============== -->
@@ -75,8 +76,8 @@
       <div class="lg:h-fit h-[50vh] relative overflow-hidden centered-xy">
           <img class="img-cover object-top -z-10" src="../assets/testimonial/bg-testi.png" alt="">
           <div class="max-w-[575px] absolute z-20 text-white text-center">
-              <h3 data-aos="fade-up" data-aos-duration="1100" class="md:text-[32px] font-semibold mb-4">Testimonial</h3>
-              <h3 data-aos="fade-up" data-aos-duration="1500"><a href="#">Beranda > </a><a href="#" class="text-[#EDC423]">Testimonial</a></h3>
+              <h3 data-aos="fade-up" data-aos-duration="1100" data-aos-once="true" class="md:text-4xl text-[32px] font-semibold mb-4">Testimonial</h3>
+              <h3 data-aos="fade-up" data-aos-duration="1500" data-aos-once="true"><a href="#">Beranda > </a><a href="#" class="text-[#EDC423]">Testimonial</a></h3>
           </div>
       </div>
   </header>
@@ -199,14 +200,14 @@
     <!-- SECTION 8 QNA START ============= -->
     <!-- SECTION 8 QNA START ============= -->
     <!-- SECTION 8 QNA START ============= -->
-    <section data-aos="fade-up" data-aos-duration="900" class="px-2 my-10 max-lg:mx-5">
+    <section data-aos="fade-up" data-aos-duration="900"  data-aos-once="true" class="px-2 my-20 max-lg:mx-5">
       <div class="relative- h-[275px] max-w-[1100px] mx-auto rounded-[24px] centered-xy bg-cover bg-no-repeat bg-[url('../assets/about/section/cta.png')]">
           <div class="flex lg:gap-28 lg:flex-row flex-col items-center md:px-12 px-8 absolute z-20 text-white ">
               <div class="max-w-[600px] md:text-left text-center">
                   <h3 class="md:text-[40px] text-3xl font-bold leading-[57px] max-lg:leading-[45px] max-lg:text-center">Ingin Tahu Lebih? Hubungi Kami Sekarang</h3>
               </div>
-              <div class="bg-white lg:py-3 py-2 px-6 rounded-full lg:mt-0 mt-6">
-                  <a href="#class" class="text-[#5386C0] lg:text-xl text-lg font-semibold">Hubungi Kami</a>
+              <div class="lg:mt-0 mt-6">
+                  <a href="#class" class="text-[#5386C0] bg-white lg:py-3 py-2 px-6 rounded-full lg:text-xl text-lg font-semibold">Hubungi Kami</a>
               </div>
           </div>
       </div>
@@ -214,8 +215,7 @@
     <!-- SECTION 8 QNA START ============= -->
     <!-- SECTION 8 QNA START ============= -->
     <!-- SECTION 8 QNA START ============= -->
-
-    <footer class="flex flex-col bg-[linear-gradient(257deg,#273F5A_-50.35%,#5386C0_142.97%)] pt-10 w-full">
+    <footer class="flex flex-col bg-[linear-gradient(257deg,#273F5A_-50.35%,#5386C0_142.97%)] pt-11 w-full">
       <div class="flex flex-wrap gap-10 mx-auto w-full max-lg:px-5 max-w-[1290px] max-md:max-w-full">
         <div class="flex-auto max-md:max-w-full">
           <div class="flex gap-5 max-md:flex-col">

@@ -1,5 +1,27 @@
 AOS.init();
 
+document.addEventListener('DOMContentLoaded', function () {
+    var typed = new Typed('#auto-type', {
+        strings: ["IT", "3D"],
+        typeSpeed: 100,
+        backSpeed: 150,
+        backDelay: 2000, 
+        startDelay: 500, 
+        loop: true
+    });
+});
+
+const loadingScreen = document.getElementById('loading-anim');
+
+    const h3element = document.getElementById('element');
+        setTimeout(() => {
+        loadingScreen.classList.add('opacity-0');
+        h3element.classList.add('moveUpAnim');
+        setTimeout(() => {
+            loadingScreen.classList.add('hidden');
+        }, 0);
+    }, 2000);
+
 const buttonsPaket = document.querySelectorAll('.btn-paket');
 
 buttonsPaket.forEach((button, index) => {
@@ -36,18 +58,6 @@ buttonsPaket.forEach((button, index) => {
             item.style.display = "flex"; 
         });
     }
-
-document.getElementById("cariKelasBtn").addEventListener("click", function(e) {
-    e.preventDefault();
-
-    const kelasDropdown = document.querySelector(".dropbtn"); 
-    kelasDropdown.scrollIntoView({ behavior: "smooth" }); 
-    
-    setTimeout(() => {
-        document.getElementById("kelasDropdown").style.display = "block";
-    }, 100); 
-
-});
 
 
 
