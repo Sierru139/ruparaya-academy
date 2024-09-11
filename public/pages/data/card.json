@@ -1,0 +1,58 @@
+[
+    {
+        "banner" : "./assets/pg1/banner-uiux.jpg",
+        "date" : "14 September 2024", 
+        "type" : "Kelas Offline", 
+        "title" : "UI/UX Design Mobile App", 
+        "expl" : "Belajar mengenal dasar UI/UX, Hands-on Experience, Networking Opportunites. Cocok untuk pemula.", 
+        "teach" : {
+            "img" : "./assets/pg1/profile-instructor.jpg",
+            "name" : "Abd. Rahim Saleh",
+            "proffession" : "UI/UX Designer at Kalla"
+        }, 
+        "price" : "Gratis" 
+    },
+
+    {
+        "banner" : "./assets/pg1/banner-3darchitectural.jpg",
+        "date" : "18 September 2024", 
+        "type" : "Kelas Offline", 
+        "title" : "3D Architectural Rendering", 
+        "expl" : "Belajar dasar rendering arsitektur 3D dengan tools profesional. Hands-on practice dan cocok untuk pemula.", 
+        "teach" : {
+            "img" : "./assets/pg1/profile-instructor-uiux.jpg",
+            "name" : "Abd. Rahim Saleh",
+            "proffession" : "UI/UX Designer at Kalla"
+        }, 
+        "price" : "Rp. 899.000" 
+    },
+
+    {
+        "banner" : "./assets/pg1/banner-english.jpg",
+        "date" : "20 September 2024", 
+        "type" : "Kelas Offline", 
+        "title" : "Speaking Communication English", 
+        "expl" : "Kuasi komunikasi bahasa Inggris sehari-hari dengan percaya diri! Tingkatkan kemampuan speaking-mu", 
+        "teach" : {
+            "img" : "./assets/pg1/profile-instructor.jpg",
+            "name" : "Aliem Arif Perkasa",
+            "proffession" : "Manager Fullstack Web Development"
+        }, 
+        "price" : "Rp. 349.000" 
+    },
+
+    {
+        "banner" : "./assets/pg1/banner-3dmodeling.jpg",
+        "date" : "13 September 2024", 
+        "type" : "Kelas Offline", 
+        "title" : "3D Modelling Product & Photoshoot", 
+        "expl" : "Belajar cara membuat model 3D detail dan sesi photoshoot yang menarik dan profesional.", 
+        "teach" : {
+            "img" : "./assets/pg1/profile-instructor.jpg",
+            "name" : "Aliem Arif Perkasa",
+            "proffession" : "Manager Fullstack Web Development"
+        }, 
+        "price" : "Rp. 499.000" 
+    }
+
+]

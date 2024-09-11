@@ -4,10 +4,10 @@
             <img class="w-32" src="./assets/logo/rralogo-outline.png" alt="">
         </div>
         <div class="md:flex gap-10 hidden text-[#273F5A] text-[15px] font-semibold">
-            <a href="./index.php" class="text-[#5386C0]">Beranda</a>
-            <a href="./listing.php" class="hover:text-[#5386C0] duration-300">Kursus/Kelas</a>                  
-            <a href="./about.php" class="hover:text-[#5386C0] duration-300">Tentang Kami</a>
-            <a href="./testimonial.php" class="hover:text-[#5386C0] duration-300">Testimonial</a>
+            <a href="index.php" class="text-[#5386C0]">Beranda</a>
+            <a href="listing.php" class="hover:text-[#5386C0] duration-300">Kursus/Kelas</a>                  
+            <a href="about.php" class="hover:text-[#5386C0] duration-300">Tentang Kami</a>
+            <a href="testimonial.php" class="hover:text-[#5386C0] duration-300">Testimonial</a>
         </div>
         <div class="md:hidden block">
             <div id="resNav" class="rounded-md px-2 text-black">
