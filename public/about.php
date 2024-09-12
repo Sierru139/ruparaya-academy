@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="../css/output.css">
-    <link rel="stylesheet" href="../css/custom.css">
+    <link rel="stylesheet" href="./css/output.css">
+    <link rel="stylesheet" href="./css/custom.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <title>Rupa Raya Academy</title>
@@ -28,7 +28,7 @@
 
     <header class="">
         <div class="lg:h-fit h-[50vh] relative overflow-hidden centered-xy">
-            <img class="img-cover object-top -z-10" src="../assets/about/bg-about.png" alt="">
+            <img class="img-cover object-top -z-10" src="./assets/about/bg-about.png" alt="">
             <div class="max-w-[575px] absolute z-20 text-white text-center">
                 <h3 data-aos="fade-up" data-aos-duration="1100" data-aos-once="true" class="md:text-4xl text-[32px] font-semibold mb-4">Tentang Rupa Raya Academy</h3>
                 <h3 data-aos="fade-up" data-aos-duration="1500" data-aos-once="true"><a href="#">Beranda > </a><a href="#" class="text-[#EDC423]">Tentang Kami</a></h3>
@@ -53,7 +53,7 @@
 
         <section class="mt-10">
             <div class="xl:h-fit h-[80vh] relative overflow-hidden centered-xy bg-center bg-cover">
-                <img class="img-cover object-top -z-10" src="../assets/about/section/bg.png" alt="">
+                <img class="img-cover object-top -z-10" src="./assets/about/section/bg.png" alt="">
                 <div class="z-20 flex absolute md:justify-around items-start md:flex-row flex-col w-full max-md:px-7 mx-10 max-lg:gap-5">
                     <div data-aos="fade-up" data-aos-duration="1000" data-aos-once="true"  class="text-white text-center max-w-[350px] max-md:w-full max-md:mx-auto max-lg:w-[1150px]">
                         <h3 class="text-[32px] font-bold mb-5 max-md:text-[24px]">Visi</h3>
@@ -68,7 +68,7 @@
         </section> 
 
         <section class="relative flex flex-col mt-5 max-md:max-w-full max-md:mx-5">
-            <div class="absolute left-10 top-10"><img src="../assets/about/bg-shapesss.png" alt=""></div>
+            <div class="absolute left-10 top-10"><img src="./assets/about/bg-shapesss.png" alt=""></div>
             <div class="flex flex-col w-full m-md:pl-5 max-md:max-w-full">
               <h2 class="self-center text-3xl font-bold leading-none text-center text-slate-700 max-md:max-w-full">
                 Mengapa <span class="text-[#5386C0]">Rupa Raya Academy?</span>
@@ -165,6 +165,6 @@
     <!-- FOOTER END ============== -->
     </section>
 
-<script src="../js/app.js"></script>
+<script src="./js/app.js"></script>
 </body>
 </html>

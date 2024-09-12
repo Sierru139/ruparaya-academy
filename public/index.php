@@ -16,12 +16,13 @@
     .loading-test{
         animation: spin 2s infinite none;
     }
-    
+
     @keyframes spin {
         0% {opacity: 0; scale: 1;}
         50% {opacity: 1; scale: 1.2;}
         100% {opacity: 0; scale: 1;}
     }
+
     @keyframes gone {
         0% {opacity: 0;}
         100% {opacity: 0;}

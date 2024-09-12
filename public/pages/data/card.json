@@ -1,4 +1,5 @@
 [
+
     {
         "banner" : "./assets/pg1/banner-uiux.jpg",
         "date" : "14 September 2024", 
@@ -6,11 +7,13 @@
         "title" : "UI/UX Design Mobile App", 
         "expl" : "Belajar mengenal dasar UI/UX, Hands-on Experience, Networking Opportunites. Cocok untuk pemula.", 
         "teach" : {
-            "img" : "./assets/pg1/profile-instructor.jpg",
+            "img" : "./assets/pg1/profile-instructor-uiux.jpg",
             "name" : "Abd. Rahim Saleh",
             "proffession" : "UI/UX Designer at Kalla"
         }, 
-        "price" : "Gratis" 
+        "price" : "Gratis" ,
+        "form" : "https://docs.google.com/forms/d/e/1FAIpQLSeMPhFRoiJwAu1-sWDk6QjSWMK6_UBkVwHxaolK__sbkRn0Ew/viewform"
+
     },
 
     {
@@ -24,7 +27,9 @@
             "name" : "Abd. Rahim Saleh",
             "proffession" : "UI/UX Designer at Kalla"
         }, 
-        "price" : "Rp. 899.000" 
+        "price" : "Rp. 899.000" ,
+        "form" : "https://docs.google.com/forms/d/e/1FAIpQLScWQS2TQw8ZG3zEOZ57wRKU5pg-BVj5zT-NS4kae-MesmSRlg/viewform"
+
     },
 
     {
@@ -38,7 +43,9 @@
             "name" : "Aliem Arif Perkasa",
             "proffession" : "Manager Fullstack Web Development"
         }, 
-        "price" : "Rp. 349.000" 
+        "price" : "Rp. 349.000" ,
+        "form" : "https://docs.google.com/forms/d/e/1FAIpQLSctbqpgJr0QnP4NropL9zOSJQyGtUUpJZ2o9c8xMdr5SY2ocg/viewform"
+
     },
 
     {
@@ -52,7 +59,8 @@
             "name" : "Aliem Arif Perkasa",
             "proffession" : "Manager Fullstack Web Development"
         }, 
-        "price" : "Rp. 499.000" 
+        "price" : "Rp. 499.000" ,
+        "form" : "https://docs.google.com/forms/d/e/1FAIpQLScF7Cyw5eU8TNZtHaftDjNqaKhY7BJMC2OuAlV3_1JSGiUl9A/viewform"
     }
 
 ]
