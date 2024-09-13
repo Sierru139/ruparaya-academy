@@ -34,7 +34,7 @@
 
     <header class="">
         <div class="lg:h-fit h-[50vh] relative overflow-hidden centered-xy">
-            <img class="img-cover object-top -z-10" src="../assets/program/bg-class.png" alt="">
+            <img class="img-cover object-top -z-10" src="./assets/program/bg-class.png" alt="">
             <div class="max-w-[575px] absolute z-20 text-white text-center">
                 <h3 class="md:text-4xl text-[32px] font-semibold mb-4" data-aos="fade-up" data-aos-once="true" data-aos-duration="1100">Kursus/Kelas</h3>
                 <h3 data-aos="fade-up" data-aos-duration="1500" data-aos-once="true"><a href="#">Beranda > </a><a href="#" class="text-[#EDC423]">Kursus/Kelas</a></h3>
@@ -77,19 +77,19 @@
             <!-- Card UI/UX Design Mobile App Offline -->
             <!-- Card UI/UX Design Mobile App Offline -->
             <div id="class-item offline" class="flex overflow-hidden flex-col grow bg-white rounded-2xl shadow-xl min-w-[300px] max-w-[340px] hover:-translate-y-1 duration-300">
-                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="../assets/pg1/banner-uiux.jpg" alt="Course image"/>
+                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="./assets/pg1/banner-uiux.jpg" alt="Course image"/>
                 <div class="flex gap-5 justify-between mx-5 mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
                     <p class="font-semibold text-sm text-[#EDC423]">14 September 2024</p>
                     <p class="font-semibold text-sm text-[#EDC423]">Kelas Offline</p>
                 </div>
                 <div class="flex relative flex-col px-5 pt-px pb-3 mt-1.5 w-full aspect-[2.944] max-md:pr-5 h-full">
                     <img class="object-cover absolute inset-0 size-full" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385" alt=""/>
-                    <a href="../pages/detailclass-uiux.html" class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">UI/UX Design Mobile App</a>
+                    <a href="./pages/detailclass-uiux.html" class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">UI/UX Design Mobile App</a>
                     <p class="relative mt-3 text-sm leading-5 text-neutral-600">Belajar mengenal dasar UI/UX, Hands-on Experience, Networking Opportunites. Cocok untuk pemula.</p>
                 </div>
                 <div class="flex px-5 items-center gap-4">
                     <div>
-                        <img class="w-[60px]" src="../assets/pg1/profile-instructor-uiux.jpg" alt="">
+                        <img class="w-[60px]" src="./assets/pg1/profile-instructor-uiux.jpg" alt="">
                     </div>
                     <div>
                         <p class="font-extrabold text-[#273F5A]">Abd. Rahim Saleh</p>
@@ -114,19 +114,19 @@
             <!-- Card 3D Architectural Rendering Offline -->
             <!-- Card 3D Architectural Rendering Offline -->
             <div id="class-item offline" class="flex overflow-hidden flex-col grow-0 bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px] hover:-translate-y-1 duration-300">
-                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="../assets/pg1/banner-3darchitectural.jpg" alt="Course image"/>
+                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="./assets/pg1/banner-3darchitectural.jpg" alt="Course image"/>
                 <div class="flex gap-5 justify-between mx-5 mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
                     <p class="font-semibold text-sm text-[#EDC423]">18 September 2024</p>
                     <p class="font-semibold text-sm text-[#EDC423]">Kelas Offline</p>
                 </div>
                 <div class="flex relative flex-col px-5 pt-px pb-3 mt-1.5 w-full aspect-[2.944] max-md:pr-5 h-full">
                     <img class="object-cover absolute inset-0 size-full" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt=""/>
-                    <a href="../pages/detailclass-3darchitectural.html" class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">3D Architectural Rendering</a>
+                    <a href="./pages/detailclass-3darchitectural.html" class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">3D Architectural Rendering</a>
                     <p class="relative mt-3 text-sm leading-5 text-neutral-600">Belajar dasar rendering arsitektur 3D dengan tools profesional. Hands-on practice dan cocok untuk pemula.</p>
                 </div>
                 <div class="flex px-5 items-center gap-4">
                     <div>
-                        <img class="w-[60px]" src="../assets/pg1/profile-instructor-uiux.jpg" alt="">
+                        <img class="w-[60px]" src="./assets/pg1/profile-instructor-uiux.jpg" alt="">
                     </div>
                     <div>
                         <p class="font-extrabold text-[#273F5A]">Abd. Rahim Saleh</p>
@@ -151,19 +151,19 @@
             <!-- Card Speaking Communication English Offline -->
             <!-- Card Speaking Communication English Offline -->
             <div id="class-item offline" class="flex overflow-hidden flex-col grow-0 bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px] hover:-translate-y-1 duration-300">
-                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="../assets/pg1/banner-english.jpg" alt="Course image"/>
+                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="./assets/pg1/banner-english.jpg" alt="Course image"/>
                 <div class="flex gap-5 justify-between mx-5 mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
                     <p class="font-semibold text-sm text-[#EDC423]">20 September 2024</p>
                     <p class="font-semibold text-sm text-[#EDC423]">Kelas Offline</p>
                 </div>
                 <div class="flex relative flex-col px-5 pt-px pb-3 mt-1.5 w-full aspect-[2.944] max-md:pr-5 h-full">
                     <img class="object-cover absolute inset-0 size-full" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt=""/>
-                    <a href="../pages/detailclass-english.html" class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">Speaking Communication English</a>
+                    <a href="./pages/detailclass-english.html" class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">Speaking Communication English</a>
                     <p class="relative mt-3 text-sm leading-5 text-neutral-600">Kuasi komunikasi bahasa Inggris sehari-hari dengan percaya diri! Tingkatkan kemampuan speaking-mu</p>
                 </div>
                 <div class="flex px-5 items-center gap-4">
                     <div>
-                        <img class="w-[60px]" src="../assets/pg1/profile-instructor.jpg" alt="">
+                        <img class="w-[60px]" src="./assets/pg1/profile-instructor.jpg" alt="">
                     </div>
                     <div>
                         <p class="font-extrabold text-[#273F5A]">Aliem Arif Perkasa</p>
@@ -188,19 +188,19 @@
             <!-- Card 3D Modelling Product & Photoshoot Offline -->
             <!-- Card 3D Modelling Product & Photoshoot Offline -->
             <div id="class-item offline" class="flex overflow-hidden flex-col grow-0 bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px] hover:-translate-y-1 duration-300">
-                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="../assets/pg1/banner-3dmodeling.jpg" alt="Course image"/>
+                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="./assets/pg1/banner-3dmodeling.jpg" alt="Course image"/>
                 <div class="flex gap-5 justify-between mx-5 mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
                     <p class="font-semibold text-sm text-[#EDC423]">13 September 2024</p>
                     <p class="font-semibold text-sm text-[#EDC423]">Kelas Offline</p>
                 </div>
                 <div class="flex relative flex-col px-5 pt-px pb-3 mt-1.5 w-full aspect-[2.944] max-md:pr-5 h-full">
                     <img class="object-cover absolute inset-0 size-full" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt=""/>
-                    <a href="../pages/detailclass-3dproduct.html" class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">3D Modelling Product & Photoshoot</a>
+                    <a href="./pages/detailclass-3dproduct.html" class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">3D Modelling Product & Photoshoot</a>
                     <p class="relative mt-3 text-sm leading-5 text-neutral-600">Belajar cara membuat model 3D detail dan sesi photoshoot yang menarik dan profesional.</p>
                 </div>
                 <div class="flex px-5 items-center gap-4">
                     <div>
-                        <img class="w-[60px]" src="../assets/pg1/profile-instructor.jpg" alt="">
+                        <img class="w-[60px]" src="./assets/pg1/profile-instructor.jpg" alt="">
                     </div>
                     <div>
                         <p class="font-extrabold text-[#273F5A]">Aliem Arif Perkasa</p>
@@ -225,19 +225,19 @@
             <!-- Card 3D Modelling Product & Photoshoot Online -->
             <!-- Card 3D Modelling Product & Photoshoot Online -->
             <div id="class-item online" class="flex overflow-hidden flex-col grow-0 my-auto bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px] hover:-translate-y-1 duration-300">
-                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="../assets/pg1/banner-3dproductmodelling-online.jpg" alt="Course image"/>
+                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="./assets/pg1/banner-3dproductmodelling-online.jpg" alt="Course image"/>
                 <div class="flex gap-5 justify-between mx-5 mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
                     <p class="font-semibold text-sm text-[#5386C0]">16 September 2024</p>
                     <p class="font-semibold text-sm text-[#5386C0]">Kelas Online</p>
                 </div>
                 <div class="flex relative flex-col px-5 pt-px pb-3 mt-1.5 w-full aspect-[2.944] max-md:pr-5 h-full">
                     <img class="object-cover absolute inset-0 size-full" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt=""/>
-                    <a href="../pages/detailclass-3dproduct.html" class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">3D Modelling Product & Photoshoot</a>
+                    <a href="./pages/detailclass-3dproduct.html" class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">3D Modelling Product & Photoshoot</a>
                     <p class="relative mt-3 text-sm leading-5 text-neutral-600">Belajar cara membuat model 3D detail dan sesi photoshoot yang menarik dan profesional.</p>
                 </div>
                 <div class="flex px-5 items-center gap-4">
                     <div>
-                        <img class="w-[60px]" src="../assets/pg1/profile-instructor.jpg" alt="">
+                        <img class="w-[60px]" src="./assets/pg1/profile-instructor.jpg" alt="">
                     </div>
                     <div>
                         <p class="font-extrabold text-[#273F5A]">Aliem Arif Perkasa</p>
@@ -262,19 +262,19 @@
             <!-- Card ArcGIS and Geospatial Offline -->
             <!-- Card ArcGIS and Geospatial Offline -->
             <div id="class-item offline" class="flex overflow-hidden flex-col grow-0 bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px] hover:-translate-y-1 duration-300">
-                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="../assets/pg1/banner-argis.jpg" alt="Course image"/>
+                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="./assets/pg1/banner-argis.jpg" alt="Course image"/>
                 <div class="flex gap-5 justify-between mx-5 mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
                     <p class="font-semibold text-sm text-[#EDC423]">9 September 2024</p>
                     <p class="font-semibold text-sm text-[#EDC423]">Kelas Offline</p>
                 </div>
                 <div class="flex relative flex-col px-5 pt-px pb-3 mt-1.5 w-full aspect-[2.944] max-md:pr-5 h-full">
                     <img class="object-cover absolute inset-0 size-full" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt=""/>
-                    <a href="../pages/detailclass-arcgis.html" class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">ArcGIS and Geospatial</a>
+                    <a href="./pages/detailclass-arcgis.html" class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">ArcGIS and Geospatial</a>
                     <p class="relative mt-3 text-sm leading-5 text-neutral-600">Kuasai ArcGIS and Geospatial untuk mengolah data spasial secara profesional.</p>
                 </div>
                 <div class="flex px-5 items-center gap-4">
                     <div>
-                        <img class="w-[60px]" src="../assets/pg1/profile-instructor.jpg" alt="">
+                        <img class="w-[60px]" src="./assets/pg1/profile-instructor.jpg" alt="">
                     </div>
                     <div>
                         <p class="font-extrabold text-[#273F5A]">Aliem Arif Perkasa</p>
@@ -299,19 +299,19 @@
             <!-- Card ArcGIS and Geospatial Online -->
             <!-- Card ArcGIS and Geospatial Online -->
             <div id="class-item online" class="flex overflow-hidden flex-col grow-0 bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px] hover:-translate-y-1 duration-300">
-                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="../assets/pg1/banner-arcgis-online.jpg" alt="Course image"/>
+                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="./assets/pg1/banner-arcgis-online.jpg" alt="Course image"/>
                 <div class="flex gap-5 justify-between mx-5 mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
                     <p class="font-semibold text-sm text-[#5386C0]">9 September 2024</p>
                     <p class="font-semibold text-sm text-[#5386C0]">Kelas Online</p>
                 </div>
                 <div class="flex relative flex-col px-5 pt-px pb-3 mt-1.5 w-full aspect-[2.944] max-md:pr-5 h-full">
                     <img class="object-cover absolute inset-0 size-full" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt=""/>
-                    <a href="../pages/detailclass-arcgis.html" class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">ArcGIS and Geospatial</a>
+                    <a href="./pages/detailclass-arcgis.html" class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">ArcGIS and Geospatial</a>
                     <p class="relative mt-3 text-sm leading-5 text-neutral-600">Kuasai ArcGIS and Geospatial untuk mengolah data spasial secara profesional.</p>
                 </div>
                 <div class="flex px-5 items-center gap-4">
                     <div>
-                        <img class="w-[60px]" src="../assets/pg1/profile-instructor.jpg" alt="">
+                        <img class="w-[60px]" src="./assets/pg1/profile-instructor.jpg" alt="">
                     </div>
                     <div>
                         <p class="font-extrabold text-[#273F5A]">Aliem Arif Perkasa</p>
@@ -336,19 +336,19 @@
             <!-- Card SketchUp 3D Modelling Offline -->
             <!-- Card SketchUp 3D Modelling Offline -->
             <div id="class-item offline" class="flex overflow-hidden flex-col grow-0 bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px] hover:-translate-y-1 duration-300">
-                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="../assets/pg1/banner-sketch.jpg"/>
+                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="./assets/pg1/banner-sketch.jpg"/>
                 <div class="flex gap-5 justify-between mx-5 mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
                     <p class="font-semibold text-sm text-[#EDC423]">2 September 2024</p>
                     <p class="font-semibold text-sm text-[#EDC423]">Kelas Offline</p>
                 </div>
                 <div class="flex relative flex-col px-5 pt-px pb-3 mt-1.5 w-full aspect-[2.944] max-md:pr-5 h-full">
                     <img class="object-cover absolute inset-0 size-full" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt=""/>
-                    <a href="../pages/detailclass-sketc.html" class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">SketchUp 3D Modelling</a>
+                    <a href="./pages/detailclass-sketc.html" class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">SketchUp 3D Modelling</a>
                     <p class="relative mt-3 text-sm leading-5 text-neutral-600">Belajar membuat model 3D dengan mudah dan cepat.</p>
                 </div>
                 <div class="flex px-5 items-center gap-4">
                     <div>
-                        <img class="w-[60px]" src="../assets/pg1/profile-instructor.jpg" alt="">
+                        <img class="w-[60px]" src="./assets/pg1/profile-instructor.jpg" alt="">
                     </div>
                     <div>
                         <p class="font-extrabold text-[#273F5A]">Aliem Arif Perkasa</p>
@@ -373,19 +373,19 @@
             <!-- Card Fullstack Developer Offline -->
             <!-- Card Fullstack Developer Offline -->
             <div id="class-item offline" class="flex overflow-hidden flex-col grow-0 bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px] hover:-translate-y-1 duration-300">
-                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="../assets/pg1/banner-one-t.jpg" alt="Course image"/>
+                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="./assets/pg1/banner-one-t.jpg" alt="Course image"/>
                 <div class="flex gap-5 justify-between mx-5 mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
                     <p class="font-semibold text-sm text-[#EDC423]">14 September 2024</p>
                     <p class="font-semibold text-sm text-[#EDC423]">Kelas Offline</p>
                 </div>
                 <div class="flex relative flex-col px-5 pt-px pb-3 mt-1.5 w-full aspect-[2.944] max-md:pr-5 h-full">
                     <img class="object-cover absolute inset-0 size-full" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt=""/>
-                    <a href="../pages/detailclass-fullstack.html" class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">Fullstack Web Developer</a>
+                    <a href="./pages/detailclass-fullstack.html" class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">Fullstack Web Developer</a>
                     <p class="relative mt-3 text-sm leading-5 text-neutral-600">Belajar bangun website lengkap dari front-end hingga back-end, siap kerja profesional.</p>
                 </div>
                 <div class="flex px-5 items-center gap-4">
                     <div>
-                        <img class="w-[60px]" src="../assets/pg1/profile-instructor.jpg" alt="">
+                        <img class="w-[60px]" src="./assets/pg1/profile-instructor.jpg" alt="">
                     </div>
                     <div>
                         <p class="font-extrabold text-[#273F5A]">Aliem Arif Perkasa</p>
@@ -410,19 +410,19 @@
             <!-- Card Fullstack Web Developer Online -->
             <!-- Card Fullstack Web Developer Online -->
             <div id="class-item online" class="flex overflow-hidden flex-col grow-0 bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px] hover:-translate-y-1 duration-300">
-                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="../assets/pg1/banner-fullstack-online.jpg" alt="Course image"/>
+                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="./assets/pg1/banner-fullstack-online.jpg" alt="Course image"/>
                 <div class="flex gap-5 justify-between mx-5 mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
                     <p class="font-semibold text-sm text-[#5386C0]">14 September 2024</p>
                     <p class="font-semibold text-sm text-[#5386C0]">Kelas Online</p>
                 </div>
                 <div class="flex relative flex-col px-5 pt-px pb-3 mt-1.5 w-full aspect-[2.944] max-md:pr-5 h-full">
                     <img class="object-cover absolute inset-0 size-full" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt=""/>
-                    <a href="../pages/detailclass.html" class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">Fullstack Web Developer</a>
+                    <a href="./pages/detailclass.html" class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">Fullstack Web Developer</a>
                     <p class="relative mt-3 text-sm leading-5 text-neutral-600">Belajar bangun website lengkap dari front-end hingga back-end, siap kerja profesional.</p>
                 </div>
                 <div class="flex px-5 items-center gap-4">
                     <div>
-                        <img class="w-[60px]" src="../assets/pg1/profile-instructor.jpg" alt="">
+                        <img class="w-[60px]" src="./assets/pg1/profile-instructor.jpg" alt="">
                     </div>
                     <div>
                         <p class="font-extrabold text-[#273F5A]">Aliem Arif Perkasa</p>
