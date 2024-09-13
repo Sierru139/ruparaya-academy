@@ -4,10 +4,10 @@
             <img class="w-32" src="./assets/logo/rralogo-outline.png" alt="">
         </div>
         <div class="md:flex gap-10 hidden text-[#273F5A] text-[15px] font-semibold">
-            <a href="index.php" class="hover:text-[#5386C0] duration-300">Beranda</a>
-            <a href="listing.php" class="hover:text-[#5386C0] duration-300">Kursus/Kelas</a>                  
-            <a href="about.php" class="hover:text-[#5386C0] duration-300">Tentang Kami</a>
-            <a href="testimonial.php" class="hover:text-[#5386C0] duration-300">Testimonial</a>
+            <a href="./index.php" class="hover:text-[#5386C0] duration-300">Beranda</a>
+            <a href="./listing.php" class="hover:text-[#5386C0] duration-300">Kursus/Kelas</a>                  
+            <a href="./about.php" class="hover:text-[#5386C0] duration-300">Tentang Kami</a>
+            <a href="./testimonial.php" class="hover:text-[#5386C0] duration-300">Testimonial</a>
         </div>
         <div class="md:hidden block">
             <div id="resNav" class="rounded-md px-2 text-black">
@@ -19,10 +19,10 @@
                 </div>
                 <div class="block"></div>
                 <div class="mb-8">
-                    <a class="mr-6 block border-b py-3"  href="./index.html">Beranda</a>
-                    <a class="mr-6 block border-b py-3"  href="./listing.html">Program/Kelas</a>
-                    <a class="mr-6 block border-b py-3"  href="./about.html">Tentang Kami</a>
-                    <a class="mr-6 block border-b py-3"  href="./testimonial.html">Testimonial</a>
+                    <a class="mr-6 block border-b py-3"  href="./index.php">Beranda</a>
+                    <a class="mr-6 block border-b py-3"  href="./listing.php">Program/Kelas</a>
+                    <a class="mr-6 block border-b py-3"  href="./about.php">Tentang Kami</a>
+                    <a class="mr-6 block border-b py-3"  href="./testimonial.php">Testimonial</a>
                 </div>
                 <div class="flex flex-col items-start w-full">
                     <div class="flex gap-5 mb-4">

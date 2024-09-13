@@ -1,5 +1,5 @@
 [
-    {
+        {
         "id": 1,
         "title": "3D Architecture Class",
         "type": "3D Modelling",
@@ -13,8 +13,8 @@
                 },
         "image": "./assets/details/flayer-3darchitectural.jpg",
         "details-img": "./assets/details/scedule-3darchitectural.jpg"
-    },
-    {
+        },
+        {
         "id": 2,
         "title": "Testing",
         "type": "3D Modelling",
@@ -28,5 +28,5 @@
                 },
         "image": "./assets/details/flayer-3dproduct.jpg",
         "details-img": "./assets/details/scedule-3dproduct.jpg"
-    }
+        }
 ]
