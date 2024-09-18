@@ -1,5 +1,5 @@
 [
-    {
+        {
         "id": 1,
         "title": "3D Architecture Class",
         "type": "3D Modelling",
@@ -11,16 +11,38 @@
                 "Fotoshop" :  "Adobe Photoshop adalah aplikasi desain grafis dan pengeditan foto yang paling terkenal dan digunakan di seluruh dunia. Dirancang untuk para profesional di bidang fotografi, desain, dan seni digital, Photoshop menawarkan berbagai fitur canggih untuk mengedit, memanipulasi, dan memperbaiki gambar dengan tingkat presisi yang tinggi.",
                 "Figma" : "FIGMA ADALAH pie[qi [qie[qie qi[ei[qe dan pengeditan foto yang paling terkenal dan digunakan di seluruh dunia. Dirancang untuk para profesional di bidang fotografi, desain, dan seni digital, Photoshop menawarkan berbagai fitur canggih untuk mengedit, memanipulasi, dan memperbaiki gambar dengan tingkat presisi yang tinggi."
                 },
-        "image": "./assets/details/flayer-3darchitectural.jpg"
-    },
-    {
+        "image": "./assets/details/flayer-3darchitectural.jpg",
+        "details-img": "./assets/details/scedule-3darchitectural.jpg"
+        },
+        {
         "id": 2,
-        "title": "Foto Bareng Sebelum Keberangkatan PKL",
+        "title": "3D Design",
+        "type": "3D Modelling",
         "expl": [
                 "Dalam kelas ini, peserta akan mempelajari teknik pembuatan model 3D yang detail dan realistis untuk keperluan produk, mulai dari konsep hingga render akhir. Peserta akan diajarkan cara menggunakan berbagai software dan tool untuk menciptakan model 3D produk dengan presisi, memperhatikan tekstur, pencahayaan, dan komposisi visual.",
                 "Selain itu, peserta juga akan mendalami teknik photoshoot produk, mencakup penataan cahaya, angle pengambilan gambar, dan teknik post-processing untuk menghasilkan visual yang menarik dan profesional. Kelas ini dirancang agar peserta dapat menguasai seluruh proses, dari modelling hingga photoshoot, untuk menciptakan presentasi produk yang memukau."
                 ],
-        "tools": "./assets/img/galleries/fotbar-lapangan-2.jpg",
-        "image": "./assets/img/galleries/fotbar-lapangan-2.jpg"
-    }
+        "tools": {
+                "Fotoshop" :  "Adobe Photoshop adalah aplikasi desain grafis dan pengeditan foto yang paling terkenal dan digunakan di seluruh dunia. Dirancang untuk para profesional di bidang fotografi, desain, dan seni digital, Photoshop menawarkan berbagai fitur canggih untuk mengedit, memanipulasi, dan memperbaiki gambar dengan tingkat presisi yang tinggi.",
+                "Figma" : "FIGMA ADALAH pie[qi [qie[qie qi[ei[qe dan pengeditan foto yang paling terkenal dan digunakan di seluruh dunia. Dirancang untuk para profesional di bidang fotografi, desain, dan seni digital, Photoshop menawarkan berbagai fitur canggih untuk mengedit, memanipulasi, dan memperbaiki gambar dengan tingkat presisi yang tinggi."
+                },
+        "image": "./assets/details/flayer-3dproduct.jpg",
+        "details-img": "./assets/details/scedule-3dproduct.jpg"
+        },
+
+        {
+        "id": 2,
+        "title": "3D Model",
+        "type": "3D Modelling",
+        "expl": [
+                "Dalam kelas ini, peserta akan mempelajari teknik pembuatan model 3D yang detail dan realistis untuk keperluan produk, mulai dari konsep hingga render akhir. Peserta akan diajarkan cara menggunakan berbagai software dan tool untuk menciptakan model 3D produk dengan presisi, memperhatikan tekstur, pencahayaan, dan komposisi visual.",
+                "Selain itu, peserta juga akan mendalami teknik photoshoot produk, mencakup penataan cahaya, angle pengambilan gambar, dan teknik post-processing untuk menghasilkan visual yang menarik dan profesional. Kelas ini dirancang agar peserta dapat menguasai seluruh proses, dari modelling hingga photoshoot, untuk menciptakan presentasi produk yang memukau."
+                ],
+        "tools": {
+                "Fotoshop" :  "Adobe Photoshop adalah aplikasi desain grafis dan pengeditan foto yang paling terkenal dan digunakan di seluruh dunia. Dirancang untuk para profesional di bidang fotografi, desain, dan seni digital, Photoshop menawarkan berbagai fitur canggih untuk mengedit, memanipulasi, dan memperbaiki gambar dengan tingkat presisi yang tinggi.",
+                "Figma" : "FIGMA ADALAH pie[qi [qie[qie qi[ei[qe dan pengeditan foto yang paling terkenal dan digunakan di seluruh dunia. Dirancang untuk para profesional di bidang fotografi, desain, dan seni digital, Photoshop menawarkan berbagai fitur canggih untuk mengedit, memanipulasi, dan memperbaiki gambar dengan tingkat presisi yang tinggi."
+                },
+        "image": "./assets/details/flayer-3dproduct.jpg",
+        "details-img": "./assets/details/scedule-3dproduct.jpg"
+        }
 ]

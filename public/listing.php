@@ -1,3 +1,8 @@
+<?php 
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -27,59 +32,14 @@
     <!-- NAVIGATION BAR START =============== -->
     <!-- NAVIGATION BAR START =============== -->
     <!-- NAVIGATION BAR START =============== -->
-    <!-- <nav id="nav" class="w-full top-0 z-[999] py-4 px-5 xl:px-12 bg-white shadow-2xl">
-        <div class="max-w-[1440px] mx-auto flex justify-between items-center">
-            <div>
-                <img class="w-32" src="../assets/logo/rralogo-outline.png" alt="">
-            </div>
-            <div class="md:flex gap-10 hidden text-[#273F5A] text-[15px] font-semibold">
-                <a href="../index.html" class="hover:text-[#5386C0] duration-300">Beranda</a>
-                <a href="#" class="text-[#5386C0] duration-300">Kursus/Kelas</a>                  
-                <a href="../pages/about.html" class="hover:text-[#5386C0] duration-300">Tentang Kami</a>
-                <a href="../pages/testimonial.html" class="hover:text-[#5386C0] duration-300">Testimonial</a>
-            </div>
-            <div class="md:hidden block">
-                <div id="resNav" class="rounded-md px-2 text-black">
-                    <i class="resBtn fas fa-bars"></i>
-                </div>
-                <div id="resMenu" class="fixed top-0 right-0 rounded-bl-[45px] p-10 bg-blue-rpr-thr-a2 text-white hidden resGoDown z-50">
-                    <div id="resNavClose" class="inline absolute rounded-md right-5 text-white">
-                        <i class="fas fa-x"></i>
-                    </div>
-                    <div class="block"></div>
-                    <div class="mb-8">
-                        <a class="mr-6 block border-b py-3"  href="../index.html">Beranda</a>
-                        <a class="mr-6 block border-b py-3"  href="../pages/listing.html">Program/Kelas</a>
-                        <a class="mr-6 block border-b py-3"  href="../pages/about.html">Tentang Kami</a>
-                        <a class="mr-6 block border-b py-3"  href="../pages/testimonial.html">Testimonial</a>
-                    </div>
-                    <div class="flex flex-col items-start w-full">
-                        <div class="flex gap-5 mb-4">
-                          <a href="#" aria-label="Facebook">
-                            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/eea0de67ff265db660885ad6d3abd371357cf57f513dccf68ddbc96fde317182?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="" class="object-contain shrink-0 rounded-full aspect-square w-[35px]" />
-                          </a>
-                          <a href="#" aria-label="Twitter">
-                            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/c64d2ccd0f03d7da6e9fc2e58102a09ef727773fe900bc12fcdb7d3a23e25c5b?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="" class="object-contain shrink-0 rounded-full aspect-square w-[35px]" />
-                          </a>
-                          <a href="#" aria-label="Instagram">
-                            <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/d042807ef59e5e09ff5748ddd5e28c69601bd7d0cb7b2f5fb2af68aae79242e7?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="" class="object-contain shrink-0 rounded-full aspect-square w-[35px]" />
-                          </a>
-                        </div>
-                        <div class="text-sm">
-                            Copyright © 2024 Rupa Raya <br> Indonesia. All Rights Reserved
-                        </div>
-                      </div>
-                </div>
-            </div>
-        </div>
-    </nav> -->
+    <?php include_once __DIR__ . "/pages/sections/navbar.php" ?>
     <!-- NAVIGATION BAR END =============== -->
     <!-- NAVIGATION BAR END =============== -->
     <!-- NAVIGATION BAR END =============== -->
 
     <header class="">
         <div class="lg:h-fit h-[50vh] relative overflow-hidden centered-xy">
-            <img class="img-cover object-top -z-10" src="../assets/program/bg-class.png" alt="">
+            <img class="img-cover object-top -z-10" src="./assets/program/bg-class.png" alt="">
             <div class="max-w-[575px] absolute z-20 text-white text-center">
                 <h3 class="md:text-4xl text-[32px] font-semibold mb-4" data-aos="fade-up" data-aos-once="true"
                     data-aos-duration="1100">Kursus/Kelas</h3>
@@ -93,7 +53,7 @@
     <!-- SECTION 4 CARD CLASS START ======= -->
     <!-- SECTION 4 CARD CLASS START ======= -->
     <section class="flex flex-col my-10">
-        <div class="flex items-center justify-between mx-16 max-md:mx-6 max-lg:mx-10 max-xl:mx-5 max-lg:flex-wrap">
+        <div class="flex items-center justify-between mx-16 max-md:mx-6 max-lg:flex-wrap">
             <div>
                 <h2 class="z-10 mt-0 text-3xl font-extrabold text-slate-700">
                     <span class="text-[#273F5A]">Daftar</span>
@@ -131,7 +91,7 @@
             <!-- Card UI/UX Design Mobile App Offline -->
             <div id="class-item offline"
                 class="flex overflow-hidden flex-col grow bg-white rounded-2xl shadow-xl min-w-[300px] max-w-[340px] hover:-translate-y-1 duration-300">
-                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="../assets/pg1/banner-uiux.jpg"
+                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="./assets/pg1/banner-uiux.jpg"
                     alt="Course image" />
                 <div class="flex gap-5 justify-between mx-5 mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
                     <p class="font-semibold text-sm text-[#EDC423]">14 September 2024</p>
@@ -141,7 +101,7 @@
                     <img class="object-cover absolute inset-0 size-full" loading="lazy"
                         src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385"
                         alt="" />
-                    <a href="../pages/detailclass-uiux.html"
+                    <a href="./pages/detailclass-uiux.html"
                         class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">UI/UX
                         Design Mobile App</a>
                     <p class="relative mt-3 text-sm leading-5 text-neutral-600">Belajar mengenal dasar UI/UX, Hands-on
@@ -149,7 +109,7 @@
                 </div>
                 <div class="flex px-5 items-center gap-4">
                     <div>
-                        <img class="w-[60px]" src="../assets/pg1/profile-instructor-uiux.jpg" alt="">
+                        <img class="w-[60px]" src="./assets/pg1/profile-instructor-uiux.jpg" alt="">
                     </div>
                     <div>
                         <p class="font-extrabold text-[#273F5A]">Abd. Rahim Saleh</p>
@@ -181,7 +141,7 @@
             <div id="class-item offline"
                 class="flex overflow-hidden flex-col grow-0 bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px] hover:-translate-y-1 duration-300">
                 <img class="object-cover w-full aspect-[1.54]" loading="lazy"
-                    src="../assets/pg1/banner-3darchitectural.jpg" alt="Course image" />
+                    src="./assets/pg1/banner-3darchitectural.jpg" alt="Course image" />
                 <div class="flex gap-5 justify-between mx-5 mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
                     <p class="font-semibold text-sm text-[#EDC423]">18 September 2024</p>
                     <p class="font-semibold text-sm text-[#EDC423]">Kelas Offline</p>
@@ -190,7 +150,7 @@
                     <img class="object-cover absolute inset-0 size-full" loading="lazy"
                         src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb"
                         alt="" />
-                    <a href="../pages/detailclass-3darchitectural.html"
+                    <a href="./pages/detailclass-3darchitectural.html"
                         class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">3D
                         Architectural Rendering</a>
                     <p class="relative mt-3 text-sm leading-5 text-neutral-600">Belajar dasar rendering arsitektur 3D
@@ -198,7 +158,7 @@
                 </div>
                 <div class="flex px-5 items-center gap-4">
                     <div>
-                        <img class="w-[60px]" src="../assets/pg1/profile-instructor-uiux.jpg" alt="">
+                        <img class="w-[60px]" src="./assets/pg1/profile-instructor-uiux.jpg" alt="">
                     </div>
                     <div>
                         <p class="font-extrabold text-[#273F5A]">Abd. Rahim Saleh</p>
@@ -229,7 +189,7 @@
             <!-- Card Speaking Communication English Offline -->
             <div id="class-item offline"
                 class="flex overflow-hidden flex-col grow-0 bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px] hover:-translate-y-1 duration-300">
-                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="../assets/pg1/banner-english.jpg"
+                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="./assets/pg1/banner-english.jpg"
                     alt="Course image" />
                 <div class="flex gap-5 justify-between mx-5 mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
                     <p class="font-semibold text-sm text-[#EDC423]">20 September 2024</p>
@@ -239,7 +199,7 @@
                     <img class="object-cover absolute inset-0 size-full" loading="lazy"
                         src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb"
                         alt="" />
-                    <a href="../pages/detailclass-english.html"
+                    <a href="./pages/detailclass-english.html"
                         class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">Speaking
                         Communication English</a>
                     <p class="relative mt-3 text-sm leading-5 text-neutral-600">Kuasi komunikasi bahasa Inggris
@@ -247,7 +207,7 @@
                 </div>
                 <div class="flex px-5 items-center gap-4">
                     <div>
-                        <img class="w-[60px]" src="../assets/pg1/profile-instructor.jpg" alt="">
+                        <img class="w-[60px]" src="./assets/pg1/profile-instructor.jpg" alt="">
                     </div>
                     <div>
                         <p class="font-extrabold text-[#273F5A]">Aliem Arif Perkasa</p>
@@ -278,7 +238,7 @@
             <!-- Card 3D Modelling Product & Photoshoot Offline -->
             <div id="class-item offline"
                 class="flex overflow-hidden flex-col grow-0 bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px] hover:-translate-y-1 duration-300">
-                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="../assets/pg1/banner-3dmodeling.jpg"
+                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="./assets/pg1/banner-3dmodeling.jpg"
                     alt="Course image" />
                 <div class="flex gap-5 justify-between mx-5 mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
                     <p class="font-semibold text-sm text-[#EDC423]">13 September 2024</p>
@@ -288,7 +248,7 @@
                     <img class="object-cover absolute inset-0 size-full" loading="lazy"
                         src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb"
                         alt="" />
-                    <a href="../pages/detailclass-3dproduct.html"
+                    <a href="./pages/detailclass-3dproduct.html"
                         class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">3D
                         Modelling Product & Photoshoot</a>
                     <p class="relative mt-3 text-sm leading-5 text-neutral-600">Belajar cara membuat model 3D detail dan
@@ -296,7 +256,7 @@
                 </div>
                 <div class="flex px-5 items-center gap-4">
                     <div>
-                        <img class="w-[60px]" src="../assets/pg1/profile-instructor.jpg" alt="">
+                        <img class="w-[60px]" src="./assets/pg1/profile-instructor.jpg" alt="">
                     </div>
                     <div>
                         <p class="font-extrabold text-[#273F5A]">Aliem Arif Perkasa</p>
@@ -328,7 +288,7 @@
             <div id="class-item online"
                 class="flex overflow-hidden flex-col grow-0 my-auto bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px] hover:-translate-y-1 duration-300">
                 <img class="object-cover w-full aspect-[1.54]" loading="lazy"
-                    src="../assets/pg1/banner-3dproductmodelling-online.jpg" alt="Course image" />
+                    src="./assets/pg1/banner-3dproductmodelling-online.jpg" alt="Course image" />
                 <div class="flex gap-5 justify-between mx-5 mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
                     <p class="font-semibold text-sm text-[#5386C0]">16 September 2024</p>
                     <p class="font-semibold text-sm text-[#5386C0]">Kelas Online</p>
@@ -337,7 +297,7 @@
                     <img class="object-cover absolute inset-0 size-full" loading="lazy"
                         src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb"
                         alt="" />
-                    <a href="../pages/detailclass-3dproduct.html"
+                    <a href="./pages/detailclass-3dproduct.html"
                         class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">3D
                         Modelling Product & Photoshoot</a>
                     <p class="relative mt-3 text-sm leading-5 text-neutral-600">Belajar cara membuat model 3D detail dan
@@ -345,7 +305,7 @@
                 </div>
                 <div class="flex px-5 items-center gap-4">
                     <div>
-                        <img class="w-[60px]" src="../assets/pg1/profile-instructor.jpg" alt="">
+                        <img class="w-[60px]" src="./assets/pg1/profile-instructor.jpg" alt="">
                     </div>
                     <div>
                         <p class="font-extrabold text-[#273F5A]">Aliem Arif Perkasa</p>
@@ -376,7 +336,7 @@
             <!-- Card ArcGIS and Geospatial Offline -->
             <div id="class-item offline"
                 class="flex overflow-hidden flex-col grow-0 bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px] hover:-translate-y-1 duration-300">
-                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="../assets/pg1/banner-argis.jpg"
+                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="./assets/pg1/banner-argis.jpg"
                     alt="Course image" />
                 <div class="flex gap-5 justify-between mx-5 mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
                     <p class="font-semibold text-sm text-[#EDC423]">9 September 2024</p>
@@ -386,7 +346,7 @@
                     <img class="object-cover absolute inset-0 size-full" loading="lazy"
                         src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb"
                         alt="" />
-                    <a href="../pages/detailclass-arcgis.html"
+                    <a href="./pages/detailclass-arcgis.html"
                         class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">ArcGIS
                         and Geospatial</a>
                     <p class="relative mt-3 text-sm leading-5 text-neutral-600">Kuasai ArcGIS and Geospatial untuk
@@ -394,7 +354,7 @@
                 </div>
                 <div class="flex px-5 items-center gap-4">
                     <div>
-                        <img class="w-[60px]" src="../assets/pg1/profile-instructor.jpg" alt="">
+                        <img class="w-[60px]" src="./assets/pg1/profile-instructor.jpg" alt="">
                     </div>
                     <div>
                         <p class="font-extrabold text-[#273F5A]">Aliem Arif Perkasa</p>
@@ -426,7 +386,7 @@
             <div id="class-item online"
                 class="flex overflow-hidden flex-col grow-0 bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px] hover:-translate-y-1 duration-300">
                 <img class="object-cover w-full aspect-[1.54]" loading="lazy"
-                    src="../assets/pg1/banner-arcgis-online.jpg" alt="Course image" />
+                    src="./assets/pg1/banner-arcgis-online.jpg" alt="Course image" />
                 <div class="flex gap-5 justify-between mx-5 mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
                     <p class="font-semibold text-sm text-[#5386C0]">9 September 2024</p>
                     <p class="font-semibold text-sm text-[#5386C0]">Kelas Online</p>
@@ -435,7 +395,7 @@
                     <img class="object-cover absolute inset-0 size-full" loading="lazy"
                         src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb"
                         alt="" />
-                    <a href="../pages/detailclass-arcgis.html"
+                    <a href="./pages/detailclass-arcgis.html"
                         class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">ArcGIS
                         and Geospatial</a>
                     <p class="relative mt-3 text-sm leading-5 text-neutral-600">Kuasai ArcGIS and Geospatial untuk
@@ -443,7 +403,7 @@
                 </div>
                 <div class="flex px-5 items-center gap-4">
                     <div>
-                        <img class="w-[60px]" src="../assets/pg1/profile-instructor.jpg" alt="">
+                        <img class="w-[60px]" src="./assets/pg1/profile-instructor.jpg" alt="">
                     </div>
                     <div>
                         <p class="font-extrabold text-[#273F5A]">Aliem Arif Perkasa</p>
@@ -474,7 +434,7 @@
             <!-- Card SketchUp 3D Modelling Offline -->
             <div id="class-item offline"
                 class="flex overflow-hidden flex-col grow-0 bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px] hover:-translate-y-1 duration-300">
-                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="../assets/pg1/banner-sketch.jpg" />
+                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="./assets/pg1/banner-sketch.jpg" />
                 <div class="flex gap-5 justify-between mx-5 mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
                     <p class="font-semibold text-sm text-[#EDC423]">2 September 2024</p>
                     <p class="font-semibold text-sm text-[#EDC423]">Kelas Offline</p>
@@ -483,7 +443,7 @@
                     <img class="object-cover absolute inset-0 size-full" loading="lazy"
                         src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb"
                         alt="" />
-                    <a href="../pages/detailclass-sketc.html"
+                    <a href="./pages/detailclass-sketc.html"
                         class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">SketchUp
                         3D Modelling</a>
                     <p class="relative mt-3 text-sm leading-5 text-neutral-600">Belajar membuat model 3D dengan mudah
@@ -491,7 +451,7 @@
                 </div>
                 <div class="flex px-5 items-center gap-4">
                     <div>
-                        <img class="w-[60px]" src="../assets/pg1/profile-instructor.jpg" alt="">
+                        <img class="w-[60px]" src="./assets/pg1/profile-instructor.jpg" alt="">
                     </div>
                     <div>
                         <p class="font-extrabold text-[#273F5A]">Aliem Arif Perkasa</p>
@@ -522,7 +482,7 @@
             <!-- Card Fullstack Developer Offline -->
             <div id="class-item offline"
                 class="flex overflow-hidden flex-col grow-0 bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px] hover:-translate-y-1 duration-300">
-                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="../assets/pg1/banner-one-t.jpg"
+                <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="./assets/pg1/banner-one-t.jpg"
                     alt="Course image" />
                 <div class="flex gap-5 justify-between mx-5 mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
                     <p class="font-semibold text-sm text-[#EDC423]">14 September 2024</p>
@@ -532,7 +492,7 @@
                     <img class="object-cover absolute inset-0 size-full" loading="lazy"
                         src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb"
                         alt="" />
-                    <a href="../pages/detailclass-fullstack.html"
+                    <a href="./pages/detailclass-fullstack.html"
                         class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">Fullstack
                         Web Developer</a>
                     <p class="relative mt-3 text-sm leading-5 text-neutral-600">Belajar bangun website lengkap dari
@@ -540,7 +500,7 @@
                 </div>
                 <div class="flex px-5 items-center gap-4">
                     <div>
-                        <img class="w-[60px]" src="../assets/pg1/profile-instructor.jpg" alt="">
+                        <img class="w-[60px]" src="./assets/pg1/profile-instructor.jpg" alt="">
                     </div>
                     <div>
                         <p class="font-extrabold text-[#273F5A]">Aliem Arif Perkasa</p>
@@ -572,7 +532,7 @@
             <div id="class-item online"
                 class="flex overflow-hidden flex-col grow-0 bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px] hover:-translate-y-1 duration-300">
                 <img class="object-cover w-full aspect-[1.54]" loading="lazy"
-                    src="../assets/pg1/banner-fullstack-online.jpg" alt="Course image" />
+                    src="./assets/pg1/banner-fullstack-online.jpg" alt="Course image" />
                 <div class="flex gap-5 justify-between mx-5 mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
                     <p class="font-semibold text-sm text-[#5386C0]">14 September 2024</p>
                     <p class="font-semibold text-sm text-[#5386C0]">Kelas Online</p>
@@ -581,7 +541,7 @@
                     <img class="object-cover absolute inset-0 size-full" loading="lazy"
                         src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb"
                         alt="" />
-                    <a href="../pages/detailclass.html"
+                    <a href="./pages/detailclass.html"
                         class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline">Fullstack
                         Web Developer</a>
                     <p class="relative mt-3 text-sm leading-5 text-neutral-600">Belajar bangun website lengkap dari
@@ -589,7 +549,7 @@
                 </div>
                 <div class="flex px-5 items-center gap-4">
                     <div>
-                        <img class="w-[60px]" src="../assets/pg1/profile-instructor.jpg" alt="">
+                        <img class="w-[60px]" src="./assets/pg1/profile-instructor.jpg" alt="">
                     </div>
                     <div>
                         <p class="font-extrabold text-[#273F5A]">Aliem Arif Perkasa</p>
@@ -621,23 +581,7 @@
     <!-- SECTION 8 QNA START ============= -->
     <!-- SECTION 8 QNA START ============= -->
     <!-- SECTION 8 QNA START ============= -->
-    <section data-aos="fade-up" data-aos-duration="900" data-aos-once="true" class="px-2 my-20 max-md:mx-3 max-lg:mx-5">
-        <div
-            class="relative- h-[275px] max-w-[1100px] mx-auto rounded-[24px] centered-xy bg-cover bg-no-repeat bg-[url('../assets/about/section/cta.png')]">
-            <div class="flex lg:gap-28 lg:flex-row flex-col items-center md:px-12 px-8 absolute z-20 text-white ">
-                <div class="max-w-[600px] md:text-left text-center">
-                    <h3
-                        class="md:text-[40px] text-3xl font-bold leading-[57px] max-lg:leading-[45px] max-lg:text-center">
-                        Ingin Tahu Lebih? Hubungi Kami Sekarang</h3>
-                </div>
-                <div class="lg:mt-0 mt-6">
-                    <a href="#class"
-                        class="text-[#5386C0] bg-white lg:py-3 py-2 px-6 rounded-full lg:text-xl text-lg font-semibold">Hubungi
-                        Kami</a>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php include_once __DIR__ . "/pages/sections/callToAct.php" ?>
     <!-- SECTION 8 QNA START ============= -->
     <!-- SECTION 8 QNA START ============= -->
     <!-- SECTION 8 QNA START ============= -->
@@ -731,7 +675,7 @@
     <!-- FOOTER END ============== -->
     <!-- FOOTER END ============== -->
 
-    <script src="../js/app.js"></script>
+    <script src="./js/app.js"></script>
 </body>
 
 </html>
