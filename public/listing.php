@@ -71,8 +71,6 @@
 
         <div class="flex flex-wrap gap-4 items-stretch justify-center self-stretch mt-10 max-md:mt-10">
 
-
-
             <!-- Card UI/UX Design Mobile App Offline -->
             <!-- Card UI/UX Design Mobile App Offline -->
             <!-- Card UI/UX Design Mobile App Offline -->
