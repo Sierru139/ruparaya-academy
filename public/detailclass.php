@@ -1,15 +1,21 @@
 <?php 
 
-$num = $_GET['card'];
+$num = $_GET['class'];
 
 
 $classdata = file_get_contents("./pages/data/class.json");
 $class = json_decode($classdata, true);
 
-if (!array_key_exists($num, $class) || $num === null) {
-    header("Location: error.php");
-    exit();
-}
+$activeClass = array_filter($class, function($item){
+    global $num;
+    return $item['detail-id'] === $num;
+});
+var_dump($activeClass);
+
+// if (!array_key_exists($num, $class) || $num === null) {
+//     header("Location: error.php");
+//     exit();
+// }
 ?>
 
 <!DOCTYPE html>

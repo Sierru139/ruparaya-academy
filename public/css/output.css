@@ -1663,10 +1663,6 @@ video {
   background-image: url('../assets/pg1/bg-testi.jpg');
 }
 
-.bg-\[url\(\'\.\/assets\/about\/section\/cta\.png\'\)\] {
-  background-image: url('./assets/about/section/cta.png');
-}
-
 .bg-cover {
   background-size: cover;
 }
@@ -2106,21 +2102,6 @@ video {
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-\[\#ed2323\] {
-  --tw-text-opacity: 1;
-  color: rgb(237 35 35 / var(--tw-text-opacity));
-}
-
-.text-\[\#f94dff\] {
-  --tw-text-opacity: 1;
-  color: rgb(249 77 255 / var(--tw-text-opacity));
-}
-
-.text-\[\#36a5a5\] {
-  --tw-text-opacity: 1;
-  color: rgb(54 165 165 / var(--tw-text-opacity));
 }
 
 .text-opacity-50 {

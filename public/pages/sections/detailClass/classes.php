@@ -1,34 +1,21 @@
-<?php 
-
-$num = $_GET['card'];
-
-
-$classdata = file_get_contents("./pages/data/class.json");
-$class = json_decode($classdata, true);
-
-if ($num > count($class)) {
-    header("Location: ./index.php");
-    exit();
-}
-?>
-
+<?php foreach ($activeClass as $activeClass) { ?>
 <section class="container-cs-w">
     <div class="flex lg:flex-row gap-x-4 flex-col lg:items-start px-4 py-5">
         <div class="flex flex-col rounded-none lg:w-[70%]">
             <article class="flex flex-col items-start px-5 py-6 w-full bg-white rounded-3xl max-md:px-5 max-md:max-w-full">
 
             <header class="flex flex-wrap items-center gap-5 justify-between self-stretch font-semibold max-md:max-w-full">
-                <h1 class="text-3xl text-[#273F5A] max-md:max-w-full"><?= $class[$num]["title"] ?></h1>
-                <span class="self-start px-4 py-px mt-2.5 text-base text-white rounded-md bg-[#5386C0]"><?= $class[$num]["type"] ?></span>
+                <h1 class="text-3xl text-[#273F5A] max-md:max-w-full"><?= $activeClass["title"] ?></h1>
+                <span class="self-start px-4 py-px mt-2.5 text-base text-white rounded-md bg-[#5386C0]"><?= $activeClass["type"] ?></span>
             </header>
 
-            <?php foreach ($class[$num]["expl"] as $value) { ?>
+            <?php foreach ($activeClass["expl"] as $value) { ?>
             <p class="mt-7 text-base text-stone-500 max-md:max-w-full"><?= $value ?></p>
             <?php } ?>
             
             <h2 class="mt-7 text-3xl font-semibold text-slate-700">Tools yang di gunakan :</h2>
 
-            <?php foreach ($class[$num]["tools"] as $key => $value) { ?>
+            <?php foreach ($activeClass["tools"] as $key => $value) { ?>
             <div class="flex gap-6 mt-5 text-xl font-medium text-slate-700">
                 <span class="basis-auto"><?= $key ?></span>
                 <img loading="lazy" src="./assets/details/blender-icon.png" class="object-contain shrink-0 self-start aspect-[1.17] w-[34px]" alt="Blender logo" />
@@ -46,10 +33,13 @@ if ($num > count($class)) {
 
         <div class="flex flex-col rounded-none lg:w-[30%]">
             <div class="flex flex-col justify-center items-center px-4 rounded-3xl shadow-lg aspect-square bg-[linear-gradient(257deg,#273F5A_-50.35%,#5386C0_142.97%)]">
-                <img loading="lazy" src="<?= $class[$num]["image"] ?>" alt="Course preview image" class="object-contain rounded-xl">
+                <img loading="lazy" src="<?= $activeClass["image"] ?>" alt="Course preview image" class="object-contain rounded-xl">
             </div>
-            <img loading="lazy" src="<?= $class[$num]["details-img"] ?>" alt="Course details image" class="object-contain mt-2.5 rounded-3xl shadow-[0px_4px_20px_rgba(0,0,0,0.25)]">
+            <img loading="lazy" src="<?= $activeClass["details-img"] ?>" alt="Course details image" class="object-contain mt-2.5 rounded-3xl shadow-[0px_4px_20px_rgba(0,0,0,0.25)]">
             <article class="flex flex-col items-center pt-5 mt-2.5 text-base bg-white rounded-3xl shadow-[0px_4px_20px_rgba(0,0,0,0.25)] text-neutral-500">
+                <?php foreach ($activeClass['details'] as $detail => $value) { ?>
+                    # code...
+                    <?php } ?>
                 <div class="flex gap-5 justify-between w-full leading-loose max-w-[361px]">
                     <p>Mulai Tanggal</p>
                     <p>18 September 2024</p>
@@ -87,3 +77,4 @@ if ($num > count($class)) {
         </div>
     </div>
 </section>
+<?php } ?>
