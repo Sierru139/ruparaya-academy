@@ -66,10 +66,12 @@
                             <h4 class="md:text-base text-sm mr-2 font-medium">Bagaimana cara menghubungi jika saya memiliki pertanyaan lebih lanjut?</h4>
                             <span class="arrow-rotate elementor-toggle-icon elementor-toggle-icon-right float-right text-right text-black w-4 absolute right-4" aria-hidden="true"><span class="elementor-toggle-icon-closed"><img src="./assets/icon/dropdown-plus.svg" alt=""></span></span>
                         </div>
-                        <div class="answer w-full bg-gray-50 rounded-b-lg">                                
-                            <p class="md:text-base p-4 text-sm text-[#747474]">
-                            Jika Anda memiliki pertanyaan lebih lanjut, Anda dapat menghubungi kami di Ruparaya Academy melalui website resmi, email, telepon, media sosial, atau langsung mengunjungi lokasi kami. Kami siap membantu Anda!
-                            </p>
+                        <div class="answer w-full bg-gray-100 rounded-b-lg">                                
+                            <ul class="py-4 md:px-12 px-6">
+                                <li class="md:text-base text-sm">
+                                Jika Anda memiliki pertanyaan lebih lanjut, Anda dapat menghubungi kami di Ruparaya Academy melalui website resmi, email, telepon, media sosial, atau langsung mengunjungi lokasi kami. Kami siap membantu Anda!
+                                </li>
+                            </ul>
                         </div>
                     </div>
                 </div>
