@@ -31,7 +31,7 @@
                         <div class="answer w-full bg-gray-100 rounded-b-lg">
                             <ul class="py-4 md:px-12 px-6">
                                 <li class="md:text-base text-sm">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ducimus accusantium saepe ad nemo dolore neque magni ex, velit voluptatem eos quas veritatis incidunt possimus maiores nulla voluptates aut blanditiis.
+                                Ruparaya Academy menyediakan beragam kelas yang dirancang untuk memenuhi kebutuhan belajar peserta, termasuk UI/UX Design untuk aplikasi mobile, 3D Architectural Rendering, dan Speaking Communication dalam bahasa Inggris. Selain itu, terdapat kelas 3D Modelling untuk produk dan photoshoot, ArcGIS dan Geospatial, serta SketchUp 3D Modelling. Tidak ketinggalan, mereka juga menawarkan pelatihan bagi calon Fullstack Web Developer, yang mencakup keterampilan pengembangan web secara menyeluruh.
                                 </li>
                             </ul>
                         </div>
@@ -44,8 +44,7 @@
                         <div class="answer w-full bg-gray-100 rounded-b-lg">
                             <ul class="py-4 md:px-12 px-6">
                                 <li class="md:text-base text-sm">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ducimus accusantium saepe ad nemo dolore neque magni ex, velit voluptatem eos quas veritatis incidunt possimus maiores nulla voluptates aut blanditiis.
-                                </li>
+                                Ruparaya Academy menyediakan fasilitas lengkap seperti 20 Personal Computer dengan spesifikasi tinggi, ruangan ber-AC, proyektor, papan tulis, jaringan internet cepat, serta parkiran yang luas untuk kenyamanan dan kelancaran proses belajar mengajar.                                </li>
                             </ul>
                         </div>
                     </div>
@@ -57,7 +56,7 @@
                         <div class="answer w-full bg-gray-100 rounded-b-lg">
                             <ul class="py-4 md:px-12 px-6">
                                 <li class="md:text-base text-sm">
-                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ducimus accusantium saepe ad nemo dolore neque magni ex, velit voluptatem eos quas veritatis incidunt possimus maiores nulla voluptates aut blanditiis.
+                                Tidak, tapi kami menyediakan program intership/magang atau freelance bagi alumni dari ruparaya academy.
                                 </li>
                             </ul>
                         </div>
@@ -69,7 +68,7 @@
                         </div>
                         <div class="answer w-full bg-gray-50 rounded-b-lg">                                
                             <p class="md:text-base p-4 text-sm text-[#747474]">
-                                Rupa Raya Academy adalah sebuah lembaga pendidikan yang menyediakan berbagai kelas dan kursus di bidang Pemodelan dan Arsitektur 3D. Kami fokus pada materi terbaru yang praktis dan aplikatif. didukung oleh instruktur berpengalaman yang ahli di bidangnya. membantu peserta mengembangkan keterampilan yang relevan dengan industri saat ini.
+                            Jika Anda memiliki pertanyaan lebih lanjut, Anda dapat menghubungi kami di Ruparaya Academy melalui website resmi, email, telepon, media sosial, atau langsung mengunjungi lokasi kami. Kami siap membantu Anda!
                             </p>
                         </div>
                     </div>
