@@ -1,6 +1,12 @@
 <?php 
 
+$cardsData = file_get_contents('./pages/data/card.json'); 
+$cards = json_decode($cardsData, true);
 
+// $offlineClass = array_filter($cards, function($item){
+//     return $item['type'] === 'Offline';
+// });
+// var_dump($offlineClass);
 ?>
 
 <!DOCTYPE html>
@@ -19,6 +25,7 @@
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Rupa Raya Academy</title>
+
 
 </head>
 
@@ -52,6 +59,7 @@
     <!-- SECTION 4 CARD CLASS START ======= -->
     <!-- SECTION 4 CARD CLASS START ======= -->
     <!-- SECTION 4 CARD CLASS START ======= -->
+<<<<<<< HEAD
     <section class="flex flex-col my-10">
         <div class="flex items-center justify-between mx-16 max-md:mx-6 max-lg:flex-wrap">
             <div>
@@ -577,6 +585,12 @@
 
         </div>
     </section>
+=======
+    <section class="flex flex-col mt-10">
+        
+        <?php include_once __DIR__ . "/pages/sections/listing/cards.php" ?>
+        
+>>>>>>> a65f7931f707f3a71cf9587d808c4d6d1dce73c9
 
     <!-- SECTION 8 QNA START ============= -->
     <!-- SECTION 8 QNA START ============= -->
@@ -589,6 +603,7 @@
     <!-- FOOTER START ============== -->
     <!-- FOOTER START ============== -->
     <!-- FOOTER START ============== -->
+<<<<<<< HEAD
     <footer class="flex flex-col bg-[linear-gradient(257deg,#273F5A_-50.35%,#5386C0_142.97%)] pt-11 w-full">
         <div class="flex flex-wrap gap-10 mx-auto w-full max-lg:px-5 max-w-[1290px] max-md:max-w-full">
             <div class="flex-auto max-md:max-w-full">
@@ -671,6 +686,9 @@
             Copyright © 2024 Rupa Raya Indonesia. All Rights Reserved
         </div>
     </footer>
+=======
+    <?php include_once __DIR__ . "/pages/sections/footer.php" ?>
+>>>>>>> a65f7931f707f3a71cf9587d808c4d6d1dce73c9
     <!-- FOOTER END ============== -->
     <!-- FOOTER END ============== -->
     <!-- FOOTER END ============== -->

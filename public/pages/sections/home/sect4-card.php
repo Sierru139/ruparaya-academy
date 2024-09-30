@@ -2,7 +2,7 @@
 
 $carddata = file_get_contents("./pages/data/card.json");
 $card = json_decode($carddata, true);
-
+$cardSlice = array_splice($card, 6);
 ?>
 
 
@@ -17,12 +17,12 @@ $card = json_decode($carddata, true);
         </p>
     </div>
     <div class="flex flex-wrap gap-4 items-stretch justify-center self-stretch mt-10 max-md:mt-10">
-        <?php foreach ($card as $cardes) { ?>
+        <?php foreach ($cardSlice as $cardes) { ?>
         <div class="flex overflow-hidden flex-col grow-0 bg-white rounded-2xl shadow-2xl min-w-[300px] max-w-[340px] hover:-translate-y-1 duration-300">
             <img class="object-cover w-full aspect-[1.54]" loading="lazy" src="<?=  $cardes["banner"] ?>" alt="Course image"/>
             <div class="flex gap-5 justify-between mx-5 mt-3.5 max-w-full text-xs text-slate-500 w-[284px]">
-                <p class="font-semibold text-sm text-[#36a5a5]"><?= $cardes["date"] ?></p>
-                <p class="font-semibold text-sm text-[#EDC423]"><?= $cardes["type"] ?></p>
+                <p class="font-semibold text-sm text-[#EDC423]"><?= $cardes["date"] ?></p>
+                <p class="font-semibold text-sm" style="color: <?= ($cardes["type"] === "Online") ? '#EDC423' : '#5FBBF8' ; ?>;"><?= $cardes["type"] ?></p>
             </div>
             <div class="flex relative flex-col px-5 pt-px pb-3 mt-1.5 w-full aspect-[2.944] max-md:pr-5 h-full">
                 <img class="object-cover absolute inset-0 size-full" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt=""/>

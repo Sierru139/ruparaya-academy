@@ -7,8 +7,13 @@
             <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-once="true"
                 class="md:text-[32px] text-xl font-extralight mb-14">Seputar Rupa Raya Academy</h3>
             <!-- Tombol play -->
+<<<<<<< HEAD
             <div id="openButton" class="play-button mx-auto cursor-pointer">
                 <img src="assets/pg1/play-icon.png" alt="Play">
+=======
+            <div id="playButton" class="play-button mx-auto cursor-pointer">
+                <img src="./assets/pg1/play-icon.png" alt="Play">
+>>>>>>> a65f7931f707f3a71cf9587d808c4d6d1dce73c9
             </div>
         </div>
     </div>

@@ -1,6 +1,5 @@
 [
         {
-        "id": 1,
         "title": "3D Architecture Class",
         "type": "3D Modelling",
         "expl": [
@@ -12,10 +11,18 @@
                 "Figma" : "FIGMA ADALAH pie[qi [qie[qie qi[ei[qe dan pengeditan foto yang paling terkenal dan digunakan di seluruh dunia. Dirancang untuk para profesional di bidang fotografi, desain, dan seni digital, Photoshop menawarkan berbagai fitur canggih untuk mengedit, memanipulasi, dan memperbaiki gambar dengan tingkat presisi yang tinggi."
                 },
         "image": "./assets/details/flayer-3darchitectural.jpg",
-        "details-img": "./assets/details/scedule-3darchitectural.jpg"
+        "details-img": "./assets/details/scedule-3darchitectural.jpg",
+        "details" : {
+                "start-date" : "20 September 2024",
+                "meeting" : "20 September 2024",
+                "class-type" : "Reguler",
+                "duration" : "1 Jam 30 Menit",
+                "price" : "Rp.349.000",
+                "discount" : "Rp.700.000"
+                },
+        "detail-id"  : "3darchofln"
         },
         {
-        "id": 2,
         "title": "3D Design",
         "type": "3D Modelling",
         "expl": [
@@ -27,22 +34,126 @@
                 "Figma" : "FIGMA ADALAH pie[qi [qie[qie qi[ei[qe dan pengeditan foto yang paling terkenal dan digunakan di seluruh dunia. Dirancang untuk para profesional di bidang fotografi, desain, dan seni digital, Photoshop menawarkan berbagai fitur canggih untuk mengedit, memanipulasi, dan memperbaiki gambar dengan tingkat presisi yang tinggi."
                 },
         "image": "./assets/details/flayer-3dproduct.jpg",
-        "details-img": "./assets/details/scedule-3dproduct.jpg"
+        "details-img": "./assets/details/scedule-3dproduct.jpg",
+        "details" : {
+                "start-date" : "20 September 2024",
+                "meeting" : "20 September 2024",
+                "class-type" : "Reguler",
+                "duration" : "1 Jam 30 Menit",
+                "price" : "Rp.349.000",
+                "discount" : "Rp.700.000"
+                },
+        "detail-id"  : "3dmdlofl"
         },
-
         {
-        "id": 2,
-        "title": "3D Model",
-        "type": "3D Modelling",
+        "title": "Speaking Communication English",
+        "type": "Language",
         "expl": [
                 "Dalam kelas ini, peserta akan mempelajari teknik pembuatan model 3D yang detail dan realistis untuk keperluan produk, mulai dari konsep hingga render akhir. Peserta akan diajarkan cara menggunakan berbagai software dan tool untuk menciptakan model 3D produk dengan presisi, memperhatikan tekstur, pencahayaan, dan komposisi visual.",
                 "Selain itu, peserta juga akan mendalami teknik photoshoot produk, mencakup penataan cahaya, angle pengambilan gambar, dan teknik post-processing untuk menghasilkan visual yang menarik dan profesional. Kelas ini dirancang agar peserta dapat menguasai seluruh proses, dari modelling hingga photoshoot, untuk menciptakan presentasi produk yang memukau."
                 ],
         "tools": {
-                "Fotoshop" :  "Adobe Photoshop adalah aplikasi desain grafis dan pengeditan foto yang paling terkenal dan digunakan di seluruh dunia. Dirancang untuk para profesional di bidang fotografi, desain, dan seni digital, Photoshop menawarkan berbagai fitur canggih untuk mengedit, memanipulasi, dan memperbaiki gambar dengan tingkat presisi yang tinggi.",
-                "Figma" : "FIGMA ADALAH pie[qi [qie[qie qi[ei[qe dan pengeditan foto yang paling terkenal dan digunakan di seluruh dunia. Dirancang untuk para profesional di bidang fotografi, desain, dan seni digital, Photoshop menawarkan berbagai fitur canggih untuk mengedit, memanipulasi, dan memperbaiki gambar dengan tingkat presisi yang tinggi."
+                "Blender" :  "adalah aplikasi open-source yang kuat dan serbaguna untuk pembuatan 3D, yang mencakup modeling, sculpting, animasi, rendering, dan compositing. Digunakan oleh para profesional di industri film, game, dan desain, Blender memungkinkan pengguna untuk menciptakan segala jenis objek 3D, dari model sederhana hingga efek visual yang kompleks.",
+                "Adobe Photoshop" : "adalah aplikasi desain grafis dan pengeditan foto yang paling terkenal dan digunakan di seluruh dunia. Dirancang untuk para profesional di bidang fotografi, desain, dan seni digital, Photoshop menawarkan berbagai fitur canggih untuk mengedit, memanipulasi, dan memperbaiki gambar dengan tingkat presisi yang tinggi."
+                },
+        "image": "./assets/details/flayer-english.jpg",
+        "details-img": "./assets/details/scedule-3dproduct.jpg",
+        "details" : {
+                "start-date" : "20 September 2024",
+                "meeting" : "20 September 2024",
+                "class-type" : "Reguler",
+                "duration" : "1 Jam 30 Menit",
+                "price" : "Rp.349.000",
+                "discount" : "Rp.700.000"
+                },
+        "detail-id"  : "spkcmnon"
+        },
+        {
+        "title": "Kelas ArcGIS and Geospatial",
+        "type": "Advanced Mapping",
+        "expl": [
+                "Dalam kelas ini, peserta akan mempelajari kemampuan lanjutan dalam penggunaan ArcGIS untuk keperluan pemetaan dan analisis geospasial. Peserta akan diajarkan cara memanfaatkan berbagai fitur canggih ArcGIS, seperti analisis spasial tingkat lanjut, pemodelan 3D, serta pengelolaan data geografis yang kompleks.",
+                "Selain itu, peserta juga akan mendalami teknik visualisasi data geospasial yang efektif untuk menghasilkan peta dan laporan yang informatif serta menarik. Kelas ini dirancang agar peserta dapat menguasai seluruh aspek analisis geospasial, dari pemetaan hingga penyajian data yang mendukung pengambilan keputusan strategis."
+                ],
+        "tools": {
+                "ArcGIS" :  "adalah aplikasi pemetaan dan analisis geospasial yang canggih dan serbaguna, dirancang untuk membantu pengguna dalam mengumpulkan, mengelola, menganalisis, dan memvisualisasikan data geografis."
+                },
+        "image": "./assets/details/flayer-arcgis.jpg",
+        "details-img": "./assets/details/scedule-arcgis.jpg",
+        "details" : {
+                "start-date" : "20 September 2024",
+                "meeting" : "20 September 2024",
+                "class-type" : "Reguler",
+                "duration" : "1 Jam 30 Menit",
+                "price" : "Rp.349.000",
+                "discount" : "Rp.700.000"
+                },
+        "detail-id"  : "arcofln"
+        },
+        {
+        "title": "Kelas Fullstack Web Development",
+        "type": "Web Developer",
+        "expl": [
+                "Dalam kelas ini, peserta akan mempelajari bahasa pemrograman dasar seperti HTML, CSS, dan JavaScript untuk membangun antarmuka pengguna yang interaktif dan responsif. Selain itu, peserta juga akan mendalami framework dan library populer seperti React atau Angular untuk mempercepat pengembangan front-end.",
+                "Kelas ini juga mencakup pemahaman tentang API, otentikasi, serta deployment aplikasi ke server. Dengan kurikulum yang dirancang secara praktis, peserta tidak hanya akan memperoleh pengetahuan teoretis tetapi juga pengalaman langsung dalam membangun proyek web yang lengkap, sehingga siap untuk menjadi Fullstack Developer yang kompeten di dunia kerja."
+                ],
+        "tools": {
+                "Visual Studio Code" :  "Visual Studio Code (VS Code) adalah editor kode yang sangat populer di kalangan pengembang karena kemudahan penggunaannya, kecepatan, dan dukungan ekstensif untuk berbagai bahasa pemrograman. Aplikasi ini dirancang untuk mempercepat proses coding dengan fitur-fitur pintar seperti IntelliSense, debugging, dan integrasi Git yang kuat."
                 },
         "image": "./assets/details/flayer-3dproduct.jpg",
-        "details-img": "./assets/details/scedule-3dproduct.jpg"
+        "details-img": "./assets/details/scedule-3dproduct.jpg",
+        "details" : {
+                "start-date" : "20 September 2024",
+                "meeting" : "20 September 2024",
+                "class-type" : "Reguler",
+                "duration" : "1 Jam 30 Menit",
+                "price" : "Rp.349.000",
+                "discount" : "Rp.700.000"
+                },
+        "detail-id"  : "webonln"
+        },
+        {
+        "title": "SketchUp 3D Modelling",
+        "type": "3D Modelling",
+        "expl": [
+                "Dalam kelas ini, peserta akan mempelajari dasar-dasar SketchUp untuk membuat model 3D yang presisi dan detail. Peserta akan diajarkan cara menggunakan berbagai tool untuk merancang objek dengan akurat, mulai dari bangunan sederhana hingga struktur yang lebih kompleks.",
+                "Selain itu, peserta juga akan mendalami teknik rendering dan visualisasi untuk menghasilkan tampilan yang realistis dan menarik. Kelas ini dirancang agar peserta dapat menguasai seluruh proses modelling, dari konsep awal hingga presentasi akhir."
+                ],
+        "tools": {
+                "SketchUp" :  "SketchUp adalah aplikasi desain 3D yang intuitif dan mudah digunakan, dirancang untuk membantu siapa saja, mulai dari pemula hingga profesional, dalam menciptakan model 3D dengan cepat."
+                },
+        "image": "./assets/details/flayer-3dproduct.jpg",
+        "details-img": "./assets/details/scdule-skc.png",
+        "details" : {
+                "start-date" : "20 September 2024",
+                "meeting" : "20 September 2024",
+                "class-type" : "Reguler",
+                "duration" : "1 Jam 30 Menit",
+                "price" : "Rp.349.000",
+                "discount" : "Rp.700.000"
+                },
+        "detail-id"  : "sktchonln"
+        },
+        {
+        "title": "Kelas UI/UX Design Mobile App",
+        "type": "UI/UX Design",
+        "expl": [
+                "Dalam kelas ini, peserta akan mendalami proses desain UI/UX khusus untuk aplikasi mobile menggunakan Figma. Peserta akan belajar membuat wireframe, mockup, dan prototipe interaktif secara efektif, mulai dari konsep awal hingga desain akhir.",
+                "Kelas ini juga mencakup cara memanfaatkan fitur-fitur unggulan Figma seperti auto-layout, components, dan variabel untuk meningkatkan efisiensi dalam mendesain. "
+                ],
+        "tools": {
+                "Figma" :  "Alat desain berbasis cloud yang sangat populer di kalangan desainer UI/UX karena kemudahan penggunaannya, kolaborasi real-time, dan fitur yang lengkap. Aplikasi ini memungkinkan desainer membuat wireframe, prototipe, dan mockup dengan efisien, serta berbagi pekerjaan secara langsung dengan tim."
+                },
+        "image": "./assets/details/flayer-uiux.jpg",
+        "details-img": "./assets/details/scedule-uiux.png",
+        "details" : {
+                "start-date" : "20 September 2024",
+                "meeting" : "20 September 2024",
+                "class-type" : "Reguler",
+                "duration" : "1 Jam 30 Menit",
+                "price" : "Rp.349.000",
+                "discount" : "Rp.700.000"
+                },
+        "detail-id"  : "uiuxofln"
         }
 ]

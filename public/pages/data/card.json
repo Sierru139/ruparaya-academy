@@ -1,9 +1,8 @@
 [
-
     {
         "banner" : "./assets/pg1/banner-uiux.jpg",
         "date" : "14 September 2024", 
-        "type" : "Kelas Offline", 
+        "type" : "Offline", 
         "title" : "UI/UX Design Mobile App", 
         "expl" : "Belajar mengenal dasar UI/UX, Hands-on Experience, Networking Opportunites. Cocok untuk pemula.", 
         "teach" : {
@@ -12,14 +11,14 @@
             "proffession" : "UI/UX Designer at Kalla"
         }, 
         "price" : "Gratis" ,
-        "form" : "https://docs.google.com/forms/d/e/1FAIpQLSeMPhFRoiJwAu1-sWDk6QjSWMK6_UBkVwHxaolK__sbkRn0Ew/viewform"
-
+        "form" : "https://docs.google.com/forms/d/e/1FAIpQLSeMPhFRoiJwAu1-sWDk6QjSWMK6_UBkVwHxaolK__sbkRn0Ew/viewform",
+        "detail-id" : "uiuxofln"
     },
 
     {
         "banner" : "./assets/pg1/banner-3darchitectural.jpg",
         "date" : "18 September 2024", 
-        "type" : "Kelas Offline", 
+        "type" : "Offline", 
         "title" : "3D Architectural Rendering", 
         "expl" : "Belajar dasar rendering arsitektur 3D dengan tools profesional. Hands-on practice dan cocok untuk pemula.", 
         "teach" : {
@@ -28,14 +27,14 @@
             "proffession" : "UI/UX Designer at Kalla"
         }, 
         "price" : "Rp. 899.000" ,
-        "form" : "https://docs.google.com/forms/d/e/1FAIpQLScWQS2TQw8ZG3zEOZ57wRKU5pg-BVj5zT-NS4kae-MesmSRlg/viewform"
-
+        "form" : "https://docs.google.com/forms/d/e/1FAIpQLScWQS2TQw8ZG3zEOZ57wRKU5pg-BVj5zT-NS4kae-MesmSRlg/viewform",
+        "detail-id" : "3darchofln"
     },
 
     {
         "banner" : "./assets/pg1/banner-english.jpg",
         "date" : "20 September 2024", 
-        "type" : "Kelas Offline", 
+        "type" : "Offline", 
         "title" : "Speaking Communication English", 
         "expl" : "Kuasi komunikasi bahasa Inggris sehari-hari dengan percaya diri! Tingkatkan kemampuan speaking-mu", 
         "teach" : {
@@ -44,14 +43,14 @@
             "proffession" : "Manager Fullstack Web Development"
         }, 
         "price" : "Rp. 349.000" ,
-        "form" : "https://docs.google.com/forms/d/e/1FAIpQLSctbqpgJr0QnP4NropL9zOSJQyGtUUpJZ2o9c8xMdr5SY2ocg/viewform"
-
+        "form" : "https://docs.google.com/forms/d/e/1FAIpQLSctbqpgJr0QnP4NropL9zOSJQyGtUUpJZ2o9c8xMdr5SY2ocg/viewform",
+        "detail-id" : "spkcmnon"
     },
 
     {
         "banner" : "./assets/pg1/banner-3dmodeling.jpg",
         "date" : "13 September 2024", 
-        "type" : "Kelas Offline", 
+        "type" : "Offline", 
         "title" : "3D Modelling Product & Photoshoot", 
         "expl" : "Belajar cara membuat model 3D detail dan sesi photoshoot yang menarik dan profesional.", 
         "teach" : {
@@ -59,8 +58,105 @@
             "name" : "Aliem Arif Perkasa",
             "proffession" : "Manager Fullstack Web Development"
         }, 
+        "price" : "Rp. 349.000" ,
+        "form" : "https://docs.google.com/forms/d/e/1FAIpQLScF7Cyw5eU8TNZtHaftDjNqaKhY7BJMC2OuAlV3_1JSGiUl9A/viewform",
+        "detail-id" : "3dmdlofl"
+    },
+
+    {
+        "banner" : "./assets/pg1/banner-uiux.jpg",
+        "date" : "16 September 2024", 
+        "type" : "Online", 
+        "title" : "3D Modelling Product & Photoshoot", 
+        "expl" : "Belajar cara membuat model 3D detail dan sesi photoshoot yang menarik dan profesional.", 
+        "teach" : {
+            "img" : "./assets/pg1/profile-instructor.jpg",
+            "name" : "Aliem Arif Perkasa",
+            "proffession" : "Manager Fullstack Web Development"
+        }, 
+        "price" : "Rp. 349.000" ,
+        "form" : "https://docs.google.com/forms/d/e/1FAIpQLSf7eRvbOBE8wqD_-4fTMwUsywTuw85mVwL851fhXzPkDVm57w/viewform",
+        "detail-id" : "uiuxofln"
+    },
+
+    {
+        "banner" : "./assets/pg1/banner-arcgis.jpg",
+        "date" : "9 September 2024", 
+        "type" : "Offline", 
+        "title" : "ArcGIS and Geospatial", 
+        "expl" : "Kuasai ArcGIS and Geospatial untuk mengolah data spasial secara profesional.", 
+        "teach" : {
+            "img" : "./assets/pg1/profile-instructor.jpg",
+            "name" : "Aliem Arif Perkasa",
+            "proffession" : "Manager Fullstack Web Development"
+        }, 
+        "price" : "Rp. 649.000" ,
+        "form" : "https://docs.google.com/forms/d/e/1FAIpQLSdDmtSE378_bc4aOa3bpzp0-e0fchvffz0uoqFAA2Y9vVDVPw/viewform",
+        "detail-id" : "arcofln"
+    },
+
+    {
+        "banner" : "./assets/pg1/banner-arcgis-online.jpg",
+        "date" : "2 September 2024", 
+        "type" : "Online", 
+        "title" : "ArcGIS and Geospatial", 
+        "expl" : "Kuasai ArcGIS and Geospatial untuk mengolah data spasial secara profesional.", 
+        "teach" : {
+            "img" : "./assets/pg1/profile-instructor.jpg",
+            "name" : "Aliem Arif Perkasa",
+            "proffession" : "Manager Fullstack Web Development"
+        }, 
+        "price" : "Rp. 649.000" ,
+        "form" : "https://docs.google.com/forms/d/e/1FAIpQLSewwpV0h6MohizdmB1W0mHJXTlVSiC7z2Wxl_VBYALp2hrdgQ/viewform",
+        "detail-id" : "arcofln"
+    },
+
+    {
+        "banner" : "./assets/pg1/banner-sketch.jpg",
+        "date" : "2 September 2024", 
+        "type" : "Offline", 
+        "title" : "SketchUp 3D Modelling", 
+        "expl" : "Belajar membuat model 3D dengan mudah dan cepat.", 
+        "teach" : {
+            "img" : "./assets/pg1/profile-instructor.jpg",
+            "name" : "Aliem Arif Perkasa",
+            "proffession" : "Manager Fullstack Web Development"
+        }, 
         "price" : "Rp. 499.000" ,
-        "form" : "https://docs.google.com/forms/d/e/1FAIpQLScF7Cyw5eU8TNZtHaftDjNqaKhY7BJMC2OuAlV3_1JSGiUl9A/viewform"
+        "form" : "https://docs.google.com/forms/d/e/1FAIpQLSdWtiudjGY7FkzOUxzIHUobPXVb9JUqWUHzN_HMGumr3Ve-qg/viewform",
+        "detail-id" : "sktchonln"
+    },
+
+    {
+        "banner" : "./assets/pg1/banner-one-t.jpg",
+        "date" : "14 September 2024", 
+        "type" : "Offline", 
+        "title" : "Fullstack Web Developer", 
+        "expl" : "Belajar bangun website lengkap dari front-end hingga back-end, siap kerja profesional.", 
+        "teach" : {
+            "img" : "./assets/pg1/profile-instructor.jpg",
+            "name" : "Aliem Arif Perkasa",
+            "proffession" : "Manager Fullstack Web Development"
+        }, 
+        "price" : "Rp. 699.000" ,
+        "form" : "https://docs.google.com/forms/d/e/1FAIpQLScjeqPgSSOUUw6M8SmVACmREDgPg8t99sXK_G1xJaEpfoh08Q/viewform",
+        "detail-id" : "uiuxofln"
+    },
+    
+    {
+        "banner" : "./assets/pg1/banner-one-t.jpg",
+        "date" : "14 September 2024", 
+        "type" : "Online", 
+        "title" : "Fullstack Web Developer", 
+        "expl" : "Belajar bangun website lengkap dari front-end hingga back-end, siap kerja profesional.", 
+        "teach" : {
+            "img" : "./assets/pg1/profile-instructor.jpg",
+            "name" : "Aliem Arif Perkasa",
+            "proffession" : "Manager Fullstack Web Development"
+        }, 
+        "price" : "Rp. 699.000" ,
+        "form" : "https://docs.google.com/forms/d/e/1FAIpQLSev7KTP9_QEA1-A7G8O6QG4qR0VyvUkbMRFTuc2bTfHsx4Qtg/viewform",
+        "detail-id" : "webonln"
     }
 
 ]
