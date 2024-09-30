@@ -1,5 +1,49 @@
 AOS.init();
 
+const videoModal = document.getElementById('videoModal');
+const closeButton = document.getElementById('closeButton');
+const openButton = document.getElementById('openButton');
+
+function openModal() {
+    videoModal.classList.remove('hidden');
+    setTimeout(() => {
+        videoModal.classList.remove('opacity-0', 'scale-95');
+        videoModal.classList.add('opacity-100', 'scale-100');
+    }, 10);
+}
+
+function closeModal() {
+    videoModal.classList.remove('opacity-100', 'scale-100');
+    videoModal.classList.add('opacity-0', 'scale-95');
+    setTimeout(() => {
+        videoModal.classList.add('hidden');
+    }, 300);
+}
+
+openButton.addEventListener('click', openModal);
+closeButton.addEventListener('click', closeModal);
+
+
+document.getElementById('openButton').addEventListener('click', function() {
+
+    const modal = document.getElementById('videoModal');
+    modal.classList.remove('hidden');
+    modal.classList.add('flex');
+
+    const videoPlayer = document.getElementById('videoPlayer');
+    videoPlayer.play();
+});
+
+document.getElementById('closeButton').addEventListener('click', function() {
+    const modal = document.getElementById('videoModal');
+    modal.classList.remove('flex');
+    modal.classList.add('hidden');
+
+    const videoPlayer = document.getElementById('videoPlayer');
+    videoPlayer.pause();
+    videoPlayer.currentTime = 0;
+});
+
 document.addEventListener('DOMContentLoaded', function () {
     var typed = new Typed('#auto-type', {
         strings: ["IT", "3D"],
