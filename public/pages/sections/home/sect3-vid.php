@@ -7,13 +7,8 @@
             <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-once="true"
                 class="md:text-[32px] text-xl font-extralight mb-14">Seputar Rupa Raya Academy</h3>
             <!-- Tombol play -->
-<<<<<<< HEAD
             <div id="openButton" class="play-button mx-auto cursor-pointer">
                 <img src="assets/pg1/play-icon.png" alt="Play">
-=======
-            <div id="playButton" class="play-button mx-auto cursor-pointer">
-                <img src="./assets/pg1/play-icon.png" alt="Play">
->>>>>>> a65f7931f707f3a71cf9587d808c4d6d1dce73c9
             </div>
         </div>
     </div>
@@ -27,7 +22,7 @@
         <button id="closeButton" class="absolute top-0 right-0 text-white text-3xl z-50">&times;</button>
         <!-- Video -->
         <video id="videoPlayer" controls class="w-full h-full object-contain rounded-lg">
-            <source src="/public/assets/video/PXL_20240330_030657799.TS.mp4" type="video/mp4">
+            <source src="./assets/video/PXL_20240330_030657799.TS.mp4" type="video/mp4">
             Browser Anda tidak mendukung video tag.
         </video>
     </div>

@@ -1,3 +1,4 @@
+console.log("CONN");
 AOS.init();
 
 const videoModal = document.getElementById('videoModal');
@@ -5,6 +6,8 @@ const closeButton = document.getElementById('closeButton');
 const openButton = document.getElementById('openButton');
 
 function openModal() {
+    console.log("Pencet");
+    
     videoModal.classList.remove('hidden');
     setTimeout(() => {
         videoModal.classList.remove('opacity-0', 'scale-95');
