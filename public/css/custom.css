@@ -611,4 +611,33 @@ body {
   }
 }
 /* === Pop up Image === */
+.image-pop {
+  display: none;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.4);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 99999999;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+}
+
+.video-popup {
+  transition: opacity 0.5s ease, visibility 0.5s ease;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+}
+
 /* === Pop up Image === *//*# sourceMappingURL=custom.css.map */

@@ -1,10 +1,10 @@
 <section class="relative mt-2 mb-10">
-    <div class="absolute top-0 left-0 right-0 max-w-[1250px] -z-10 mx-auto">
+    <!-- <div class="absolute top-0 left-0 right-0 max-w-[1250px] -z-10 mx-auto">
         <img src="/public/assets/pg1/bg-qna.png" class="w-full h-full" alt="">
-    </div>
+    </div> -->
     <div class="max-w-[1032px] mx-auto relative max-md:mx-5">
         <div class="text-center">
-            <h1 data-aos="fade-up" data-aos-duration="1100" data-aos-once="true" class="text-[32px] font-bold mb-4 ">Pertanyaan Seputar <span class="color-blue-rpr-scn">Rupa Raya Academy</span></h1>
+            <h1 data-aos="fade-up" data-aos-duration="1100" data-aos-once="true" class="text-[32px] font-bold mb-4 mt-10">Pertanyaan Seputar <span class="color-blue-rpr-scn">Rupa Raya Academy</span></h1>
         </div>
         <div class="relative flex flex-wrap gap-5 justify-between w-full text-base max-md:mr-2.5 max-md:max-w-full">
 

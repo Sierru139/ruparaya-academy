@@ -27,6 +27,8 @@ var_dump($activeClass);
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/output.css">
     <link rel="stylesheet" href="./css/custom.css">
+    <link rel="icon" href="/assets/logo/ruparayaacademyicon.png" type="image/png">
+    <!-- <link rel="shortcut icon" type="icon" href="./assets/logo/ruparayaacademy logo outline.png"> -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <title>Rupa Raya Academy</title>
@@ -165,7 +167,7 @@ var_dump($activeClass);
                             </div>
                             <div class="answer w-full bg-gray-50 rounded-b-lg">                                
                                 <p class="md:text-base p-4 text-sm text-[#747474]">
-                                    Rupa Raya Academy adalah sebuah lembaga pendidikan yang menyediakan berbagai kelas dan kursus di bidang Pemodelan dan Arsitektur 3D. Kami fokus pada materi terbaru yang praktis dan aplikatif. didukung oleh instruktur berpengalaman yang ahli di bidangnya. membantu peserta mengembangkan keterampilan yang relevan dengan industri saat ini.
+                                    <b>Fullstack Web Development</b> adalah pendekatan di mana seorang developer menangani pengembangan baik pada sisi frontend (antarmuka pengguna) menggunakan HTML, CSS, dan JavaScript, maupun pada sisi backend (server dan database) menggunakan teknologi seperti Node.js, Python, atau MySQL, untuk menciptakan aplikasi web yang berfungsi penuh dari tampilan hingga pengolahan data.
                                 </p>
                             </div>
                         </div>
@@ -176,7 +178,7 @@ var_dump($activeClass);
                             </div>
                             <div class="answer w-full bg-gray-50 rounded-b-lg">                                
                                 <p class="md:text-base p-4 text-sm text-[#747474]">
-                                    Rupa Raya Academy adalah sebuah lembaga pendidikan yang menyediakan berbagai kelas dan kursus di bidang Pemodelan dan Arsitektur 3D. Kami fokus pada materi terbaru yang praktis dan aplikatif. didukung oleh instruktur berpengalaman yang ahli di bidangnya. membantu peserta mengembangkan keterampilan yang relevan dengan industri saat ini.
+                                    Di kelas 3D Modelling Product & Photoshoot ini, Anda akan belajar teknik dasar hingga lanjutan dalam membuat model 3D produk, mulai dari konsep, pemodelan, tekstur, hingga rendering. Selain itu, Anda juga akan mempelajari cara melakukan photoshoot digital untuk produk-produk yang sudah di-render, mencakup pencahayaan, komposisi, dan editing post-produksi.
                                 </p>
                             </div>
                         </div>
@@ -187,7 +189,7 @@ var_dump($activeClass);
                             </div>
                             <div class="answer w-full bg-gray-50 rounded-b-lg">                                
                                 <p class="md:text-base p-4 text-sm text-[#747474]">
-                                    Rupa Raya Academy adalah sebuah lembaga pendidikan yang menyediakan berbagai kelas dan kursus di bidang Pemodelan dan Arsitektur 3D. Kami fokus pada materi terbaru yang praktis dan aplikatif. didukung oleh instruktur berpengalaman yang ahli di bidangnya. membantu peserta mengembangkan keterampilan yang relevan dengan industri saat ini.
+                                    Tidak perlu. Kelas ini dirancang untuk pemula maupun mereka yang sudah memiliki sedikit pengalaman. Kami akan memandu Anda melalui setiap langkah, mulai dari pengenalan software hingga teknik yang lebih kompleks.
                                 </p>
                             </div>
                         </div>
@@ -198,7 +200,7 @@ var_dump($activeClass);
                             </div>
                             <div class="answer w-full bg-gray-50 rounded-b-lg">                                
                                 <p class="md:text-base p-4 text-sm text-[#747474]">
-                                    Rupa Raya Academy adalah sebuah lembaga pendidikan yang menyediakan berbagai kelas dan kursus di bidang Pemodelan dan Arsitektur 3D. Kami fokus pada materi terbaru yang praktis dan aplikatif. didukung oleh instruktur berpengalaman yang ahli di bidangnya. membantu peserta mengembangkan keterampilan yang relevan dengan industri saat ini.
+                                    Ya, setelah kelas selesai, Anda tetap mendapatkan akses ke komunitas online kami di mana Anda bisa bertanya, berbagi proyek, dan mendapatkan feedback dari mentor dan peserta lainnya. Selain itu, kami juga menyediakan sesi konsultasi terbatas untuk membantu jika ada tantangan yang dihadapi setelah kelas.
                                 </p>
                             </div>
                         </div>
@@ -209,7 +211,7 @@ var_dump($activeClass);
                             </div>
                             <div class="answer w-full bg-gray-50 rounded-b-lg">                                
                                 <p class="md:text-base p-4 text-sm text-[#747474]">
-                                    Rupa Raya Academy adalah sebuah lembaga pendidikan yang menyediakan berbagai kelas dan kursus di bidang Pemodelan dan Arsitektur 3D. Kami fokus pada materi terbaru yang praktis dan aplikatif. didukung oleh instruktur berpengalaman yang ahli di bidangnya. membantu peserta mengembangkan keterampilan yang relevan dengan industri saat ini.
+                                    Anda memerlukan laptop atau komputer dengan spesifikasi yang mendukung software 3D seperti Blender, Autodesk Maya, atau 3ds Max. Selain itu, untuk editing photoshoot, Anda bisa menggunakan software seperti Adobe Photoshop atau Lightroom. Kami akan memberikan panduan lengkap tentang instalasi dan penggunaan software selama kelas.
                                 </p>
                             </div>
                         </div>
