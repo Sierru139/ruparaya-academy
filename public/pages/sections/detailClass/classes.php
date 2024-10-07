@@ -1,24 +1,36 @@
-<?php foreach ($activeClass as $activeClass) { ?>
+
+
+<?php foreach ($activeClass as $activeClasses) { ?>
+    <header class="">
+    <div class="h-fit relative overflow-hidden centered-xy">
+        <img class="img-cover object-top -z-10" src="<?= $activeClasses["banner"]?>" alt="">
+        <div class="max-w-[525px] absolute z-20 text-white text-center">
+            <h3 data-aos="fade-up" data-aos-duration="1100" class="md:text-[48px] font-bold text-[#273F5A] mb-4 leading-snug text-stroke"><?= $activeClasses["title"] ?></h3>
+            <h3 data-aos="fade-up" data-aos-duration="1500"><a href="../index.html">Beranda > </a><a href="./listing.html">Program/Kelas > </a><a href="#" class="text-[#EDC423]">Kelas Detail</a></h3>
+        </div>
+    </div>
+</header>
+
 <section class="container-cs-w">
     <div class="flex lg:flex-row gap-x-4 flex-col lg:items-start px-4 py-5">
         <div class="flex flex-col rounded-none lg:w-[70%]">
             <article class="flex flex-col items-start px-5 py-6 w-full bg-white rounded-3xl max-md:px-5 max-md:max-w-full">
 
             <header class="flex flex-wrap items-center gap-5 justify-between self-stretch font-semibold max-md:max-w-full">
-                <h1 class="text-3xl text-[#273F5A] max-md:max-w-full"><?= $activeClass["title"] ?></h1>
-                <span class="self-start px-4 py-px mt-2.5 text-base text-white rounded-md bg-[#5386C0]"><?= $activeClass["type"] ?></span>
+                <h1 class="text-3xl text-[#273F5A] max-md:max-w-full"><?= $activeClasses["title"] ?></h1>
+                <span class="self-start px-4 py-px mt-2.5 text-base text-white rounded-md bg-[#5386C0]"><?= $activeClasses["type"] ?></span>
             </header>
 
-            <?php foreach ($activeClass["expl"] as $value) { ?>
+            <?php foreach ($activeClasses["expl"] as $value) { ?>
             <p class="mt-7 text-base text-stone-500 max-md:max-w-full"><?= $value ?></p>
             <?php } ?>
             
             <h2 class="mt-7 text-3xl font-semibold text-slate-700">Tools yang di gunakan :</h2>
 
-            <?php foreach ($activeClass["tools"] as $key => $value) { ?>
+            <?php foreach ($activeClasses["tools"] as $key => $value) { ?>
             <div class="flex gap-6 mt-5 text-xl font-medium text-slate-700">
                 <span class="basis-auto"><?= $key ?></span>
-                <img loading="lazy" src="./assets/details/blender-icon.png" class="object-contain shrink-0 self-start aspect-[1.17] w-[34px]" alt="Blender logo" />
+                <!-- <img loading="lazy" src="./assets/details/blender-icon.png" class="object-contain shrink-0 self-start aspect-[1.17] w-[34px]" alt="Blender logo" /> -->
             </div>
             <p class="mt-4 text-base text-stone-500 max-md:max-w-full"><?= $value ?></p>
             <?php } ?>
@@ -33,39 +45,16 @@
 
         <div class="flex flex-col rounded-none lg:w-[30%]">
             <div class="flex flex-col justify-center items-center px-4 rounded-3xl shadow-lg aspect-square bg-[linear-gradient(257deg,#273F5A_-50.35%,#5386C0_142.97%)]">
-                <img loading="lazy" src="<?= $activeClass["image"] ?>" alt="Course preview image" class="object-contain rounded-xl">
+                <img loading="lazy" src="<?= $activeClasses["image"] ?>" alt="Course preview image" class="object-contain rounded-xl">
             </div>
-            <img loading="lazy" src="<?= $activeClass["details-img"] ?>" alt="Course details image" class="object-contain mt-2.5 rounded-3xl shadow-[0px_4px_20px_rgba(0,0,0,0.25)]">
+            <img loading="lazy" src="<?= $activeClasses["details-img"] ?>" alt="Course details image" class="object-contain mt-2.5 rounded-3xl shadow-[0px_4px_20px_rgba(0,0,0,0.25)]">
             <article class="flex flex-col items-center pt-5 mt-2.5 text-base bg-white rounded-3xl shadow-[0px_4px_20px_rgba(0,0,0,0.25)] text-neutral-500">
-                <?php foreach ($activeClass['details'] as $detail => $value) { ?>
-                    # code...
-                    <?php } ?>
+                <?php foreach ($activeClasses['details'] as $key => $value) { ?>
                 <div class="flex gap-5 justify-between w-full leading-loose max-w-[361px]">
-                    <p>Mulai Tanggal</p>
-                    <p>18 September 2024</p>
+                    <p><?= $key?></p>
+                    <p><?= $value?></p>
                 </div>
-                <hr class="shrink-0 mt-1 max-w-full border border-solid border-neutral-300 w-[362px]">
-                <div class="flex mt-2 gap-5 justify-between w-full leading-loose max-w-[361px]">
-                    <p>Pertemuan</p>
-                    <p>8x Pertemuan</p>
-                </div>
-                <hr class="shrink-0 mt-1 max-w-full border border-solid border-neutral-300 w-[362px]">
-                <div class="flex mt-2 gap-5 justify-between w-full leading-loose max-w-[361px]">
-                    <p>Kelas</p>
-                    <p>Reguler</p>
-                </div>
-                <hr class="shrink-0 mt-1 max-w-full border border-solid border-neutral-300 w-[362px]">
-                <div class="flex mt-2 gap-5 justify-between w-full leading-loose max-w-[361px]">
-                    <p>Durasi Pertemuan</p>
-                    <p>2 Jam</p>
-                </div>
-                <hr class="shrink-0 mt-1 max-w-full border border-solid border-neutral-300 w-[362px]">
-                <div class="flex my-5">
-                    <h3 class="relative mt-5 lg:text-[40px] text-2xl font-extrabold text-[#273F5A]">Rp. 899.000</h3>
-                    <p class="relative mt-7 text-[#FF9999] h-auto lg:text-base text-sm">
-                        <s>Rp. 1.800.000</s>
-                    </p>
-                </div>
+                <?php } ?>
                 <div class="relative overflow-hidden flex flex-col justify-center rounded-b-3xl self-stretch px-10 py-6 mt-5 w-full text-xl font-semibold text-white rounded-none bg-[#5386C0]">
                     <a href="https://docs.google.com/forms/d/e/1FAIpQLScWQS2TQw8ZG3zEOZ57wRKU5pg-BVj5zT-NS4kae-MesmSRlg/viewform" target="_blank" class="btn px-16 py-3.5 rounded-xl z-10 border border-white border-solid text-center">Daftar Sekarang</a>
                     <div class="w-32 h-32 absolute -bottom-[75%] -left-[2%] bg-white opacity-10 rounded-full flex items-center justify-center">                        

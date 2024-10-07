@@ -1,5 +1,4 @@
-<nav id="nav" data-aos="fade-down" data-aos-duration="1000" data-aos-once="true"
-    class="fixed w-full top-0 z-[999] py-4 px-5 lg:px-12 bg-white shadow-2xl">
+<nav id="nav" data-aos="fade-down" data-aos-duration="1000" data-aos-once="true" class="fixed w-full top-0 z-[999] py-4 px-5 lg:px-12 bg-white shadow-2xl">
     <div class="max-w-[1440px] mx-auto flex justify-between items-center">
         <div>
             <img class="w-32" src="./assets/logo/rralogo-outline.png" alt="">
@@ -14,8 +13,7 @@
             <div id="resNav" class="rounded-md px-2 text-black">
                 <i class="resBtn fas fa-bars"></i>
             </div>
-            <div id="resMenu"
-                class="fixed top-0 right-0 rounded-bl-[45px] p-10 bg-blue-rpr-thr-a2 text-white hidden resGoDown z-50">
+            <div id="resMenu"  class="fixed top-0 right-0 rounded-bl-[45px] p-10 bg-blue-rpr-thr-a2 text-white hidden resGoDown z-50">
                 <div id="resNavClose" class="inline absolute rounded-md right-5 text-white">
                     <i class="fas fa-x"></i>
                 </div>

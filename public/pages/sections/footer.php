@@ -27,8 +27,8 @@
             <div class="flex flex-col items-start text-sm text-white max-md:mt-10">
                 <h2 class="text-xl font-semibold">Program/Kelas</h2>
                 <ul class="mt-2.5 list-none p-0">
-                <li><a href="#" class="text-white font-light no-underline">Kelas Offline</a></li>
-                <li class="mt-1"><a href="#" class="text-white font-light no-underline">Kelas Online</a></li>
+                <li><a href="../pages/listing-offline.html" class="text-white font-light no-underline">Kelas Offline</a></li>
+                <li class="mt-1"><a href="../pages/listing-online.html" class="text-white font-light no-underline">Kelas Online</a></li>
                 </ul>
             </div>
             </div>

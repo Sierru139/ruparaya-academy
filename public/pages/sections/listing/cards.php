@@ -32,7 +32,7 @@
         </div>
         <div class="flex relative flex-col px-5 pt-px pb-3 mt-1.5 w-full overflow-hidden max-md:pr-5 grow">
             <img class="object-cover absolute inset-0 size-full" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385" alt=""/>
-            <a href="detailclass.php?class=<?= $card['detail-id'] ?> grow" class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline"><?= $card['title'] ?></a>
+            <a href="detailclass.php?class=<?= $card['detail-id'] ?>" class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline"><?= $card['title'] ?></a>
             <p class="relative mt-3 text-sm leading-5 text-neutral-600 grow"><?= $card['expl'] . ""?></p>
         </div>
         <div class="flex px-5 items-center gap-4 mb-5">

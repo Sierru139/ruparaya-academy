@@ -1,5 +1,6 @@
 [
         {
+        "banner" : "./assets/details/bg-classdetail-3darchitectural.png",
         "title": "3D Architecture Class",
         "type": "3D Modelling",
         "expl": [
@@ -7,22 +8,24 @@
                 "Selain itu, peserta juga akan mendalami teknik photoshoot produk, mencakup penataan cahaya, angle pengambilan gambar, dan teknik post-processing untuk menghasilkan visual yang menarik dan profesional. Kelas ini dirancang agar peserta dapat menguasai seluruh proses, dari modelling hingga photoshoot, untuk menciptakan presentasi produk yang memukau."
                 ],
         "tools": {
-                "Fotoshop" :  "Adobe Photoshop adalah aplikasi desain grafis dan pengeditan foto yang paling terkenal dan digunakan di seluruh dunia. Dirancang untuk para profesional di bidang fotografi, desain, dan seni digital, Photoshop menawarkan berbagai fitur canggih untuk mengedit, memanipulasi, dan memperbaiki gambar dengan tingkat presisi yang tinggi.",
-                "Figma" : "FIGMA ADALAH pie[qi [qie[qie qi[ei[qe dan pengeditan foto yang paling terkenal dan digunakan di seluruh dunia. Dirancang untuk para profesional di bidang fotografi, desain, dan seni digital, Photoshop menawarkan berbagai fitur canggih untuk mengedit, memanipulasi, dan memperbaiki gambar dengan tingkat presisi yang tinggi."
+                "Blender" : "Blender adalah perangkat lunak open-source untuk pemodelan 3D, animasi, rendering, dan simulasi. Blender mendukung berbagai aspek pembuatan konten 3D, seperti pembuatan mesh, sculpting, texturing, rigging, animasi karakter, simulasi fisik, dan rendering fotorealistik. Blender digunakan oleh seniman 3D dalam berbagai industri, termasuk game, film animasi, desain produk, dan arsitektur.",
+                "D5 Render" :  "D5 Render adalah perangkat lunak rendering real-time yang digunakan terutama dalam visualisasi arsitektural dan desain interior. Dengan antarmuka yang intuitif dan engine rendering berbasis teknologi ray-tracing dan GI (Global Illumination), D5 Render memungkinkan pengguna membuat visualisasi berkualitas tinggi dengan cepat, baik dalam bentuk gambar statis maupun animasi.",
+                "Photoshop" :  "Adobe Photoshop adalah perangkat lunak pengeditan gambar raster yang paling populer di dunia, digunakan untuk pembuatan dan manipulasi gambar serta desain grafis. Photoshop memungkinkan pengguna mengedit foto, membuat ilustrasi digital, melakukan compositing, dan menambahkan efek visual pada gambar."
                 },
         "image": "./assets/details/flayer-3darchitectural.jpg",
         "details-img": "./assets/details/scedule-3darchitectural.jpg",
         "details" : {
-                "start-date" : "20 September 2024",
-                "meeting" : "20 September 2024",
-                "class-type" : "Reguler",
-                "duration" : "1 Jam 30 Menit",
-                "price" : "Rp.349.000",
-                "discount" : "Rp.700.000"
+                "Mulai Tanggal" : "18 September 2024",
+                "Pertemuan" : "18 - 27 September 2024",
+                "Kelas" : "Reguler",
+                "Durasi Pertemuan" : "2 Jam",
+                "Harga" : "Rp. 899.000",
+                "Diskon" : "<s>Rp. 1.800.000</s>"
                 },
         "detail-id"  : "3darchofln"
         },
         {
+        "banner" : "./assets/details/bg-classdetail-3dproduct.png",
         "title": "3D Design",
         "type": "3D Modelling",
         "expl": [
@@ -30,22 +33,24 @@
                 "Selain itu, peserta juga akan mendalami teknik photoshoot produk, mencakup penataan cahaya, angle pengambilan gambar, dan teknik post-processing untuk menghasilkan visual yang menarik dan profesional. Kelas ini dirancang agar peserta dapat menguasai seluruh proses, dari modelling hingga photoshoot, untuk menciptakan presentasi produk yang memukau."
                 ],
         "tools": {
-                "Fotoshop" :  "Adobe Photoshop adalah aplikasi desain grafis dan pengeditan foto yang paling terkenal dan digunakan di seluruh dunia. Dirancang untuk para profesional di bidang fotografi, desain, dan seni digital, Photoshop menawarkan berbagai fitur canggih untuk mengedit, memanipulasi, dan memperbaiki gambar dengan tingkat presisi yang tinggi.",
-                "Figma" : "FIGMA ADALAH pie[qi [qie[qie qi[ei[qe dan pengeditan foto yang paling terkenal dan digunakan di seluruh dunia. Dirancang untuk para profesional di bidang fotografi, desain, dan seni digital, Photoshop menawarkan berbagai fitur canggih untuk mengedit, memanipulasi, dan memperbaiki gambar dengan tingkat presisi yang tinggi."
+                "Blender" : "Blender adalah perangkat lunak open-source untuk pemodelan 3D, animasi, rendering, dan simulasi. Blender mendukung berbagai aspek pembuatan konten 3D, seperti pembuatan mesh, sculpting, texturing, rigging, animasi karakter, simulasi fisik, dan rendering fotorealistik. Blender digunakan oleh seniman 3D dalam berbagai industri, termasuk game, film animasi, desain produk, dan arsitektur.",
+                "D5 Render" :  "D5 Render adalah perangkat lunak rendering real-time yang digunakan terutama dalam visualisasi arsitektural dan desain interior. Dengan antarmuka yang intuitif dan engine rendering berbasis teknologi ray-tracing dan GI (Global Illumination), D5 Render memungkinkan pengguna membuat visualisasi berkualitas tinggi dengan cepat, baik dalam bentuk gambar statis maupun animasi.",
+                "Photoshop" :  "Adobe Photoshop adalah perangkat lunak pengeditan gambar raster yang paling populer di dunia, digunakan untuk pembuatan dan manipulasi gambar serta desain grafis. Photoshop memungkinkan pengguna mengedit foto, membuat ilustrasi digital, melakukan compositing, dan menambahkan efek visual pada gambar."
                 },
         "image": "./assets/details/flayer-3dproduct.jpg",
         "details-img": "./assets/details/scedule-3dproduct.jpg",
         "details" : {
-                "start-date" : "20 September 2024",
-                "meeting" : "20 September 2024",
-                "class-type" : "Reguler",
-                "duration" : "1 Jam 30 Menit",
-                "price" : "Rp.349.000",
-                "discount" : "Rp.700.000"
+                "Mulai Tanggal" : "20 September 2024",
+                "Pertemuan" : "20 September 2024",
+                "Kelas" : "Reguler",
+                "Durasi Pertemuan" : "1 Jam 30 Menit",
+                "Harga" : "Rp.349.000",
+                "Diskon" : "<s>Rp.700.000</s>"
                 },
         "detail-id"  : "3dmdlofl"
         },
         {
+        "banner" : "./assets/details/bg-classdetail-english.png",
         "title": "Speaking Communication English",
         "type": "Language",
         "expl": [
@@ -57,18 +62,19 @@
                 "Adobe Photoshop" : "adalah aplikasi desain grafis dan pengeditan foto yang paling terkenal dan digunakan di seluruh dunia. Dirancang untuk para profesional di bidang fotografi, desain, dan seni digital, Photoshop menawarkan berbagai fitur canggih untuk mengedit, memanipulasi, dan memperbaiki gambar dengan tingkat presisi yang tinggi."
                 },
         "image": "./assets/details/flayer-english.jpg",
-        "details-img": "./assets/details/scedule-3dproduct.jpg",
+        "details-img": "./assets/details/scedule-english.jpg",
         "details" : {
-                "start-date" : "20 September 2024",
-                "meeting" : "20 September 2024",
-                "class-type" : "Reguler",
-                "duration" : "1 Jam 30 Menit",
-                "price" : "Rp.349.000",
-                "discount" : "Rp.700.000"
+                "Mulai Tanggal" : "20 September 2024",
+                "Pertemuan" : "20 September 2024",
+                "Kelas" : "Reguler",
+                "Durasi Pertemuan" : "1 Jam 30 Menit",
+                "Harga" : "Rp.349.000",
+                "Diskon" : "<s>Rp.700.000</s>"
                 },
         "detail-id"  : "spkcmnon"
         },
         {
+        "banner" : "./assets/details/bg-classdetail-ArcGIS.png",
         "title": "Kelas ArcGIS and Geospatial",
         "type": "Advanced Mapping",
         "expl": [
@@ -81,16 +87,17 @@
         "image": "./assets/details/flayer-arcgis.jpg",
         "details-img": "./assets/details/scedule-arcgis.jpg",
         "details" : {
-                "start-date" : "20 September 2024",
-                "meeting" : "20 September 2024",
-                "class-type" : "Reguler",
-                "duration" : "1 Jam 30 Menit",
-                "price" : "Rp.349.000",
-                "discount" : "Rp.700.000"
+                "Mulai Tanggal" : "20 September 2024",
+                "Pertemuan" : "20 September 2024",
+                "Kelas" : "Reguler",
+                "Durasi Pertemuan" : "1 Jam 30 Menit",
+                "Harga" : "Rp.349.000",
+                "Diskon" : "<s>Rp.700.000</s>"
                 },
         "detail-id"  : "arcofln"
         },
         {
+        "banner" : "./assets/details/bg-classdetail-fullstack.png",
         "title": "Kelas Fullstack Web Development",
         "type": "Web Developer",
         "expl": [
@@ -100,19 +107,20 @@
         "tools": {
                 "Visual Studio Code" :  "Visual Studio Code (VS Code) adalah editor kode yang sangat populer di kalangan pengembang karena kemudahan penggunaannya, kecepatan, dan dukungan ekstensif untuk berbagai bahasa pemrograman. Aplikasi ini dirancang untuk mempercepat proses coding dengan fitur-fitur pintar seperti IntelliSense, debugging, dan integrasi Git yang kuat."
                 },
-        "image": "./assets/details/flayer-3dproduct.jpg",
-        "details-img": "./assets/details/scedule-3dproduct.jpg",
+        "image": "./assets/details/flyer-fullstack.jpg",
+        "details-img": "./assets/details/scedule-fullstack.jpg",
         "details" : {
-                "start-date" : "20 September 2024",
-                "meeting" : "20 September 2024",
-                "class-type" : "Reguler",
-                "duration" : "1 Jam 30 Menit",
-                "price" : "Rp.349.000",
-                "discount" : "Rp.700.000"
+                "Mulai Tanggal" : "20 September 2024",
+                "Pertemuan" : "20 September 2024",
+                "Kelas" : "Reguler",
+                "Durasi Pertemuan" : "1 Jam 30 Menit",
+                "Harga" : "Rp.349.000",
+                "Diskon" : "<s>Rp.700.000</s>"
                 },
         "detail-id"  : "webonln"
         },
         {
+        "banner" : "./assets/details/bg-classdetail-skect.png",
         "title": "SketchUp 3D Modelling",
         "type": "3D Modelling",
         "expl": [
@@ -125,16 +133,17 @@
         "image": "./assets/details/flayer-3dproduct.jpg",
         "details-img": "./assets/details/scdule-skc.png",
         "details" : {
-                "start-date" : "20 September 2024",
-                "meeting" : "20 September 2024",
-                "class-type" : "Reguler",
-                "duration" : "1 Jam 30 Menit",
-                "price" : "Rp.349.000",
-                "discount" : "Rp.700.000"
+                "Mulai Tanggal" : "20 September 2024",
+                "Pertemuan" : "20 September 2024",
+                "Kelas" : "Reguler",
+                "Durasi Pertemuan" : "1 Jam 30 Menit",
+                "Harga" : "Rp.349.000",
+                "Diskon" : "<s>Rp.700.000</s>"
                 },
         "detail-id"  : "sktchonln"
         },
         {
+        "banner" : "./assets/details/bg-classdetail-uiux.png",
         "title": "Kelas UI/UX Design Mobile App",
         "type": "UI/UX Design",
         "expl": [
@@ -145,14 +154,14 @@
                 "Figma" :  "Alat desain berbasis cloud yang sangat populer di kalangan desainer UI/UX karena kemudahan penggunaannya, kolaborasi real-time, dan fitur yang lengkap. Aplikasi ini memungkinkan desainer membuat wireframe, prototipe, dan mockup dengan efisien, serta berbagi pekerjaan secara langsung dengan tim."
                 },
         "image": "./assets/details/flayer-uiux.jpg",
-        "details-img": "./assets/details/scedule-uiux.png",
+        "details-img": "./assets/details/scedule-uiux.jpg",
         "details" : {
-                "start-date" : "20 September 2024",
-                "meeting" : "20 September 2024",
-                "class-type" : "Reguler",
-                "duration" : "1 Jam 30 Menit",
-                "price" : "Rp.349.000",
-                "discount" : "Rp.700.000"
+                "Mulai Tanggal" : "14 September 2024",
+                "Pertemuan" : "14 September 2024",
+                "Kelas" : "Free",
+                "Durasi Pertemuan" : "3 Jam",
+                "Harga" : "Gratis",
+                "Diskon" : ""
                 },
         "detail-id"  : "uiuxofln"
         }

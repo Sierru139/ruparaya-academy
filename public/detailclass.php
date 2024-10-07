@@ -8,9 +8,9 @@ $class = json_decode($classdata, true);
 
 $activeClass = array_filter($class, function($item){
     global $num;
-    return $item['detail-id'] === $num;
+    return $item['detail-id'] == $num;
 });
-var_dump($activeClass);
+// var_dump($activeClass);
 
 // if (!array_key_exists($num, $class) || $num === null) {
 //     header("Location: error.php");
@@ -44,15 +44,6 @@ var_dump($activeClass);
     <!-- NAVIGATION BAR END =============== -->
     <!-- NAVIGATION BAR END =============== -->
 
-    <header class="">
-        <div class="h-fit relative overflow-hidden centered-xy">
-            <img class="img-cover object-top -z-10" src="./assets/details/bg-classdetail-3darchitectural.png" alt="">
-            <div class="max-w-[525px] absolute z-20 text-white text-center">
-                <h3 data-aos="fade-up" data-aos-duration="1100" class="md:text-[48px] font-bold text-[#273F5A] mb-4 leading-snug text-stroke">3D Architectural Rendering</h3>
-                <h3 data-aos="fade-up" data-aos-duration="1500"><a href="../index.html">Beranda > </a><a href="./listing.html">Program/Kelas > </a><a href="#" class="text-[#EDC423]">Kelas Detail</a></h3>
-            </div>
-        </div>
-    </header>
 
     <!-- DETAILS == -->
     <?php include_once __DIR__ . "/pages/sections/detailClass/classes.php" ?>
