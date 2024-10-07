@@ -45,101 +45,26 @@ $activeClass = array_filter($class, function($item){
     <!-- NAVIGATION BAR END =============== -->
 
 
-    <!-- DETAILS == -->
+    <!-- =============== DETAILS =============== -->
     <?php include_once __DIR__ . "/pages/sections/detailClass/classes.php" ?>
-    <!-- DETAILS == -->
+    <!-- =============== DETAILS =============== -->
 
 
-    <section class="relative mt-10">
-        <div class="absolute top-0 left-0 right-0  max-w-[1250px] -z-10 mx-auto">
-            <img src="./assets/pg1/bg-qna.png" class="mt-5 w-full h-full" alt="">
-        </div>
-        <div class=""> 
-            <h3 class="text-center text-[32px] font-bold text-[#273F5A]">Keunggulan Kelas <span class="text-[#5386C0]">Rupa Raya Academy</span></h3>
-            <p class="text-center mt-4 text-[#666666] text-[15px]">Raih Hasil Terbaik dengan Bergabung di Kelas Kami</p>
-        </div>
-        <div class="flex gap-48 justify-center">
-            <div class="my-20">
-                <div class="flex mb-10">
-                    <div data-aos="flip-left" data-aos-duration="1000" class="relative flex py-7 px-7 bg-white shadow-xl w-[450px] rounded-[12px] overflow-hidden">
-                        <div class="-right-16 -top-16 w-32 h-32 absolute z-20 bg-[#5386C0] opacity-10 rounded-full flex items-center justify-center"></div>
-                        <div class="relative">
-                            <div class="bg-[#F5AD97] w-[72px] h-[72px] rounded-full"></div>
-                            <img src="./assets/details/ticket.png" class="absolute top-4 right-4" alt="">
-                        </div>
-                        <div class="ml-5">
-                            <h3 class="text-[#273F5A] text-[24px] font-bold">Voucher discount</h3>
-                            <p class="text-[15px] text-[#666666] mt-2">Nikmati diskon spesial untuk kelas tambahan, perluas keterampilan dengan biaya terjangkau</p>
-                        </div>
-                        <div class="-bottom-16 -left-16 w-32 h-32 absolute z-20 bg-[#5386C0] opacity-10 rounded-full flex items-center justify-center"></div>
-                    </div>
-                </div>
+    <!-- =============== ADVENTAGE CLASS =============== -->
+    <?php include_once __DIR__ . "/pages/sections/detailClass/classAdvantage.php" ?>
+    <!-- =============== ADVENTAGE CLASS =============== -->
 
-                <div data-aos="flip-left" data-aos-duration="1000" class="relative flex py-7 px-7 w-[450px] rounded-[12px] overflow-hidden">
-                    <div class="relative">
-                        <div class="bg-[#EBD889] w-[72px] h-[72px] rounded-full"></div>
-                        <img src="./assets/details/award.png" class="absolute top-4 right-4" alt="">
-                    </div>
-                    <div class="ml-5">
-                        <h3 class="text-[#273F5A] text-[24px] font-bold">Sertifikat Kelas</h3>
-                        <p class="text-[15px] text-[#666666] mt-2">Dapatkan sertifikat resmi yang diakui untuk meningkatkan kredibilitas dan portofolio profesional Anda</p>
-                    </div>
-                </div>
-            </div>
 
-            <div class="my-20">
-                <div class="flex mb-10">
-                    <div data-aos="flip-right" data-aos-duration="1000" class="relative flex py-7 px-6 w-[450px] rounded-[12px] overflow-hidden">
-                        <div class="relative">
-                            <div class="bg-[#9EB9D7] w-[72px] h-[72px] rounded-full"></div>
-                            <img src="./assets/details/users.png" class="absolute top-4 right-4" alt="">
-                        </div>
-                        <div class="ml-5">
-                            <h3 class="text-[#273F5A] text-[24px] font-bold">Tergabung dengan kami</h3>
-                            <p class="text-[15px] text-[#666666] mt-2">Bergabunglah dengan komunitas kami dan berkembang bersama para profesional di bidangnya</p>
-                        </div>
-                    </div>
-                </div>
+    <!-- =============== Teach =============== -->
 
-                <div data-aos="flip-right" data-aos-duration="1000" class="relative flex py-7 px-7 w-[450px] rounded-[12px] overflow-hidden">
-                    <div class="relative">
-                        <div class="bg-[#92D5F4] w-[72px] h-[72px] rounded-full"></div>
-                        <img src="./assets/details/monitor.png" class="absolute top-4 right-4" alt="">
-                    </div>
-                    <div class="ml-5">
-                        <h3 class="text-[#273F5A] text-[24px] font-bold">Kesempatan Magang</h3>
-                        <p class="text-[15px] text-[#666666] mt-2">Peluang magang yang membuka pintu bagi pengalaman praktis dan jaringan industri yang berharga</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        </div>
-    </section>
-
-    <section class="flex">
-        <div class="flex relative justify-end align-middle px-20 py-11 w-full  overflow-hidden min-h-[453px] max-md:px-5 max-md:max-w-full">
-            <img src="./assets/details/bg-instructor.jpg" class="object-cover absolute inset-0 size-full" alt="">
-            <div data-aos="fade-left" data-aos-duration="1100" class="my-auto">
-                <h2 class="relative text-xl font-medium text-white">Pengajar</h2>
-                <h1 class="relative mt-2.5 text-3xl font-bold text-white">Aliem Arif Perkasa</h1>
-                <p class="relative mt-2.5 mr-72 text-xl font-medium text-white max-md:mr-2.5">Manager Fullstack Web Development</p>
-                <p class="relative font-light mt-8 text-[16px] text-white w-[700px] max-md:max-w-full">Aliem Arif Perkasa adalah seorang Fullstack Web Developer berpengalaman. Dalam kelas ini, Aliem akan membimbing kamu menguasai front-end dan back-end development dengan pendekatan yang praktis dan mudah dipahami.</p>
-                <div class="relative mt-12 max-md:mt-10">
-                    <div class="flex">
-                        <a href="https://www.instagram.com/programer_malas?igsh=MW41dmM5cHhoNml4Yw%3D%3D">
-                            <img src="./assets/details/instagram 1.png" class="mr-2" alt="">
-                            <a href="https://www.instagram.com/programer_malas?igsh=MW41dmM5cHhoNml4Yw%3D%3D" class="text-white font-light" target="_blank">@programer_malas</a>
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-      </section>
+      <?php include_once __DIR__ . "/pages/sections/detailClass/teach.php" ?>
+    <!-- =============== Teach =============== -->
 
     <!-- SECTION 7 QNA START ============= -->
     <!-- SECTION 7 QNA START ============= -->
     <!-- SECTION 7 QNA START ============= -->
-    <section class="relative py-10">
+    
+    <!-- <section class="relative py-10">
         <div class="absolute top-0 left-0 right-0  max-w-[1250px] -z-10 mx-auto">
             <img src="./assets/pg1/bg-qna.png" class="mt-5 w-full h-full" alt="">
         </div>
@@ -211,7 +136,9 @@ $activeClass = array_filter($class, function($item){
 
             </div>
         </div>
-    </section>
+    </section> -->
+
+    <?php include_once __DIR__ . "/pages/sections/home/sect7-qna.php" ?>
 
     <!-- SECTION 7 QNA END =============== -->
     <!-- SECTION 7 QNA END =============== -->

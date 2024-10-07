@@ -40,14 +40,39 @@
         "image": "./assets/details/flayer-3dproduct.jpg",
         "details-img": "./assets/details/scedule-3dproduct.jpg",
         "details" : {
-                "Mulai Tanggal" : "20 September 2024",
-                "Pertemuan" : "20 September 2024",
+                "Mulai Tanggal" : "13 September 2024",
+                "Pertemuan" : "13 Sep. - 5 Okt. 2024",
                 "Kelas" : "Reguler",
                 "Durasi Pertemuan" : "1 Jam 30 Menit",
-                "Harga" : "Rp.349.000",
-                "Diskon" : "<s>Rp.700.000</s>"
+                "Harga" : "Rp. 499.000",
+                "Diskon" : "<s>Rp. 1.000.000</s>"
                 },
         "detail-id"  : "3dmdlofl"
+        },
+        {
+        "banner" : "./assets/details/bg-classdetail-3dproduct.png",
+        "title": "3D Design",
+        "type": "3D Modelling",
+        "expl": [
+                "Dalam kelas ini, peserta akan mempelajari teknik pembuatan model 3D yang detail dan realistis untuk keperluan produk, mulai dari konsep hingga render akhir. Peserta akan diajarkan cara menggunakan berbagai software dan tool untuk menciptakan model 3D produk dengan presisi, memperhatikan tekstur, pencahayaan, dan komposisi visual.",
+                "Selain itu, peserta juga akan mendalami teknik photoshoot produk, mencakup penataan cahaya, angle pengambilan gambar, dan teknik post-processing untuk menghasilkan visual yang menarik dan profesional. Kelas ini dirancang agar peserta dapat menguasai seluruh proses, dari modelling hingga photoshoot, untuk menciptakan presentasi produk yang memukau."
+                ],
+        "tools": {
+                "Blender" : "Blender adalah perangkat lunak open-source untuk pemodelan 3D, animasi, rendering, dan simulasi. Blender mendukung berbagai aspek pembuatan konten 3D, seperti pembuatan mesh, sculpting, texturing, rigging, animasi karakter, simulasi fisik, dan rendering fotorealistik. Blender digunakan oleh seniman 3D dalam berbagai industri, termasuk game, film animasi, desain produk, dan arsitektur.",
+                "D5 Render" :  "D5 Render adalah perangkat lunak rendering real-time yang digunakan terutama dalam visualisasi arsitektural dan desain interior. Dengan antarmuka yang intuitif dan engine rendering berbasis teknologi ray-tracing dan GI (Global Illumination), D5 Render memungkinkan pengguna membuat visualisasi berkualitas tinggi dengan cepat, baik dalam bentuk gambar statis maupun animasi.",
+                "Photoshop" :  "Adobe Photoshop adalah perangkat lunak pengeditan gambar raster yang paling populer di dunia, digunakan untuk pembuatan dan manipulasi gambar serta desain grafis. Photoshop memungkinkan pengguna mengedit foto, membuat ilustrasi digital, melakukan compositing, dan menambahkan efek visual pada gambar."
+                },
+        "image": "./assets/details/flayer-3dproduct.jpg",
+        "details-img": "./assets/details/scedule-3dproduct.jpg",
+        "details" : {
+                "Mulai Tanggal" : "16 September 2024",
+                "Pertemuan" : "16 Sep. - 9 Okt. 2024",
+                "Kelas" : "Reguler",
+                "Durasi Pertemuan" : "2 Jam",
+                "Harga" : "Rp. 249.000 (10 Org tercepat)",
+                "Diskon" : "<s>Rp. 699.000</s>"
+                },
+        "detail-id"  : "3dmdlon"
         },
         {
         "banner" : "./assets/details/bg-classdetail-english.png",
@@ -65,11 +90,11 @@
         "details-img": "./assets/details/scedule-english.jpg",
         "details" : {
                 "Mulai Tanggal" : "20 September 2024",
-                "Pertemuan" : "20 September 2024",
+                "Pertemuan" : "20 Sep. - 19 Okt. 2024",
                 "Kelas" : "Reguler",
                 "Durasi Pertemuan" : "1 Jam 30 Menit",
-                "Harga" : "Rp.349.000",
-                "Diskon" : "<s>Rp.700.000</s>"
+                "Harga" : "Rp. 349.000",
+                "Diskon" : "<s>Rp. 700.000</s>"
                 },
         "detail-id"  : "spkcmnon"
         },
@@ -87,12 +112,12 @@
         "image": "./assets/details/flayer-arcgis.jpg",
         "details-img": "./assets/details/scedule-arcgis.jpg",
         "details" : {
-                "Mulai Tanggal" : "20 September 2024",
-                "Pertemuan" : "20 September 2024",
+                "Mulai Tanggal" : "14 September 2024",
+                "Pertemuan" : "14 September 2024",
                 "Kelas" : "Reguler",
-                "Durasi Pertemuan" : "1 Jam 30 Menit",
-                "Harga" : "Rp.349.000",
-                "Diskon" : "<s>Rp.700.000</s>"
+                "Durasi Pertemuan" : "2 Jam",
+                "Harga" : "Rp. 649.000",
+                "Diskon" : "<s>Rp. 1.298.000</s>"
                 },
         "detail-id"  : "arcofln"
         },
@@ -110,14 +135,37 @@
         "image": "./assets/details/flyer-fullstack.jpg",
         "details-img": "./assets/details/scedule-fullstack.jpg",
         "details" : {
-                "Mulai Tanggal" : "20 September 2024",
-                "Pertemuan" : "20 September 2024",
+                "Mulai Tanggal" : "14 September 2024",
+                "Pertemuan" : "14 Sep. - 13 Okt. 2024",
                 "Kelas" : "Reguler",
-                "Durasi Pertemuan" : "1 Jam 30 Menit",
-                "Harga" : "Rp.349.000",
-                "Diskon" : "<s>Rp.700.000</s>"
+                "Durasi Pertemuan" : "2 Jam",
+                "Harga" : "Rp. 699.000",
+                "Diskon" : "<s>Rp. 1.398.000</s>"
                 },
-        "detail-id"  : "webonln"
+        "detail-id"  : "fwdofln"
+        },
+        {
+        "banner" : "./assets/details/bg-classdetail-fullstack.png",
+        "title": "Kelas Fullstack Web Development",
+        "type": "Web Developer",
+        "expl": [
+                "Dalam kelas ini, peserta akan mempelajari bahasa pemrograman dasar seperti HTML, CSS, dan JavaScript untuk membangun antarmuka pengguna yang interaktif dan responsif. Selain itu, peserta juga akan mendalami framework dan library populer seperti React atau Angular untuk mempercepat pengembangan front-end.",
+                "Kelas ini juga mencakup pemahaman tentang API, otentikasi, serta deployment aplikasi ke server. Dengan kurikulum yang dirancang secara praktis, peserta tidak hanya akan memperoleh pengetahuan teoretis tetapi juga pengalaman langsung dalam membangun proyek web yang lengkap, sehingga siap untuk menjadi Fullstack Developer yang kompeten di dunia kerja."
+                ],
+        "tools": {
+                "Visual Studio Code" :  "Visual Studio Code (VS Code) adalah editor kode yang sangat populer di kalangan pengembang karena kemudahan penggunaannya, kecepatan, dan dukungan ekstensif untuk berbagai bahasa pemrograman. Aplikasi ini dirancang untuk mempercepat proses coding dengan fitur-fitur pintar seperti IntelliSense, debugging, dan integrasi Git yang kuat."
+                },
+        "image": "./assets/details/flyer-fullstack.jpg",
+        "details-img": "./assets/details/scedule-fullstack.jpg",
+        "details" : {
+                "Mulai Tanggal" : "14 September 2024",
+                "Pertemuan" : "14 Sep. - 13 Okt. 2024",
+                "Kelas" : "Reguler",
+                "Durasi Pertemuan" : "2 Jam",
+                "Harga" : "Rp. 699.000",
+                "Diskon" : "<s>Rp. 1.398.000</s>"
+                },
+        "detail-id"  : "fwdonl"
         },
         {
         "banner" : "./assets/details/bg-classdetail-skect.png",
@@ -133,12 +181,12 @@
         "image": "./assets/details/flayer-3dproduct.jpg",
         "details-img": "./assets/details/scdule-skc.png",
         "details" : {
-                "Mulai Tanggal" : "20 September 2024",
-                "Pertemuan" : "20 September 2024",
+                "Mulai Tanggal" : "2 September 2024",
+                "Pertemuan" : "2 - 14 September 2024",
                 "Kelas" : "Reguler",
                 "Durasi Pertemuan" : "1 Jam 30 Menit",
-                "Harga" : "Rp.349.000",
-                "Diskon" : "<s>Rp.700.000</s>"
+                "Harga" : "Rp. 499.000",
+                "Diskon" : "<s>Rp. 998.000</s>"
                 },
         "detail-id"  : "sktchonln"
         },
