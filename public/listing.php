@@ -22,6 +22,8 @@ $cards = json_decode($cardsData, true);
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/output.css">
     <link rel="stylesheet" href="./css/custom.css">
+    <link rel="icon" href="/assets/logo/ruparayaacademyicon.png" type="image/png">
+    <!-- <link rel="shortcut icon" type="icon" href="./assets/logo/ruparayaacademy logo outline.png"> -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Rupa Raya Academy</title>

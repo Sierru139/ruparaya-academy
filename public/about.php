@@ -10,6 +10,8 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/output.css">
     <link rel="stylesheet" href="./css/custom.css">
+    <link rel="icon" href="/assets/logo/ruparayaacademyicon.png" type="image/png">
+    <!-- <link rel="shortcut icon" type="icon" href="./assets/logo/ruparayaacademy logo outline.png"> -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <title>Rupa Raya Academy</title>

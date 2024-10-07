@@ -16,10 +16,10 @@
             <div class="flex flex-col items-start text-sm text-white max-md:mt-10">
                 <h2 class="text-xl font-semibold">Menu</h2>
                 <ul class="mt-2.5 list-none p-0">
-                <li><a href="#" class="text-white font-light no-underline">Beranda</a></li>
-                <li class="mt-1"><a href="#" class="text-white font-light no-underline">Program/Kelas</a></li>
-                <li class="mt-1"><a href="#" class="text-white font-light no-underline">Tentang Kami</a></li>
-                <li class="mt-1"><a href="#" class="text-white font-light no-underline">Testimonial</a></li>
+                <li><a href="./index.php" class="text-white font-light no-underline">Beranda</a></li>
+                <li class="mt-1"><a href="./listing.php" class="text-white font-light no-underline">Program/Kelas</a></li>
+                <li class="mt-1"><a href="./about.php" class="text-white font-light no-underline">Tentang Kami</a></li>
+                <li class="mt-1"><a href="./testimonial.php" class="text-white font-light no-underline">Testimonial</a></li>
                 </ul>
             </div>
             </div>
@@ -37,13 +37,13 @@
         <div class="flex flex-col">
         <div class="flex flex-col items-start w-full">
             <div class="flex gap-5">
-            <a href="#" aria-label="Facebook">
+            <a href="https://www.instagram.com/ruparaya.academy?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" aria-label="Instagram">
                 <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/eea0de67ff265db660885ad6d3abd371357cf57f513dccf68ddbc96fde317182?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="" class="object-contain shrink-0 rounded-full aspect-square w-[35px]" />
             </a>
-            <a href="#" aria-label="Twitter">
+            <a href="https://www.tiktok.com/@ruparaya.academy?is_from_webapp=1&sender_device=pc" target="_blank" aria-label="TikTok">
                 <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/c64d2ccd0f03d7da6e9fc2e58102a09ef727773fe900bc12fcdb7d3a23e25c5b?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="" class="object-contain shrink-0 rounded-full aspect-square w-[35px]" />
             </a>
-            <a href="#" aria-label="Instagram">
+            <a href="https://www.youtube.com/@RupaRayaAcademy" target="_blank" aria-label="YouTube">
                 <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/d042807ef59e5e09ff5748ddd5e28c69601bd7d0cb7b2f5fb2af68aae79242e7?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="" class="object-contain shrink-0 rounded-full aspect-square w-[35px]" />
             </a>
             </div>

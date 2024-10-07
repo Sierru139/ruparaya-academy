@@ -1,3 +1,4 @@
+console.log("CONN");
 AOS.init();
 
 const videoModal = document.getElementById('videoModal');
@@ -5,6 +6,8 @@ const closeButton = document.getElementById('closeButton');
 const openButton = document.getElementById('openButton');
 
 function openModal() {
+    console.log("Pencet");
+    
     videoModal.classList.remove('hidden');
     setTimeout(() => {
         videoModal.classList.remove('opacity-0', 'scale-95');
@@ -169,9 +172,9 @@ imgSwiper.forEach((swiper) => {
         var imgPop = document.querySelector('.image-pop');
         var imgSrc = swiper.getAttribute('src');
         var popImg = imgPop.querySelector('.pop-image');
-
+        
         popImg.setAttribute('src', imgSrc);
-
+        
         if (imgPop.style.display === 'flex') {
             imgPop.style.opacity = 0;
             setTimeout(() => {
@@ -183,7 +186,7 @@ imgSwiper.forEach((swiper) => {
                 imgPop.style.opacity = 1;
             }, 10);
         }
-
+        
         var closePop = imgPop.querySelector('.close-pop');
         closePop.addEventListener('click', function() {
             imgPop.style.opacity = 0;
@@ -195,3 +198,26 @@ imgSwiper.forEach((swiper) => {
 });
 
 // Video Popup on index.html
+
+const videoPlay = document.getElementById('playVidPop');
+const videoNow = document.getElementById('videoNow');
+const videoPop = document.getElementById('videoPop');
+videoPlay.addEventListener('click', function () {
+    videoPop.classList.add("opacity-100");
+    videoPop.classList.remove("opacity-0");
+    videoNow.play();
+    setTimeout(() => {
+        videoPop.classList.add("flex");
+        videoPop.classList.remove("hidden");
+    }, 400);
+})
+const closePop = document.getElementById('closePop');
+closePop.addEventListener('click', function () {
+    videoPop.classList.add("opacity-0");
+    videoPop.classList.remove("opacity-100");
+    videoNow.pause();
+    setTimeout(() => {
+        videoPop.classList.add("hidden");
+        videoPop.classList.remove("flex");
+    }, 400);
+});

@@ -7,23 +7,21 @@
             <h3 data-aos="fade-up" data-aos-duration="1000" data-aos-once="true"
                 class="md:text-[32px] text-xl font-extralight mb-14">Seputar Rupa Raya Academy</h3>
             <!-- Tombol play -->
-            <div id="playButton" class="play-button mx-auto cursor-pointer">
-                <img src="./assets/pg1/play-icon.png" alt="Play">
+            <div id="playVidPop" class="play-button mx-auto cursor-pointer">
+                <img src="assets/pg1/play-icon.png" alt="Play">
+                
             </div>
         </div>
     </div>
 </section>
 
-<!-- Modal Pop-Up -->
-<div id="videoModal"
-    class="fixed inset-0 bg-black bg-opacity-75 flex items-center justify-center z-50 hidden opacity-0 scale-95 transition-all duration-300 ease-in-out">
-    <div class="relative w-[90vw] h-[90vh] max-w-[800px] max-h-[450px]">
-        <!-- Tombol close -->
-        <button id="closeButton" class="absolute top-0 right-0 text-white text-3xl z-50">&times;</button>
-        <!-- Video -->
-        <video id="videoPlayer" controls class="w-full h-full object-contain rounded-lg">
-            <source src="/public/assets/video/PXL_20240330_030657799.TS.mp4" type="video/mp4">
-            Browser Anda tidak mendukung video tag.
+<!-- Video Pop-up -->
+<div id="videoPop" class="video-popup hidden fixed inset-0 bg-black bg-opacity-75 items-center justify-center z-50">
+    <div class="relative w-[90%] max-w-[800px] h-auto">
+        <video class="rounded-lg" id="videoNow" width="100%" controls>
+            <source src="assets/video/PXL_20240330_030657799.TS.mp4" type="video/mp4">
+            Browser Anda tidak mendukung elemen video.
         </video>
+        <span id="closePop" class="absolute top-3 right-3 text-white text-2xl cursor-pointer">&times;</span>
     </div>
 </div>
