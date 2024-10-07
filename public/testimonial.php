@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/output.css">
     <link rel="stylesheet" href="./css/custom.css">
+    <link rel="icon" href="/assets/logo/ruparayaacademyicon.png" type="image/png">
+    <!-- <link rel="shortcut icon" type="icon" href="./assets/logo/ruparayaacademy logo outline.png"> -->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Rupa Raya Academy</title>
@@ -41,7 +43,7 @@
   <section class="mt-20 max-lg:mx-4">
     <div class="container-cs centered-x max-lg:flex-col">
         <div class="flex-[45%]">
-            <h3 class="text-[32px] font-bold md:text-left text-center text-[#273F5A] leading-10 max-lg:text-[30px] max-lg:text-start">Nggak Percaya sama <span class="text-[#5386C0]">kata-kata aja?</span></h3>
+            <h3 class="text-[32px] font-bold md:text-left text-center text-[#273F5A] leading-10 max-lg:text-[30px] max-lg:text-start">Nggak Percaya sama <br><span class="text-[#5386C0]">kata-kata aja?</span></h3>
         </div>
         <hr class="block shrink-0 my-auto w-48 border-neutral-500 max-lg:my-5 lg:hidden" aria-hidden="true"></hr>
         <div class="text-[15px] mx-4 flex-[65%] text-[#757575] max-lg:mx-0">
