@@ -24,6 +24,7 @@
                 },
         "detail-id"  : "3darchofln"
         },
+
         {
         "banner" : "./assets/details/bg-classdetail-3dproduct.png",
         "title": "3D Design",
@@ -49,6 +50,7 @@
                 },
         "detail-id"  : "3dmdlofl"
         },
+
         {
         "banner" : "./assets/details/bg-classdetail-3dproduct.png",
         "title": "3D Design",
@@ -74,6 +76,7 @@
                 },
         "detail-id"  : "3dmdlon"
         },
+
         {
         "banner" : "./assets/details/bg-classdetail-english.png",
         "title": "Speaking Communication English",
@@ -98,6 +101,7 @@
                 },
         "detail-id"  : "spkcmnon"
         },
+
         {
         "banner" : "./assets/details/bg-classdetail-ArcGIS.png",
         "title": "Kelas ArcGIS and Geospatial",
@@ -121,6 +125,7 @@
                 },
         "detail-id"  : "arcofln"
         },
+
         {
         "banner" : "./assets/details/bg-classdetail-fullstack.png",
         "title": "Kelas Fullstack Web Development",
@@ -144,6 +149,7 @@
                 },
         "detail-id"  : "fwdofln"
         },
+
         {
         "banner" : "./assets/details/bg-classdetail-fullstack.png",
         "title": "Kelas Fullstack Web Development",
@@ -167,6 +173,7 @@
                 },
         "detail-id"  : "fwdonl"
         },
+
         {
         "banner" : "./assets/details/bg-classdetail-skect.png",
         "title": "SketchUp 3D Modelling",
@@ -190,6 +197,7 @@
                 },
         "detail-id"  : "sktchonln"
         },
+        
         {
         "banner" : "./assets/details/bg-classdetail-uiux.png",
         "title": "Kelas UI/UX Design Mobile App",

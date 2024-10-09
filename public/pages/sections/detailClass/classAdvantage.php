@@ -23,7 +23,7 @@
                 </div>
             </div>
 
-            <div data-aos="flip-left" data-aos-duration="1000" class="relative flex py-7 px-7 w-[450px] rounded-[12px] overflow-hidden">
+            <div data-aos="flip-left" data-aos-duration="1000" class="relative flex py-7 px-7 bg-white shadow-xl w-[450px] rounded-[12px] overflow-hidden">
                 <div class="relative">
                     <div class="bg-[#EBD889] w-[72px] h-[72px] rounded-full"></div>
                     <img src="./assets/details/award.png" class="absolute top-4 right-4" alt="">
@@ -37,7 +37,7 @@
 
         <div class="my-20">
             <div class="flex mb-10">
-                <div data-aos="flip-right" data-aos-duration="1000" class="relative flex py-7 px-6 w-[450px] rounded-[12px] overflow-hidden">
+                <div data-aos="flip-right" data-aos-duration="1000" class="relative flex py-7 px-7 bg-white shadow-xl w-[450px] rounded-[12px] overflow-hidden">
                     <div class="relative">
                         <div class="bg-[#9EB9D7] w-[72px] h-[72px] rounded-full"></div>
                         <img src="./assets/details/users.png" class="absolute top-4 right-4" alt="">
@@ -49,7 +49,7 @@
                 </div>
             </div>
 
-            <div data-aos="flip-right" data-aos-duration="1000" class="relative flex py-7 px-7 w-[450px] rounded-[12px] overflow-hidden">
+            <div data-aos="flip-right" data-aos-duration="1000" class="relative flex py-7 px-7 bg-white shadow-xl w-[450px] rounded-[12px] overflow-hidden">
                 <div class="relative">
                     <div class="bg-[#92D5F4] w-[72px] h-[72px] rounded-full"></div>
                     <img src="./assets/details/monitor.png" class="absolute top-4 right-4" alt="">
@@ -60,6 +60,5 @@
                 </div>
             </div>
         </div>
-    </div>
     </div>
 </section>

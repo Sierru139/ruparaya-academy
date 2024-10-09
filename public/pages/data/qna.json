@@ -1,0 +1,137 @@
+[
+    {
+    "title": "Pertanyaan Seputar Kelas UI/UX",
+    "quest1": "Apa perbedaan utama antara UI (User Interface) dan UX (User Experience) yang akan dibahas dalam kelas ini?",
+    "answer1": "UI berfokus pada tampilan visual dan elemen interaktif seperti layout, warna, dan ikon, sedangkan UX berfokus pada keseluruhan pengalaman pengguna, memastikan produk mudah digunakan dan memuaskan.",
+    "quest2": "Bagaimana proses riset UX dilakukan untuk memahami kebutuhan pengguna dalam pengembangan produk digital?",
+    "answer2": "Riset UX melibatkan survei, wawancara, dan observasi terhadap pengguna untuk memahami kebutuhan, perilaku, dan masalah yang mereka hadapi saat menggunakan produk, sehingga solusi yang tepat bisa dirancang.",
+    "quest3": "Apa saja elemen penting dalam desain UI yang dapat meningkatkan interaksi pengguna?",
+    "answer3": "Elemen penting UI mencakup penggunaan warna yang konsisten, tipografi yang jelas, tata letak yang intuitif, ikon yang mudah dikenali, dan elemen interaktif seperti tombol yang fungsional.",
+    "quest4": "Teknik atau tools apa yang akan dipelajari untuk membuat prototipe UI dan menguji pengalaman pengguna?",
+    "answer4": "Dalam kelas ini, peserta akan mempelajari tools seperti Figma dan Adobe XD untuk merancang prototipe UI, serta teknik pengujian seperti usability testing dan wireframing untuk mengevaluasi pengalaman pengguna.",
+    "quest5": "Bagaimana cara mengintegrasikan prinsip UI dan UX untuk menciptakan produk yang fungsional dan menarik secara visual?",
+    "answer5": "Integrasi UI dan UX dilakukan dengan memahami kebutuhan pengguna melalui riset UX, kemudian menerapkannya dalam desain UI yang estetis dan intuitif. Pengujian berulang juga penting untuk memastikan produk berfungsi dengan baik dan memuaskan pengguna.",
+    "qna-id"  : "uiuxofln"
+    },
+    
+    {
+    "title": "Pertanyaan Seputar Kelas 3D Architecture Class",
+    "quest1": "Apakah kelas ini cocok untuk pemula atau membutuhkan pengalaman sebelumnya di bidang arsitektur?",
+    "answer1": "Kelas 3D Architecture di Ruparaya Academy cocok untuk pemula maupun yang sudah memiliki pengalaman di bidang arsitektur. Kelas ini akan memulai dengan dasar-dasar 3D modeling dan visualisasi, sehingga peserta tanpa latar belakang arsitektur pun bisa mengikuti. Bagi yang sudah berpengalaman, kelas ini menawarkan kesempatan untuk memperdalam penggunaan software dan teknik rendering yang lebih kompleks.",
+    "quest2": "Apakah peserta di kelas ini akan mempelajari teknik rendering fotorealistik, atau hanya dasar-dasar modeling?",
+    "answer2": "Peserta akan mempelajari baik dasar-dasar modeling maupun teknik rendering fotorealistik. Kelas ini mencakup penggunaan software seperti D5 Render dan Photoshop untuk menghasilkan visualisasi yang mendekati kenyataan, termasuk teknik pencahayaan dan material.",
+    "quest3": "Apakah kelas ini menawarkan panduan langkah demi langkah untuk membuat desain arsitektur dari awal hingga selesai?",
+    "answer3": "Ya, kelas ini memberikan panduan langkah demi langkah mulai dari dasar-dasar desain arsitektur, modeling 3D, hingga rendering dan presentasi akhir. Peserta akan diarahkan untuk mengerjakan proyek arsitektur lengkap selama kelas berlangsung.",
+    "quest4": "Apakah peserta akan mempelajari bagaimana cara menyiapkan file desain untuk dicetak sebagai blueprint atau digunakan di lapangan?",
+    "answer4": "Benar, peserta akan diajarkan cara menyiapkan file desain untuk keperluan cetak seperti blueprint dan penggunaan file digital dalam format yang dapat digunakan oleh tim konstruksi atau engineer di lapangan.",
+    "quest5": "Apakah ada tugas atau proyek yang harus diselesaikan oleh peserta selama kelas berlangsung?",
+    "answer5": "Ya, peserta diharapkan menyelesaikan beberapa tugas dan proyek sepanjang kelas, yang akan membantu mereka mengasah keterampilan dalam modeling 3D dan rendering. Proyek akhir akan mencakup desain arsitektur lengkap yang dipresentasikan dalam bentuk visualisasi 3D.",
+    "qna-id"  : "3darchofln"
+    },
+
+    {
+    "title": "Pertanyaan Seputar Kelas 3D Modelling Product & Photoshoot",
+    "quest1": "Apakah peserta akan belajar membuat model produk dari awal, termasuk teknik pemodelan dasar?",
+    "answer1": "Ya, peserta akan mempelajari teknik pemodelan dasar hingga lanjutan, mulai dari membangun bentuk awal produk, menambahkan detail, hingga menghasilkan model yang siap untuk di-render dan dipresentasikan.",
+    "quest2": "Apakah kelas ini mencakup teknik pencahayaan dan pengaturan kamera untuk menghasilkan rendering produk yang realistis?",
+    "answer2": "Benar, peserta akan diajarkan bagaimana mengatur pencahayaan, bayangan, dan posisi kamera yang tepat untuk menciptakan gambar produk yang realistis, layaknya sesi photoshoot di dunia nyata.",
+    "quest3": "Apakah peserta akan belajar menggunakan software rendering seperti Blender untuk photoshoot virtual produk?",
+    "answer3": "Ya, dalam kelas ini peserta akan diajarkan menggunakan software rendering seperti KeyShot dan Blender, yang sangat ideal untuk menghasilkan gambar produk berkualitas tinggi dalam simulasi photoshoot virtual.",
+    "quest4": "Apakah kelas ini melibatkan pembuatan tekstur dan material yang realistis untuk produk?",
+    "answer4": "Tentu, kelas ini mencakup bagaimana cara membuat dan mengaplikasikan tekstur serta material realistis pada model produk, seperti metalik, kayu, plastik, dan kaca, untuk memberikan tampilan yang otentik dan mendekati hasil akhir produk.",
+    "quest5": "Apakah peserta akan belajar bagaimana cara mengatur lingkungan atau background virtual untuk photoshoot produk?",
+    "answer5": "Ya, peserta akan mempelajari cara mengatur environment atau background virtual, seperti studio lighting, refleksi, dan elemen-elemen tambahan lainnya untuk menciptakan suasana yang sempurna bagi photoshoot produk yang profesional.",
+    "qna-id"  : "3dmdlofl"
+    },
+
+    {
+    "title": "Pertanyaan Seputar Kelas 3D Modelling Product & Photoshoot",
+    "quest1": "Apakah peserta akan belajar membuat model produk dari awal, termasuk teknik pemodelan dasar?",
+    "answer1": "Ya, peserta akan mempelajari teknik pemodelan dasar hingga lanjutan, mulai dari membangun bentuk awal produk, menambahkan detail, hingga menghasilkan model yang siap untuk di-render dan dipresentasikan.",
+    "quest2": "Apakah kelas ini mencakup teknik pencahayaan dan pengaturan kamera untuk menghasilkan rendering produk yang realistis?",
+    "answer2": "Benar, peserta akan diajarkan bagaimana mengatur pencahayaan, bayangan, dan posisi kamera yang tepat untuk menciptakan gambar produk yang realistis, layaknya sesi photoshoot di dunia nyata.",
+    "quest3": "Apakah peserta akan belajar menggunakan software rendering seperti Blender untuk photoshoot virtual produk?",
+    "answer3": "Ya, dalam kelas ini peserta akan diajarkan menggunakan software rendering seperti KeyShot dan Blender, yang sangat ideal untuk menghasilkan gambar produk berkualitas tinggi dalam simulasi photoshoot virtual.",
+    "quest4": "Apakah kelas ini melibatkan pembuatan tekstur dan material yang realistis untuk produk?",
+    "answer4": "Tentu, kelas ini mencakup bagaimana cara membuat dan mengaplikasikan tekstur serta material realistis pada model produk, seperti metalik, kayu, plastik, dan kaca, untuk memberikan tampilan yang otentik dan mendekati hasil akhir produk.",
+    "quest5": "Apakah peserta akan belajar bagaimana cara mengatur lingkungan atau background virtual untuk photoshoot produk?",
+    "answer5": "Ya, peserta akan mempelajari cara mengatur environment atau background virtual, seperti studio lighting, refleksi, dan elemen-elemen tambahan lainnya untuk menciptakan suasana yang sempurna bagi photoshoot produk yang profesional.",
+    "qna-id"  : "3dmdlon"
+    },
+
+    {
+    "title": "Pertanyaan Seputar Kelas Speaking Communication English",
+    "quest1": "Apakah kelas ini membantu meningkatkan kepercayaan diri dalam berbicara bahasa Inggris di depan umum?",
+    "answer1": "Ya, kelas ini dirancang untuk meningkatkan kepercayaan diri peserta dalam berbicara bahasa Inggris di depan umum. Dengan latihan presentasi, diskusi kelompok, dan simulasi situasi sehari-hari, peserta akan belajar berbicara dengan lebih lancar dan percaya diri.",
+    "quest2": "Apakah kelas ini mencakup latihan percakapan untuk situasi sehari-hari seperti perkenalan atau meminta informasi?",
+    "answer2": "Benar, kelas ini mencakup latihan percakapan dalam berbagai situasi sehari-hari, seperti memperkenalkan diri, meminta informasi, atau melakukan percakapan ringan. Tujuannya adalah agar peserta lebih siap dan nyaman berbicara dalam konteks kehidupan nyata.",
+    "quest3": "Apakah peserta akan diajarkan cara meningkatkan pelafalan dan intonasi dalam bahasa Inggris?",
+    "answer3": "Ya, kelas ini fokus pada pelafalan dan intonasi yang benar dalam bahasa Inggris. Instruktur akan memberikan umpan balik secara langsung, dan peserta akan mempraktikkan teknik-teknik yang dapat memperbaiki cara mereka mengucapkan kata-kata dengan jelas dan alami.",
+    "quest4": "Apakah ada kesempatan untuk berlatih debat atau diskusi kelompok selama kelas berlangsung?",
+    "answer4": "Ya, peserta akan diberi kesempatan untuk berlatih debat dan diskusi kelompok sebagai bagian dari kelas. Ini akan membantu mereka mengasah kemampuan argumentasi, mendengarkan, serta merespons dengan cepat dalam percakapan berbahasa Inggris.",
+    "quest5": "Apakah kelas ini cocok untuk peserta yang memiliki keterampilan bahasa Inggris dasar, atau memerlukan level tertentu?",
+    "answer5": "Kelas ini cocok untuk peserta dengan berbagai level, termasuk mereka yang memiliki keterampilan dasar. Materi kelas akan disesuaikan dengan tingkat kemampuan masing-masing peserta, sehingga semua dapat berpartisipasi dan berkembang sesuai dengan kemampuan mereka.",
+    "qna-id"  : "spkcmnon"
+    },
+
+    {
+    "title": "Pertanyaan Seputar Kelas ArcGIS and Geospatial",
+    "quest1": "Apakah kelas ini cocok untuk pemula yang tidak memiliki pengalaman sebelumnya di bidang GIS?",
+    "answer1": "Ya, kelas ini dirancang untuk pemula dan tidak memerlukan pengalaman sebelumnya di bidang GIS. Peserta akan mempelajari konsep dasar dan pengenalan software ArcGIS secara bertahap.",
+    "quest2": "Apakah peserta akan belajar cara mengolah dan menganalisis data geospasial selama kelas ini?",
+    "answer2": "Benar, peserta akan mempelajari cara mengolah dan menganalisis data geospasial menggunakan ArcGIS. Kelas ini mencakup teknik analisis spasial, pengolahan data, dan visualisasi hasil analisis.",
+    "quest3": "Apakah kelas ini mencakup pembelajaran tentang cara membuat peta tematik yang informatif?",
+    "answer3": "Ya, peserta akan belajar cara membuat peta tematik yang informatif dan menarik, termasuk penggunaan simbolisasi, label, dan elemen peta lainnya untuk menyampaikan informasi secara efektif.",
+    "quest4": "Apakah peserta akan mendapatkan akses ke data geospasial untuk digunakan dalam proyek mereka?",
+    "answer4": "Ya, peserta akan diberikan akses ke berbagai sumber data geospasial yang dapat digunakan untuk praktik dan proyek selama kelas, sehingga mereka bisa menerapkan pengetahuan yang telah dipelajari.",
+    "quest5": "Apakah kelas ini juga mencakup penggunaan teknologi terbaru seperti pemetaan 3D atau analisis big data geospasial?",
+    "answer5": "Ya, kelas ini mencakup pengenalan teknologi terbaru dalam GIS, termasuk pemetaan 3D dan analisis big data geospasial. Peserta akan mempelajari bagaimana menerapkan teknologi ini dalam konteks dunia nyata.",
+    "qna-id"  : "arcofln"
+    },
+
+    {
+    "title": "Pertanyaan Seputar Kelas Fullstack Web Development",
+    "quest1": "Apakah kelas ini cocok untuk pemula yang belum memiliki pengalaman di bidang pengembangan web?",
+    "answer1": "Ya, kelas ini dirancang untuk pemula. Materi dimulai dari dasar-dasar pengembangan web, termasuk HTML, CSS, dan JavaScript, sebelum berlanjut ke konsep yang lebih kompleks, sehingga semua peserta dapat mengikuti dengan baik.",
+    "quest2": "Apakah peserta akan mempelajari teknologi frontend dan backend dalam kelas ini?",
+    "answer2": "Ya, peserta akan mempelajari teknologi frontend seperti HTML, CSS, dan JavaScript, serta teknologi backend seperti Node.js, Express, dan database seperti MongoDB. Ini memberikan pemahaman menyeluruh tentang pengembangan aplikasi web dari sisi klien dan server.",
+    "quest3": "Apakah kelas ini mencakup pengembangan aplikasi mobile atau hanya aplikasi web?",
+    "answer3": "Kelas ini fokus pada pengembangan aplikasi web, tetapi juga akan memperkenalkan konsep responsif untuk memastikan aplikasi yang dibuat dapat diakses dengan baik di perangkat mobile dan desktop.",
+    "quest4": "Apakah peserta akan mendapatkan proyek nyata sebagai bagian dari kurikulum kelas?",
+    "answer4": "Ya, peserta diharapkan menyelesaikan beberapa proyek nyata selama kelas, termasuk membangun aplikasi web lengkap. Proyek ini akan membantu peserta menerapkan keterampilan yang dipelajari dan membangun portofolio mereka.",
+    "quest5": "Apakah sertifikat yang diberikan setelah menyelesaikan kelas ini diakui di industri teknologi?",
+    "answer5": "Sertifikat yang diberikan setelah menyelesaikan kelas ini akan menjadi nilai tambah bagi peserta dalam mencari pekerjaan di industri teknologi. Sertifikat tersebut menunjukkan bahwa peserta telah menguasai keterampilan pengembangan web yang relevan dan siap untuk diterapkan dalam proyek nyata.",
+    "qna-id"  : "fwdofln"
+    },
+
+    {
+    "title": "Pertanyaan Seputar Kelas Fullstack Web Development",
+    "quest1": "Apakah kelas ini cocok untuk pemula yang belum memiliki pengalaman di bidang pengembangan web?",
+    "answer1": "Ya, kelas ini dirancang untuk pemula. Materi dimulai dari dasar-dasar pengembangan web, termasuk HTML, CSS, dan JavaScript, sebelum berlanjut ke konsep yang lebih kompleks, sehingga semua peserta dapat mengikuti dengan baik.",
+    "quest2": "Apakah peserta akan mempelajari teknologi frontend dan backend dalam kelas ini?",
+    "answer2": "Ya, peserta akan mempelajari teknologi frontend seperti HTML, CSS, dan JavaScript, serta teknologi backend seperti Node.js, Express, dan database seperti MongoDB. Ini memberikan pemahaman menyeluruh tentang pengembangan aplikasi web dari sisi klien dan server.",
+    "quest3": "Apakah kelas ini mencakup pengembangan aplikasi mobile atau hanya aplikasi web?",
+    "answer3": "Kelas ini fokus pada pengembangan aplikasi web, tetapi juga akan memperkenalkan konsep responsif untuk memastikan aplikasi yang dibuat dapat diakses dengan baik di perangkat mobile dan desktop.",
+    "quest4": "Apakah peserta akan mendapatkan proyek nyata sebagai bagian dari kurikulum kelas?",
+    "answer4": "Ya, peserta diharapkan menyelesaikan beberapa proyek nyata selama kelas, termasuk membangun aplikasi web lengkap. Proyek ini akan membantu peserta menerapkan keterampilan yang dipelajari dan membangun portofolio mereka.",
+    "quest5": "Apakah sertifikat yang diberikan setelah menyelesaikan kelas ini diakui di industri teknologi?",
+    "answer5": "Sertifikat yang diberikan setelah menyelesaikan kelas ini akan menjadi nilai tambah bagi peserta dalam mencari pekerjaan di industri teknologi. Sertifikat tersebut menunjukkan bahwa peserta telah menguasai keterampilan pengembangan web yang relevan dan siap untuk diterapkan dalam proyek nyata.",
+    "qna-id"  : "fwdonl"
+    },
+
+    {
+    "title": "Pertanyaan Seputar Kelas SketchUp 3D Modelling ",
+    "quest1": "Apakah kelas ini cocok untuk pemula yang belum pernah menggunakan SketchUp sebelumnya?",
+    "answer1": "Ya, kelas ini sangat cocok untuk pemula. Peserta akan diperkenalkan dengan dasar-dasar SketchUp, mulai dari antarmuka, alat-alat dasar, hingga teknik modeling sederhana, sehingga semua orang dapat mengikutinya meskipun belum memiliki pengalaman sebelumnya.",
+    "quest2": "Apakah peserta akan belajar cara membuat model 3D untuk arsitektur dan desain interior di kelas ini?",
+    "answer2": "Benar, peserta akan belajar cara membuat model 3D untuk berbagai keperluan, termasuk arsitektur dan desain interior. Kelas ini mencakup teknik-teknik untuk memodelkan bangunan, ruangan, furnitur, dan elemen desain lainnya.",
+    "quest3": "Apakah di kelas ini peserta juga akan mempelajari cara menambahkan material dan tekstur ke model 3D?",
+    "answer3": "Ya, peserta akan diajarkan cara menambahkan material dan tekstur ke model 3D mereka. Kelas ini mencakup penggunaan perpustakaan material dan teknik untuk mengaplikasikan tekstur yang membuat model terlihat lebih realistis.",
+    "quest4": "Apakah peserta akan memiliki akses ke sumber daya tambahan, seperti tutorial atau file latihan, setelah menyelesaikan kelas?",
+    "answer4": "Ya, peserta akan memiliki akses ke sumber daya tambahan, termasuk tutorial video dan file latihan yang dapat digunakan untuk melatih keterampilan mereka lebih lanjut setelah kelas selesai.",
+    "quest5": "Apakah ada proyek akhir yang harus diselesaikan oleh peserta sebagai bagian dari kelas ini?",
+    "answer5": "Ya, peserta diharapkan menyelesaikan proyek akhir yang mencakup pembuatan model 3D lengkap menggunakan teknik yang telah dipelajari selama kelas. Proyek ini akan menjadi bagian penting dari evaluasi keterampilan peserta dalam menggunakan SketchUp. ",
+    "qna-id"  : "sktchonln"
+    }
+
+]

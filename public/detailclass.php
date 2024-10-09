@@ -2,6 +2,8 @@
 
 $num = $_GET['class'];
 
+$qnadata = file_get_contents("./pages/data/qna.json");
+$qna = json_decode($qnadata, true);
 
 $classdata = file_get_contents("./pages/data/class.json");
 $class = json_decode($classdata, true);
@@ -56,9 +58,9 @@ $activeClass = array_filter($class, function($item){
 
 
     <!-- =============== Teach =============== -->
-
-      <?php include_once __DIR__ . "/pages/sections/detailClass/teach.php" ?>
+    <?php include_once __DIR__ . "/pages/sections/detailClass/teach.php" ?>
     <!-- =============== Teach =============== -->
+
 
     <!-- SECTION 7 QNA START ============= -->
     <!-- SECTION 7 QNA START ============= -->
@@ -138,15 +140,15 @@ $activeClass = array_filter($class, function($item){
         </div>
     </section> -->
 
-    <?php include_once __DIR__ . "/pages/sections/home/sect7-qna.php" ?>
+    <?php include_once __DIR__ . "/pages/sections/detailClass/qna.php" ?>
 
     <!-- SECTION 7 QNA END =============== -->
     <!-- SECTION 7 QNA END =============== -->
     <!-- SECTION 7 QNA END =============== -->
 
-    <!-- SECTION 8 QNA START ============= -->
-    <!-- SECTION 8 QNA START ============= -->
-    <!-- SECTION 8 QNA START ============= -->
+    <!-- SECTION 8 CTA START ============= -->
+    <!-- SECTION 8 CTA START ============= -->
+    <!-- SECTION 8 CTA START ============= -->
     <section data-aos="fade-up" data-aos-duration="900" class="px-2 mb-20">
         <div class="relative- h-[275px] max-w-[1100px] mx-auto rounded-[24px] centered-xy bg-cover bg-no-repeat bg-[url('../assets/about/section/cta.png')]">
             <div class="flex md:gap-28 md:flex-row flex-col items-center md:px-12 px-8 absolute z-20 text-white ">
@@ -159,9 +161,9 @@ $activeClass = array_filter($class, function($item){
             </div>
         </div>
     </section>
-    <!-- SECTION 8 QNA START ============= -->
-    <!-- SECTION 8 QNA START ============= -->
-    <!-- SECTION 8 QNA START ============= -->
+    <!-- SECTION 8 CTA START ============= -->
+    <!-- SECTION 8 CTA START ============= -->
+    <!-- SECTION 8 CTA START ============= -->
 
     <!-- FOOTER START ============== -->
     <!-- FOOTER START ============== -->

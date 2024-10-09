@@ -32,7 +32,7 @@
         <div class="image-pop relative py-8">
             <div class="relative">
                 <img class="pop-image w-[50vw] rounded-lg" src="" alt="">
-                <span class="close-pop absolute size-10 top-5 right-px cursor-pointer text-white font-bold drop-shadow">X</span>
+                <span class="close-pop absolute size-10 top-5 right-px cursor-pointer text-white font-bold drop-shadow">x</span>
             </div>
         </div>
     </div>
