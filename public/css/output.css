@@ -875,6 +875,10 @@ video {
   margin-top: 2rem;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .block {
   display: block;
 }
@@ -1324,6 +1328,10 @@ video {
 
 .max-w-full {
   max-width: 100%;
+}
+
+.max-w-\[580px\] {
+  max-width: 580px;
 }
 
 .flex-\[45\%\] {
@@ -1923,6 +1931,10 @@ video {
   padding-top: 1px;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
 }
@@ -2002,6 +2014,18 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+
+.text-\[21px\] {
+  font-size: 21px;
+}
+
+.text-\[22px\] {
+  font-size: 22px;
+}
+
+.text-\[23px\] {
+  font-size: 23px;
 }
 
 .font-black {

@@ -9,7 +9,7 @@
     <div class="flex gap-48 justify-center">
         <div class="my-20">
             <div class="flex mb-10">
-                <div data-aos="flip-left" data-aos-duration="1000" class="relative flex py-7 px-7 bg-white shadow-xl w-[450px] rounded-[12px] overflow-hidden">
+                <div data-aos="flip-left" data-aos-duration="1000" data-aos-once="true" class="relative flex py-7 px-7 bg-white shadow-xl w-[450px] rounded-[12px] overflow-hidden">
                     <div class="-right-16 -top-16 w-32 h-32 absolute z-20 bg-[#5386C0] opacity-10 rounded-full flex items-center justify-center"></div>
                     <div class="relative">
                         <div class="bg-[#F5AD97] w-[72px] h-[72px] rounded-full"></div>
@@ -23,7 +23,7 @@
                 </div>
             </div>
 
-            <div data-aos="flip-left" data-aos-duration="1000" class="relative flex py-7 px-7 w-[450px] rounded-[12px] overflow-hidden">
+            <div data-aos="flip-left" data-aos-duration="1000" data-aos-once="true" class="relative flex py-7 px-7 w-[450px] rounded-[12px] overflow-hidden">
                 <div class="relative">
                     <div class="bg-[#EBD889] w-[72px] h-[72px] rounded-full"></div>
                     <img src="../assets/details/award.png" class="absolute top-4 right-4" alt="">
@@ -37,7 +37,7 @@
 
         <div class="my-20">
             <div class="flex mb-10">
-                <div data-aos="flip-right" data-aos-duration="1000" class="relative flex py-7 px-6 w-[450px] rounded-[12px] overflow-hidden">
+                <div data-aos="flip-right" data-aos-duration="1000" data-aos-once="true" class="relative flex py-7 px-6 w-[450px] rounded-[12px] overflow-hidden">
                     <div class="relative">
                         <div class="bg-[#9EB9D7] w-[72px] h-[72px] rounded-full"></div>
                         <img src="../assets/details/users.png" class="absolute top-4 right-4" alt="">
@@ -49,7 +49,7 @@
                 </div>
             </div>
 
-            <div data-aos="flip-right" data-aos-duration="1000" class="relative flex py-7 px-7 w-[450px] rounded-[12px] overflow-hidden">
+            <div data-aos="flip-right" data-aos-duration="1000" data-aos-once="true" class="relative flex py-7 px-7 w-[450px] rounded-[12px] overflow-hidden">
                 <div class="relative">
                     <div class="bg-[#92D5F4] w-[72px] h-[72px] rounded-full"></div>
                     <img src="../assets/details/monitor.png" class="absolute top-4 right-4" alt="">

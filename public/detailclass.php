@@ -5,6 +5,11 @@ $num = $_GET['class'];
 $qnadata = file_get_contents("./pages/data/qna.json");
 $qna = json_decode($qnadata, true);
 
+$activeQna = array_filter($qna, function($item){
+    global $num;
+    return $item['qna-id'] == $num;
+});
+
 $classdata = file_get_contents("./pages/data/class.json");
 $class = json_decode($classdata, true);
 
@@ -149,18 +154,7 @@ $activeClass = array_filter($class, function($item){
     <!-- SECTION 8 CTA START ============= -->
     <!-- SECTION 8 CTA START ============= -->
     <!-- SECTION 8 CTA START ============= -->
-    <section data-aos="fade-up" data-aos-duration="900" class="px-2 mb-20">
-        <div class="relative- h-[275px] max-w-[1100px] mx-auto rounded-[24px] centered-xy bg-cover bg-no-repeat bg-[url('../assets/about/section/cta.png')]">
-            <div class="flex md:gap-28 md:flex-row flex-col items-center md:px-12 px-8 absolute z-20 text-white ">
-                <div class="max-w-[600px] md:text-left text-center">
-                    <h3 class="md:text-[40px] text-3xl font-bold leading-[57px]">Ingin Tahu Lebih? Hubungi Kami Sekarang</h3>
-                </div>
-                <div class="bg-white md:py-4 py-2 px-6 rounded-full md:mt-0 mt-6">
-                    <a href="#class" class="text-[#5386C0] md:text-xl text-lg font-semibold">Hubungi Kami</a>
-                </div>
-            </div>
-        </div>
-    </section>
+    <?php include_once __DIR__ . "/pages/sections/callToAct.php" ?>
     <!-- SECTION 8 CTA START ============= -->
     <!-- SECTION 8 CTA START ============= -->
     <!-- SECTION 8 CTA START ============= -->

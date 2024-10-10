@@ -16,13 +16,12 @@
                         <img src="./assets/details/ticket.png" class="absolute top-4 right-4" alt="">
                     </div>
                     <div class="ml-5">
-                        <h3 class="text-[#273F5A] text-[24px] font-bold">Voucher discount</h3>
+                        <h3 class="text-[#273F5A] text-[24px] font-bold">Voucher discount Spesial</h3>
                         <p class="text-[15px] text-[#666666] mt-2">Nikmati diskon spesial untuk kelas tambahan, perluas keterampilan dengan biaya terjangkau</p>
                     </div>
                     <div class="-bottom-16 -left-16 w-32 h-32 absolute z-20 bg-[#5386C0] opacity-10 rounded-full flex items-center justify-center"></div>
                 </div>
             </div>
-
             <div data-aos="flip-left" data-aos-duration="1000" class="relative flex py-7 px-7 bg-white shadow-xl w-[450px] rounded-[12px] overflow-hidden">
                 <div class="relative">
                     <div class="bg-[#EBD889] w-[72px] h-[72px] rounded-full"></div>
@@ -34,7 +33,6 @@
                 </div>
             </div>
         </div>
-
         <div class="my-20">
             <div class="flex mb-10">
                 <div data-aos="flip-right" data-aos-duration="1000" class="relative flex py-7 px-7 bg-white shadow-xl w-[450px] rounded-[12px] overflow-hidden">
@@ -43,12 +41,11 @@
                         <img src="./assets/details/users.png" class="absolute top-4 right-4" alt="">
                     </div>
                     <div class="ml-5">
-                        <h3 class="text-[#273F5A] text-[24px] font-bold">Tergabung dengan kami</h3>
+                        <h3 class="text-[#273F5A] text-[24px] font-bold">Bergabung dengan kami</h3>
                         <p class="text-[15px] text-[#666666] mt-2">Bergabunglah dengan komunitas kami dan berkembang bersama para profesional di bidangnya</p>
                     </div>
                 </div>
             </div>
-
             <div data-aos="flip-right" data-aos-duration="1000" class="relative flex py-7 px-7 bg-white shadow-xl w-[450px] rounded-[12px] overflow-hidden">
                 <div class="relative">
                     <div class="bg-[#92D5F4] w-[72px] h-[72px] rounded-full"></div>
@@ -61,4 +58,6 @@
             </div>
         </div>
     </div>
+
+
 </section>

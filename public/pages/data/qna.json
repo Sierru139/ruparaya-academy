@@ -1,6 +1,7 @@
 [
     {
-    "title": "Pertanyaan Seputar Kelas UI/UX",
+    "title": "Pertanyaan Seputar ",
+    "titles": "UI/UX",
     "quest1": "Apa perbedaan utama antara UI (User Interface) dan UX (User Experience) yang akan dibahas dalam kelas ini?",
     "answer1": "UI berfokus pada tampilan visual dan elemen interaktif seperti layout, warna, dan ikon, sedangkan UX berfokus pada keseluruhan pengalaman pengguna, memastikan produk mudah digunakan dan memuaskan.",
     "quest2": "Bagaimana proses riset UX dilakukan untuk memahami kebutuhan pengguna dalam pengembangan produk digital?",
@@ -15,7 +16,8 @@
     },
     
     {
-    "title": "Pertanyaan Seputar Kelas 3D Architecture Class",
+    "title": "Pertanyaan Seputar ",
+    "titles": "3D Architecture Class",
     "quest1": "Apakah kelas ini cocok untuk pemula atau membutuhkan pengalaman sebelumnya di bidang arsitektur?",
     "answer1": "Kelas 3D Architecture di Ruparaya Academy cocok untuk pemula maupun yang sudah memiliki pengalaman di bidang arsitektur. Kelas ini akan memulai dengan dasar-dasar 3D modeling dan visualisasi, sehingga peserta tanpa latar belakang arsitektur pun bisa mengikuti. Bagi yang sudah berpengalaman, kelas ini menawarkan kesempatan untuk memperdalam penggunaan software dan teknik rendering yang lebih kompleks.",
     "quest2": "Apakah peserta di kelas ini akan mempelajari teknik rendering fotorealistik, atau hanya dasar-dasar modeling?",
@@ -30,7 +32,8 @@
     },
 
     {
-    "title": "Pertanyaan Seputar Kelas 3D Modelling Product & Photoshoot",
+    "title": "Pertanyaan Seputar ",
+    "titles": "Kelas 3D Modelling Product & Photoshoot",
     "quest1": "Apakah peserta akan belajar membuat model produk dari awal, termasuk teknik pemodelan dasar?",
     "answer1": "Ya, peserta akan mempelajari teknik pemodelan dasar hingga lanjutan, mulai dari membangun bentuk awal produk, menambahkan detail, hingga menghasilkan model yang siap untuk di-render dan dipresentasikan.",
     "quest2": "Apakah kelas ini mencakup teknik pencahayaan dan pengaturan kamera untuk menghasilkan rendering produk yang realistis?",
@@ -45,7 +48,8 @@
     },
 
     {
-    "title": "Pertanyaan Seputar Kelas 3D Modelling Product & Photoshoot",
+    "title": "Pertanyaan Seputar ",
+    "titles": "Kelas 3D Modelling Product & Photoshoot",
     "quest1": "Apakah peserta akan belajar membuat model produk dari awal, termasuk teknik pemodelan dasar?",
     "answer1": "Ya, peserta akan mempelajari teknik pemodelan dasar hingga lanjutan, mulai dari membangun bentuk awal produk, menambahkan detail, hingga menghasilkan model yang siap untuk di-render dan dipresentasikan.",
     "quest2": "Apakah kelas ini mencakup teknik pencahayaan dan pengaturan kamera untuk menghasilkan rendering produk yang realistis?",
@@ -60,7 +64,8 @@
     },
 
     {
-    "title": "Pertanyaan Seputar Kelas Speaking Communication English",
+    "title": "Pertanyaan Seputar ",
+    "titles": "Kelas Speaking Communication English",
     "quest1": "Apakah kelas ini membantu meningkatkan kepercayaan diri dalam berbicara bahasa Inggris di depan umum?",
     "answer1": "Ya, kelas ini dirancang untuk meningkatkan kepercayaan diri peserta dalam berbicara bahasa Inggris di depan umum. Dengan latihan presentasi, diskusi kelompok, dan simulasi situasi sehari-hari, peserta akan belajar berbicara dengan lebih lancar dan percaya diri.",
     "quest2": "Apakah kelas ini mencakup latihan percakapan untuk situasi sehari-hari seperti perkenalan atau meminta informasi?",
@@ -75,7 +80,8 @@
     },
 
     {
-    "title": "Pertanyaan Seputar Kelas ArcGIS and Geospatial",
+    "title": "Pertanyaan Seputar ",
+    "titles": "Kelas ArcGIS and Geospatial",
     "quest1": "Apakah kelas ini cocok untuk pemula yang tidak memiliki pengalaman sebelumnya di bidang GIS?",
     "answer1": "Ya, kelas ini dirancang untuk pemula dan tidak memerlukan pengalaman sebelumnya di bidang GIS. Peserta akan mempelajari konsep dasar dan pengenalan software ArcGIS secara bertahap.",
     "quest2": "Apakah peserta akan belajar cara mengolah dan menganalisis data geospasial selama kelas ini?",
@@ -90,7 +96,8 @@
     },
 
     {
-    "title": "Pertanyaan Seputar Kelas Fullstack Web Development",
+    "title": "Pertanyaan Seputar ",
+    "titles": "Kelas Fullstack Web Development",
     "quest1": "Apakah kelas ini cocok untuk pemula yang belum memiliki pengalaman di bidang pengembangan web?",
     "answer1": "Ya, kelas ini dirancang untuk pemula. Materi dimulai dari dasar-dasar pengembangan web, termasuk HTML, CSS, dan JavaScript, sebelum berlanjut ke konsep yang lebih kompleks, sehingga semua peserta dapat mengikuti dengan baik.",
     "quest2": "Apakah peserta akan mempelajari teknologi frontend dan backend dalam kelas ini?",
@@ -105,7 +112,8 @@
     },
 
     {
-    "title": "Pertanyaan Seputar Kelas Fullstack Web Development",
+    "title": "Pertanyaan Seputar ",
+    "titles": "Kelas Fullstack Web Development",
     "quest1": "Apakah kelas ini cocok untuk pemula yang belum memiliki pengalaman di bidang pengembangan web?",
     "answer1": "Ya, kelas ini dirancang untuk pemula. Materi dimulai dari dasar-dasar pengembangan web, termasuk HTML, CSS, dan JavaScript, sebelum berlanjut ke konsep yang lebih kompleks, sehingga semua peserta dapat mengikuti dengan baik.",
     "quest2": "Apakah peserta akan mempelajari teknologi frontend dan backend dalam kelas ini?",
@@ -120,7 +128,8 @@
     },
 
     {
-    "title": "Pertanyaan Seputar Kelas SketchUp 3D Modelling ",
+    "title": "Pertanyaan Seputar ",
+    "titles": "Kelas SketchUp 3D Modelling ",
     "quest1": "Apakah kelas ini cocok untuk pemula yang belum pernah menggunakan SketchUp sebelumnya?",
     "answer1": "Ya, kelas ini sangat cocok untuk pemula. Peserta akan diperkenalkan dengan dasar-dasar SketchUp, mulai dari antarmuka, alat-alat dasar, hingga teknik modeling sederhana, sehingga semua orang dapat mengikutinya meskipun belum memiliki pengalaman sebelumnya.",
     "quest2": "Apakah peserta akan belajar cara membuat model 3D untuk arsitektur dan desain interior di kelas ini?",
