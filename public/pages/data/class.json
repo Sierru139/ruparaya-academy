@@ -185,7 +185,7 @@
         "tools": {
                 "SketchUp" :  "SketchUp adalah aplikasi desain 3D yang intuitif dan mudah digunakan, dirancang untuk membantu siapa saja, mulai dari pemula hingga profesional, dalam menciptakan model 3D dengan cepat."
                 },
-        "image": "./assets/details/flayer-3dproduct.jpg",
+        "image": "./assets/details/flayer-sketchup.jpg",
         "details-img": "./assets/details/scdule-skc.png",
         "details" : {
                 "Mulai Tanggal" : "2 September 2024",

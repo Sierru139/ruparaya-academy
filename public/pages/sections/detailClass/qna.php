@@ -5,7 +5,7 @@
         </div>
 
         <div class="text-center">
-            <h1 data-aos="fade-up" data-aos-duration="1100" data-aos-once="true" class="text-3xl font-bold mb-4 "><?= $qna["title"] ?><span class="text-[#5386C0]"><?= $qna["titles"] ?></span></h1>
+            <h1 data-aos="fade-up" data-aos-duration="1100" data-aos-once="true" class="text-3xl font-bold mb-4 ">Pertanyaan Seputar <span class="text-[#5386C0]"><?= $qna["titles"] ?></span></h1>
         </div>
 
         <div class="max-w-[1032px] mx-auto relative flex flex-wrap gap-5 justify-between w-full text-base max-md:mr-2.5 max-md:max-w-full">
