@@ -127,6 +127,30 @@
         },
 
         {
+        "banner" : "./assets/details/bg-classdetail-ArcGIS.png",
+        "title": "Kelas ArcGIS and Geospatial",
+        "type": "Advanced Mapping",
+        "expl": [
+                "Dalam kelas ini, peserta akan mempelajari kemampuan lanjutan dalam penggunaan ArcGIS untuk keperluan pemetaan dan analisis geospasial. Peserta akan diajarkan cara memanfaatkan berbagai fitur canggih ArcGIS, seperti analisis spasial tingkat lanjut, pemodelan 3D, serta pengelolaan data geografis yang kompleks.",
+                "Selain itu, peserta juga akan mendalami teknik visualisasi data geospasial yang efektif untuk menghasilkan peta dan laporan yang informatif serta menarik. Kelas ini dirancang agar peserta dapat menguasai seluruh aspek analisis geospasial, dari pemetaan hingga penyajian data yang mendukung pengambilan keputusan strategis."
+                ],
+        "tools": {
+                "ArcGIS" :  "adalah aplikasi pemetaan dan analisis geospasial yang canggih dan serbaguna, dirancang untuk membantu pengguna dalam mengumpulkan, mengelola, menganalisis, dan memvisualisasikan data geografis."
+                },
+        "image": "./assets/details/flayer-arcgis.jpg",
+        "details-img": "./assets/details/scedule-arcgis.jpg",
+        "details" : {
+                "Mulai Tanggal" : "14 September 2024",
+                "Pertemuan" : "14 September 2024",
+                "Kelas" : "Reguler",
+                "Durasi Pertemuan" : "2 Jam",
+                "Harga" : "Rp. 649.000",
+                "Diskon" : "<s>Rp. 1.298.000</s>"
+                },
+        "detail-id"  : "arcon"
+        },
+
+        {
         "banner" : "./assets/details/bg-classdetail-fullstack.png",
         "title": "Kelas Fullstack Web Development",
         "type": "Web Developer",

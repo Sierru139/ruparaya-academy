@@ -38,9 +38,9 @@ $cards = json_decode($cardsData, true);
         <i class="fa fab fa-whatsapp mt-3.5"></i>
     </a>
 
-    <!-- NAVIGATION BAR START =============== -->
-    <!-- NAVIGATION BAR START =============== -->
-    <!-- NAVIGATION BAR START =============== -->
+    <!-- NAVIGATION BAR START ============= -->
+    <!-- NAVIGATION BAR START ============= -->
+    <!-- NAVIGATION BAR START ============= -->
     <?php include_once __DIR__ . "/pages/sections/navbar.php" ?>
     <!-- NAVIGATION BAR END =============== -->
     <!-- NAVIGATION BAR END =============== -->
@@ -61,26 +61,27 @@ $cards = json_decode($cardsData, true);
     <!-- SECTION 4 CARD CLASS START ======= -->
     <!-- SECTION 4 CARD CLASS START ======= -->
     <!-- SECTION 4 CARD CLASS START ======= -->
-    <section class="flex flex-col mt-10">
-        
-        <?php include_once __DIR__ . "/pages/sections/listing/cards.php" ?>
-        
+    <?php include_once __DIR__ . "/pages/sections/listing/cards.php" ?>
+    <!-- SECTION 4 CARD CLASS END ========= -->
+    <!-- SECTION 4 CARD CLASS END ========= -->
+    <!-- SECTION 4 CARD CLASS END ========= -->
 
-    <!-- SECTION 8 QNA START ============= -->
-    <!-- SECTION 8 QNA START ============= -->
-    <!-- SECTION 8 QNA START ============= -->
+
+    <!-- SECTION 8 QNA START ============== -->
+    <!-- SECTION 8 QNA START ============== -->
+    <!-- SECTION 8 QNA START ============== -->
     <?php include_once __DIR__ . "/pages/sections/callToAct.php" ?>
-    <!-- SECTION 8 QNA START ============= -->
-    <!-- SECTION 8 QNA START ============= -->
-    <!-- SECTION 8 QNA START ============= -->
+    <!-- SECTION 8 QNA END ================ -->
+    <!-- SECTION 8 QNA END ================ -->
+    <!-- SECTION 8 QNA END ================ -->
 
-    <!-- FOOTER START ============== -->
-    <!-- FOOTER START ============== -->
-    <!-- FOOTER START ============== -->
+    <!-- FOOTER START ===================== -->
+    <!-- FOOTER START ===================== -->
+    <!-- FOOTER START ===================== -->
     <?php include_once __DIR__ . "/pages/sections/footer.php" ?>
-    <!-- FOOTER END ============== -->
-    <!-- FOOTER END ============== -->
-    <!-- FOOTER END ============== -->
+    <!-- FOOTER END ======================= -->
+    <!-- FOOTER END ======================= -->
+    <!-- FOOTER END ======================= -->
 
     <script src="./js/app.js"></script>
 </body>

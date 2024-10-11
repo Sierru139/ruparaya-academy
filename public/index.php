@@ -45,7 +45,7 @@
 </head>
 <body class="bg-[#E9ECEF]">
     <div id="loading-anim" class="fixed flex items-center justify-center top-0 left-0 bottom-0 right-0 z-[99999] duration-500 bg-white">
-        <img class="loading-test" width="440px" src="./assets/logo/ruparayaacademy logo outline.png" alt="">
+        <img class="loading-test" width="440px" src="./assets/logo/ruparayaacademylogooutline.png" alt="">
     </div>
     <a href="https://api.whatsapp.com/send?phone=+6285242673019&amp;text=Halo saya mau bertanya tentang Rupa Raya Academy" class="float" target="_blank">
         <i class="fa fab fa-whatsapp mt-3.5"></i>

@@ -6,7 +6,17 @@
         "linkIg": "https://www.instagram.com/abd.rahim.s?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
         "usrnmIg": "@abd.rahim.s",
         "bg": "../assets/details/bg-instructor-uiux.png",
-        "teach-id": "ars"
+        "teach-id": "uiuxofln"
+    },
+    
+    {
+        "teacher": "Abd. Rahim Saleh",
+        "job": "UI/UX Designer at Kalla",
+        "about": "Abd. Rahim Saleh adalah seorang UI/UX Designer berpengalaman di Kalla. Dalam kelas ini, Abd. Rahim akan membimbing kamu memahami proses desain antarmuka yang intuitif dan pengalaman pengguna yang optimal dengan pendekatan yang praktis dan mudah dipahami.",
+        "linkIg": "https://www.instagram.com/abd.rahim.s?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==",
+        "usrnmIg": "@abd.rahim.s",
+        "bg": "../assets/details/bg-instructor-uiux.png",
+        "teach-id": "3darchofln"
     },
     
     {
@@ -16,6 +26,76 @@
         "linkIg": "https://www.instagram.com/programer_malas?igsh=MW41dmM5cHhoNml4Yw%3D%3D",
         "usrnmIg": "@programer_malas",
         "bg": "../assets/details/bg-instructor.jpg",
-        "teach-id": "aap"
+        "teach-id": "spkcmnon"
+    },
+    
+    {
+        "teacher": "Aliem Arif Perkasa",
+        "job": "Manager Fullstack Web Development",
+        "about": "Aliem Arif Perkasa adalah seorang Fullstack Web Developer berpengalaman. Dalam kelas ini, Aliem akan membimbing kamu menguasai front-end dan back-end development dengan pendekatan yang praktis dan mudah dipahami.",
+        "linkIg": "https://www.instagram.com/programer_malas?igsh=MW41dmM5cHhoNml4Yw%3D%3D",
+        "usrnmIg": "@programer_malas",
+        "bg": "../assets/details/bg-instructor.jpg",
+        "teach-id": "3dmdlofl"
+    },
+    
+    {
+        "teacher": "Aliem Arif Perkasa",
+        "job": "Manager Fullstack Web Development",
+        "about": "Aliem Arif Perkasa adalah seorang Fullstack Web Developer berpengalaman. Dalam kelas ini, Aliem akan membimbing kamu menguasai front-end dan back-end development dengan pendekatan yang praktis dan mudah dipahami.",
+        "linkIg": "https://www.instagram.com/programer_malas?igsh=MW41dmM5cHhoNml4Yw%3D%3D",
+        "usrnmIg": "@programer_malas",
+        "bg": "../assets/details/bg-instructor.jpg",
+        "teach-id": "3dmdlon"
+    },
+    
+    {
+        "teacher": "Aliem Arif Perkasa",
+        "job": "Manager Fullstack Web Development",
+        "about": "Aliem Arif Perkasa adalah seorang Fullstack Web Developer berpengalaman. Dalam kelas ini, Aliem akan membimbing kamu menguasai front-end dan back-end development dengan pendekatan yang praktis dan mudah dipahami.",
+        "linkIg": "https://www.instagram.com/programer_malas?igsh=MW41dmM5cHhoNml4Yw%3D%3D",
+        "usrnmIg": "@programer_malas",
+        "bg": "../assets/details/bg-instructor.jpg",
+        "teach-id": "arcofln"
+    },
+    
+    {
+        "teacher": "Aliem Arif Perkasa",
+        "job": "Manager Fullstack Web Development",
+        "about": "Aliem Arif Perkasa adalah seorang Fullstack Web Developer berpengalaman. Dalam kelas ini, Aliem akan membimbing kamu menguasai front-end dan back-end development dengan pendekatan yang praktis dan mudah dipahami.",
+        "linkIg": "https://www.instagram.com/programer_malas?igsh=MW41dmM5cHhoNml4Yw%3D%3D",
+        "usrnmIg": "@programer_malas",
+        "bg": "../assets/details/bg-instructor.jpg",
+        "teach-id": "arcon"
+    },
+    
+    {
+        "teacher": "Aliem Arif Perkasa",
+        "job": "Manager Fullstack Web Development",
+        "about": "Aliem Arif Perkasa adalah seorang Fullstack Web Developer berpengalaman. Dalam kelas ini, Aliem akan membimbing kamu menguasai front-end dan back-end development dengan pendekatan yang praktis dan mudah dipahami.",
+        "linkIg": "https://www.instagram.com/programer_malas?igsh=MW41dmM5cHhoNml4Yw%3D%3D",
+        "usrnmIg": "@programer_malas",
+        "bg": "../assets/details/bg-instructor.jpg",
+        "teach-id": "sktchonln"
+    },
+    
+    {
+        "teacher": "Aliem Arif Perkasa",
+        "job": "Manager Fullstack Web Development",
+        "about": "Aliem Arif Perkasa adalah seorang Fullstack Web Developer berpengalaman. Dalam kelas ini, Aliem akan membimbing kamu menguasai front-end dan back-end development dengan pendekatan yang praktis dan mudah dipahami.",
+        "linkIg": "https://www.instagram.com/programer_malas?igsh=MW41dmM5cHhoNml4Yw%3D%3D",
+        "usrnmIg": "@programer_malas",
+        "bg": "../assets/details/bg-instructor.jpg",
+        "teach-id": "fwdofln"
+    },
+
+    {
+        "teacher": "Aliem Arif Perkasa",
+        "job": "Manager Fullstack Web Development",
+        "about": "Aliem Arif Perkasa adalah seorang Fullstack Web Developer berpengalaman. Dalam kelas ini, Aliem akan membimbing kamu menguasai front-end dan back-end development dengan pendekatan yang praktis dan mudah dipahami.",
+        "linkIg": "https://www.instagram.com/programer_malas?igsh=MW41dmM5cHhoNml4Yw%3D%3D",
+        "usrnmIg": "@programer_malas",
+        "bg": "../assets/details/bg-instructor.jpg",
+        "teach-id": "fwdonl"
     }
 ]

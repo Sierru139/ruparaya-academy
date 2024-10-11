@@ -126,6 +126,27 @@
     },
 
     {
+    "titles": "Kelas ArcGIS and Geospatial",
+    
+    "quest1": "Apa tujuan utama yang akan dicapai peserta dalam Kelas ArcGIS and Geospatial ini?",
+    "answer1": "Peserta akan mempelajari cara menggunakan ArcGIS untuk menganalisis, memvisualisasikan, dan menginterpretasi data geospasial. Tujuan akhirnya adalah untuk memanfaatkan data spasial dalam pengambilan keputusan dan pemetaan geografis yang efektif.",
+    
+    "quest2": "Bagaimana proses analisis data geospasial dilakukan menggunakan ArcGIS?",
+    "answer2": "Analisis dilakukan dengan cara memanipulasi lapisan data (layers), melakukan query spasial, memproses data vektor dan raster, serta memanfaatkan tools seperti buffer, overlay, dan spatial join untuk memperoleh wawasan dari data geospasial.",
+    
+    "quest3": "Apa saja fungsi penting dari ArcGIS yang akan dipelajari untuk membuat peta dan analisis spasial?",
+    "answer3": "Fungsi penting ArcGIS yang diajarkan termasuk pengelolaan data geospasial, pemetaan tematik, analisis spasial, pembuatan layout peta, dan geoprocessing. Tools ini memungkinkan peserta untuk membuat peta yang informatif dan interaktif.",
+    
+    "quest4": "Bagaimana cara mengintegrasikan data lapangan ke dalam sistem ArcGIS untuk analisis lebih lanjut?",
+    "answer4": "Peserta akan mempelajari cara mengumpulkan data lapangan menggunakan aplikasi mobile, seperti **Collector for ArcGIS**, dan mengintegrasikannya ke dalam sistem ArcGIS untuk analisis lebih lanjut, termasuk pengolahan dan visualisasi data tersebut dalam peta digital.",
+    
+    "quest5": "Apa manfaat utama dari penggunaan GIS dalam berbagai industri dan proyek nyata?",
+    "answer5": "Penggunaan GIS memberikan manfaat besar dalam berbagai industri, seperti perencanaan kota, manajemen sumber daya alam, transportasi, dan mitigasi bencana, dengan memanfaatkan analisis spasial untuk membuat keputusan yang lebih baik berdasarkan data lokasi.",
+    
+    "qna-id"  : "arcon"
+    },
+
+    {
     "titles": "Kelas Fullstack Web Development",
     
     "quest1": "Apa keterampilan utama yang akan dikuasai peserta dalam Kelas Fullstack Web Development ini?",
