@@ -26,7 +26,7 @@ $cardSlice = array_splice($card, 6);
             </div>
             <div class="flex relative flex-col px-5 pt-px pb-3 mt-1.5 w-full aspect-[2.944] max-md:pr-5 h-full">
                 <img class="object-cover absolute inset-0 size-full" loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/84aac03c2c1edcffb54394428a9bb97268abb241985df9af2fbd0d375930d385?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt=""/>
-                <a href="./detailclass.php" class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline"><?= $cardes["title"] ?></a>
+                <a href="detailclass.php?class=<?= $cardes['detail-id'] ?>" class="relative text-xl font-extrabold tracking-wide rotate-[-2.554731426407386e-11rad] text-[#273F5A] max-md:mr-1 hover:underline"><?= $cardes["title"] ?></a>
                 <p class="relative mt-3 text-sm leading-5 text-neutral-600">Belajar mengenal dasar UI/UX, Hands-on Experience, Networking Opportunites. Cocok untuk pemula.</p>
             </div>
             <div class="flex px-5 items-center gap-4">

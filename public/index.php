@@ -122,13 +122,13 @@
     <!-- SECTION 7 QNA END =============== -->
 
 
-    <!-- SECTION 8 QNA START ============= -->
-    <!-- SECTION 8 QNA START ============= -->
-    <!-- SECTION 8 QNA START ============= -->
+    <!-- SECTION 8 CTA START ============= -->
+    <!-- SECTION 8 CTA START ============= -->
+    <!-- SECTION 8 CTA START ============= -->
     <?php include_once __DIR__ . "/pages/sections/callToAct.php" ?>
-    <!-- SECTION 8 QNA START ============= -->
-    <!-- SECTION 8 QNA START ============= -->
-    <!-- SECTION 8 QNA START ============= -->
+    <!-- SECTION 8 CTA END =============== -->
+    <!-- SECTION 8 CTA END =============== -->
+    <!-- SECTION 8 CTA END =============== -->
 
 
     <!-- FOOTER START ============== -->

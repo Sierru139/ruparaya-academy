@@ -58,7 +58,8 @@
         </div>
         </div>
     </div>
-    <div class="px-16 py-2.5 mt-4 w-full text-xs text-center text-white bg-[#5386C0] max-md:px-5 max-md:max-w-full">
-        Copyright © 2024 Rupa Raya Indonesia. All Rights Reserved
+    <div class="flex justify-between px-16 py-3  mt-4 w-full text-xs text-white bg-[#5386C0] max-md:px-5 max-md:max-w-full">
+        <a href="" class="text-left" >Copyright © 2024 Rupa Raya Indonesia. All Rights Reserved</a>
+        <a href="/privacy.php" class="font-extralight" >Kebijakan Privasi</a>
     </div>
 </footer>

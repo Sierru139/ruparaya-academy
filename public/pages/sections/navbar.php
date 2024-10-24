@@ -1,4 +1,4 @@
-<nav id="nav" data-aos="fade-down" data-aos-duration="1000" data-aos-once="true" class="fixed w-full top-0 z-[999] py-4 px-5 lg:px-12 bg-white shadow-2xl">
+<nav id="nav" class="w-full top-0 z-[999] py-4 px-5 lg:px-12 bg-white shadow-2xl">
     <div class="max-w-[1440px] mx-auto flex justify-between items-center">
         <div>
             <img class="w-32" src="./assets/logo/rralogo-outline.png" alt="">
@@ -8,7 +8,7 @@
                 <a href="./listing.php" class="hover:text-[#5386C0] duration-300">Kursus/Kelas</a>
                 <a href="./about.php" class="hover:text-[#5386C0] duration-300">Tentang Kami</a>
                 <!-- <a href="./testimonial.php" class="hover:text-[#5386C0] duration-300">Testimonial</a> -->
-                 <a href="./testimonial.php" class="hover:text-[#5386C0] duration-300">Testimonial</a>
+                <a href="./testimonial.php" class="hover:text-[#5386C0] duration-300">Testimonial</a>
             </div>
         <div class="md:hidden block">
             <div id="resNav" class="rounded-md px-2 text-black">

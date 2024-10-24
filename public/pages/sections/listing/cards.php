@@ -1,4 +1,4 @@
-<div class="flex items-center justify-between mx-16 max-md:mx-6 max-lg:flex-wrap"> 
+<div class="flex items-center justify-between mx-16 max-md:mx-6 max-lg:flex-wrap pt-5"> 
     <div>
         <h2 class="z-10 mt-0 text-3xl font-extrabold text-slate-700">
             <span class="text-[#273F5A]">Daftar</span>

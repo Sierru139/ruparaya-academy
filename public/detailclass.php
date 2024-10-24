@@ -66,7 +66,7 @@ $activeClass = array_filter($class, function($item){
 
 
     <!-- =============== ADVENTAGE CLASS =============== -->
-    <?php include_once __DIR__ . "/pages/sections/detailClass/classAdvantage.php" ?>
+    <?php include_once __DIR__ . "/pages/sections/detailClass/profits.php" ?>
     <!-- =============== ADVENTAGE CLASS =============== -->
 
 

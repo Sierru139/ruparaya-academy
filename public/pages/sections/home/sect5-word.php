@@ -5,8 +5,8 @@
         <div class="max-w-[885px] absolute z-20 text-white text-center max-md:mx-5">
             <div class="text-base text-white max-md:max-w-full">
                 <div>
-                    <h2 data-aos="fade-up" data-aos-duration="1000" data-aos-once="true" class="text-[32px] font-extrabold">Kata Mereka</h2>
-                    <p data-aos="fade-up" data-aos-duration="1200" data-aos-once="true" class="mt-2 text-[15px]">Kata Mereka Selama Mengikuti Program Kami</p>
+                    <h2 class="text-[32px] font-extrabold">Kata Mereka</h2>
+                    <p class="mt-2 text-[15px]">Kata Mereka Selama Mengikuti Program Kami</p>
                 </div>
                 <div>
                     <img class="object-contain mt-12 rounded-full aspect-square w-[81px] mx-auto max-md:mt-10"  loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/58fffa9413259b7c9f975eb590c5ac5db4031f86d2e462656759faeb2ff980fe?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="Profile picture of Arif Sunandar" />
