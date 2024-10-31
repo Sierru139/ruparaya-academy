@@ -12,6 +12,7 @@
                 "D5 Render" :  "D5 Render adalah perangkat lunak rendering real-time yang digunakan terutama dalam visualisasi arsitektural dan desain interior. Dengan antarmuka yang intuitif dan engine rendering berbasis teknologi ray-tracing dan GI (Global Illumination), D5 Render memungkinkan pengguna membuat visualisasi berkualitas tinggi dengan cepat, baik dalam bentuk gambar statis maupun animasi.",
                 "Photoshop" :  "Adobe Photoshop adalah perangkat lunak pengeditan gambar raster yang paling populer di dunia, digunakan untuk pembuatan dan manipulasi gambar serta desain grafis. Photoshop memungkinkan pengguna mengedit foto, membuat ilustrasi digital, melakukan compositing, dan menambahkan efek visual pada gambar."
                 },
+        
         "image": "./assets/details/flayer-3darchitectural.jpg",
         "details-img": "./assets/details/scedule-3darchitectural.jpg",
         "details" : {
@@ -34,10 +35,11 @@
                 "Selain itu, peserta juga akan mendalami teknik photoshoot produk, mencakup penataan cahaya, angle pengambilan gambar, dan teknik post-processing untuk menghasilkan visual yang menarik dan profesional. Kelas ini dirancang agar peserta dapat menguasai seluruh proses, dari modelling hingga photoshoot, untuk menciptakan presentasi produk yang memukau."
                 ],
         "tools": {
-                "Blender" : "Blender adalah perangkat lunak open-source untuk pemodelan 3D, animasi, rendering, dan simulasi. Blender mendukung berbagai aspek pembuatan konten 3D, seperti pembuatan mesh, sculpting, texturing, rigging, animasi karakter, simulasi fisik, dan rendering fotorealistik. Blender digunakan oleh seniman 3D dalam berbagai industri, termasuk game, film animasi, desain produk, dan arsitektur.",
+                "Blender" :  "Blender adalah perangkat lunak open-source untuk pemodelan 3D, animasi, rendering, dan simulasi. Blender mendukung berbagai aspek pembuatan konten 3D, seperti pembuatan mesh, sculpting, texturing, rigging, animasi karakter, simulasi fisik, dan rendering fotorealistik. Blender digunakan oleh seniman 3D dalam berbagai industri, termasuk game, film animasi, desain produk, dan arsitektur.",
                 "D5 Render" :  "D5 Render adalah perangkat lunak rendering real-time yang digunakan terutama dalam visualisasi arsitektural dan desain interior. Dengan antarmuka yang intuitif dan engine rendering berbasis teknologi ray-tracing dan GI (Global Illumination), D5 Render memungkinkan pengguna membuat visualisasi berkualitas tinggi dengan cepat, baik dalam bentuk gambar statis maupun animasi.",
                 "Photoshop" :  "Adobe Photoshop adalah perangkat lunak pengeditan gambar raster yang paling populer di dunia, digunakan untuk pembuatan dan manipulasi gambar serta desain grafis. Photoshop memungkinkan pengguna mengedit foto, membuat ilustrasi digital, melakukan compositing, dan menambahkan efek visual pada gambar."
                 },
+        
         "image": "./assets/details/flayer-3dproduct.jpg",
         "details-img": "./assets/details/scedule-3dproduct.jpg",
         "details" : {
@@ -64,6 +66,7 @@
                 "D5 Render" :  "D5 Render adalah perangkat lunak rendering real-time yang digunakan terutama dalam visualisasi arsitektural dan desain interior. Dengan antarmuka yang intuitif dan engine rendering berbasis teknologi ray-tracing dan GI (Global Illumination), D5 Render memungkinkan pengguna membuat visualisasi berkualitas tinggi dengan cepat, baik dalam bentuk gambar statis maupun animasi.",
                 "Photoshop" :  "Adobe Photoshop adalah perangkat lunak pengeditan gambar raster yang paling populer di dunia, digunakan untuk pembuatan dan manipulasi gambar serta desain grafis. Photoshop memungkinkan pengguna mengedit foto, membuat ilustrasi digital, melakukan compositing, dan menambahkan efek visual pada gambar."
                 },
+        
         "image": "./assets/details/flayer-3dproduct.jpg",
         "details-img": "./assets/details/scedule-3dproduct.jpg",
         "details" : {
@@ -89,6 +92,7 @@
                 "Blender" :  "adalah aplikasi open-source yang kuat dan serbaguna untuk pembuatan 3D, yang mencakup modeling, sculpting, animasi, rendering, dan compositing. Digunakan oleh para profesional di industri film, game, dan desain, Blender memungkinkan pengguna untuk menciptakan segala jenis objek 3D, dari model sederhana hingga efek visual yang kompleks.",
                 "Adobe Photoshop" : "adalah aplikasi desain grafis dan pengeditan foto yang paling terkenal dan digunakan di seluruh dunia. Dirancang untuk para profesional di bidang fotografi, desain, dan seni digital, Photoshop menawarkan berbagai fitur canggih untuk mengedit, memanipulasi, dan memperbaiki gambar dengan tingkat presisi yang tinggi."
                 },
+
         "image": "./assets/details/flayer-english.jpg",
         "details-img": "./assets/details/scedule-english.jpg",
         "details" : {
@@ -113,6 +117,7 @@
         "tools": {
                 "ArcGIS" :  "adalah aplikasi pemetaan dan analisis geospasial yang canggih dan serbaguna, dirancang untuk membantu pengguna dalam mengumpulkan, mengelola, menganalisis, dan memvisualisasikan data geografis."
                 },
+        
         "image": "./assets/details/flayer-arcgis.jpg",
         "details-img": "./assets/details/scedule-arcgis.jpg",
         "details" : {
@@ -137,6 +142,7 @@
         "tools": {
                 "ArcGIS" :  "adalah aplikasi pemetaan dan analisis geospasial yang canggih dan serbaguna, dirancang untuk membantu pengguna dalam mengumpulkan, mengelola, menganalisis, dan memvisualisasikan data geografis."
                 },
+        
         "image": "./assets/details/flayer-arcgis.jpg",
         "details-img": "./assets/details/scedule-arcgis.jpg",
         "details" : {
@@ -161,6 +167,7 @@
         "tools": {
                 "Visual Studio Code" :  "Visual Studio Code (VS Code) adalah editor kode yang sangat populer di kalangan pengembang karena kemudahan penggunaannya, kecepatan, dan dukungan ekstensif untuk berbagai bahasa pemrograman. Aplikasi ini dirancang untuk mempercepat proses coding dengan fitur-fitur pintar seperti IntelliSense, debugging, dan integrasi Git yang kuat."
                 },
+        
         "image": "./assets/details/flyer-fullstack.jpg",
         "details-img": "./assets/details/scedule-fullstack.jpg",
         "details" : {
@@ -185,6 +192,7 @@
         "tools": {
                 "Visual Studio Code" :  "Visual Studio Code (VS Code) adalah editor kode yang sangat populer di kalangan pengembang karena kemudahan penggunaannya, kecepatan, dan dukungan ekstensif untuk berbagai bahasa pemrograman. Aplikasi ini dirancang untuk mempercepat proses coding dengan fitur-fitur pintar seperti IntelliSense, debugging, dan integrasi Git yang kuat."
                 },
+        
         "image": "./assets/details/flyer-fullstack.jpg",
         "details-img": "./assets/details/scedule-fullstack.jpg",
         "details" : {
@@ -209,6 +217,7 @@
         "tools": {
                 "SketchUp" :  "SketchUp adalah aplikasi desain 3D yang intuitif dan mudah digunakan, dirancang untuk membantu siapa saja, mulai dari pemula hingga profesional, dalam menciptakan model 3D dengan cepat."
                 },
+        
         "image": "./assets/details/flyer-sktc.jpg",
         "details-img": "./assets/details/scdule-skc.png",
         "details" : {
@@ -233,6 +242,7 @@
         "tools": {
                 "Figma" :  "Alat desain berbasis cloud yang sangat populer di kalangan desainer UI/UX karena kemudahan penggunaannya, kolaborasi real-time, dan fitur yang lengkap. Aplikasi ini memungkinkan desainer membuat wireframe, prototipe, dan mockup dengan efisien, serta berbagi pekerjaan secara langsung dengan tim."
                 },
+        
         "image": "./assets/details/flayer-uiux.jpg",
         "details-img": "./assets/details/scedule-uiux.jpg",
         "details" : {

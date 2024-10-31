@@ -50,7 +50,7 @@
             <img loading="lazy" src="<?= $activeClasses["details-img"] ?>" alt="Course details image" class="object-contain mt-2.5 rounded-3xl shadow-[0px_4px_20px_rgba(0,0,0,0.25)]">
             <article class="flex flex-col items-center pt-5 mt-2.5 text-base bg-white rounded-3xl shadow-[0px_4px_20px_rgba(0,0,0,0.25)] text-neutral-500">
                 <?php foreach ($activeClasses['details'] as $key => $value) { ?>
-                <div class="flex gap-5 justify-between w-full leading-loose max-w-[361px]">
+                <div class="flex gap-5 px-5 justify-between w-full leading-loose max-w-[361px]">
                     <p><?= $key?></p>
                     <p><?= $value?></p>
                 </div>
