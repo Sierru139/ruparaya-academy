@@ -6,6 +6,10 @@ $num = $_GET['class'];
 $classdata = file_get_contents("./pages/data/class.json");
 $class = json_decode($classdata, true);
 
+$qnadata = file_get_contents("./pages/data/qna.json");
+$qna = json_decode($classdata, true);
+
+
 $activeClass = array_filter($class, function($item){
     global $num;
     return $item['detail-id'] === $num;
@@ -171,53 +175,8 @@ var_dump($activeClass);
                                 </p>
                             </div>
                         </div>
-                        <div class="ask w-full bg-gray-50 mb-4 shadow-md rounded-lg hdn">
-                            <div class="p-4 cursor-pointer flex justify-between relative rounded-t-lg">
-                                <h4 class="md:text-base text-sm font-medium">Apa saja yang akan saya pelajari di kelas ini?</h4>
-                                <span class="arrow-rotate elementor-toggle-icon elementor-toggle-icon-right float-right text-right text-black md:w-4 w-2 absolute right-4" aria-hidden="true"><span class="elementor-toggle-icon-closed"><img src="../assets/icon/dropdown-plus.svg" alt=""></span></span>
-                            </div>
-                            <div class="answer w-full bg-gray-50 rounded-b-lg">                                
-                                <p class="md:text-base p-4 text-sm text-[#747474]">
-                                    Di kelas 3D Modelling Product & Photoshoot ini, Anda akan belajar teknik dasar hingga lanjutan dalam membuat model 3D produk, mulai dari konsep, pemodelan, tekstur, hingga rendering. Selain itu, Anda juga akan mempelajari cara melakukan photoshoot digital untuk produk-produk yang sudah di-render, mencakup pencahayaan, komposisi, dan editing post-produksi.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="ask w-full bg-gray-50 mb-4 shadow-md rounded-lg hdn">
-                            <div class="p-4 cursor-pointer flex justify-between relative rounded-t-lg">
-                                <h4 class="md:text-base text-sm font-medium">Apakah saya perlu memiliki pengalaman sebelumnya?</h4>
-                                <span class="arrow-rotate elementor-toggle-icon elementor-toggle-icon-right float-right text-right text-black md:w-4 w-2 absolute right-4" aria-hidden="true"><span class="elementor-toggle-icon-closed"><img src="../assets/icon/dropdown-plus.svg" alt=""></span></span>
-                            </div>
-                            <div class="answer w-full bg-gray-50 rounded-b-lg">                                
-                                <p class="md:text-base p-4 text-sm text-[#747474]">
-                                    Tidak perlu. Kelas ini dirancang untuk pemula maupun mereka yang sudah memiliki sedikit pengalaman. Kami akan memandu Anda melalui setiap langkah, mulai dari pengenalan software hingga teknik yang lebih kompleks.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="ask w-full bg-gray-50 mb-4 shadow-md rounded-lg hdn">
-                            <div class="p-4 cursor-pointer flex justify-between relative rounded-t-lg">
-                                <h4 class="md:text-base text-sm font-medium">Apakah ada dukungan setelah kelas selesai?</h4>
-                                <span class="arrow-rotate elementor-toggle-icon elementor-toggle-icon-right float-right text-right text-black md:w-4 w-2 absolute right-4" aria-hidden="true"><span class="elementor-toggle-icon-closed"><img src="../assets/icon/dropdown-plus.svg" alt=""></span></span>
-                            </div>
-                            <div class="answer w-full bg-gray-50 rounded-b-lg">                                
-                                <p class="md:text-base p-4 text-sm text-[#747474]">
-                                    Ya, setelah kelas selesai, Anda tetap mendapatkan akses ke komunitas online kami di mana Anda bisa bertanya, berbagi proyek, dan mendapatkan feedback dari mentor dan peserta lainnya. Selain itu, kami juga menyediakan sesi konsultasi terbatas untuk membantu jika ada tantangan yang dihadapi setelah kelas.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="ask w-full bg-gray-50 mb-4 shadow-md rounded-lg hdn">
-                            <div class="p-4 cursor-pointer flex justify-between relative rounded-t-lg">
-                                <h4 class="md:text-base text-sm font-medium">Apa peralatan atau software yang dibutuhkan?</h4>
-                                <span class="arrow-rotate elementor-toggle-icon elementor-toggle-icon-right float-right text-right text-black md:w-4 w-2 absolute right-4" aria-hidden="true"><span class="elementor-toggle-icon-closed"><img src="../assets/icon/dropdown-plus.svg" alt=""></span></span>
-                            </div>
-                            <div class="answer w-full bg-gray-50 rounded-b-lg">                                
-                                <p class="md:text-base p-4 text-sm text-[#747474]">
-                                    Anda memerlukan laptop atau komputer dengan spesifikasi yang mendukung software 3D seperti Blender, Autodesk Maya, atau 3ds Max. Selain itu, untuk editing photoshoot, Anda bisa menggunakan software seperti Adobe Photoshop atau Lightroom. Kami akan memberikan panduan lengkap tentang instalasi dan penggunaan software selama kelas.
-                                </p>
-                            </div>
-                        </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
