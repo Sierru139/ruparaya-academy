@@ -5,16 +5,14 @@ $num = $_GET['class'];
 $qnadata = file_get_contents("./pages/data/qna.json");
 $qna = json_decode($qnadata, true);
 
-$activeQna = array_filter($qna, function($item){
-    global $num;
+$activeQna = array_filter($qna, function($item) use($num){
     return $item['qna-id'] == $num;
 });
 
 $teachdata = file_get_contents("./pages/data/teach.json");
 $teach = json_decode($teachdata, true);
 
-$activeTeach = array_filter($teach, function($item){
-    global $num;
+$activeTeach = array_filter($teach, function($item) use($num){
     return $item['teach-id'] == $num;
 });
 
@@ -25,8 +23,7 @@ $qnadata = file_get_contents("./pages/data/qna.json");
 $qna = json_decode($classdata, true);
 
 
-$activeClass = array_filter($class, function($item){
-    global $num;
+$activeClass = array_filter($class, function($item) use($num){
     return $item['detail-id'] == $num;
 });
 // var_dump($activeClass);
