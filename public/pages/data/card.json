@@ -58,13 +58,13 @@
             "name" : "Aliem Arif Perkasa",
             "proffession" : "Manager Fullstack Web Development"
         }, 
-        "price" : "Rp. 349.000" ,
+        "price" : "Rp. 499.000" ,
         "form" : "https://docs.google.com/forms/d/e/1FAIpQLScF7Cyw5eU8TNZtHaftDjNqaKhY7BJMC2OuAlV3_1JSGiUl9A/viewform",
         "detail-id" : "3dmdlofl"
     },
 
     {
-        "banner" : "./assets/pg1/banner-uiux.jpg",
+        "banner" : "./assets/pg1/banner-3dproductmodelling-online.jpg",
         "date" : "16 September 2024", 
         "type" : "Online", 
         "title" : "3D Modelling Product & Photoshoot", 
@@ -74,9 +74,9 @@
             "name" : "Aliem Arif Perkasa",
             "proffession" : "Manager Fullstack Web Development"
         }, 
-        "price" : "Rp. 349.000" ,
+        "price" : "Rp.499.000" ,
         "form" : "https://docs.google.com/forms/d/e/1FAIpQLSf7eRvbOBE8wqD_-4fTMwUsywTuw85mVwL851fhXzPkDVm57w/viewform",
-        "detail-id" : "uiuxofln"
+        "detail-id" : "3dmdlon"
     },
 
     {
@@ -108,7 +108,7 @@
         }, 
         "price" : "Rp. 649.000" ,
         "form" : "https://docs.google.com/forms/d/e/1FAIpQLSewwpV0h6MohizdmB1W0mHJXTlVSiC7z2Wxl_VBYALp2hrdgQ/viewform",
-        "detail-id" : "arcofln"
+        "detail-id" : "arcon"
     },
 
     {
@@ -140,7 +140,7 @@
         }, 
         "price" : "Rp. 699.000" ,
         "form" : "https://docs.google.com/forms/d/e/1FAIpQLScjeqPgSSOUUw6M8SmVACmREDgPg8t99sXK_G1xJaEpfoh08Q/viewform",
-        "detail-id" : "uiuxofln"
+        "detail-id" : "fwdofln"
     },
     
     {
@@ -156,7 +156,7 @@
         }, 
         "price" : "Rp. 699.000" ,
         "form" : "https://docs.google.com/forms/d/e/1FAIpQLSev7KTP9_QEA1-A7G8O6QG4qR0VyvUkbMRFTuc2bTfHsx4Qtg/viewform",
-        "detail-id" : "webonln"
+        "detail-id" : "fwdonl"
     }
 
 ]

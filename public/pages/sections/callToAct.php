@@ -5,7 +5,7 @@
                 <h3 class="md:text-[40px] text-3xl font-bold leading-[57px] max-lg:leading-[45px] max-lg:text-center">Ingin Tahu Lebih? Hubungi Kami Sekarang</h3>
             </div>
             <div class="lg:mt-0 mt-6">
-                <a href="#class" class="text-[#5386C0] bg-white lg:py-3 py-2 px-6 rounded-full lg:text-xl text-lg font-semibold">Hubungi Kami</a>
+                <a href="https://wa.me/+6285242673019" class="text-[#5386C0] bg-white lg:py-3 py-2 px-6 rounded-full lg:text-xl text-lg font-semibold">Hubungi Kami</a>
             </div>
         </div>
     </div>

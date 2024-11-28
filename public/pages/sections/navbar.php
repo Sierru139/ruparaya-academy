@@ -1,21 +1,20 @@
-<nav id="nav" data-aos="fade-down" data-aos-duration="1000" data-aos-once="true"
-    class="fixed w-full top-0 z-[999] py-4 px-5 lg:px-12 bg-white shadow-2xl">
+<nav id="nav" class="w-full top-0 z-[999] py-4 px-5 lg:px-12 bg-white shadow-2xl">
     <div class="max-w-[1440px] mx-auto flex justify-between items-center">
         <div>
             <img class="w-32" src="./assets/logo/rralogo-outline.png" alt="">
         </div>
-        <div class="md:flex gap-10 hidden text-[#273F5A] text-[15px] font-semibold">
-            <a href="./index.php" class="hover:text-[#5386C0] duration-300">Beranda</a>
-            <a href="./listing.php" class="hover:text-[#5386C0] duration-300">Kursus/Kelas</a>
-            <a href="./about.php" class="hover:text-[#5386C0] duration-300">Tentang Kami</a>
-            <a href="./testimonial.php" class="hover:text-[#5386C0] duration-300">Testimonial</a>
-        </div>
+            <div class="md:flex gap-10 hidden text-[#273F5A] text-[15px] font-semibold">
+                <a href="./index.php" class="hover:text-[#5386C0] duration-300">Beranda</a>
+                <a href="./listing.php" class="hover:text-[#5386C0] duration-300">Kursus/Kelas</a>
+                <a href="./about.php" class="hover:text-[#5386C0] duration-300">Tentang Kami</a>
+                <!-- <a href="./testimonial.php" class="hover:text-[#5386C0] duration-300">Testimonial</a> -->
+                <a href="./testimonial.php" class="hover:text-[#5386C0] duration-300">Testimonial</a>
+            </div>
         <div class="md:hidden block">
             <div id="resNav" class="rounded-md px-2 text-black">
                 <i class="resBtn fas fa-bars"></i>
             </div>
-            <div id="resMenu"
-                class="fixed top-0 right-0 rounded-bl-[45px] p-10 bg-blue-rpr-thr-a2 text-white hidden resGoDown z-50">
+            <div id="resMenu"  class="fixed top-0 right-0 rounded-bl-[45px] p-10 bg-blue-rpr-thr-a2 text-white hidden resGoDown z-50">
                 <div id="resNavClose" class="inline absolute rounded-md right-5 text-white">
                     <i class="fas fa-x"></i>
                 </div>
@@ -24,7 +23,8 @@
                     <a class="mr-6 block border-b py-3" href="./index.php">Beranda</a>
                     <a class="mr-6 block border-b py-3" href="./listing.php">Program/Kelas</a>
                     <a class="mr-6 block border-b py-3" href="./about.php">Tentang Kami</a>
-                    <a class="mr-6 block border-b py-3" href="./testimonial.php">Testimonial</a>
+                    <!-- <a class="mr-6 block border-b py-3" href="./testimonial.php">Testimonial</a> -->
+                    <a class="mr-6 block border-b py-3" href="./error.php">Testimonial</a>
                 </div>
                 <div class="flex flex-col items-start w-full">
                     <div class="flex gap-5 mb-4">

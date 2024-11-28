@@ -1,5 +1,5 @@
 <footer class="flex flex-col bg-[linear-gradient(257deg,#273F5A_-50.35%,#5386C0_142.97%)] pt-11 w-full">
-    <div class=" flex flex-wrap gap-10 mx-auto w-full max-lg:px-5 max-w-[1290px] max-md:max-w-full">
+    <div class="flex flex-wrap gap-10 mx-auto w-full max-lg:px-5 max-w-[1290px] max-md:max-w-full">
         <div class="flex-auto max-md:max-w-full">
         <div class="flex gap-5 max-md:flex-col">
             <div class="flex flex-col w-[51%] max-md:ml-0 max-md:w-full">
@@ -7,7 +7,7 @@
                 <img loading="lazy" src="https://cdn.builder.io/api/v1/image/assets/TEMP/20ddcb69f847d3600f99c8228bcbb1a5f8c7c3a1daca4d12e11799d23940dfd5?placeholderIfAbsent=true&apiKey=a5b7adda52cd4e0d82e5d20df8441ceb" alt="Rupa Raya Indonesia logo" class="object-contain max-w-full aspect-[3.33] w-[190px]" />
                 <p class="mt-5 font-light">
                 Jl. Adyaksa Baru No.2, Masale, Kec.<br />
-                Panakkukang, Kota Makassar, Sulawesi<br />~
+                Panakkukang, Kota Makassar, Sulawesi<br />
                 Selatan 90231
                 </p>
             </div>
@@ -27,8 +27,8 @@
             <div class="flex flex-col items-start text-sm text-white max-md:mt-10">
                 <h2 class="text-xl font-semibold">Program/Kelas</h2>
                 <ul class="mt-2.5 list-none p-0">
-                <li><a href="../pages/listing-offline.html" class="text-white font-light no-underline">Kelas Offline</a></li>
-                <li class="mt-1"><a href="../pages/listing-online.html" class="text-white font-light no-underline">Kelas Online</a></li>
+                <li><a href="./listing.php" class="text-white font-light no-underline">Kelas Offline</a></li>
+                <li class="mt-1"><a href="./listing.php" class="text-white font-light no-underline">Kelas Online</a></li>
                 </ul>
             </div>
             </div>
@@ -58,7 +58,8 @@
         </div>
         </div>
     </div>
-    <div class="px-16 py-2.5 mt-4 w-full text-xs text-center text-white bg-[#5386C0] max-md:px-5 max-md:max-w-full">
-        Copyright © 2024 Rupa Raya Indonesia. All Rights Reserved
+    <div class="flex justify-between px-16 py-3  mt-4 w-full text-xs text-white bg-[#5386C0] max-md:px-5 max-md:max-w-full">
+        <a href="" class="text-left" >Copyright © 2024 Rupa Raya Indonesia. All Rights Reserved</a>
+        <a href="/privacy.php" class="font-extralight" >Kebijakan Privasi</a>
     </div>
 </footer>

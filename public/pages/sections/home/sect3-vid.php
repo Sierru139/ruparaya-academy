@@ -22,6 +22,6 @@
             <source src="assets/video/PXL_20240330_030657799.TS.mp4" type="video/mp4">
             Browser Anda tidak mendukung elemen video.
         </video>
-        <span id="closePop" class="absolute top-3 right-3 text-white text-2xl cursor-pointer">&times;</span>
+        <span id="closePop" class="absolute top-3 right-5 text-white text-2xl cursor-pointer">&times;</span>
     </div>
 </div>

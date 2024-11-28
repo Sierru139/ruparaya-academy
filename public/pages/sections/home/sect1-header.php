@@ -10,10 +10,10 @@
             </h3>
             <div class="flex flex-col sm:flex-row justify-center gap-10 mt-10">
                 <div>
-                    <a href="#" class="bg-white py-4 px-9 rounded-md text-[20px] text-[#273F5A]">Cari Kelas</a>
+                    <a href="/listing.php" class="bg-white py-4 px-9 rounded-md text-[20px] text-[#273F5A]">Cari Kelas</a>
                 </div>
                 <div>
-                    <a href="../public/pages/about.html" class="bg-transparent border border-white text-white py-4 px-9 rounded-md text-[20px] btn-one">Tentang Kami</a>
+                    <a href="/about.php" class="bg-transparent border border-white text-white py-4 px-9 rounded-md text-[20px] btn-one">Tentang Kami</a>
                 </div>
             </div>
         </div>            

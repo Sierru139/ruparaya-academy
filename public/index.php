@@ -3,12 +3,11 @@
 <head>
 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/output.css">
     <link rel="stylesheet" href="./css/custom.css">
     <link rel="icon" href="/assets/logo/ruparayaacademyicon.png" type="image/png">
-    <!-- <link rel="shortcut icon" type="icon" href="./assets/logo/ruparayaacademy logo outline.png"> -->
     <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
@@ -46,7 +45,7 @@
 </head>
 <body class="bg-[#E9ECEF]">
     <div id="loading-anim" class="fixed flex items-center justify-center top-0 left-0 bottom-0 right-0 z-[99999] duration-500 bg-white">
-        <img class="loading-test" width="440px" src="./assets/logo/ruparayaacademy logo outline.png" alt="">
+        <img class="loading-test" width="440px" src="./assets/logo/ruparayaacademylogooutline.png" alt="">
     </div>
     <a href="https://api.whatsapp.com/send?phone=+6285242673019&amp;text=Halo saya mau bertanya tentang Rupa Raya Academy" class="float" target="_blank">
         <i class="fa fab fa-whatsapp mt-3.5"></i>
@@ -123,13 +122,13 @@
     <!-- SECTION 7 QNA END =============== -->
 
 
-    <!-- SECTION 8 QNA START ============= -->
-    <!-- SECTION 8 QNA START ============= -->
-    <!-- SECTION 8 QNA START ============= -->
+    <!-- SECTION 8 CTA START ============= -->
+    <!-- SECTION 8 CTA START ============= -->
+    <!-- SECTION 8 CTA START ============= -->
     <?php include_once __DIR__ . "/pages/sections/callToAct.php" ?>
-    <!-- SECTION 8 QNA START ============= -->
-    <!-- SECTION 8 QNA START ============= -->
-    <!-- SECTION 8 QNA START ============= -->
+    <!-- SECTION 8 CTA END =============== -->
+    <!-- SECTION 8 CTA END =============== -->
+    <!-- SECTION 8 CTA END =============== -->
 
 
     <!-- FOOTER START ============== -->

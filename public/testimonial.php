@@ -36,7 +36,7 @@
           <div class="max-w-[575px] absolute z-20 text-white text-center">
               <h3 data-aos="fade-up" data-aos-duration="1100" data-aos-once="true" class="md:text-4xl text-[32px] font-semibold mb-4">Testimonial</h3>
               <h3 data-aos="fade-up" data-aos-duration="1500" data-aos-once="true"><a href="#">Beranda > </a><a href="#" class="text-[#EDC423]">Testimonial</a></h3>
-          </div>
+          </div>  
       </div>
   </header>
 
