@@ -1,4 +1,4 @@
-<nav id="nav" class="w-full top-0 z-[999] py-4 px-5 lg:px-12 bg-white shadow-2xl">
+<nav id="nav" class="w-full top-0 z-[999] py-4 px-5 lg:px-12 bg-white shadow-2xl sticky">
     <div class="max-w-[1440px] mx-auto flex justify-between items-center">
         <div>
             <img class="w-32" src="./assets/logo/rralogo-outline.png" alt="">
